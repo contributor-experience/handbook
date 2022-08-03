@@ -1,0 +1,79 @@
+project:
+  type: website
+
+website:
+  title: "Contributor Experience Handbook"
+#  image: "cxh.png"
+#  favicon: "favicon.png"
+  site-url: https://contributor-experience.org
+  repo-url: https://github.com/contributor-experience/handbook-quatro
+  repo-actions: [edit, issue]
+  page-navigation: true
+#  search:
+#    algolia:
+#      index-name: <user name>
+#      application-id: <application ID>
+#      search-only-api-key: <insert api key>
+#      analytics-events: true
+#      show-logo: true
+  page-footer:
+    left: |
+      Proudly supported by 
+      [![](https://chanzuckerberg.com/wp-content/themes/czi/img/logo-minified.svg){fig-alt="CZI" width=20px}](https://chanzuckerberg.com/eoss/)
+      , and [![](https://labs.quansight.org/images/QuansightLabs_logo_V2.png){fig-alt="Quansight Labs" width=40px}](https://labs.quansight.org/)
+    center:
+      - text: "About"
+        href: about.qmd
+      - text: "FAQ"
+        href: docs/faq/index.qmd
+      - text: "License"
+        href: license.qmd
+    right:
+      - icon: github
+        href: https://github.com/contributor-experience/handbook-quatro
+        aria-label: Contributor Experience Handbook GitHub
+  navbar:
+    background: light
+#    logo: quarto.png
+#    title: false
+#    collapse-below: lg
+    left:
+      - text: "Overview"
+        href: index.qmd
+      - text: "Guide"
+        href: docs/guide/index.qmd
+      - text: "About us"
+        href: docs/about_us/index.qmd
+#      - text: "Gallery"
+#        href: docs/gallery/index.qmd
+      - text: "Blog"
+        href: docs/blog/index.qmd
+      - text: "Help"
+        menu:
+          - text: "Report an Issue"
+            icon: "bug"
+            href: "https://github.com/contributor-experience/handbook-quatro/issues"
+          - text: "Discussions"
+            icon: "chat-right-text"
+            href: "https://github.com/contributor-experience/handbook-quatro/discussions"
+          - text: "FAQ"
+            icon: "question-circle"
+            href: docs/faq/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/contributor-experience/handbook-quatro
+        aria-label: Contributor Experience Handbook GitHub
+
+
+format:
+  html:
+    toc: true
+    theme:
+      light: [cosmo, theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+    include-after-body: js.html
+
+
+
