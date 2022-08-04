@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://contributor-experience.org/index.html</loc>
-    <lastmod>2022-08-03T22:30:09.262Z</lastmod>
+    <lastmod>2022-08-04T10:35:53.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/about.html</loc>
+    <lastmod>2022-08-04T10:36:27.848Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/about/coc.html</loc>
+    <lastmod>2022-08-04T10:16:41.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/about/joining.html</loc>
+    <lastmod>2022-08-04T10:16:42.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/about/team.html</loc>
+    <lastmod>2022-08-04T10:34:33.134Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/about/sponsors.html</loc>
+    <lastmod>2022-08-04T10:21:46.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/about/vision.html</loc>
+    <lastmod>2022-08-04T10:21:57.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/about/Roadmap.html</loc>
+    <lastmod>2022-08-04T10:21:59.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/about/roadmap.html</loc>
+    <lastmod>2022-08-04T10:34:31.186Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/guide/index.html</loc>
+    <lastmod>2022-08-04T10:37:26.008Z</lastmod>
   </url>
 </urlset>

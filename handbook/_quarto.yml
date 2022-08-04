@@ -43,7 +43,7 @@ website:
       - text: "Guide"
         href: docs/guide/index.qmd
       - text: "About us"
-        href: docs/about_us/index.qmd
+        href: about.qmd
 #      - text: "Gallery"
 #        href: docs/gallery/index.qmd
       - text: "Blog"
@@ -64,6 +64,40 @@ website:
         href: https://github.com/contributor-experience/handbook-quatro
         aria-label: Contributor Experience Handbook GitHub
 
+  sidebar:
+    - id: about
+      title: "About"
+      style: "docked"
+      collapse-level: 2
+      align: left
+      contents:
+        - section: "Governance"
+          contents:
+            - docs/about/governance.qmd
+            - docs/about/coc.qmd
+            - docs/about/joining.qmd
+        - section: "Vision & History"
+          contents:
+            - docs/about/vision.qmd
+            - docs/about/roadmap.qmd
+            - docs/about/team.qmd
+            - docs/about/sponsors.qmd
+
+    - id: guide
+      title: "Guide"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - section: "Contributor Experience"
+          contents:
+            - docs/guide/cx/introduction.qmd
+        - section: "Maintainers Guide"
+          contents:
+            - docs/guide/maintainers/introduction.qmd
+            - docs/guide/maintainers/gitpod.qmd
+            - docs/guide/maintainers/review_communication.qmd
+            - docs/guide/maintainers/meetings.qmd
 
 format:
   html:
@@ -75,5 +109,5 @@ format:
     css: styles.css
     include-after-body: js.html
 
-
+freeze: true
 

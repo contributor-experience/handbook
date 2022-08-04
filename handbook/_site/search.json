@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hello World",
+    "title": "Contributor Experience Handbook",
     "section": "",
     "text": "🚧 Watch this space."
   },
@@ -11,6 +11,62 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About our project. An exmaple of the docked sidebar on the left."
+  },
+  {
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Our Code of Conduct",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "docs/about/joining.html",
+    "href": "docs/about/joining.html",
+    "title": "Joining",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "docs/about/team.html",
+    "href": "docs/about/team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "docs/about/sponsors.html",
+    "href": "docs/about/sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "docs/about/vision.html",
+    "href": "docs/about/vision.html",
+    "title": "Vision",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "docs/about/Roadmap.html",
+    "href": "docs/about/Roadmap.html",
+    "title": "Roadmap",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "docs/about/roadmap.html",
+    "href": "docs/about/roadmap.html",
+    "title": "Roadmap",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "docs/guide/index.html",
+    "href": "docs/guide/index.html",
+    "title": "Guide",
+    "section": "",
+    "text": "Hello world"
   }
 ]

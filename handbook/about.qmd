@@ -1,5 +1,7 @@
 ---
 title: "About"
+sidebar: about
 ---
 
-About this site
+About our project.
+An exmaple of the docked sidebar on the left.
