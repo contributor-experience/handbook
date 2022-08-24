@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: handbook-site
 
 website:
   title: "Contributor Experience Handbook"
