@@ -26,7 +26,7 @@ website:
       - text: "About"
         href: about.qmd
       - text: "FAQ"
-        href: docs/faq/index.qmd
+        href: docs/faq/introduction.qmd
       - text: "License"
         href: license.qmd
     right:
@@ -39,16 +39,14 @@ website:
 #    title: false
 #    collapse-below: lg
     left:
-      - text: "Overview"
-        href: index.qmd
       - text: "Guide"
-        href: docs/guide/index.qmd
+        href: docs/guide/introduction.qmd
       - text: "About us"
         href: about.qmd
 #      - text: "Gallery"
-#        href: docs/gallery/index.qmd
+#        href: docs/gallery/introduction.qmd
       - text: "Blog"
-        href: docs/blog/index.qmd
+        href: blog.qmd
       - text: "Help"
         menu:
           - text: "Report an Issue"
@@ -59,7 +57,7 @@ website:
             href: "https://github.com/contributor-experience/handbook-quatro/discussions"
           - text: "FAQ"
             icon: "question-circle"
-            href: docs/faq/index.qmd
+            href: docs/faq/introduction.qmd
     right:
       - icon: github
         href: https://github.com/contributor-experience/handbook-quatro
@@ -75,6 +73,7 @@ website:
         - section: "Governance"
           contents:
             - docs/about/governance.qmd
+            - docs/about/contributors.qmd
             - docs/about/coc.qmd
             - docs/about/joining.qmd
         - section: "Vision & History"
@@ -83,6 +82,13 @@ website:
             - docs/about/roadmap.qmd
             - docs/about/team.qmd
             - docs/about/sponsors.qmd
+            - docs/about/acknowledgments.qmd
+        - section: "Community Handbook"
+          contents:
+            - docs/about/style_guide.qmd
+            - docs/about/acknowledging_contributors.qmd
+            - docs/about/calendar.qmd
+            - docs/about/communication_channels.qmd
 
     - id: guide
       title: "Guide"
@@ -90,15 +96,25 @@ website:
       collapse-level: 2
       align: left
       contents:
-        - section: "Contributor Experience"
+        - section: "Introduction to Contributor Experience"
           contents:
             - docs/guide/cx/introduction.qmd
-        - section: "Maintainers Guide"
+            - docs/guide/cx/the_cel_role.qmd
+        - section: "Governance Guide"
           contents:
-            - docs/guide/maintainers/introduction.qmd
-            - docs/guide/maintainers/gitpod.qmd
-            - docs/guide/maintainers/review_communication.qmd
-            - docs/guide/maintainers/meetings.qmd
+            - docs/guide/gov/introduction.qmd
+        - section: "Collaboration Guide"
+          contents:
+            - docs/guide/collab/introduction.qmd
+            - docs/guide/collab/meetings.qmd
+        - section: "Communication Guide"
+          contents:
+            - docs/guide/comms/introduction.qmd
+            - docs/guide/comms/review_communication.qmd
+        - section: "Tools Collection"
+          contents:
+            - docs/guide/tools/introduction.qmd
+            - docs/guide/tools/gitpod.qmd
 
 format:
   html:

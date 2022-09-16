@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Contributors"
 sidebar: guide
 ---
 

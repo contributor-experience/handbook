@@ -1,0 +1,8 @@
+# Options specified here will apply to all posts in this folder
+
+# freeze computational output
+freeze: true
+
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+search: false
