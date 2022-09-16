@@ -1,7 +1,0 @@
----
-title: "Acknowledgements"
-sidebar: guide
----
-
-Hello world
-

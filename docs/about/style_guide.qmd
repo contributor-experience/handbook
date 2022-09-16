@@ -3,5 +3,4 @@ title: "Style Guide"
 sidebar: guide
 ---
 
-Hello world
 

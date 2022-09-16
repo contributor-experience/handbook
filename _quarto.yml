@@ -88,7 +88,7 @@ website:
             - docs/about/style_guide.qmd
             - docs/about/acknowledging_contributors.qmd
             - docs/about/calendar.qmd
-            - docs/about/communication_channels.qmd
+            - docs/about/comms_channels.qmd
 
     - id: guide
       title: "Guide"

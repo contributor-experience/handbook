@@ -1,7 +1,5 @@
 ---
 title: "Communication Channels"
-sidebar: guide
 ---
 
-Hello world
-
+Coming soon!

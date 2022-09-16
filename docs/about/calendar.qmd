@@ -1,7 +1,5 @@
 ---
 title: "Calendar"
-sidebar: guide
 ---
 
-Hello world
-
+Coming soon - community meetings!

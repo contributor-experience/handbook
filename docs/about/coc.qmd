@@ -1,6 +1,5 @@
 ---
 title: "Our Code of Conduct"
-sidebar: guide
 ---
 
 All contributors and maintainers are expected to follow the [PSF Code of 
