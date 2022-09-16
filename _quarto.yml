@@ -67,7 +67,7 @@ website:
     - id: about
       title: "About"
       style: "docked"
-      collapse-level: 2
+      collapse-level: 1
       align: left
       contents:
         - section: "Governance"
@@ -93,7 +93,7 @@ website:
     - id: guide
       title: "Guide"
       style: "floating"
-      collapse-level: 2
+      collapse-level: 1
       align: left
       contents:
         - section: "Introduction to Contributor Experience"

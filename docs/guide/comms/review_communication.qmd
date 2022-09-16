@@ -1,6 +1,6 @@
 ---
 title: "Review Communication"
+sidebar: guide
 ---
 
-Hello world
 
