@@ -24,10 +24,10 @@ down.
 
 ## Areas of activity
 
-Onboarding
-Tools Integration
-Outreach
-Governance
+- Onboarding
+- Tools Integration
+- Outreach
+- Governance
 
 
 By working in these 4 areas, the Contributor Experience Lead can support new 
