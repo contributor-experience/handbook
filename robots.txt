@@ -1,1 +1,1 @@
-Sitemap: https://contributor-experience.org/sitemap.xml
+Sitemap: https://contributor-experience.github.io/handbook-quatro/sitemap.xml
