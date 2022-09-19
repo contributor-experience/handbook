@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Contributor Experience Handbook</title>
+<link>https://contributor-experience.org/blog.html</link>
+<atom:link href="https://contributor-experience.org/blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.0.37</generator>
+<lastBuildDate>Fri, 16 Sep 2022 10:41:58 GMT</lastBuildDate>
+</channel>
+</rss>

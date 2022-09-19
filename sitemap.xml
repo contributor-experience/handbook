@@ -1,63 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/index.html</loc>
-    <lastmod>2022-08-24T11:04:59.153Z</lastmod>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/tools/gitpod.html</loc>
+    <lastmod>2022-09-19T18:16:35.857Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/maintainers/meetings.html</loc>
-    <lastmod>2022-08-24T11:04:59.497Z</lastmod>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/tools/introduction.html</loc>
+    <lastmod>2022-09-19T18:16:36.275Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/maintainers/gitpod.html</loc>
-    <lastmod>2022-08-24T11:04:59.890Z</lastmod>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/comms/review_communication.html</loc>
+    <lastmod>2022-09-19T18:16:36.658Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/maintainers/review_communication.html</loc>
-    <lastmod>2022-08-24T11:05:00.251Z</lastmod>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/comms/introduction.html</loc>
+    <lastmod>2022-09-19T18:16:37.049Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/maintainers/introduction.html</loc>
-    <lastmod>2022-08-24T11:05:00.690Z</lastmod>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/collab/meetings.html</loc>
+    <lastmod>2022-09-19T18:16:37.462Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/collab/introduction.html</loc>
+    <lastmod>2022-09-19T18:16:37.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/introduction.html</loc>
+    <lastmod>2022-09-19T18:16:38.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/cx/the_cel_role.html</loc>
+    <lastmod>2022-09-19T18:16:38.653Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/cx/introduction.html</loc>
-    <lastmod>2022-08-24T11:05:00.996Z</lastmod>
+    <lastmod>2022-09-19T18:16:39.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/guide/gov/introduction.html</loc>
+    <lastmod>2022-09-19T18:16:39.467Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/posts/Hello-world/index.html</loc>
+    <lastmod>2022-09-19T18:16:39.864Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/coc.html</loc>
-    <lastmod>2022-08-24T11:05:01.296Z</lastmod>
+    <lastmod>2022-09-19T18:16:40.270Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/governance.html</loc>
-    <lastmod>2022-08-24T11:05:01.586Z</lastmod>
+    <lastmod>2022-09-19T18:16:40.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/acknowledging_contributors.html</loc>
+    <lastmod>2022-09-19T18:16:41.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/acknowledgments.html</loc>
+    <lastmod>2022-09-19T18:16:41.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/comms_channels.html</loc>
+    <lastmod>2022-09-19T18:16:41.951Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/sponsors.html</loc>
-    <lastmod>2022-08-24T11:05:01.979Z</lastmod>
+    <lastmod>2022-09-19T18:16:42.378Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/roadmap.html</loc>
-    <lastmod>2022-08-24T11:05:02.384Z</lastmod>
+    <lastmod>2022-09-19T18:16:42.799Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/team.html</loc>
-    <lastmod>2022-08-24T11:05:02.734Z</lastmod>
+    <lastmod>2022-09-19T18:16:43.251Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/vision.html</loc>
-    <lastmod>2022-08-24T11:05:03.135Z</lastmod>
+    <lastmod>2022-09-19T18:16:43.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/style_guide.html</loc>
+    <lastmod>2022-09-19T18:16:44.061Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/contributors.html</loc>
+    <lastmod>2022-09-19T18:16:44.454Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/joining.html</loc>
-    <lastmod>2022-08-24T11:05:03.485Z</lastmod>
+    <lastmod>2022-09-19T18:16:44.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/docs/about/calendar.html</loc>
+    <lastmod>2022-09-19T18:16:45.220Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/index.html</loc>
-    <lastmod>2022-08-24T11:05:03.799Z</lastmod>
+    <lastmod>2022-09-19T18:16:45.647Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.github.io/handbook-quatro/about.html</loc>
-    <lastmod>2022-08-24T11:05:04.088Z</lastmod>
+    <lastmod>2022-09-19T18:16:46.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.github.io/handbook-quatro/blog.html</loc>
+    <lastmod>2022-09-19T18:16:46.937Z</lastmod>
   </url>
 </urlset>
