@@ -7,7 +7,7 @@ website:
 #  image: "cxh.png"
 #  favicon: "favicon.png"
   site-url: https://contributor-experience.org
-  repo-url: https://github.com/contributor-experience/handbook-quatro
+  repo-url: https://github.com/contributor-experience/handbook
   repo-actions: [edit, issue]
   page-navigation: true
 #  search:
@@ -31,7 +31,7 @@ website:
         href: license.qmd
     right:
       - icon: github
-        href: https://github.com/contributor-experience/handbook-quatro
+        href: https://github.com/contributor-experience/handbook
         aria-label: Contributor Experience Handbook GitHub
   navbar:
     background: light
@@ -51,16 +51,16 @@ website:
         menu:
           - text: "Report an Issue"
             icon: "bug"
-            href: "https://github.com/contributor-experience/handbook-quatro/issues"
+            href: "https://github.com/contributor-experience/handbook/issues"
           - text: "Discussions"
             icon: "chat-right-text"
-            href: "https://github.com/contributor-experience/handbook-quatro/discussions"
+            href: "https://github.com/contributor-experience/handbook/discussions"
           - text: "FAQ"
             icon: "question-circle"
             href: docs/faq/introduction.qmd
     right:
       - icon: github
-        href: https://github.com/contributor-experience/handbook-quatro
+        href: https://github.com/contributor-experience/handbook
         aria-label: Contributor Experience Handbook GitHub
 
   sidebar:
