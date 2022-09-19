@@ -5,28 +5,26 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  install-quarto:
+  preview-quarto:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
-      - image: cimg/base:stable
+      - image: https://registry.gitlab.com/quarto-forge/docker/quarto
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
       - run:
-          name: install quarto
+          name: preview quarto
           command: |
-            sudo apt-get install gdebi-core
-            export QUARTO_VERSION="1.2.131"
-            sudo curl -o quarto-linux-amd64.deb -L https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb
-            sudo gdebi quarto-linux-amd64.deb
-            rm quarto-linux-amd64.deb
+            quarto preview handbook-site
+      - store_artifacts:
+          path: handbook-site/
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
-workflows:
+ workflows:
   quarto:
     jobs:
-      - install-quarto
+      - preview-quarto
 
