@@ -13,7 +13,7 @@ order is:
 Melissa initiated this work as the PI for the "Advancing an inclusive 
 culture in the scientific Python ecosystem" grant from the Chan-Zuckerberg 
 Initiative. You can read [the full grant application](https://figshare.
-com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063)) 
+com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063)
 for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.
 
 Inessa joined the team soon after the grant started, and Noa join the team 
