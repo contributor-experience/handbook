@@ -1,0 +1,21 @@
+---
+title: "Introduction"
+sidebar: guide
+---
+
+Welcome to our Contributor Experience Guide!
+
+The purpose of this guide is to clarify themes, provide tools, outline 
+frameworks, and hopefully, it will grow to be much more than that in the future!
+
+To get us started we divided it into 5 sections:
+
+- **Contributor Experience Guide**: the big picture, how we think about this role
+- **Governance Guide**: guidance to lead discussions and support pathways for 
+  contributions
+- **Collaboration Guide**: organizational templates for various meeting and 
+  events, how to bring people together and when various programs are 
+  effective (or what for)
+- **Communication Guide**: communication platforms, and techniques
+- **Tools Collections**: Tools we love to use to support our work and a collection of 
+  templates from various sections for easy navigation

@@ -1,0 +1,6 @@
+---
+title: "Acknowledging Contributors"
+---
+
+High on our to do list is documenting how we plan to give credit and 
+acknowledge contributions to our project. Watch this space. 

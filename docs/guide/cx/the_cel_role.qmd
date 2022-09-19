@@ -1,0 +1,126 @@
+---
+title: "The Contributor Experience Role"
+sidebar: guide
+---
+
+What is the Contributor Experience Lead’s role in an Open Source project?
+
+
+
+The Contributor Experience Lead owns a part of what some of us have referred 
+to so far as Community, Communication, and Documentation work. But not only 
+those! 🤯 They have several areas of contribution, and as their contributions 
+grow in prominence within the project they may very well be recognized as a 
+maintainer, with contributions to code, and social infrastructure - and a 
+focus on project sustainability. 
+
+
+
+What do we mean by that? The Contributor Experience Lead has 4 areas of 
+activity, and a broad range of skills to achieve results. Let’s break this 
+down.
+
+
+
+## Areas of activity
+
+- Onboarding
+- Tools Integration
+- Outreach
+- Governance
+
+
+By working in these 4 areas, the Contributor Experience Lead can support new 
+and developing contributors as they work on the project. The goal of the 
+Contributor Experience Lead is to improve the overall project culture and 
+experience for everyone involved, to promote civility and collaboration, as 
+well as diversity and inclusion. They look for actions they can take 
+themselves, and experiences they can promote in the project as a whole. They 
+are learners and need to adapt to the existing people and culture and build 
+upon it. No two projects are alike. 
+
+
+
+In this guide, we will elaborate about techniques for each area of activity, 
+sharing tools, resources, and experiences. Building systems, and providing 
+examples to motivate how those systems work in practice in different projects.
+
+
+
+## Skills
+
+
+
+We are currently developing a career ladder for the Contributor Experience 
+Lead. While this is worked on, we can already share the skills we are 
+working with. But please consider some changes might still be coming. We are 
+following a relatively “standard” engineering career ladder framework. We 
+consider all skills which require expertise, training, and domain knowledge 
+to be technical skills - even if they are not engineering skills - they 
+comprise a set of techniques that one can become an expert in. 
+
+
+
+### Core Competencies
+
+#### Leadership: 
+
+Strategic networking, Strategy development, Advocacy
+
+
+
+#### Communication:
+
+Outreach, Facilitation, Engagement, Cultural Competence, Communication 
+platforms management, Speaking & presenting, Promotion of civility, 
+Mentoring & coaching
+
+
+
+#### Handling and Providing Feedback and Credit:
+
+Feedback gathering, giving, and receiving, Credit for contributors
+
+
+
+#### Strategic Alignment & Impact:
+
+Proposal development, Qualitative research, Analysis, Change management
+
+
+
+### Technical Skills
+
+#### Craft and Quality:
+
+Training & teaching, Community events planning, Community governance support,
+Moderation, mediation & intervention, Emotional integration, recruitment, 
+Management of tech platforms & CMS, Knowledge brokering, Social justice 
+development, Hospitality techniques, Technical integration of tools, 
+Technical writing
+
+
+
+#### Documentation:
+
+Content creation and curation, Editorial, Reporting
+
+---
+
+
+
+Broadly speaking, these skills require competencies in: 
+Interpersonal skills, Communication, Culture and DEI, Program development 
+and management, Technical skills, Qualitative research
+
+
+
+Like many other complex roles, we wouldn’t expect any one person to be an 
+expert in all areas of competence, especially if they are just starting out 
+in this role. But they should be aware that this is what the domain requires 
+from a team of contributors, and that they would be collaborating with other 
+folks who have a variety of skills. They might also be interested to grow 
+and develop more broadly, or more narrowly. However, a solitary Contributor 
+Experience Lead in a project would benefit from a brand set of skills, and a 
+collaborative approach with fellow contributors who could help them along 
+the way.

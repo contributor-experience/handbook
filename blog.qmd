@@ -1,0 +1,16 @@
+---
+title: "Our Blog"
+subtitle: "News, tips, and commentary about all things Contributor Experience"
+listing:
+  contents: docs/posts
+  sort: "date desc"
+  type: default
+  categories: true
+--  feed: true -- will create RSS feed
+page-layout: full
+-- margin-header: signup.html -- can add subscribe button with external service like mailchimp
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+search: false
+---
+

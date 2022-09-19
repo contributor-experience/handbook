@@ -1,6 +1,23 @@
 ---
-title: "Team"
+title: "Team & History"
+sidebar: guide
 ---
 
-Hello world
+The founding and current maintainer team of this handbook in alphabetical 
+order is:
 
+- Inessa Pawson 
+- Melissa Weber Mendonça 
+- Noa Tamir 
+
+Melissa initiated this work as the PI for the "Advancing an inclusive 
+culture in the scientific Python ecosystem" grant from the Chan-Zuckerberg 
+Initiative. You can read [the full grant application](https://figshare.
+com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063)
+for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.
+
+Inessa joined the team soon after the grant started, and Noa join the team 
+in March 2022. Between the three of them, they are supporting the contributor 
+experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as 
+well as developing this handbook of resources for based on their 
+cross-project experience and research. 

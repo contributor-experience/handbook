@@ -4,13 +4,21 @@ about:
   template: jolla
 editor: source
 description: |
-  Contributor Experience Handbook is an open-source project dedicated to onboarding, inclusion, and retention of people
-  from historically marginalized groups on scientific Python projects.
+  The Contributor Experience Handbook is an open source community-led project 
+  dedicated to developing best practices for onboarding, and supporting 
+  contributors to open source projects.
 sidebar: false
 ---
 
-
 # Welcome to the Contributor <br> Experience Handbook
 
-🚧 Watch this space.
+✨ Coming soon! Watch this space ✨
 
+A new open source community-led project dedicated to developing best practices for 
+onboarding and supporting contributors to open source projects. 
+
+Our goal is to provide a space to reflect, engage, and offer advancements in the 
+work of effective transfer of knowledge, contributor hospitality techniques, 
+project leadership, and communication infrastructure.
+
+To learn more and join the conversation join our contributor community meetings

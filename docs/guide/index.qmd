@@ -1,7 +1,0 @@
----
-title: "Guide"
-sidebar: guide
----
-
-Hello world
-
