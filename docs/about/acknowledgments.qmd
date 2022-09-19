@@ -7,7 +7,7 @@ Including those whose resources we learned from, by taking their workshop,
 being active contributors to their projects, or passive members of their 
 community, e.g. reading their documentation and having conversations:
 
-- Tania Alard, Quansight
+- Tania Allard, Quansight
 - May Ireland, VirtualPeer
 - Dr Liz Hare, Dog Genetics LLC
 - Andrea Sánchez-Tapia, useR! Knowledgebase
