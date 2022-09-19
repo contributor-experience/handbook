@@ -56,7 +56,7 @@ Lead. While this is worked on, we can already share the skills we are
 working with. But please consider some changes might still be coming. We are 
 following a relatively “standard” engineering career ladder framework. We 
 consider all skills which require expertise, training, and domain knowledge 
-to be technical skill - even if they are not engineering skills - they 
+to be technical skills - even if they are not engineering skills - they 
 comprise a set of techniques that one can become an expert in. 
 
 
