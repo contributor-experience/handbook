@@ -17,7 +17,7 @@ com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Py
 for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.
 
 Inessa joined the team soon after the grant started, and Noa join the team 
-in March 2022. Between teh four of them they are supporting the contributor 
+in March 2022. Between the three of them, they are supporting the contributor 
 experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as 
 well as developing this handbook of resources for based on their 
 cross-project experience and research. 
