@@ -17,5 +17,5 @@ To get us started we divided it into 5 sections:
   events, how to bring people together and when various programs are 
   effective (or what for)
 - **Communication Guide**: communication platforms, and techniques
-- **Tools Collections**: Tools we love to use to support our work and collecting 
+- **Tools Collections**: Tools we love to use to support our work and a collection of 
   templates from various sections for easy navigation
