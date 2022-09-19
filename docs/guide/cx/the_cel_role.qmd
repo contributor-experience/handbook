@@ -32,7 +32,7 @@ down.
 
 By working in these 4 areas, the Contributor Experience Lead can support new 
 and developing contributors as they work on the project. The goal of the 
-Contributor Experience Lead, is to improve the overall project culture and 
+Contributor Experience Lead is to improve the overall project culture and 
 experience for everyone involved, to promote civility and collaboration, as 
 well as diversity and inclusion. They look for actions they can take 
 themselves, and experiences they can promote in the project as a whole. They 
