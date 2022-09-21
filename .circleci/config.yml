@@ -23,8 +23,8 @@ jobs:
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
- workflows:
-   quarto:
-     jobs:
-       - preview-quarto
+workflows:
+  quarto:
+    jobs:
+      - preview-quarto
 
