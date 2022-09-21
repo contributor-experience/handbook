@@ -17,14 +17,14 @@ jobs:
       - run:
           name: preview quarto
           command: |
-            quarto preview handbook-site
+            quarto preview .
       - store_artifacts:
           path: handbook-site/
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
  workflows:
-  quarto:
-    jobs:
-      - preview-quarto
+   quarto:
+     jobs:
+       - preview-quarto
 
