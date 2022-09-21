@@ -25,8 +25,6 @@ website:
     center:
       - text: "About"
         href: about.qmd
-      - text: "FAQ"
-        href: docs/faq/introduction.qmd
       - text: "License"
         href: license.qmd
     right:
