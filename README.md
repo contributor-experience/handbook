@@ -1,6 +1,6 @@
 # Contributor Experience Handbook
 
-This handbook lives on https://contributor-experience.github.io/handbook/
+This handbook lives on https://contributor-experience.org
 
 ## What is this repository?
 
