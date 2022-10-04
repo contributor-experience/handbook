@@ -6,7 +6,7 @@ We currently hold regular informal community meetings to discuss all things
 contributor experience and stay in touch with each other. Check the below 
 calendar to see up-to-date information about meeting times.
 
-In the future we plan to start organizing more structure events to develop 
+In the future, we plan to start organizing more structured events to develop 
 content and showcase case studies and speakers.   
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showTz=0&showTitle=0&showPrint=1&src=Y19mOGUzZDNkMGY4MDMzYzUyNWE5ZDAzNjg0OTY0MjQ1ZDkwMThjZjRjMjYzMGRmZjIxZDM5YTYzNTY4MTVmN2RiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
