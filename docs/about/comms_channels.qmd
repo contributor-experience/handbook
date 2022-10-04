@@ -2,4 +2,14 @@
 title: "Communication Channels"
 ---
 
-Coming soon!
+To stay in touch with our community you can participate in one of our 
+communication channels or join our [community meetings](calendar.html).
+
+Follow our [twitter account](https://twitter.com/contributorxp) or our [blog]
+(blog.qmd) for updates about new content to the 
+guide, upcoming community meetings, and other community announcements. 
+
+Use this [link](https://contributor-experience.zulipchat.com/join/3oxcuktn6nx5ot24uwxzlnhm/) 
+to join our Zulip chat platform for informal discussions about all things 
+contributor experience. We have channels for contributors for this handbook 
+and for general conversations.
