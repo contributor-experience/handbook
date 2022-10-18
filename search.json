@@ -11,7 +11,7 @@
     "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
     "title": "Useful Bots",
     "section": "Examples of useful bots",
-    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & Issues with guidelines, a nice message and links to resources.\nPR-Triage Bot can help automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributings such as PR reviews, ideas discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record."
+    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & Issues with guidelines, a nice message and links to resources.\nPR-Triage Bot can help automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them\nto a specified file in the repo. This bot is very useful for managing contributings such as PR reviews, ideas discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record."
   },
   {
     "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
