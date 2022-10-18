@@ -3,26 +3,37 @@ title: "Useful Bots"
 sidebar: guide
 ---
 
-If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. 
-These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. 
-These types of tools don't completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.
+If you are hosting your project on GitHub, there are a number of different 
+bots which can help automate parts of your contributor onboarding experience. 
+These can be added to your project in a few steps, and configured to reflect 
+how you would like to welcome new contributors and acknowledge their work. 
+These types of tools don't completely replace human interaction by 
+maintainers, but can help small teams manage initial triaging and contact 
+with first time contributors.
 
-You should discuss which of the below are useful for your project with the core team before they are set up. 
-If you have a useful bot that helps with your contributor experience, please add it to the list below! 
+You should discuss which of the below are useful for your project with the 
+core team before they are set up. 
+If you have a useful bot that helps with your contributor experience, please 
+add it to the list below! 
 
 ## Examples of useful bots 
 
-**GitHub Welcome Bot** can be configured to respond to first time PRs & Issues with guidelines, a nice message and links to resources. 
-Link: https://github.com/apps/welcome
+[GitHub Welcome Bot](https://github.com/apps/welcome) can be configured to 
+respond to first time PRs & Issues with guidelines, a nice message and links 
+to resources.
 
-**PR-Triage Bot** can help automatically add labels to new PRs or issues. 
-Link: https://github.com/apps/pr-triage
+[PR-Triage Bot](https://github.com/apps/pr-triage) can help automatically 
+add labels to new PRs or issues.
 
-**All-Contributors Bot** helps capture different contributions and add them to a specified file in the repo.
-This bot is very useful for managing contributings such as PR reviews, ideas discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record. 
-Link: https://github.com/apps/allcontributors; https://allcontributors.org/
+[All-Contributors Bot](https://github.com/apps/allcontributors; 
+https://allcontributors.org/) helps capture different contributions and add them  
+to a specified file in the repo.
+This bot is very useful for managing contributings such as PR reviews, ideas 
+discussion, mentoring or other types of work that may not be reflected in 
+the GitHub contribution record.
 
-## How other projects use bots 
+## How some projects use these bots 
 
-* *The Turing Way* Record of Contributions: https://the-turing-way.netlify.app/afterword/contributors-record.html
+* [The Turing Way](https://the-turing-way.netlify.app/afterword/contributors-record.html)
+Record of Contributions using All-Contributors.
 * Add your example here 
