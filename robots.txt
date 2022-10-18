@@ -1,1 +1,1 @@
-Sitemap: https://contributor-experience.github.io/handbook/sitemap.xml
+Sitemap: contributor-experience.org/sitemap.xml

@@ -1,111 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/tools/gitpod.html</loc>
-    <lastmod>2022-10-18T11:53:23.131Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/tools/bots.html</loc>
+    <lastmod>2022-10-18T14:32:15.818Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/tools/introduction.html</loc>
-    <lastmod>2022-10-18T11:53:23.551Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/tools/gitpod.html</loc>
+    <lastmod>2022-10-18T14:32:16.258Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/comms/review_communication.html</loc>
-    <lastmod>2022-10-18T11:53:23.946Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/tools/introduction.html</loc>
+    <lastmod>2022-10-18T14:32:16.691Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/comms/introduction.html</loc>
-    <lastmod>2022-10-18T11:53:24.293Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/comms/review_communication.html</loc>
+    <lastmod>2022-10-18T14:32:17.109Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/collab/meetings.html</loc>
-    <lastmod>2022-10-18T11:53:24.623Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/comms/introduction.html</loc>
+    <lastmod>2022-10-18T14:32:17.500Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/collab/introduction.html</loc>
-    <lastmod>2022-10-18T11:53:24.903Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/collab/meetings.html</loc>
+    <lastmod>2022-10-18T14:32:17.839Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/introduction.html</loc>
-    <lastmod>2022-10-18T11:53:25.211Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/collab/introduction.html</loc>
+    <lastmod>2022-10-18T14:32:18.136Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/cx/the_cel_role.html</loc>
-    <lastmod>2022-10-18T11:53:25.641Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/introduction.html</loc>
+    <lastmod>2022-10-18T14:32:18.432Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/cx/introduction.html</loc>
-    <lastmod>2022-10-18T11:53:25.996Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/cx/the_cel_role.html</loc>
+    <lastmod>2022-10-18T14:32:18.776Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/guide/gov/introduction.html</loc>
-    <lastmod>2022-10-18T11:53:26.332Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/cx/introduction.html</loc>
+    <lastmod>2022-10-18T14:32:19.157Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/posts/Hello-world/index.html</loc>
-    <lastmod>2022-10-18T11:53:26.794Z</lastmod>
+    <loc>contributor-experience.org/docs/guide/gov/introduction.html</loc>
+    <lastmod>2022-10-18T14:32:19.574Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/coc.html</loc>
-    <lastmod>2022-10-18T11:53:27.212Z</lastmod>
+    <loc>contributor-experience.org/docs/posts/Hello-world/index.html</loc>
+    <lastmod>2022-10-18T14:32:19.996Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/governance.html</loc>
-    <lastmod>2022-10-18T11:53:27.624Z</lastmod>
+    <loc>contributor-experience.org/docs/about/coc.html</loc>
+    <lastmod>2022-10-18T14:32:20.306Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/acknowledging_contributors.html</loc>
-    <lastmod>2022-10-18T11:53:28.047Z</lastmod>
+    <loc>contributor-experience.org/docs/about/governance.html</loc>
+    <lastmod>2022-10-18T14:32:20.692Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/acknowledgments.html</loc>
-    <lastmod>2022-10-18T11:53:28.492Z</lastmod>
+    <loc>contributor-experience.org/docs/about/acknowledging_contributors.html</loc>
+    <lastmod>2022-10-18T14:32:21.023Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/comms_channels.html</loc>
-    <lastmod>2022-10-18T11:53:28.918Z</lastmod>
+    <loc>contributor-experience.org/docs/about/acknowledgments.html</loc>
+    <lastmod>2022-10-18T14:32:21.455Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/sponsors.html</loc>
-    <lastmod>2022-10-18T11:53:29.354Z</lastmod>
+    <loc>contributor-experience.org/docs/about/comms_channels.html</loc>
+    <lastmod>2022-10-18T14:32:21.858Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/roadmap.html</loc>
-    <lastmod>2022-10-18T11:53:29.784Z</lastmod>
+    <loc>contributor-experience.org/docs/about/sponsors.html</loc>
+    <lastmod>2022-10-18T14:32:22.212Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/team.html</loc>
-    <lastmod>2022-10-18T11:53:30.208Z</lastmod>
+    <loc>contributor-experience.org/docs/about/roadmap.html</loc>
+    <lastmod>2022-10-18T14:32:22.626Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/vision.html</loc>
-    <lastmod>2022-10-18T11:53:30.567Z</lastmod>
+    <loc>contributor-experience.org/docs/about/team.html</loc>
+    <lastmod>2022-10-18T14:32:23.038Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/style_guide.html</loc>
-    <lastmod>2022-10-18T11:53:30.985Z</lastmod>
+    <loc>contributor-experience.org/docs/about/vision.html</loc>
+    <lastmod>2022-10-18T14:32:23.404Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/contributors.html</loc>
-    <lastmod>2022-10-18T11:53:31.477Z</lastmod>
+    <loc>contributor-experience.org/docs/about/style_guide.html</loc>
+    <lastmod>2022-10-18T14:32:23.817Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/joining.html</loc>
-    <lastmod>2022-10-18T11:53:31.933Z</lastmod>
+    <loc>contributor-experience.org/docs/about/contributors.html</loc>
+    <lastmod>2022-10-18T14:32:24.236Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/docs/about/calendar.html</loc>
-    <lastmod>2022-10-18T11:53:32.414Z</lastmod>
+    <loc>contributor-experience.org/docs/about/joining.html</loc>
+    <lastmod>2022-10-18T14:32:24.617Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/index.html</loc>
-    <lastmod>2022-10-18T11:53:32.847Z</lastmod>
+    <loc>contributor-experience.org/docs/about/calendar.html</loc>
+    <lastmod>2022-10-18T14:32:25.055Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/about.html</loc>
-    <lastmod>2022-10-18T11:53:33.281Z</lastmod>
+    <loc>contributor-experience.org/index.html</loc>
+    <lastmod>2022-10-18T14:32:25.566Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor-experience.github.io/handbook/blog.html</loc>
-    <lastmod>2022-10-18T11:53:34.054Z</lastmod>
+    <loc>contributor-experience.org/about.html</loc>
+    <lastmod>2022-10-18T14:32:26.027Z</lastmod>
+  </url>
+  <url>
+    <loc>contributor-experience.org/blog.html</loc>
+    <lastmod>2022-10-18T14:32:26.929Z</lastmod>
   </url>
 </urlset>
