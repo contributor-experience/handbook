@@ -25,9 +25,8 @@ to resources.
 [PR-Triage Bot](https://github.com/apps/pr-triage) can help automatically 
 add labels to new PRs or issues.
 
-[All-Contributors Bot](https://github.com/apps/allcontributors; 
-https://allcontributors.org/) helps capture different contributions and add them  
-to a specified file in the repo.
+[All-Contributors Bot](https://github.com/apps/allcontributors) helps 
+capture different contributions and add them to a specified file in the repo.
 This bot is very useful for managing contributings such as PR reviews, ideas 
 discussion, mentoring or other types of work that may not be reflected in 
 the GitHub contribution record.
