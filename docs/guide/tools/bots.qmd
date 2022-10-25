@@ -19,15 +19,15 @@ add it to the list below!
 ## Examples of useful bots 
 
 [GitHub Welcome Bot](https://github.com/apps/welcome) can be configured to 
-respond to first time PRs & Issues with guidelines, a nice message and links 
-to resources.
+respond to first time PRs & issues with a welcome message that provides links
+to a project's resources like contributing guidelines, code of conduct, community events calendar, etc.
 
-[PR-Triage Bot](https://github.com/apps/pr-triage) can help automatically 
+[PR-Triage Bot](https://github.com/apps/pr-triage) helps automatically 
 add labels to new PRs or issues.
 
 [All-Contributors Bot](https://github.com/apps/allcontributors) helps 
 capture different contributions and add them to a specified file in the repo.
-This bot is very useful for managing contributings such as PR reviews, ideas 
+This bot is very useful for managing contributions such as PR reviews, ideas, 
 discussion, mentoring or other types of work that may not be reflected in 
 the GitHub contribution record.
 
