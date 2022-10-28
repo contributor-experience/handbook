@@ -112,7 +112,7 @@ website:
         - section: "Tools Collection"
           contents:
             - docs/guide/tools/introduction.qmd
-            - docs/guide/tools/gitpod.qmd
+            - docs/guide/tools/bots.qmd
 
 format:
   html:
@@ -126,3 +126,5 @@ format:
 
 freeze: true
 
+execute:
+  freeze: auto
