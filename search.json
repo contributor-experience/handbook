@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Contributor Experience Handbook",
+    "section": "",
+    "text": "A new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About our project."
+  },
+  {
     "objectID": "docs/guide/tools/bots.html",
     "href": "docs/guide/tools/bots.html",
     "title": "Useful Bots",
@@ -19,13 +33,6 @@
     "title": "Useful Bots",
     "section": "How other projects use bots",
     "text": "How other projects use bots\n\nThe Turing Way Record of Contributions: https://the-turing-way.netlify.app/afterword/contributors-record.html\nAdd your example here"
-  },
-  {
-    "objectID": "docs/guide/introduction.html",
-    "href": "docs/guide/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "The purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
   },
   {
     "objectID": "docs/guide/cx/the_cel_role.html",
@@ -49,32 +56,11 @@
     "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way."
   },
   {
-    "objectID": "docs/about/coc.html",
-    "href": "docs/about/coc.html",
-    "title": "Our Code of Conduct",
+    "objectID": "docs/guide/introduction.html",
+    "href": "docs/guide/introduction.html",
+    "title": "Introduction",
     "section": "",
-    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
-  },
-  {
-    "objectID": "docs/about/acknowledging_contributors.html",
-    "href": "docs/about/acknowledging_contributors.html",
-    "title": "Acknowledging Contributors",
-    "section": "",
-    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
-  },
-  {
-    "objectID": "docs/about/acknowledgments.html",
-    "href": "docs/about/acknowledgments.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "Tania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
-  },
-  {
-    "objectID": "docs/about/comms_channels.html",
-    "href": "docs/about/comms_channels.html",
-    "title": "Communication Channels",
-    "section": "",
-    "text": "Follow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
+    "text": "The purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
   },
   {
     "objectID": "docs/about/sponsors.html",
@@ -84,13 +70,6 @@
     "text": "We are grateful to our sponsors"
   },
   {
-    "objectID": "docs/about/team.html",
-    "href": "docs/about/team.html",
-    "title": "Team & History",
-    "section": "",
-    "text": "Inessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
-  },
-  {
     "objectID": "docs/about/calendar.html",
     "href": "docs/about/calendar.html",
     "title": "Calendar",
@@ -98,17 +77,38 @@
     "text": "In the future, we plan to start organizing more structured events to develop content and showcase case studies and speakers.\n\n\nYou can subscribe to this calendar with the following links:\n\niCal\nGoogle calendar"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Contributor Experience Handbook",
+    "objectID": "docs/about/team.html",
+    "href": "docs/about/team.html",
+    "title": "Team & History",
     "section": "",
-    "text": "A new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
+    "text": "Inessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "docs/about/comms_channels.html",
+    "href": "docs/about/comms_channels.html",
+    "title": "Communication Channels",
     "section": "",
-    "text": "About our project."
+    "text": "Follow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
+  },
+  {
+    "objectID": "docs/about/acknowledgments.html",
+    "href": "docs/about/acknowledgments.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Tania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
+  },
+  {
+    "objectID": "docs/about/acknowledging_contributors.html",
+    "href": "docs/about/acknowledging_contributors.html",
+    "title": "Acknowledging Contributors",
+    "section": "",
+    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
+  },
+  {
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Our Code of Conduct",
+    "section": "",
+    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
   }
 ]
