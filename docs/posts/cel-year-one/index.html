@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Melissa Mendonça, Inessa Pawson, Noa Tamir">
+<meta name="dcterms.date" content="2022-11-03">
+
+<title>Contributor Experience Handbook - Advancing an inclusive culture in the scientific Python ecosystem</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      background: #EDF3F9;
+    }
+    </style>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Contributor Experience Handbook</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../docs/guide/introduction.html">
+ <span class="menu-text">Guide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">
+ <span class="menu-text">About us</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Help</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-help">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/contributor-experience/handbook/issues"><i class="bi bi-bug" role="img">
+</i> 
+ <span class="dropdown-text">Report an Issue</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/contributor-experience/handbook/discussions"><i class="bi bi-chat-right-text" role="img">
+</i> 
+ <span class="dropdown-text">Discussions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../docs/faq/introduction.qmd"><i class="bi bi-question-circle" role="img">
+</i> 
+ <span class="dropdown-text">FAQ</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contributor-experience/handbook"><i class="bi bi-github" role="img" aria-label="Contributor Experience Handbook GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Advancing an inclusive culture in the scientific Python ecosystem</h1>
+            <p class="subtitle lead">One year of work</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Melissa Mendonça, Inessa Pawson, Noa Tamir </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 3, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-we-did-so-far" id="toc-what-we-did-so-far" class="nav-link active" data-scroll-target="#what-we-did-so-far">What we did so far</a>
+  <ul class="collapse">
+  <li><a href="#community-engagement-meetings-and-communication-channels" id="toc-community-engagement-meetings-and-communication-channels" class="nav-link" data-scroll-target="#community-engagement-meetings-and-communication-channels">Community engagement: meetings and communication channels</a></li>
+  <li><a href="#onboarding" id="toc-onboarding" class="nav-link" data-scroll-target="#onboarding">Onboarding</a></li>
+  <li><a href="#outreach-sprints-talks-and-other-activities" id="toc-outreach-sprints-talks-and-other-activities" class="nav-link" data-scroll-target="#outreach-sprints-talks-and-other-activities">Outreach: sprints, talks, and other activities</a></li>
+  </ul></li>
+  <li><a href="#plans-for-the-next-half" id="toc-plans-for-the-next-half" class="nav-link" data-scroll-target="#plans-for-the-next-half">Plans for the next half</a></li>
+  <li><a href="#learning" id="toc-learning" class="nav-link" data-scroll-target="#learning">Learning</a>
+  <ul class="collapse">
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/posts/cel-year-one/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>In August 2021, NumPy, SciPy, Matplotlib, and pandas were awarded a 2-year joint grant by the CZI EOSS program. The goal of this work, citing the <a href="https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063">grant proposal</a>, is</p>
+<blockquote class="blockquote">
+<p>To support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects and structurally improve the community dynamics of NumPy, SciPy, Matplotlib, and pandas.</p>
+</blockquote>
+<p>This is an ambitious project, and we are well aware that diversity, equity and inclusion issues in open source are numerous [<a href="https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source">1</a>, <a href="https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/">2</a>, <a href="https://www.npr.org/sections/codeswitch/2013/12/05/248791579/why-isnt-open-source-a-gateway-for-coders-of-color">3</a>, <a href="">4</a>] and that proposed solutions [<a href="https://allinopensource.org/">1</a>, <a href="https://press.princeton.edu/books/hardcover/9780691182070/hacking-diversity">2</a>, <a href="https://www.youtube.com/watch?v=THf8_A-RK38">3</a>] are not necessarily straightforward. However, we decided to propose a few actions that could have an impact on how our communities engage with newcomers, especially those from underrepresented and historically marginalized groups. We also wanted to explore and document how these open-source projects are organized, and find potential areas for improvement. In this post, we discuss a few of the initiatives we have worked on so far, and some key take aways, which we wanted to share early.</p>
+<section id="what-we-did-so-far" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-did-so-far">What we did so far</h2>
+<p>Our team is made up of three <em>Contributor Experience Leads</em>: Melissa Mendonça (SciPy/Matplotlib), Inessa Pawson (NumPy), and Noa Tamir (Matplotlib/pandas). We started working across the four projects at different times, and quickly also realized that each project had different needs and was organized differently. We prioritized working with the maintainers to build a shared understanding of our goals and proposed actions.</p>
+<section id="community-engagement-meetings-and-communication-channels" class="level3">
+<h3 class="anchored" data-anchor-id="community-engagement-meetings-and-communication-channels">Community engagement: meetings and communication channels</h3>
+<p>In the book <a href="https://press.stripe.com/working-in-public">Working in Public: The Making and Maintenance of Open Source Software</a>, Nadia Eghbal classifies open-source projects by rate of user growth and contributor growth. The four open-source projects we are working on are <a href="https://project-types.github.io/#stadium">stadiums</a> according to this model, which means that interacting with the maintainers is perceived as out-of-reach or intimidating. Many people fear having their newbie questions immortalized on GitHub or other public forums, and avoid contributing for fear of having their code criticized too harshly.</p>
+<p>Many projects, including NumPy and Matplotlib, already had established meetings to discuss technical and community topics or coordinate working groups. Our team worked with all four projects and collaborated with the <a href="scientific-python.org/">Scientific Python project</a> to recommend (<a href="https://learn.scientific-python.org/maintainers/meeting_types/">and document</a>) meeting types, as well as <a href="https://scientific-python.org/calendars/">community events calendars</a>. We have also worked on creating meeting notes templates [<a href="https://hackmd.io/@matplotlib/SJ3oc8oqq">Matplotlib</a>, <a href="https://github.com/numpy/archive/blob/main/numpy-meetings-glossary.md">NumPy</a>] and archiving procedures wherever possible.</p>
+<p>We have also created Slack workspaces for SciPy and pandas as additional communication channels for new contributors to connect with projects’ core developers and other project contributors. (NumPy and Matplotlib already have been using Slack and Gitter respectively). For NumPy, <a href="https://www.youtube.com/c/NumPy_team">a number of videos were produced for the NumPy YouTube channel</a> that serve as onboarding documentation for new contributors. We hope to expand this initiative to other projects.</p>
+</section>
+<section id="onboarding" class="level3">
+<h3 class="anchored" data-anchor-id="onboarding">Onboarding</h3>
+<p>From a sustainability point of view, onboarding new contributors and helping them make their way through the project is an important activity that requires time, resources and flexibility to understand why people engage with open-source projects and what makes them stay. Often, there is implicit, undocumented knowledge and processes that are hard to understand for those looking to join as contributors (and even for existing contributors when they want to transition into other roles in the project).</p>
+<p>We started by reviewing and suggesting improvements to the contributor onboarding guides for each of the four projects. We have been gathering feedback from our communities and new contributors on points that are still confusing, unclear or not explicit in our current documentation.</p>
+<p>However, documentation is often not enough. We have been working to also help people directly by answering questions, understand their needs in each project and figure out how they can have a good experience when contributing. All four projects now have regular “newcomer” or “new contributor” meetings, dedicated to folks who are curious about contributing, who need help with technical issues or review on their pull requests, or who want to find different ways to engage with our projects.</p>
+</section>
+<section id="outreach-sprints-talks-and-other-activities" class="level3">
+<h3 class="anchored" data-anchor-id="outreach-sprints-talks-and-other-activities">Outreach: sprints, talks, and other activities</h3>
+<p>Participating in sprints and other outreach activities such as talks, live coding events, or events targeting historically underrepresented groups in open source is something we are actively trying to do. Here is a list of activities we participated in during the first year of the grant:</p>
+<ul>
+<li>Sprints organized as part of the <a href="https://hackmd.io/9pfJGVlVSVKKOQgCFsjqLQ">PyCon US</a> and <a href="https://www.scipy2022.scipy.org/sprints-schedule">SciPy US</a> conferences.</li>
+<li>Sprint at Grace Hopper Celebration “Open Source Day”</li>
+<li>A video presented for DataUmbrella detailing how to navigate the SciPy codebase</li>
+</ul>
+<p>and several other talks/presentations (detailed at the end of the post).</p>
+<p>With sprints, our goal is to not only help folks get started with contributing, but also to gather feedback from the community on contributing guides and process. We also use this feedback to evaluate and track the impact of sprints in our contributor base.</p>
+<p>Presenting talks and showing our work is also a way to (i) get the word out that this kind of work is happening and folks can do this; (ii) inspire maintainers to be leaders in their communities; (iii) encourage contributors, by showing that we can support them and they are not alone.</p>
+</section>
+</section>
+<section id="plans-for-the-next-half" class="level2">
+<h2 class="anchored" data-anchor-id="plans-for-the-next-half">Plans for the next half</h2>
+<p>We still have a lot to do, and for the next half of the grant period we want to focus on a few additional areas.</p>
+<ol type="1">
+<li><p><strong>Processes</strong> Although many of our communities and projects have spontaneously grown from one person or a small group of people to huge projects, many of the decisions still rely on a lot of “common sense” practices and implicit rules. We are looking to document a few of those to make it more explicit to newcomers and to be clear about responsibilities, expectation and how to benefit from open source contributions (after all, each contributor also has their legitimate reasons for joining our projects, be it notes on their CVs, professional networking, some form of personal gratification or just feeling like they are part of some <em>community</em>). In that sense, we have started creating documents such as a <a href="https://numpy.org/devdocs/dev/reviewer_guidelines.html?highlight=inactive#for-maintainers">policy on inactive PRs for NumPy</a>, and <a href="">a document on how to triage issues for SciPy</a> and others (such as how to become a maintainer of these projects) are still in progress.</p></li>
+<li><p><strong>Multiple pathways</strong> Many different skills (beyond just code) are needed to keep large open-source projects working: documentation, website support, issue triaging, translations, fundraising, etc. We are working to establish and document pathways for new contributors to progress to these specific areas of a projects’s maintenance.</p></li>
+<li><p><strong>Metrics</strong> One of the issues we have encountered is identifying appropriate metrics and responsible ways of gathering information about contributors to study projects’ demographic make up and track progress in our DEI efforts. We have been researching how other OSS projects approach this challenge and are devising an action plan to address it.</p></li>
+</ol>
+</section>
+<section id="learning" class="level2">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<p>This kind of work requires trust, human connections and respect, and is often made invisible by the simplistic metrics we use to gauge contributions in open-source projects. This discussion would be worth a blog post on its own (more to come in the future!)</p>
+<p>In 3 of the 4 project we joined as new contributors ourselves, which presented challenges as we needed to learn how the project works, and we weren’t immediately empowered to make decisions. Issues involving governance, communication and leadership are challenging to tackle, and we are particularly grateful to be working with a supportive team of leaders who are with us every step of the way. We have built new working relationships and are becoming more and more active in the projects as we open new pathways for the community to grow.</p>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=lQWDRg99B6w">Beyond the Basics: Contributor Experience, Diversity and Culture in Open Source Projects</a> - Keynote at PyData Berlin/PyCon DE (Melissa Mendonça)</li>
+<li><a href="https://www.youtube.com/watch?v=V1FCSijy460">Contributing to SciPy</a> - SciPy contributor onboarding video for DataUmbrella (Melissa Mendonça)</li>
+<li><a href="https://github.com/noatamir/Talks/blob/master/PyDataBer2022-ContributorExperienceLeads.pdf">What is Contributor Experience? &amp; how do you lead it?</a> - presented by Noa Tamir at PyData Berlin meetup</li>
+<li><a href="https://speakerdeck.com/inessapawson/introducing-the-contributor-experience-lead-team-at-scipy-2022">Contributor Experience Lead team introduction</a> (<a href="https://github.com/InessaPawson/scipy_proceedings/blob/2022/SciPy'22%20–%20CEL%20team%20–%20Inessa%20Pawson.pdf">PR to the conference proceedings</a>) - presented by Inessa Pawson at SciPy US 2022 Tools Plenary Session</li>
+<li><a href="https://speakerdeck.com/inessapawson/numpy-update-on-the-project-at-scipy-2022">Annual update on the NumPy project</a> (<a href="https://github.com/scipy-conference/scipy_proceedings/tree/2022/presentations/tools/numpy">PR to the conference proceedings</a>) - presented by Inessa Pawson at SciPy US 2022 Tools Plenary Session</li>
+<li><a href="https://speakerdeck.com/inessapawson/contributing-to-numpy-a-roadmap-for-newcomers">Contributing to NumPy: a roadmap for newcomers</a> - presented by Inessa Pawson at the Data for Good Regina monthly meeting on Jun 28, 2022</li>
+<li><a href="https://github.com/numpy/archive/tree/main/newcomers_meetings">NumPy Newcomers’ Hour documentation</a></li>
+<li><a href="https://matplotlib.org/stable/devel/contributing.html#new-contributors-meeting">New contributors meeting documentation (Matplotlib)</a> and <a href="https://github.com/matplotlib/ProjectManagement/tree/master/new_contributor_meeting/2022">meeting notes</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Proudly supported by <a href="https://chanzuckerberg.com/eoss/"><img src="https://chanzuckerberg.com/wp-content/themes/czi/img/logo-minified.svg" class="img-fluid" alt="CZI" width="20"></a> , and <a href="https://labs.quansight.org/"><img src="https://labs.quansight.org/images/QuansightLabs_logo_V2.png" class="img-fluid" alt="Quansight Labs" width="40"></a></div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">About</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../license.qmd">License</a>
+  </li>  
+</ul>
+      </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contributor-experience/handbook">
+      <i class="bi bi-github" role="img" aria-label="Contributor Experience Handbook GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

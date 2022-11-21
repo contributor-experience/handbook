@@ -2,114 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://contributor-experience.org/index.html</loc>
-    <lastmod>2022-10-28T22:40:10.894Z</lastmod>
+    <lastmod>2022-11-21T23:11:11.993Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/blog.html</loc>
-    <lastmod>2022-10-28T22:40:11.314Z</lastmod>
+    <lastmod>2022-11-21T23:11:12.401Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/about.html</loc>
-    <lastmod>2022-10-28T22:40:11.658Z</lastmod>
+    <lastmod>2022-11-21T23:11:12.737Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor-experience.org/docs/posts/cel-year-one/index.html</loc>
+    <lastmod>2022-11-21T23:11:13.209Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/posts/Hello-world/index.html</loc>
-    <lastmod>2022-10-28T22:40:12.026Z</lastmod>
+    <lastmod>2022-11-21T23:11:13.553Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/tools/bots.html</loc>
-    <lastmod>2022-10-28T22:40:12.366Z</lastmod>
+    <lastmod>2022-11-21T23:11:13.901Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/tools/gitpod.html</loc>
-    <lastmod>2022-10-28T22:40:12.682Z</lastmod>
+    <lastmod>2022-11-21T23:11:14.229Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/tools/introduction.html</loc>
-    <lastmod>2022-10-28T22:40:13.010Z</lastmod>
+    <lastmod>2022-11-21T23:11:14.565Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/cx/introduction.html</loc>
-    <lastmod>2022-10-28T22:40:13.330Z</lastmod>
+    <lastmod>2022-11-21T23:11:14.893Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/cx/the_cel_role.html</loc>
-    <lastmod>2022-10-28T22:40:13.686Z</lastmod>
+    <lastmod>2022-11-21T23:11:15.269Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/gov/introduction.html</loc>
-    <lastmod>2022-10-28T22:40:14.014Z</lastmod>
+    <lastmod>2022-11-21T23:11:15.597Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/introduction.html</loc>
-    <lastmod>2022-10-28T22:40:14.362Z</lastmod>
+    <lastmod>2022-11-21T23:11:15.929Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/comms/review_communication.html</loc>
-    <lastmod>2022-10-28T22:40:14.674Z</lastmod>
+    <lastmod>2022-11-21T23:11:16.257Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/comms/introduction.html</loc>
-    <lastmod>2022-10-28T22:40:14.994Z</lastmod>
+    <lastmod>2022-11-21T23:11:16.585Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/collab/introduction.html</loc>
-    <lastmod>2022-10-28T22:40:15.322Z</lastmod>
+    <lastmod>2022-11-21T23:11:16.909Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/guide/collab/meetings.html</loc>
-    <lastmod>2022-10-28T22:40:15.686Z</lastmod>
+    <lastmod>2022-11-21T23:11:17.257Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/sponsors.html</loc>
-    <lastmod>2022-10-28T22:40:16.026Z</lastmod>
+    <lastmod>2022-11-21T23:11:17.609Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/calendar.html</loc>
-    <lastmod>2022-10-28T22:40:16.362Z</lastmod>
+    <lastmod>2022-11-21T23:11:17.973Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/governance.html</loc>
-    <lastmod>2022-10-28T22:40:16.698Z</lastmod>
+    <lastmod>2022-11-21T23:11:18.325Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/style_guide.html</loc>
-    <lastmod>2022-10-28T22:40:17.022Z</lastmod>
+    <lastmod>2022-11-21T23:11:18.677Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/team.html</loc>
-    <lastmod>2022-10-28T22:40:17.330Z</lastmod>
+    <lastmod>2022-11-21T23:11:19.037Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/comms_channels.html</loc>
-    <lastmod>2022-10-28T22:40:17.666Z</lastmod>
+    <lastmod>2022-11-21T23:11:19.397Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/roadmap.html</loc>
-    <lastmod>2022-10-28T22:40:17.990Z</lastmod>
+    <lastmod>2022-11-21T23:11:19.749Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/joining.html</loc>
-    <lastmod>2022-10-28T22:40:18.290Z</lastmod>
+    <lastmod>2022-11-21T23:11:20.101Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/contributors.html</loc>
-    <lastmod>2022-10-28T22:40:18.626Z</lastmod>
+    <lastmod>2022-11-21T23:11:20.453Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/acknowledgments.html</loc>
-    <lastmod>2022-10-28T22:40:18.962Z</lastmod>
+    <lastmod>2022-11-21T23:11:20.813Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/acknowledging_contributors.html</loc>
-    <lastmod>2022-10-28T22:40:19.270Z</lastmod>
+    <lastmod>2022-11-21T23:11:21.165Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/vision.html</loc>
-    <lastmod>2022-10-28T22:40:19.606Z</lastmod>
+    <lastmod>2022-11-21T23:11:21.517Z</lastmod>
   </url>
   <url>
     <loc>https://contributor-experience.org/docs/about/coc.html</loc>
-    <lastmod>2022-10-28T22:40:19.962Z</lastmod>
+    <lastmod>2022-11-21T23:11:21.865Z</lastmod>
   </url>
 </urlset>
