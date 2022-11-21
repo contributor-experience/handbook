@@ -1,0 +1,75 @@
+---
+title: "Advancing an inclusive culture in the scientific Python ecosystem"
+subtitle: "One year of work"
+author: "Melissa Mendonça, Inessa Pawson, Noa Tamir"
+date: "11/03/2022"
+---
+
+In August 2021, NumPy, SciPy, Matplotlib, and pandas were awarded a 2-year joint grant by the CZI EOSS program. The goal of this work, citing the [grant proposal](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063), is
+
+> To support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects and structurally improve the community dynamics of NumPy, SciPy, Matplotlib, and pandas.
+
+This is an ambitious project, and we are well aware that diversity, equity and inclusion issues in open source are numerous [[1](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source), [2](https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/), [3](https://www.npr.org/sections/codeswitch/2013/12/05/248791579/why-isnt-open-source-a-gateway-for-coders-of-color), [4]()] and that proposed solutions [[1](https://allinopensource.org/), [2](https://press.princeton.edu/books/hardcover/9780691182070/hacking-diversity), [3](https://www.youtube.com/watch?v=THf8_A-RK38)] are not necessarily straightforward. However, we decided to propose a few actions that could have an impact on how our communities engage with newcomers, especially those from underrepresented and historically marginalized groups. We also wanted to explore and document how these open-source projects are organized, and find potential areas for improvement. In this post, we discuss a few of the initiatives we have worked on so far, and some key take aways, which we wanted to share early.
+
+## What we did so far
+
+Our team is made up of three _Contributor Experience Leads_: Melissa Mendonça (SciPy/Matplotlib), Inessa Pawson (NumPy), and Noa Tamir (Matplotlib/pandas). We started working across the four projects at different times, and quickly also realized that each project had different needs and was organized differently. We prioritized working with the maintainers to build a shared understanding of our goals and proposed actions.
+
+### Community engagement: meetings and communication channels
+
+In the book [Working in Public: The Making and Maintenance of Open Source Software](https://press.stripe.com/working-in-public), Nadia Eghbal classifies open-source projects by rate of user growth and contributor growth. The four open-source projects we are working on are [stadiums](https://project-types.github.io/#stadium) according to this model, which means that interacting with the maintainers is perceived as out-of-reach or intimidating. Many people fear having their newbie questions immortalized on GitHub or other public forums, and avoid contributing for fear of having their code criticized too harshly.
+
+Many projects, including NumPy and Matplotlib, already had established meetings to discuss technical and community topics or coordinate working groups. Our team worked with all four projects and collaborated with the [Scientific Python project](scientific-python.org/) to recommend ([and document](https://learn.scientific-python.org/maintainers/meeting_types/)) meeting types, as well as [community events calendars](https://scientific-python.org/calendars/). We have also worked on creating meeting notes templates [[Matplotlib](https://hackmd.io/@matplotlib/SJ3oc8oqq), [NumPy](https://github.com/numpy/archive/blob/main/numpy-meetings-glossary.md)] and archiving procedures wherever possible.
+
+We have also created Slack workspaces for SciPy and pandas as additional communication channels for new contributors to connect with projects’ core developers and other project contributors. (NumPy and Matplotlib already have been using Slack and Gitter respectively). For NumPy, [a number of videos were produced for the NumPy YouTube channel](https://www.youtube.com/c/NumPy_team) that serve as onboarding documentation for new contributors. We hope to expand this initiative to other projects.
+
+### Onboarding
+
+From a sustainability point of view, onboarding new contributors and helping them make their way through the project is an important activity that requires time, resources and flexibility to understand why people engage with open-source projects and what makes them stay. Often, there is implicit, undocumented knowledge and processes that are hard to understand for those looking to join as contributors (and even for existing contributors when they want to transition into other roles in the project).
+
+We started by reviewing and suggesting improvements to the contributor onboarding guides for each of the four projects. We have been gathering feedback from our communities and new contributors on points that are still confusing, unclear or not explicit in our current documentation.
+
+However, documentation is often not enough. We have been working to also help people directly by answering questions, understand their needs in each project and figure out how they can have a good experience when contributing. All four projects now have regular "newcomer" or "new contributor" meetings, dedicated to folks who are curious about contributing, who need help with technical issues or review on their pull requests, or who want to find different ways to engage with our projects.
+
+### Outreach: sprints, talks, and other activities
+
+Participating in sprints and other outreach activities such as talks, live coding events, or events targeting historically underrepresented groups in open source is something we are actively trying to do. Here is a list of activities we participated in during the first year of the grant:
+
+- Sprints organized as part of the [PyCon US](https://hackmd.io/9pfJGVlVSVKKOQgCFsjqLQ) and [SciPy US](https://www.scipy2022.scipy.org/sprints-schedule) conferences. 
+- Sprint at Grace Hopper Celebration "Open Source Day"
+- A video presented for DataUmbrella detailing how to navigate the SciPy codebase
+
+and several other talks/presentations (detailed at the end of the post).
+
+With sprints, our goal is to not only help folks get started with contributing, but also to gather feedback from the community on contributing guides and process. We also use this feedback to evaluate and track the impact of sprints in our contributor base.
+
+Presenting talks and showing our work is also a way to (i) get the word out that this kind of work is happening and folks can do this; (ii) inspire maintainers to be leaders in their communities; (iii) encourage contributors, by showing that we can support them and they are not alone. 
+
+## Plans for the next half
+
+We still have a lot to do, and for the next half of the grant period we want to focus on a few additional areas.
+
+1. **Processes** Although many of our communities and projects have spontaneously grown from one person or a small group of people to huge projects, many of the decisions still rely on a lot of "common sense" practices and implicit rules. We are looking to document a few of those to make it more explicit to newcomers and to be clear about responsibilities, expectation and how to benefit from open source contributions (after all, each contributor also has their legitimate reasons for joining our projects, be it notes on their CVs, professional networking, some form of personal gratification or just feeling like they are part of some _community_). In that sense, we have started creating documents such as a [policy on inactive PRs for NumPy](https://numpy.org/devdocs/dev/reviewer_guidelines.html?highlight=inactive#for-maintainers), and [a document on how to triage issues for SciPy]() and others (such as how to become a maintainer of these projects) are still in progress.
+
+2. **Multiple pathways** Many different skills (beyond just code) are needed to keep large open-source projects working: documentation, website support, issue triaging, translations, fundraising, etc. We are working to establish and document pathways for new contributors to progress to these specific areas of a projects's maintenance. 
+
+3. **Metrics** One of the issues we have encountered is identifying appropriate metrics and responsible ways of gathering information about contributors to study projects’ demographic make up and track progress in our DEI efforts. We have been researching how other OSS projects approach this challenge and are devising an action plan to address it.
+
+## Learning
+
+This kind of work requires trust, human connections and respect, and is often made invisible by the simplistic metrics we use to gauge contributions in open-source projects. This discussion would be worth a blog post on its own (more to come in the future!) 
+
+In 3 of the 4 project we joined as new contributors ourselves, which presented challenges as we needed to learn how the project works, and we weren't immediately empowered to make decisions. Issues involving governance, communication and leadership are challenging to tackle, and we are particularly grateful to be working with a supportive team of leaders who are with us every step of the way. We have built new working relationships and are becoming more and more active in the projects as we open new pathways for the community to grow.
+
+### Resources
+
+- [Beyond the Basics: Contributor Experience, Diversity and Culture in Open Source Projects](https://www.youtube.com/watch?v=lQWDRg99B6w) - Keynote at PyData Berlin/PyCon DE (Melissa Mendonça)
+- [Contributing to SciPy](https://www.youtube.com/watch?v=V1FCSijy460) - SciPy contributor onboarding video for DataUmbrella (Melissa Mendonça)
+- [What is Contributor Experience? & how do you lead it?](https://github.com/noatamir/Talks/blob/master/PyDataBer2022-ContributorExperienceLeads.pdf) - presented by Noa Tamir at PyData Berlin meetup
+- [Contributor Experience Lead team introduction](https://speakerdeck.com/inessapawson/introducing-the-contributor-experience-lead-team-at-scipy-2022)
+([PR to the conference proceedings](https://github.com/InessaPawson/scipy_proceedings/blob/2022/SciPy'22%20–%20CEL%20team%20–%20Inessa%20Pawson.pdf)) - presented by Inessa Pawson at SciPy US 2022 Tools Plenary Session
+- [Annual update on the NumPy project](https://speakerdeck.com/inessapawson/numpy-update-on-the-project-at-scipy-2022) ([PR to the conference proceedings](https://github.com/scipy-conference/scipy_proceedings/tree/2022/presentations/tools/numpy)) - presented by Inessa Pawson at SciPy US 2022 Tools Plenary Session
+- [Contributing to NumPy: a roadmap for newcomers](https://speakerdeck.com/inessapawson/contributing-to-numpy-a-roadmap-for-newcomers) - 
+presented by Inessa Pawson at the Data for Good Regina monthly meeting on Jun 28, 2022
+- [NumPy Newcomers’ Hour documentation](https://github.com/numpy/archive/tree/main/newcomers_meetings)
+- [New contributors meeting documentation (Matplotlib)](https://matplotlib.org/stable/devel/contributing.html#new-contributors-meeting) and [meeting notes](https://github.com/matplotlib/ProjectManagement/tree/master/new_contributor_meeting/2022)
