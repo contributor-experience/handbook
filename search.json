@@ -95,14 +95,14 @@
     "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
     "title": "Useful Bots",
     "section": "Examples of useful bots",
-    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & Issues with guidelines, a nice message and links to resources. Link: https://github.com/apps/welcome\nPR-Triage Bot can help automatically add labels to new PRs or issues. Link: https://github.com/apps/pr-triage\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributings such as PR reviews, ideas discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record. Link: https://github.com/apps/allcontributors; https://allcontributors.org/"
+    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & issues with a welcome message that provides links to a project’s resources like contributing guidelines, code of conduct, community events calendar, etc.\nPR-Triage Bot helps automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributions such as PR reviews, ideas, discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record."
   },
   {
-    "objectID": "docs/guide/tools/bots.html#how-other-projects-use-bots",
-    "href": "docs/guide/tools/bots.html#how-other-projects-use-bots",
+    "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
+    "href": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
     "title": "Useful Bots",
-    "section": "How other projects use bots",
-    "text": "How other projects use bots\n\nThe Turing Way Record of Contributions: https://the-turing-way.netlify.app/afterword/contributors-record.html\nAdd your example here"
+    "section": "How some projects use these bots",
+    "text": "How some projects use these bots\n\nThe Turing Way Record of Contributions using All-Contributors.\nAdd your example here"
   },
   {
     "objectID": "CONTRIBUTE.html",
