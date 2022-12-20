@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Contributor Experience Handbook",
-    "section": "",
-    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -14,25 +7,60 @@
     "text": "About our project."
   },
   {
-    "objectID": "docs/guide/tools/bots.html",
-    "href": "docs/guide/tools/bots.html",
-    "title": "Useful Bots",
+    "objectID": "docs/about/acknowledging_contributors.html",
+    "href": "docs/about/acknowledging_contributors.html",
+    "title": "Acknowledging Contributors",
     "section": "",
-    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!"
+    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
   },
   {
-    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "title": "Useful Bots",
-    "section": "Examples of useful bots",
-    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & Issues with guidelines, a nice message and links to resources. Link: https://github.com/apps/welcome\nPR-Triage Bot can help automatically add labels to new PRs or issues. Link: https://github.com/apps/pr-triage\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributings such as PR reviews, ideas discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record. Link: https://github.com/apps/allcontributors; https://allcontributors.org/"
+    "objectID": "docs/about/acknowledgments.html",
+    "href": "docs/about/acknowledgments.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Projects and people that helped inform our thinking and inspire our work. Including those whose resources we learned from, by taking their workshop, being active contributors to their projects, or passive members of their community, e.g. reading their documentation and having conversations:\n\nTania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
   },
   {
-    "objectID": "docs/guide/tools/bots.html#how-other-projects-use-bots",
-    "href": "docs/guide/tools/bots.html#how-other-projects-use-bots",
-    "title": "Useful Bots",
-    "section": "How other projects use bots",
-    "text": "How other projects use bots\n\nThe Turing Way Record of Contributions: https://the-turing-way.netlify.app/afterword/contributors-record.html\nAdd your example here"
+    "objectID": "docs/about/calendar.html",
+    "href": "docs/about/calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "We currently hold regular informal community meetings to discuss all things contributor experience and stay in touch with each other. Check the below calendar to see up-to-date information about meeting times.\nIn the future, we plan to start organizing more structured events to develop content and showcase case studies and speakers.\n\n\nYou can subscribe to this calendar with the following links:\n\niCal\nGoogle calendar"
+  },
+  {
+    "objectID": "docs/about/comms_channels.html",
+    "href": "docs/about/comms_channels.html",
+    "title": "Communication Channels",
+    "section": "",
+    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
+  },
+  {
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Our Code of Conduct",
+    "section": "",
+    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
+  },
+  {
+    "objectID": "docs/about/sponsors.html",
+    "href": "docs/about/sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "We are grateful to our sponsors"
+  },
+  {
+    "objectID": "docs/about/team.html",
+    "href": "docs/about/team.html",
+    "title": "Team & History",
+    "section": "",
+    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
+  },
+  {
+    "objectID": "docs/guide/introduction.html",
+    "href": "docs/guide/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
   },
   {
     "objectID": "docs/guide/cx/the_cel_role.html",
@@ -56,59 +84,38 @@
     "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way."
   },
   {
-    "objectID": "docs/guide/introduction.html",
-    "href": "docs/guide/introduction.html",
-    "title": "Introduction",
+    "objectID": "docs/guide/tools/bots.html",
+    "href": "docs/guide/tools/bots.html",
+    "title": "Useful Bots",
     "section": "",
-    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
+    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!"
   },
   {
-    "objectID": "docs/about/sponsors.html",
-    "href": "docs/about/sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "We are grateful to our sponsors"
+    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "title": "Useful Bots",
+    "section": "Examples of useful bots",
+    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & Issues with guidelines, a nice message and links to resources. Link: https://github.com/apps/welcome\nPR-Triage Bot can help automatically add labels to new PRs or issues. Link: https://github.com/apps/pr-triage\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributings such as PR reviews, ideas discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record. Link: https://github.com/apps/allcontributors; https://allcontributors.org/"
   },
   {
-    "objectID": "docs/about/calendar.html",
-    "href": "docs/about/calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "We currently hold regular informal community meetings to discuss all things contributor experience and stay in touch with each other. Check the below calendar to see up-to-date information about meeting times.\nIn the future, we plan to start organizing more structured events to develop content and showcase case studies and speakers.\n\n\nYou can subscribe to this calendar with the following links:\n\niCal\nGoogle calendar"
+    "objectID": "docs/guide/tools/bots.html#how-other-projects-use-bots",
+    "href": "docs/guide/tools/bots.html#how-other-projects-use-bots",
+    "title": "Useful Bots",
+    "section": "How other projects use bots",
+    "text": "How other projects use bots\n\nThe Turing Way Record of Contributions: https://the-turing-way.netlify.app/afterword/contributors-record.html\nAdd your example here"
   },
   {
-    "objectID": "docs/about/team.html",
-    "href": "docs/about/team.html",
-    "title": "Team & History",
+    "objectID": "CONTRIBUTE.html",
+    "href": "CONTRIBUTE.html",
+    "title": "Contributor Experience Handbook",
     "section": "",
-    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
+    "text": "Never made an open source contribution before? Wondering how contributions work in the in our project? Here’s a quick rundown!\n\n\n\n\n\n\n\nFind an issue that you are interested in addressing or a feature that you would like to add.\n\nFork the repository associated with the issue to your local GitHub organization. This means that you will have a copy of the repository underyour-GitHub-username/repository-name.\n\nClone the repository to your local machine using:\ngit clone https://github.com/github-username/repository-name.git.\nAdd the upstream remote:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nPull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it for your issue fix or feature using:\ngit switch -c branch-name-here\nMake the appropriate changes for the issue you are trying to address or the feature that you want to add\n\nAdd the changes to the staging are and commit them to the branch you are working on\n\nPush the changes to the remote repository using:\ngit push origin branch-name-here\nSubmit a pull request to the upstream repository\n\n\n\nTitle the pull request with a short description of the changes made\n\n\n\nWait for the pull request to be reviewed by a maintainer\n\n\n\nMake changes to the pull request if the reviewing maintainer recommends them\n\n\n\nCelebrate your success after your pull request is merged!"
   },
   {
-    "objectID": "docs/about/comms_channels.html",
-    "href": "docs/about/comms_channels.html",
-    "title": "Communication Channels",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Contributor Experience Handbook",
     "section": "",
-    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
-  },
-  {
-    "objectID": "docs/about/acknowledgments.html",
-    "href": "docs/about/acknowledgments.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "Projects and people that helped inform our thinking and inspire our work. Including those whose resources we learned from, by taking their workshop, being active contributors to their projects, or passive members of their community, e.g. reading their documentation and having conversations:\n\nTania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
-  },
-  {
-    "objectID": "docs/about/acknowledging_contributors.html",
-    "href": "docs/about/acknowledging_contributors.html",
-    "title": "Acknowledging Contributors",
-    "section": "",
-    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
-  },
-  {
-    "objectID": "docs/about/coc.html",
-    "href": "docs/about/coc.html",
-    "title": "Our Code of Conduct",
-    "section": "",
-    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
+    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
   }
 ]
