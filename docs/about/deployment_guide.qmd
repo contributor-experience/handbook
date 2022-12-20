@@ -1,0 +1,25 @@
+---
+title: "Deployment guide for this handbook"
+---
+
+This handbook is [built on GitHub](https://github.com/contributor-experience/handbook)
+as a community effort. To deploy the actual website to
+`https://contributor-experience.org`, we use a
+[GitHub Action](https://docs.github.com/actions) that builds the handbook using
+[Quarto](https://quarto.org/), a document publishing system. The resulting build
+is then published to [GitHub pages](https://pages.github.com/). The domain name
+`contributor-experience.org` is then redirected to the GitHub pages deployment.
+
+## Details
+
+1. Source files have the `.qmd` extension, and use Markdown syntax. They are
+   organized as a table of contents on the [_quarto.yml file](https://github.com/contributor-experience/handbook/blob/main/_quarto.yml)
+   at the root of the `handbook` repository.
+
+1. Whenever changes are made and pushed to the repository on GitHub (either by
+   a Pull Request that is merged, or with a commit to the `main` branch of that
+   repository), the [Quarto Publish workflow](https://github.com/contributor-experience/handbook/blob/main/.github/workflows/publish.yml)
+   is triggered by GitHub Actions.
+
+1. To see this workflow run and any messages it may have emitted, you can click
+   on the [Actions tab on the main repository page on GitHub](https://github.com/contributor-experience/handbook/actions).
