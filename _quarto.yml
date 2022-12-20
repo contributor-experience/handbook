@@ -26,7 +26,7 @@ website:
       - text: "About"
         href: about.qmd
       - text: "License"
-        href: license.qmd
+        href: LICENSE
     right:
       - icon: github
         href: https://github.com/contributor-experience/handbook
@@ -53,9 +53,6 @@ website:
           - text: "Discussions"
             icon: "chat-right-text"
             href: "https://github.com/contributor-experience/handbook/discussions"
-          - text: "FAQ"
-            icon: "question-circle"
-            href: docs/faq/introduction.qmd
     right:
       - icon: github
         href: https://github.com/contributor-experience/handbook
