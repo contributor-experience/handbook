@@ -87,6 +87,7 @@ website:
             - docs/about/acknowledging_contributors.qmd
             - docs/about/calendar.qmd
             - docs/about/comms_channels.qmd
+            - CONTRIBUTE.md
 
     - id: guide
       title: "Guide"
