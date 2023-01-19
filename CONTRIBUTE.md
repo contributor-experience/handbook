@@ -90,7 +90,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
 12. Wait for the pull request to be reviewed by the project team member
 
-13. Make changes to the pull request if the reviewing maintainer recommends them
+13. Make changes to the pull request if the reviewing team member recommends them
 
 14. Celebrate your success after your pull request is merged!
 
