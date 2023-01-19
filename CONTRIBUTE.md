@@ -1,10 +1,10 @@
 # Contribution Guidelines
 
-There are quite a few ways you could get involved with the Contributor Experience project. You can:
+There are quite a few ways to get involved with the Contributor Experience project. You can:
 
 - join one of our [community calls](docs/about/calendar.qmd);
 - join our [Zulip chat](https://contributor-experience.zulipchat.com/join/r3bbxavdymqbyjiu32mtqyqi/)
-- share your ideas by [filing issues](https://github.com/contributor-experience/handbook/issues/new), submitting [Pull Requests](https://docs.github.com/en/pull-requests) or commenting on existing discussions;
+- share your ideas by [filing issues](https://github.com/contributor-experience/handbook/issues/new), submitting [Pull Requests](https://docs.github.com/en/pull-requests), or commenting on existing discussions;
 - address issues filed by other contributors;
 - review submitted PRs.
 
@@ -12,7 +12,7 @@ There are quite a few ways you could get involved with the Contributor Experienc
 
 Never made an open source contribution before? Wondering how contributions work in our project? Here's a quick rundown!
 
-1. Find an issue that you are interested in addressing or a content page or feature that you would like to add.
+1. Find an issue that you are interested in addressing or decide on content or feature that you would like to add.
 
 2. Fork the [Contributor Experience Handbook repository](https://github.com/contributor-experience/handbook) to your GitHub profile. This means that you will have a copy of the repository `<github-username>/handbook.`
 
@@ -24,7 +24,7 @@ Never made an open source contribution before? Wondering how contributions work 
    git clone https://github.com/<github-username>/handbook.git.
    ```
 
-   This means you will now have a local copy of all the contents in the GitHub repository in your computer, under the `handbook` folder. You can rename this folder to any names you like - all the git-related information will be unchanged.
+   This means you will now have a local copy of all the contents in the GitHub repository on your computer, in the `handbook` folder. You can rename this folder to any names you like - all the git-related information will be unchanged.
 
 4. Add the `upstream` remote
 
@@ -59,7 +59,7 @@ Never made an open source contribution before? Wondering how contributions work 
    git pull upstream main
    ```
 
-6. Create a new branch and switch to it for your issue fix or content page using:
+6. Create a new branch and switch to it to work on your task (a selected issue, content, or feature):
 
    ```
    git switch -c <branch-name>
@@ -67,11 +67,9 @@ Never made an open source contribution before? Wondering how contributions work 
 
    It is good practice to create a new branch for each new fix/improvement your are working on. This ensures the history of the changes to the project is more organized. You can name your branch anything - this does not interfere with the commit history.
 
-7. Make the appropriate changes for the issue you are trying to address or the feature that you want to add
 
-   This is when you write, fix existing content or otherwise do your magic ✨
 
-8. Add the changes to the staging area and commit them to the branch you are working on
+7. Once you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on
 
    ```
    git add <files-to-be-changed>
@@ -90,7 +88,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
 11. Title the **pull request** with a short description of the changes made
 
-12. Wait for the pull request to be reviewed by a maintainer
+12. Wait for the pull request to be reviewed by the project team member
 
 13. Make changes to the pull request if the reviewing maintainer recommends them
 
