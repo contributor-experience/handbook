@@ -90,6 +90,12 @@ Never made an open source contribution before? Wondering how contributions work 
 
 12. Wait for the pull request to be reviewed by the project team member
 
+   Currently, the Contributor Experience project is led by a
+   [team of three people](docs/about/team.qmd). While only these team members
+   have GitHub permissions to merge Pull Requests, we welcome Pull Request
+   reviews by anyone - suggestions and comments are valuable contributions to
+   our project.
+
 13. Make changes to the pull request if the reviewing team member recommends them
 
 14. Celebrate your success after your pull request is merged!
