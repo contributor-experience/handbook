@@ -12,6 +12,6 @@ community, or would like to start a discussion with more than 240 characters
 the social infrastructure of open source projects. 
 
 If you'd like ot have less public conversations. We will soon launch community 
-meetings. Check out our [calendar](docs/about/calendar.qmd). Our 
-[communication channels](docs/about/comms_channels.qmd) will be updated 
-shortly  as well.
+meetings. Check out our [calendar](../../about/calendar.qmd). Our 
+[communication channels](../../about/comms_channels.qmd) will be updated 
+shortly as well.
