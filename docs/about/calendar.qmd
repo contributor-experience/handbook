@@ -6,12 +6,11 @@ We currently hold regular informal community meetings to discuss all things
 contributor experience and stay in touch with each other. Check the below 
 calendar to see up-to-date information about meeting times.
 
+Our meetings are currently weekls on Fridays, at 3PM UTC, on [Zoom](https://numfocus-org.zoom.us/j/81082067424?pwd=bVNqWXhqSXZEdTl6ZzFsa1lJZ08xZz09).
+Everyone is welcome to attend and contribute to a conversation.
+
 In the future, we plan to start organizing more structured events to develop 
 content and showcase case studies and speakers.   
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showTz=0&showTitle=0&showPrint=1&src=Y19mOGUzZDNkMGY4MDMzYzUyNWE5ZDAzNjg0OTY0MjQ1ZDkwMThjZjRjMjYzMGRmZjIxZDM5YTYzNTY4MTVmN2RiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-You can subscribe to this calendar with the following links:
-
-- [iCal](https://calendar.google.com/calendar/ical/c_f8e3d3d0f8033c525a9d03684964245d9018cf4c2630dff21d39a6356815f7db%40group.calendar.google.com/public/basic.ics)
-- [Google calendar](https://calendar.google.com/calendar/embed?src=c_f8e3d3d0f8033c525a9d03684964245d9018cf4c2630dff21d39a6356815f7db%40group.calendar.google.com&ctz=Europe%2FBerlin)
+You can subscribe to our calendar with the following [link](https://calendar.google.com/calendar/ical/c_f8e3d3d0f8033c525a9d03684964245d9018cf4c2630dff21d39a6356815f7db%40group.calendar.google.com/public/basic.ics). 
+Look for the option to add a calendar subscritpion from URL in your calendar app of choice. 
