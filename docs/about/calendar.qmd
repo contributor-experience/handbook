@@ -6,7 +6,7 @@ We currently hold regular informal community meetings to discuss all things
 contributor experience and stay in touch with each other. Check the below 
 calendar to see up-to-date information about meeting times.
 
-Our meetings are currently weekls on Fridays, at 3PM UTC, on [Zoom](https://numfocus-org.zoom.us/j/81082067424?pwd=bVNqWXhqSXZEdTl6ZzFsa1lJZ08xZz09).
+Our meetings are currently weekly on Fridays, at 3PM UTC, on [Zoom](https://numfocus-org.zoom.us/j/81082067424?pwd=bVNqWXhqSXZEdTl6ZzFsa1lJZ08xZz09).
 Everyone is welcome to attend and contribute to a conversation.
 
 In the future, we plan to start organizing more structured events to develop 
