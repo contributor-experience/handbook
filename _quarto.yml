@@ -81,6 +81,7 @@ website:
         - section: "Community Handbook"
           contents:
             - docs/about/style_guide.qmd
+            - docs/about/deployment_guide.qmd
             - docs/about/acknowledging_contributors.qmd
             - docs/about/calendar.qmd
             - docs/about/comms_channels.qmd
