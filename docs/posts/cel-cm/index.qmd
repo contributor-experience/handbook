@@ -1,0 +1,93 @@
+---
+title: "What is the difference between Contributor Experience and Community Management?"
+author: "Melissa Mendonça, Inessa Pawson, Noa Tamir"
+date: "03/08/2023"
+---
+
+While the role of [community manager](https://www.redhat.com/en/blog/many-faces-community-manager)
+is established in the open source ecosystem, the role of a Contributor Experience
+lead is not yet well defined. Even though there is prior work in contributor
+experience (for example, the
+[Contributor Experience working group within the Kubernetes community](https://github.com/kubernetes/community/blob/master/sig-contributor-experience/README.md)), our team has been working to develop an understanding of what this work means in
+our communities. In this post, we will explain our perceptions and the
+differences between contributor experience and community management.
+
+To be clear, there is indeed a bit of overlap. Many of the activities that these
+roles involve are currently not owned by anyone in particular in most
+open-source projects; they are being done by overworked, overstretched
+developers and maintainers who just want to see more people get involved with
+their projects. That is also the case for the projects we are working on - except
+for Matplotlib, none of them have a community manager role. This makes us
+sometimes fill two positions, which is indeed a lot!
+
+Due to the undefined nature of roles in most open-source projects, we often see
+many different roles being shared by community members instead of concentrated
+on one person. This is not necessarily bad - in fact, for small open-source
+projects this may be the only reasonable way to operate. But defining
+responsibilities and tasks within the project may help organize the work and
+open new pathways for contributions beyond code.
+
+## Focus on contributors
+
+One big difference between what we think of as community managers and a
+contributor experience team member is that it is common to think of the
+community manager as someone that will bring new users or do promotion for the
+project, raising awareness of its existence and only maybe down the line
+indirectly attract new contributors. For the contributor experience team, the
+focus is primarily on the contributor community, onboarding and providing better
+tools and workflows for new contributors, as well as supporting maintainers in
+their interactions with the contributor community. 
+
+## The "T" word
+
+While this work involves *a lot* of social interaction and engagement, a
+contributor experience role requires reasonable _technical skills_ to help
+onboard newcomers, provide tooling and automation, and
+[Developer Experience](https://en.wikipedia.org/wiki/User_experience#Developer_experience)
+improvements to the project. These are typically not required of community
+managers but are critical to the contributor experience work.
+
+## Advocates for new contributors
+
+If this role had *one* job, it would be to ensure new contributors are
+adequately onboarded into an open-source project and that they see a clear
+pathway into long-term collaboration and contribution to the community. This
+could involve defining new and diverse roles in the community, documentation of
+current pathways, and better workflows to support engagement in the project. But
+this also involves some human connection - understanding why people want to
+contribute, how they want to engage, and how we can make that experience better
+for them. 
+
+## Governance and change management
+
+Another focus point of our contributor experience work is ensuring governance,
+and internal decisions are well-documented and well-defined. This is
+particularly important to create a culture of equal participation and inclusion.
+This can also involve some
+[change management](https://en.wikipedia.org/wiki/Change_management) to help the
+community through necessary transitions. In this sense, the contributor
+experience lead has a position that is independent of maintainer status or
+leadership involvement. 
+
+## Collaboration with Community Managers
+
+We see the Contributor Experience and Community Management areas as
+complimentary; while the former focuses on contributions and internal processes,
+the latter can focus on communications, outreach, social media, and program
+development for the larger community. Receiving feedback and understanding what
+users expect of an open-source project can also help define roadmaps and
+priorities for contribution.
+
+## What do you think?
+
+We would love to hear from you - what do *you* think could be involved in this
+work? 
+
+We hope to create a
+[community of practice](https://www.communityofpractice.ca/background/what-is-a-community-of-practice/)
+around the contributor experience work and to open a more extensive discussion
+about the place this work has in existing (and new) open-source projects. If you
+want to talk about it, we host
+[weekly community calls on Zoom](https://scientific-python.org/calendars/).
+Anyone is welcome to join, chat, or just listen. Hope to see you around!
+
