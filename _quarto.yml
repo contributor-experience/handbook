@@ -70,7 +70,7 @@ website:
             - docs/about/governance.qmd
             - docs/about/contributors.qmd
             - docs/about/coc.qmd
-            - docs/about/joining.qmd
+            - CONTRIBUTE.md
         - section: "Vision & History"
           contents:
             - docs/about/vision.qmd
@@ -95,7 +95,6 @@ website:
       contents:
         - section: "Introduction to Contributor Experience"
           contents:
-            - docs/guide/cx/introduction.qmd
             - docs/guide/cx/the_cel_role.qmd
         - section: "Governance Guide"
           contents:

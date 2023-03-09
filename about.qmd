@@ -3,4 +3,16 @@ title: "About"
 sidebar: about
 ---
 
-About our project.
+The Contributor Experience project was created as an experiment on improving
+contributor onboarding, experience, and the implementation of DEI-centered
+practices in four large and established open-source projects from the scientific
+Python ecosystem (NumPy, SciPy, Matplotlib and pandas).
+
+This work is currently supported by the Chan Zuckerberg Initiative as a part of
+their [Essential Open Source Software for Science D&I program](https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem/).
+
+This work is also supported by Quansight and NumFOCUS.
+
+For more details, check out the
+[grant proposal](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063)
+that kickstarted this work.
