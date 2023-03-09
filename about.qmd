@@ -6,7 +6,7 @@ sidebar: about
 The Contributor Experience project was created as an experiment on improving
 contributor onboarding, experience, and the implementation of DEI-centered
 practices in four large and established open-source projects from the scientific
-Python ecosystem (NumPy, SciPy, Matplotlib and pandas).
+Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).
 
 This work is currently supported by the Chan Zuckerberg Initiative as a part of
 their [Essential Open Source Software for Science D&I program](https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem/).
