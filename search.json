@@ -123,7 +123,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About our project."
+    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThis work is currently supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program.\nThis work is also supported by Quansight and NumFOCUS."
   },
   {
     "objectID": "index.html",
