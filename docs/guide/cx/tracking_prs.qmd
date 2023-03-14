@@ -1,0 +1,89 @@
+---
+title: "Tracking first-time contributors' work"
+sidebar: guide
+---
+
+What is the best approach to track first-time contributors' work on an open-source
+project and improve retention?
+
+There are [many reasons](https://opensource.guide/how-to-contribute/) why people
+make their first contribution to an open-source project. They may be looking to
+fix a bug in a library they use routinely; they may be looking to improve their
+professional skills (and may love detailed feedback!); they may be looking to
+build their professional network by meeting other peers and mentors through
+their contributions; or they may be looking for a fun, engaging community to
+participate in.
+
+## Focus on newcomers
+
+If you are working on a small-to-medium-sized project, it may be easy to track
+your first-time contributors individually. However, when working on large
+projects, there are tools you can use to make sure newcomers get the attention
+you need and are supported in their contributions.
+
+In our projects, we chose to use
+[GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+since the tool was already integrated into our workflow. Other tools like
+spreadsheets, Customer Relationship Managers (CRMs) or other community
+management tools could also be used. The main feature you need is a way to flag
+contributions by status and know which ones to follow up on.
+
+![GitHub project board for first-time contributors in the Matplotlib project. It
+shows four different columns titled "New", "Needs review", "Waiting for author"
+and "Merged". There are multiple pull requests in each column.](../../../images/gh-project.png)
+
+## Communication
+
+There is [some evidence](https://ieeexplore.ieee.org/document/6614728) that the
+communication between newcomers and maintainers in open-source projects does
+influence their decision to stay or not with the project. What looks like
+another patch in a sea of contributions to you may be a big deal for newcomers
+- especially those from underrepresented backgrounds.
+
+Be mindful of your communications. Use
+[inclusive language](https://developers.google.com/style/inclusive-documentation)
+in the documentation and in code reviews or comments. Don't assume backgrounds
+or experience - newcomers are not always beginners. They may be domain experts
+that recently got into coding or may have vast experience in other programming
+languages or relevant fields of work.
+
+It may be helpful to have a canned response, or a bot (such as the
+[GitHub Welcome bot](https://github.com/apps/welcome)) to welcome new
+contributors and give them useful links, and set expectations. While some people
+see bots as too impersonal, a bot can be better than ignoring contributions
+entirely.
+
+Here's an example of such a message:
+
+> Thank you for sending your first contribution to our project!
+>
+> If you need help with testing, writing documentation, or getting feedback, check out our *contribution guide*.
+>
+> We hope to review your contribution soon, but if you have not heard from us in a while, please feel free to contact our maintainers directly on a comment or on our *communication channels*.
+>
+>We strive to be a welcoming and open project. Please follow our *Code of Conduct*.
+
+Likewise, following up on a successful contribution with an encouraging comment
+can go a long way.
+
+> Congratulations on your first contribution to our project!
+>
+> If you are motivated, feel free to look at our *issue tracker* and pick another item to work on - we would love to hear from you again!
+
+## Guidance
+
+Depending on the focus and chosen workflow of your project, you may have
+different requirements for contributions. Some projects will have strict
+guidelines on commit messages; other projects ask that you never do a
+[rebase](https://git-scm.com/docs/git-rebase); most projects require larger
+changes or new features to be proposed to the community **before** a patch is
+sent.
+
+This information should be listed in your contribution guide, but if you can
+reinforce this in your interactions with newcomers, do it. These rules are
+probably obvious to you (the maintainer) but may not be obvious to someone from
+another background or another culture.
+
+GitHub provides [Pull Request templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+which can be used to provide checklists for contributors with all they need to
+do to get their contribution ready to be reviewed.
