@@ -120,7 +120,6 @@ format:
     code-copy: true
     code-overflow: wrap
     css: styles.css
-    include-after-body: js.html
 
 freeze: true
 
