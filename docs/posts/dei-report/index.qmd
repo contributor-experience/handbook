@@ -2,7 +2,7 @@
 title: "Fostering an Inclusive Culture: Call for Participation"
 subtitle: ""
 author: "Marco Gorelli, May Ireland, Melissa Mendonça, Inessa Pawson, Noa Tamir, Pamphile Roy"
-date: "25/04/2023"
+date: "04/25/2023"
 ---
 
 Have you often wondered how decisions get made across scientific open source
