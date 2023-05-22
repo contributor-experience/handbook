@@ -1,17 +1,129 @@
 [
   {
-    "objectID": "CONTRIBUTE.html",
-    "href": "CONTRIBUTE.html",
-    "title": "Contribution Guidelines",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Our Blog",
     "section": "",
-    "text": "There are quite a few ways to get involved with the Contributor Experience Project. You can:\n\njoin one of our community calls\njoin our Zulip chat\nshare your ideas by filing issues, submitting pull requests, or commenting on existing discussions\naddress issues filed by other contributors\nreview submitted PRs\n\n\n\nNever made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟"
+    "text": "Fostering an Inclusive Culture: Call for Participation\n\n\n\n\n\n\n\n\n\n\n\n\nApr 25, 2023\n\n\nMarco Gorelli, May Ireland, Melissa Mendonça, Inessa Pawson, Noa Tamir, Pamphile Roy\n\n\n\n\n\n\n  \n\n\n\n\nWhat is the difference between Contributor Experience and Community Management?\n\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nMelissa Mendonça, Inessa Pawson, Noa Tamir\n\n\n\n\n\n\n  \n\n\n\n\nAdvancing an inclusive culture in the scientific Python ecosystem\n\n\nOne year of work\n\n\n\n\n\n\n\n\n\nNov 3, 2022\n\n\nMelissa Mendonça, Inessa Pawson, Noa Tamir\n\n\n\n\n\n\n  \n\n\n\n\nHello World\n\n\nWelcome to our community blog\n\n\n\n\n\n\n\n\n\nSep 16, 2022\n\n\nNoa Tamir\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
-    "href": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
-    "title": "Contribution Guidelines",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Contributor  Experience Handbook",
     "section": "",
-    "text": "Never made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟"
+    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
+  },
+  {
+    "objectID": "docs/about/sponsors.html",
+    "href": "docs/about/sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "We are grateful to our sponsors"
+  },
+  {
+    "objectID": "docs/about/acknowledging_contributors.html",
+    "href": "docs/about/acknowledging_contributors.html",
+    "title": "Acknowledging Contributors",
+    "section": "",
+    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
+  },
+  {
+    "objectID": "docs/about/team.html",
+    "href": "docs/about/team.html",
+    "title": "Team & History",
+    "section": "",
+    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
+  },
+  {
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Our Code of Conduct",
+    "section": "",
+    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
+  },
+  {
+    "objectID": "docs/about/acknowledgments.html",
+    "href": "docs/about/acknowledgments.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Projects and people that helped inform our thinking and inspire our work. Including those whose resources we learned from, by taking their workshop, being active contributors to their projects, or passive members of their community, e.g. reading their documentation and having conversations:\n\nTania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
+  },
+  {
+    "objectID": "docs/about/calendar.html",
+    "href": "docs/about/calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse.\nJoin us every Friday at 4:30 pm UTC via Zoom. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)"
+  },
+  {
+    "objectID": "docs/about/deployment_guide.html",
+    "href": "docs/about/deployment_guide.html",
+    "title": "Deployment guide for this handbook",
+    "section": "",
+    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment."
+  },
+  {
+    "objectID": "docs/about/deployment_guide.html#details",
+    "href": "docs/about/deployment_guide.html#details",
+    "title": "Deployment guide for this handbook",
+    "section": "Details",
+    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub."
+  },
+  {
+    "objectID": "docs/about/comms_channels.html",
+    "href": "docs/about/comms_channels.html",
+    "title": "Communication Channels",
+    "section": "",
+    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
+  },
+  {
+    "objectID": "docs/guide/cx/the_cel_role.html",
+    "href": "docs/guide/cx/the_cel_role.html",
+    "title": "The Contributor Experience Role",
+    "section": "",
+    "text": "What is the Contributor Experience Lead’s role in an Open Source project?\nThe Contributor Experience Lead owns a part of what some of us have referred to so far as Community, Communication, and Documentation work. But not only those! 🤯 They have several areas of contribution, and as their contributions grow in prominence within the project they may very well be recognized as a maintainer, with contributions to code, and social infrastructure - and a focus on project sustainability.\nWhat do we mean by that? The Contributor Experience Lead has 4 areas of activity, and a broad range of skills to achieve results. Let’s break this down."
+  },
+  {
+    "objectID": "docs/guide/cx/the_cel_role.html#areas-of-activity",
+    "href": "docs/guide/cx/the_cel_role.html#areas-of-activity",
+    "title": "The Contributor Experience Role",
+    "section": "Areas of activity",
+    "text": "Areas of activity\n\nOnboarding\nTools Integration\nOutreach\nGovernance\n\nBy working in these 4 areas, the Contributor Experience Lead can support new and developing contributors as they work on the project. The goal of the Contributor Experience Lead is to improve the overall project culture and experience for everyone involved, to promote civility and collaboration, as well as diversity and inclusion. They look for actions they can take themselves, and experiences they can promote in the project as a whole. They are learners and need to adapt to the existing people and culture and build upon it. No two projects are alike.\nIn this guide, we will elaborate about techniques for each area of activity, sharing tools, resources, and experiences. Building systems, and providing examples to motivate how those systems work in practice in different projects."
+  },
+  {
+    "objectID": "docs/guide/cx/the_cel_role.html#skills",
+    "href": "docs/guide/cx/the_cel_role.html#skills",
+    "title": "The Contributor Experience Role",
+    "section": "Skills",
+    "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way."
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html",
+    "href": "docs/guide/tools/bots.html",
+    "title": "Useful Bots",
+    "section": "",
+    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!"
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "title": "Useful Bots",
+    "section": "Examples of useful bots",
+    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & issues with a welcome message that provides links to a project’s resources like contributing guidelines, code of conduct, community events calendar, etc.\nPR-Triage Bot helps automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributions such as PR reviews, ideas, discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record."
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
+    "href": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
+    "title": "Useful Bots",
+    "section": "How some projects use these bots",
+    "text": "How some projects use these bots\n\nThe Turing Way Record of Contributions using All-Contributors.\nAdd your example here"
+  },
+  {
+    "objectID": "docs/guide/introduction.html",
+    "href": "docs/guide/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
   },
   {
     "objectID": "docs/posts/cel-cm/index.html",
@@ -63,13 +175,6 @@
     "text": "What do you think?\nWe would love to hear from you - what do you think could be involved in this work?\nWe hope to create a community of practice around the contributor experience work and to open a more extensive discussion about the place this work has in existing (and new) open-source projects. If you want to talk about it, we host weekly community calls on Zoom. Anyone is welcome to join, chat, or just listen. Hope to see you around!"
   },
   {
-    "objectID": "docs/posts/dei-report/index.html",
-    "href": "docs/posts/dei-report/index.html",
-    "title": "Fostering an Inclusive Culture: Call for Participation",
-    "section": "",
-    "text": "Have you often wondered how decisions get made across scientific open source projects? Communications sometimes a little ‘off’? Think we can do better? Then now’s the time to get involved.\nMost folks who have been involved with open-source communities have thoughts and ideas about what we can do to be more inclusive and welcoming. However, rarely do we get a chance to have these conversations and express our points of view in a constructive, collaborative way.\nAs part of our CZI grant to Advance an Inclusive Culture in the scientific Python ecosystem, we (maintainers and contributors to NumPy, SciPy, Matplotlib and pandas) have been working in collaboration with May Ireland to create a report with areas that are top of mind when we talk about improving our projects’ cultures and being more inclusive. We want to be more intentional about attracting, supporting and retaining people from diverse backgrounds to join as contributors.\nAs a result of this report, we should like to focus on how we communicate with each other, resolve disputes and make more informed decisions. We’ll soon be kicking off a series of DEI Culture Labs to work on these three areas, and we would like to invite participation from members of our communities, whether already engaged with the projects or not. We would love to hear your ideas and understand what we can do differently.\nRead the DEI Insights Report and find out how you can help! You can also sign up here to the Contributor Experience Zulip chat, which is the communication channel we will be using for these conversations."
-  },
-  {
     "objectID": "docs/posts/Hello-world/index.html",
     "href": "docs/posts/Hello-world/index.html",
     "title": "Hello World",
@@ -105,116 +210,11 @@
     "text": "Learning\nThis kind of work requires trust, human connections and respect, and is often made invisible by the simplistic metrics we use to gauge contributions in open-source projects. This discussion would be worth a blog post on its own (more to come in the future!)\nIn 3 of the 4 project we joined as new contributors ourselves, which presented challenges as we needed to learn how the project works, and we weren’t immediately empowered to make decisions. Issues involving governance, communication and leadership are challenging to tackle, and we are particularly grateful to be working with a supportive team of leaders who are with us every step of the way. We have built new working relationships and are becoming more and more active in the projects as we open new pathways for the community to grow.\n\nResources\n\nBeyond the Basics: Contributor Experience, Diversity and Culture in Open Source Projects - Keynote at PyData Berlin/PyCon DE (Melissa Mendonça)\nContributing to SciPy - SciPy contributor onboarding video for DataUmbrella (Melissa Mendonça)\nWhat is Contributor Experience? & how do you lead it? - presented by Noa Tamir at PyData Berlin meetup\nContributor Experience Lead team introduction (PR to the conference proceedings) - presented by Inessa Pawson at SciPy US 2022 Tools Plenary Session\nAnnual update on the NumPy project (PR to the conference proceedings) - presented by Inessa Pawson at SciPy US 2022 Tools Plenary Session\nContributing to NumPy: a roadmap for newcomers - presented by Inessa Pawson at the Data for Good Regina monthly meeting on Jun 28, 2022\nNumPy Newcomers’ Hour documentation\nNew contributors meeting documentation (Matplotlib) and meeting notes"
   },
   {
-    "objectID": "docs/about/coc.html",
-    "href": "docs/about/coc.html",
-    "title": "Our Code of Conduct",
+    "objectID": "docs/posts/dei-report/index.html",
+    "href": "docs/posts/dei-report/index.html",
+    "title": "Fostering an Inclusive Culture: Call for Participation",
     "section": "",
-    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
-  },
-  {
-    "objectID": "docs/about/comms_channels.html",
-    "href": "docs/about/comms_channels.html",
-    "title": "Communication Channels",
-    "section": "",
-    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
-  },
-  {
-    "objectID": "docs/about/acknowledging_contributors.html",
-    "href": "docs/about/acknowledging_contributors.html",
-    "title": "Acknowledging Contributors",
-    "section": "",
-    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
-  },
-  {
-    "objectID": "docs/about/team.html",
-    "href": "docs/about/team.html",
-    "title": "Team & History",
-    "section": "",
-    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
-  },
-  {
-    "objectID": "docs/about/calendar.html",
-    "href": "docs/about/calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse.\nJoin us every Friday at 4:30 pm UTC via Zoom. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)"
-  },
-  {
-    "objectID": "docs/about/acknowledgments.html",
-    "href": "docs/about/acknowledgments.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "Projects and people that helped inform our thinking and inspire our work. Including those whose resources we learned from, by taking their workshop, being active contributors to their projects, or passive members of their community, e.g. reading their documentation and having conversations:\n\nTania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html",
-    "href": "docs/about/deployment_guide.html",
-    "title": "Deployment guide for this handbook",
-    "section": "",
-    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment."
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html#details",
-    "href": "docs/about/deployment_guide.html#details",
-    "title": "Deployment guide for this handbook",
-    "section": "Details",
-    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub."
-  },
-  {
-    "objectID": "docs/about/sponsors.html",
-    "href": "docs/about/sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "We are grateful to our sponsors"
-  },
-  {
-    "objectID": "docs/guide/introduction.html",
-    "href": "docs/guide/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
-  },
-  {
-    "objectID": "docs/guide/cx/the_cel_role.html",
-    "href": "docs/guide/cx/the_cel_role.html",
-    "title": "The Contributor Experience Role",
-    "section": "",
-    "text": "What is the Contributor Experience Lead’s role in an Open Source project?\nThe Contributor Experience Lead owns a part of what some of us have referred to so far as Community, Communication, and Documentation work. But not only those! 🤯 They have several areas of contribution, and as their contributions grow in prominence within the project they may very well be recognized as a maintainer, with contributions to code, and social infrastructure - and a focus on project sustainability.\nWhat do we mean by that? The Contributor Experience Lead has 4 areas of activity, and a broad range of skills to achieve results. Let’s break this down."
-  },
-  {
-    "objectID": "docs/guide/cx/the_cel_role.html#areas-of-activity",
-    "href": "docs/guide/cx/the_cel_role.html#areas-of-activity",
-    "title": "The Contributor Experience Role",
-    "section": "Areas of activity",
-    "text": "Areas of activity\n\nOnboarding\nTools Integration\nOutreach\nGovernance\n\nBy working in these 4 areas, the Contributor Experience Lead can support new and developing contributors as they work on the project. The goal of the Contributor Experience Lead is to improve the overall project culture and experience for everyone involved, to promote civility and collaboration, as well as diversity and inclusion. They look for actions they can take themselves, and experiences they can promote in the project as a whole. They are learners and need to adapt to the existing people and culture and build upon it. No two projects are alike.\nIn this guide, we will elaborate about techniques for each area of activity, sharing tools, resources, and experiences. Building systems, and providing examples to motivate how those systems work in practice in different projects."
-  },
-  {
-    "objectID": "docs/guide/cx/the_cel_role.html#skills",
-    "href": "docs/guide/cx/the_cel_role.html#skills",
-    "title": "The Contributor Experience Role",
-    "section": "Skills",
-    "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way."
-  },
-  {
-    "objectID": "docs/guide/tools/bots.html",
-    "href": "docs/guide/tools/bots.html",
-    "title": "Useful Bots",
-    "section": "",
-    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!"
-  },
-  {
-    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "title": "Useful Bots",
-    "section": "Examples of useful bots",
-    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & issues with a welcome message that provides links to a project’s resources like contributing guidelines, code of conduct, community events calendar, etc.\nPR-Triage Bot helps automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributions such as PR reviews, ideas, discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record."
-  },
-  {
-    "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
-    "href": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
-    "title": "Useful Bots",
-    "section": "How some projects use these bots",
-    "text": "How some projects use these bots\n\nThe Turing Way Record of Contributions using All-Contributors.\nAdd your example here"
+    "text": "Have you often wondered how decisions get made across scientific open source projects? Communications sometimes a little ‘off’? Think we can do better? Then now’s the time to get involved.\nMost folks who have been involved with open-source communities have thoughts and ideas about what we can do to be more inclusive and welcoming. However, rarely do we get a chance to have these conversations and express our points of view in a constructive, collaborative way.\nAs part of our CZI grant to Advance an Inclusive Culture in the scientific Python ecosystem, we (maintainers and contributors to NumPy, SciPy, Matplotlib and pandas) have been working in collaboration with May Ireland to create a report with areas that are top of mind when we talk about improving our projects’ cultures and being more inclusive. We want to be more intentional about attracting, supporting and retaining people from diverse backgrounds to join as contributors.\nAs a result of this report, we should like to focus on how we communicate with each other, resolve disputes and make more informed decisions. We’ll soon be kicking off a series of DEI Culture Labs to work on these three areas, and we would like to invite participation from members of our communities, whether already engaged with the projects or not. We would love to hear your ideas and understand what we can do differently.\nRead the DEI Insights Report and find out how you can help! You can also sign up here to the Contributor Experience Zulip chat, which is the communication channel we will be using for these conversations."
   },
   {
     "objectID": "about.html",
@@ -224,17 +224,17 @@
     "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThis work is currently supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program.\nThis work is also supported by Quansight and NumFOCUS."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Contributor  Experience Handbook",
+    "objectID": "CONTRIBUTE.html",
+    "href": "CONTRIBUTE.html",
+    "title": "Contribution Guidelines",
     "section": "",
-    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
+    "text": "There are quite a few ways to get involved with the Contributor Experience Project. You can:\n\njoin one of our community calls\njoin our Zulip chat\nshare your ideas by filing issues, submitting pull requests, or commenting on existing discussions\naddress issues filed by other contributors\nreview submitted PRs\n\n\n\nNever made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Our Blog",
+    "objectID": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
+    "href": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
+    "title": "Contribution Guidelines",
     "section": "",
-    "text": "Fostering an Inclusive Culture: Call for Participation\n\n\n\n\n\n\n\n\n\n\n\n\nApr 25, 2023\n\n\nMarco Gorelli, May Ireland, Melissa Mendonça, Inessa Pawson, Noa Tamir, Pamphile Roy\n\n\n\n\n\n\n  \n\n\n\n\nWhat is the difference between Contributor Experience and Community Management?\n\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nMelissa Mendonça, Inessa Pawson, Noa Tamir\n\n\n\n\n\n\n  \n\n\n\n\nAdvancing an inclusive culture in the scientific Python ecosystem\n\n\nOne year of work\n\n\n\n\n\n\n\n\n\nNov 3, 2022\n\n\nMelissa Mendonça, Inessa Pawson, Noa Tamir\n\n\n\n\n\n\n  \n\n\n\n\nHello World\n\n\nWelcome to our community blog\n\n\n\n\n\n\n\n\n\nSep 16, 2022\n\n\nNoa Tamir\n\n\n\n\n\n\nNo matching items"
+    "text": "Never made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟"
   }
 ]
