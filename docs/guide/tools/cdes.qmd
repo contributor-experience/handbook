@@ -4,23 +4,23 @@ sidebar: guide
 ---
 
 Cloud development environments are remote virtual machines that allow you to
-code, write and otherwise run computational tasks remotely, often using a
+code, write, and otherwise run computational tasks remotely, often using a
 browser-based interface. Examples of such environments are
 [Gitpod](https://gitpod.io/) and
 [GitHub Codespaces](https://github.com/features/codespaces). Here are a few
 situations when they can be helpful:
 
-- When the development set up for your project is too complex for newcomers, or
+- when the development set up for your project is too complex for newcomers, or
   requires a particular OS or machine type;
-- When the time required to do a development set up would be impractical (for
+- when the time required to do a development set up would be impractical (for
   example, when running sprints);
-- When you need to review a Pull Request without cloning the repository and
+- when you need to review a Pull Request without cloning the repository and
   setting up the full development environment.
 
 You can have a default cloud development environment that reproduces the machine
 type you want to work on, or you can configure a pre-set environment that comes
 ready-to-use. For each of these tools, there are free plans including a number
-of computational hours, memory or disk-usage available.
+of computational hours, memory, or disk-usage available.
 
 Here are the main such tools available today and a few examples of how they can
 be set up.
@@ -28,7 +28,7 @@ be set up.
 ## Gitpod
 
 [Gitpod](https://gitpod.io/) can be used from several different code repository
-services including GitHub, GitLab and Bitbucket. To use it, you can pre-pend the
+services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the
 repository URL with the string `gitpod.io/#`, or you can install a browser
 extension to add a `Gitpod` button to your GitHub interface.
 
