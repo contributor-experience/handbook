@@ -2,5 +2,6 @@
 title: "Sponsors"
 ---
 
-We are grateful to our sponsors
+We are grateful to be sponsored by the Chan Zuckerberg Initiative through their
+EOSS program.
 
