@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contributor Experience Handbook - Gitpod</title>
+<title>Contributor Experience Handbook - Cloud development environments</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<link href="../../../docs/guide/tools/bots.html" rel="prev">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -128,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Gitpod</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/guide/tools/introduction.html">Tools Collection</a></li><li class="breadcrumb-item"><a href="../../../docs/guide/tools/cdes.html">Cloud development environments</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -228,13 +229,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
  <span class="menu-text">Tools Collection</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/guide/tools/introduction.html" class="sidebar-item-text sidebar-link">
@@ -247,6 +248,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Useful Bots</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/tools/cdes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Cloud development environments</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -255,14 +262,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#gitpod" id="toc-gitpod" class="nav-link active" data-scroll-target="#gitpod">Gitpod</a></li>
+  <li><a href="#github-codespaces" id="toc-github-codespaces" class="nav-link" data-scroll-target="#github-codespaces">GitHub Codespaces</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/tools/cdes.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gitpod</h1>
+<h1 class="title">Cloud development environments</h1>
 </div>
 
 
@@ -277,8 +291,54 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Cloud development environments are remote virtual machines that allow you to code, write, and otherwise run computational tasks remotely, often using a browser-based interface. Examples of such environments are <a href="https://gitpod.io/">Gitpod</a> and <a href="https://github.com/features/codespaces">GitHub Codespaces</a>. Here are a few situations when they can be helpful:</p>
+<ul>
+<li>when the development set up for your project is too complex for newcomers, or requires a particular OS or machine type;</li>
+<li>when the time required to do a development set up would be impractical (for example, when running sprints);</li>
+<li>when you need to review a Pull Request without cloning the repository and setting up the full development environment.</li>
+</ul>
+<p>You can have a default cloud development environment that reproduces the machine type you want to work on, or you can configure a pre-set environment that comes ready-to-use. For each of these tools, there are free plans including a number of computational hours, memory, or disk-usage available.</p>
+<p>Here are the main such tools available today and a few examples of how they can be set up.</p>
+<section id="gitpod" class="level2">
+<h2 class="anchored" data-anchor-id="gitpod">Gitpod</h2>
+<p><a href="https://gitpod.io/">Gitpod</a> can be used from several different code repository services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the repository URL with the string <code>gitpod.io/#</code>, or you can install a browser extension to add a <code>Gitpod</code> button to your GitHub interface.</p>
+<p>Gitpod also supports <a href="https://www.gitpod.io/docs/references/ides-and-editors#supported-ideeditors">a number of popular IDEs</a> so you can have a personalized experience.</p>
+<p>See <a href="https://www.gitpod.io/docs/introduction/getting-started">the Gitpod documentation</a> for more information.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: pandas
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Check the <a href="https://pandas.pydata.org/docs/dev/development/contributing_gitpod.html">pandas documentation on using Gitpod for development</a>.</p>
+</div>
+</div>
+<p>To configure a pre-set development environment on Gitpod, you can either build a custom <code>docker</code> image with the tools and dependencies you need, or use a <a href="https://www.gitpod.io/docs/references/gitpod-yml"><code>.gitpod.yml</code> file</a>, which will live on the root of your repository. You can, for example, set the system dependencies necessary to build and test your software project, or pre-install tools and even IDE extensions or plugins you’d like your contributors to use.</p>
+</section>
+<section id="github-codespaces" class="level2">
+<h2 class="anchored" data-anchor-id="github-codespaces">GitHub Codespaces</h2>
+<p>GitHub Codespaces is, as the name suggests, <a href="https://docs.github.com/en/codespaces">limited to use with GitHub</a>. Similarly to Gitpod, it can also be set up with appropriate customizations by the use of a <a href="https://docs.github.com/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers"><code>devcontainer.json</code> file</a>.</p>
+<p>In addition, you can also select from <a href="https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/adding-features-to-a-devcontainer-file">a list of pre-built features</a> to add to your base image so you don’t have to build the custom docker image yourself.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: NumPy
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Check the <a href="https://github.com/numpy/numpy/tree/main/.devcontainer">configuration for Codespaces</a> on the NumPy repository.</p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -514,6 +574,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../docs/guide/tools/bots.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Useful Bots</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -527,7 +596,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="../../../LICENSE">License</a>
   </li>  
 </ul>
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/tools/gitpod.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
