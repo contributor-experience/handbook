@@ -10,6 +10,6 @@ the community's communication style impacts their engagement and sense of
 belonging.
 
 In this section, we'll catalogue a list of tools to address these issues. This
-list is far from definitive, and we expect it to grow and change over time to
-describe other kinds of interactions and new tools that become available in this
+list is far from definitive, and we expect it to grow and change over time as 
+our understanding of this topic evolves and new tools become available in this
 space.
