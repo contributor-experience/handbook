@@ -1,0 +1,74 @@
+---
+title: "Cloud development environments"
+sidebar: guide
+---
+
+Cloud development environments are remote virtual machines that allow you to
+code, write, and otherwise run computational tasks remotely, often using a
+browser-based interface. Examples of such environments are
+[Gitpod](https://gitpod.io/) and
+[GitHub Codespaces](https://github.com/features/codespaces). Here are a few
+situations when they can be helpful:
+
+- when the development set up for your project is too complex for newcomers, or
+  requires a particular OS or machine type;
+- when the time required to do a development set up would be impractical (for
+  example, when running sprints);
+- when you need to review a Pull Request without cloning the repository and
+  setting up the full development environment.
+
+You can have a default cloud development environment that reproduces the machine
+type you want to work on, or you can configure a pre-set environment that comes
+ready-to-use. For each of these tools, there are free plans including a number
+of computational hours, memory, or disk-usage available.
+
+Here are the main such tools available today and a few examples of how they can
+be set up.
+
+## Gitpod
+
+[Gitpod](https://gitpod.io/) can be used from several different code repository
+services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the
+repository URL with the string `gitpod.io/#`, or you can install a browser
+extension to add a `Gitpod` button to your GitHub interface.
+
+Gitpod also supports
+[a number of popular IDEs](https://www.gitpod.io/docs/references/ides-and-editors#supported-ideeditors)
+so you can have a personalized experience.
+
+See
+[the Gitpod documentation](https://www.gitpod.io/docs/introduction/getting-started)
+for more information.
+
+::: {.callout-tip}
+## Example: pandas
+
+Check the
+[pandas documentation on using Gitpod for development](https://pandas.pydata.org/docs/dev/development/contributing_gitpod.html).
+:::
+
+To configure a pre-set development environment on Gitpod, you can either build a
+custom `docker` image with the tools and dependencies you need, or use a
+[`.gitpod.yml` file](https://www.gitpod.io/docs/references/gitpod-yml), which
+will live on the root of your repository. You can, for example, set the system
+dependencies necessary to build and test your software project, or pre-install
+tools and even IDE extensions or plugins you'd like your contributors to use.
+
+## GitHub Codespaces
+
+GitHub Codespaces is, as the name suggests,
+[limited to use with GitHub](https://docs.github.com/en/codespaces). Similarly
+to Gitpod, it can also be set up with appropriate customizations by the use of a
+[`devcontainer.json` file](https://docs.github.com/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers).
+
+In addition, you can also select from
+[a list of pre-built features](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/adding-features-to-a-devcontainer-file) to add to your base image so you don't
+have to build the custom docker image yourself.
+
+::: {.callout-tip}
+## Example: NumPy
+
+Check the
+[configuration for Codespaces](https://github.com/numpy/numpy/tree/main/.devcontainer)
+on the NumPy repository.
+:::

@@ -112,6 +112,7 @@ website:
           contents:
             - docs/guide/tools/introduction.qmd
             - docs/guide/tools/bots.qmd
+            - docs/guide/tools/cdes.qmd
 
 format:
   html:

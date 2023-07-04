@@ -5,10 +5,7 @@ title: "Calendar"
 We currently hold regular informal community meetings to discuss all things 
 contributor experience. We are also planning on organizing more structured events 
 to collaborate on documentation, host guest speakers, and highlight case studies 
-from around OSSverse.  
-
-Join us every Friday at 4:30 pm UTC via [Zoom](https://numfocus-org.zoom.us/j/81082067424?pwd=bVNqWXhqSXZEdTl6ZzFsa1lJZ08xZz09).
-Everyone is welcome to attend and contribute to a conversation.
+from around OSSverse. Everyone is welcome to attend and contribute to a conversation.
 
 To keep track of our community events, subscribe to the Contributor Experience Project 
 calendar using the following [link](https://scientific-python.org/calendars/contributor-experience.ics). 
