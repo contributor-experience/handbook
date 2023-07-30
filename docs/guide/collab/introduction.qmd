@@ -3,4 +3,15 @@ title: "Introduction"
 sidebar: guide
 ---
 
+Every open source project is different, but there are many activities that may
+help contributors and maintainers collaborate in a productive, positive and
+healthy environment.
 
+This section aims to collect a few of these practices and experiences to make it
+easier for folks to identify what might work for their projects.
+
+::: {.callout-note}
+Note that the content in these pages is not meant to be seen as a ladder, or as
+a checklist of what a project needs to be successful. Each project has its own
+needs and community, so feel free to take what is useful and leave what is not.
+:::
