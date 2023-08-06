@@ -14,53 +14,11 @@
     "text": "Never made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟"
   },
   {
-    "objectID": "docs/about/coc.html",
-    "href": "docs/about/coc.html",
-    "title": "Our Code of Conduct",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Contributor  Experience Handbook",
     "section": "",
-    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
-  },
-  {
-    "objectID": "docs/about/calendar.html",
-    "href": "docs/about/calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)"
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html",
-    "href": "docs/about/deployment_guide.html",
-    "title": "Deployment guide for this handbook",
-    "section": "",
-    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment."
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html#details",
-    "href": "docs/about/deployment_guide.html#details",
-    "title": "Deployment guide for this handbook",
-    "section": "Details",
-    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub."
-  },
-  {
-    "objectID": "docs/guide/tools/cdes.html",
-    "href": "docs/guide/tools/cdes.html",
-    "title": "Cloud development environments",
-    "section": "",
-    "text": "Cloud development environments are remote virtual machines that allow you to code, write, and otherwise run computational tasks remotely, often using a browser-based interface. Examples of such environments are Gitpod and GitHub Codespaces. Here are a few situations when they can be helpful:\nYou can have a default cloud development environment that reproduces the machine type you want to work on, or you can configure a pre-set environment that comes ready-to-use. For each of these tools, there are free plans including a number of computational hours, memory, or disk-usage available.\nHere are the main such tools available today and a few examples of how they can be set up."
-  },
-  {
-    "objectID": "docs/guide/tools/cdes.html#gitpod",
-    "href": "docs/guide/tools/cdes.html#gitpod",
-    "title": "Cloud development environments",
-    "section": "Gitpod",
-    "text": "Gitpod\nGitpod can be used from several different code repository services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the repository URL with the string gitpod.io/#, or you can install a browser extension to add a Gitpod button to your GitHub interface.\nGitpod also supports a number of popular IDEs so you can have a personalized experience.\nSee the Gitpod documentation for more information.\n\n\n\n\n\n\nExample: pandas\n\n\n\nCheck the pandas documentation on using Gitpod for development.\n\n\nTo configure a pre-set development environment on Gitpod, you can either build a custom docker image with the tools and dependencies you need, or use a .gitpod.yml file, which will live on the root of your repository. You can, for example, set the system dependencies necessary to build and test your software project, or pre-install tools and even IDE extensions or plugins you’d like your contributors to use."
-  },
-  {
-    "objectID": "docs/guide/tools/cdes.html#github-codespaces",
-    "href": "docs/guide/tools/cdes.html#github-codespaces",
-    "title": "Cloud development environments",
-    "section": "GitHub Codespaces",
-    "text": "GitHub Codespaces\nGitHub Codespaces is, as the name suggests, limited to use with GitHub. Similarly to Gitpod, it can also be set up with appropriate customizations by the use of a devcontainer.json file.\nIn addition, you can also select from a list of pre-built features to add to your base image so you don’t have to build the custom docker image yourself.\n\n\n\n\n\n\nExample: NumPy\n\n\n\nCheck the configuration for Codespaces on the NumPy repository."
+    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
   },
   {
     "objectID": "docs/guide/cx/the_cel_role.html",
@@ -84,18 +42,200 @@
     "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way."
   },
   {
-    "objectID": "docs/guide/introduction.html",
-    "href": "docs/guide/introduction.html",
-    "title": "Introduction",
+    "objectID": "docs/guide/cx/onboarding.html",
+    "href": "docs/guide/cx/onboarding.html",
+    "title": "Onboarding newcomers",
     "section": "",
-    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
+    "text": "Whether you are just getting started with a small project that you would like to see grow, or working on a large established project that needs to be sustainable, you may want to find, onboard and train new contributors to your project. Below are a few ideas about contributor onboarding and how to make it work."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Contributor  Experience Handbook",
+    "objectID": "docs/guide/cx/onboarding.html#growing-your-contributor-community",
+    "href": "docs/guide/cx/onboarding.html#growing-your-contributor-community",
+    "title": "Onboarding newcomers",
+    "section": "Growing your contributor community",
+    "text": "Growing your contributor community\nResearch shows that one of the prime factors driving new contributions to an open source project is popularity. This means that you can expect a popular project to have a steady stream of contributors looking to participate.\nIf that’s not your case, you may want to invest in a few actions that will help.\n\n1. Good documentation\nWhether you are looking for code, documentation, community or any other kind of contribution, make sure your onboarding workflow is well documented and up-to-date. There are many excellent resources available online about good general documentation, including the WriteTheDocs community. If you have the resources, consider creating user stories and/or contributor journey maps to identify points of friction.\n\n\n2. Listen to your community\nThe more connected you are with your community and your user-base, the better. This can be very hard, especially if you have a broad user-base or if your community doesn’t have a way to connect with maintainers. If you have a user forum, any communication channels or social media accounts, use them as a way to understand your community needs and also how they can help you - listen to your experienced users, domain experts and other engaged community members.\n\n\n3. “Good first issues”\n\n\n\nGitHub comment on a Good First issue with the following text: Good first issue - notes for new contributors. This issue is suited to new contributors because it does not require understanding of the Matplotlib internals. To get started, please see our contributing guide. We do not assign issues. Check the Development section in the sidebar for linked pull requests (PRs). If there are none, feel free to start working on it. If there is an open PR, please collaborate on the work by reviewing it rather than duplicating it in a competing PR. If something is unclear, please reach out on any of our communication channels.\n\n\nGood first issues selected by the community are a good way to help newcomers choose tasks to work on. They should be relatively self-contained, and ideally they can be easily found by newcomers on your issue tracker (either through search, labels or your website).\n\n\n4. Sprints\nWorking sprints can be self-organized or attached to an event, such as a conference or meetup. Although they are short and often unpredictable in audience size, many people look at sprints as a way to get started with some degree of assistance from another contributor.\nSprints are a good opportunity to get people started on tasks that are not necessarily self-contained, and thus wouldn’t fit a “Good first issue” classification - but that might be tractable on a two-day sprint, with a maintainer around to answer questions.\n\n\n\nSprintable label on NumPy GitHub repositoy, described as “Issue fits the time-frame and setting of a sprint”"
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#ask-why-they-are-here",
+    "href": "docs/guide/cx/onboarding.html#ask-why-they-are-here",
+    "title": "Onboarding newcomers",
+    "section": "Ask why they are here",
+    "text": "Ask why they are here\nPeople contribute to open source for a variety of reasons: they may be users looking to solve a bug or add a feature they need themselves; they may be looking for opportunities to learn or develop their skills; they may be looking for professional networking opportunities or some type of recognition to improve job prospects in the future. In any case, don’t assume you know why they are here! The best way to understand what they want and how you can work together is to ask."
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#casting-a-wide-net-vs.-recruiting-for-specific-tasks",
+    "href": "docs/guide/cx/onboarding.html#casting-a-wide-net-vs.-recruiting-for-specific-tasks",
+    "title": "Onboarding newcomers",
+    "section": "Casting a wide net vs. recruiting for specific tasks",
+    "text": "Casting a wide net vs. recruiting for specific tasks\nWhile it may be tempting to wait for the perfect person who has the background, experience and knowledge to implement that one feature you have been waiting for, it may pay off to cast a wide net and be open to folks who may bring different skills, expertise and interests to your community.\nHowever, if you are short on resources or don’t have the bandwidth to onboard folks, it is perfectly fair (and healthy!) to set expectations clearly. If you need people to know a version control system such as Git before joining your project, make sure this is communicated clearly. This will avoid frustration on both sides and will help you and your contributors spend time more effectively."
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#mentoring",
+    "href": "docs/guide/cx/onboarding.html#mentoring",
+    "title": "Onboarding newcomers",
+    "section": "Mentoring",
+    "text": "Mentoring\nIndividual mentoring takes time and effort. This will most likely include teaching concepts, reviewing contributions, providing detailed feedback and outlining the reason behind project decisions. It is important to be clear with your mentee about the time commitment you are able to make, and to set clear expectations about the level of support you are able to provide."
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#forging-pathways-and-setting-expectations",
+    "href": "docs/guide/cx/onboarding.html#forging-pathways-and-setting-expectations",
+    "title": "Onboarding newcomers",
+    "section": "Forging pathways and setting expectations",
+    "text": "Forging pathways and setting expectations\nFor a lot of projects, the only contribution pathway readily available is code. However, healthy communities might need a wide range of skills and contribution types, including documentation, design, community management, translations, and even help with fundraising. If you are looking for a specific type of contribution, make sure you communicate that clearly."
+  },
+  {
+    "objectID": "docs/guide/tools/introduction.html",
+    "href": "docs/guide/tools/introduction.html",
+    "title": "Introduction",
     "section": "",
-    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and join the conversation join our contributor community meetings ✨"
+    "text": "Contributor Experience can be used to describe how a contributor perceives their interactions with a community or project. More specifically in our case, it can mean how much friction a new contributor faces to create a pull request, or how the community’s communication style impacts their engagement and sense of belonging.\nIn this section, we’ll catalogue a list of tools to address these issues. This list is far from definitive, and we expect it to grow and change over time as our understanding of this topic evolves and new tools become available in this space."
+  },
+  {
+    "objectID": "docs/guide/collab/introduction.html",
+    "href": "docs/guide/collab/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Every open source project is different, but there are many activities that may help contributors and maintainers collaborate in a productive, positive and healthy environment.\nThis section aims to collect a few of these practices and experiences to make it easier for folks to identify what might work for their projects.\n\n\n\n\n\n\nNote\n\n\n\nNote that the content in these pages is not meant to be seen as a ladder, or as a checklist of what a project needs to be successful. Each project has its own needs and community, so feel free to take what is useful and leave what is not."
+  },
+  {
+    "objectID": "docs/about/sponsors.html",
+    "href": "docs/about/sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "We are grateful to be sponsored by the Chan Zuckerberg Initiative through their EOSS program."
+  },
+  {
+    "objectID": "docs/about/acknowledgments.html",
+    "href": "docs/about/acknowledgments.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Projects and people that helped inform our thinking and inspire our work. Including those whose resources we learned from, by taking their workshop, being active contributors to their projects, or passive members of their community, e.g. reading their documentation and having conversations:\n\nTania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
+  },
+  {
+    "objectID": "docs/about/acknowledging_contributors.html",
+    "href": "docs/about/acknowledging_contributors.html",
+    "title": "Acknowledging Contributors",
+    "section": "",
+    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
+  },
+  {
+    "objectID": "docs/about/deployment_guide.html",
+    "href": "docs/about/deployment_guide.html",
+    "title": "Deployment guide for this handbook",
+    "section": "",
+    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment."
+  },
+  {
+    "objectID": "docs/about/deployment_guide.html#details",
+    "href": "docs/about/deployment_guide.html#details",
+    "title": "Deployment guide for this handbook",
+    "section": "Details",
+    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub."
+  },
+  {
+    "objectID": "docs/about/team.html",
+    "href": "docs/about/team.html",
+    "title": "Team & History",
+    "section": "",
+    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
+  },
+  {
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Our Code of Conduct",
+    "section": "",
+    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct."
+  },
+  {
+    "objectID": "docs/about/calendar.html",
+    "href": "docs/about/calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)"
+  },
+  {
+    "objectID": "docs/about/comms_channels.html",
+    "href": "docs/about/comms_channels.html",
+    "title": "Communication Channels",
+    "section": "",
+    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html",
+    "href": "docs/guide/collab/meetings.html",
+    "title": "Meetings",
+    "section": "",
+    "text": "For many open-source projects, collaboration happens primarily on text-based online forums such as a project’s issue tracker or a community forum. Over time, maintainers and contributors may feel they would benefit from having synchronous meetings to discuss project matters or to organize discussions around roadmap, specific projects or the general governance of the project.\nIn addition, having dedicated meeting times for triage, onboarding newcomers or working groups such as documentation, website, design or translations may also be helpful.\nThe following guide, developed in collaboration with the Scientific Python project, describes a few of the meetings we have experimented with and when they are useful: Meeting types."
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#community-meetings",
+    "href": "docs/guide/collab/meetings.html#community-meetings",
+    "title": "Meetings",
+    "section": "Community meetings",
+    "text": "Community meetings\nRegular community meetings are essential for larger projects that require a high level of coordination in different projects, roadmap items or governance. However, even smaller projects may benefit from synchronous discussions. These meetings can be a way to:\n\nConnect with your community, and put a human face on the people behind the commit handle. This can be especially helpful when dubious or unclear communication happens via text - a conversation can prevent many conflicts from arising.\nDiscuss complex technical implementations or conduct contribution reviews. This can be its own meeting (a “triage meeting”) but depending on your community needs it can be helpful and make the review of a long or complex contribution faster.\nPlan for your roadmap or create strategies for high-stakes projects. Funding, new releases, architectural or governance decisions can also benefit from a live discussion. In this case, it is even more important to keep a record of the discussion and, ideally, keep that record public for your community to consult."
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#new-contributor-meetings",
+    "href": "docs/guide/collab/meetings.html#new-contributor-meetings",
+    "title": "Meetings",
+    "section": "New contributor meetings",
+    "text": "New contributor meetings\nA special type of meeting we have been experimenting with is the “newcomer” or “New contributor” meetings. As noted in the page linked above, these can be organized as “Office hours” meetings - inviting questions and requests for support from new contributors; they can be organized as webinars, with talks or sessions on a specific aspect of contributing, such as the contribution workflow or running tests, for example; and they can also be practical working sessions, such as a walking through a full contribution task with the participants.\nProjects with a larger contributor base will find more value in these meetings than projects with a low number of new contributors. Make sure to also consider timezones and maintainer bandwidth when considering these meetings for your project. One central point to keep in mind is to use these meetings as an opportunity to set expectations for newcomers - about how long it takes for a contribution to be reviewed, how new features are discussed in the project or the areas that would best be served by contributors with less experience in the project."
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
+    "href": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
+    "title": "Meetings",
+    "section": "Optional: Post-meeting poll",
+    "text": "Optional: Post-meeting poll\nIf you are interested in having anonymous feedback from meeting attendees, consider setting up a post-meeting poll to ask if the meeting was useful, if they felt welcome or if they need extra support. Many meeting platforms support this as an automatic feature, but you can also share a link during the meeting."
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#general-tips",
+    "href": "docs/guide/collab/meetings.html#general-tips",
+    "title": "Meetings",
+    "section": "General tips",
+    "text": "General tips\n\nMake sure you mention your Code of Conduct or any other expectations for positive participation in your community as often as possible.\nThere is no rule for how long a meeting will last, or what day/time is best. Consider alternating timezones regularly, experimenting with different times and be ready to reevaluate if you feel things are not working that well.\nHave a meeting notes document, ideally open to all. This document will contain the agenda for the meeting, notes on what was decided/discussed, and if appropriate a record of who attended (with their internet handle attached if they are comfortable sharing!). For our new contributors meeting this is particularly important so that we can track folks who come to the meeting in our issues trackers later. Make sure you ask for consent before noting personal information in the notes if they are kept public.\nHave a public calendar listed on your website, and make sure to keep it up-to-date, particularly if you need to cancel a regular meeting.\nIf you use different communication channels, such as mailing lists, slack or other asynchronous chat/forum platform, make sure to announce the meetings there.\nMeetings tend to be more useful and productive if a basic agenda is set in advance, so that folks know what will be discussed during that time.\nIt may be useful to record the session for the benefit of those who cannot attend, or to share online with the larger community. In that case, be sure to ask for consent to record, and offer people to mute and turn off their video.\n\n\n\n\n\n\n\nTip\n\n\n\nMany people benefit from these meetings, but for many different reasons can’t turn on their camera or speak aloud during the meeting. This may be due to internet issues, hardware or personal situations including their work environment or accessibility requirements. Ideally, they need a way to participate via text, either through the meeting chat or the meeting notes document."
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html",
+    "href": "docs/guide/tools/bots.html",
+    "title": "Useful Bots",
+    "section": "",
+    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!"
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "title": "Useful Bots",
+    "section": "Examples of useful bots",
+    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & issues with a welcome message that provides links to a project’s resources like contributing guidelines, code of conduct, community events calendar, etc.\nPR-Triage Bot helps automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributions such as PR reviews, ideas, discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record."
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
+    "href": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
+    "title": "Useful Bots",
+    "section": "How some projects use these bots",
+    "text": "How some projects use these bots\n\nThe Turing Way Record of Contributions using All-Contributors.\nAdd your example here"
+  },
+  {
+    "objectID": "docs/guide/tools/cdes.html",
+    "href": "docs/guide/tools/cdes.html",
+    "title": "Cloud development environments",
+    "section": "",
+    "text": "Cloud development environments are remote virtual machines that allow you to code, write, and otherwise run computational tasks remotely, often using a browser-based interface. Examples of such environments are Gitpod and GitHub Codespaces. Here are a few situations when they can be helpful:\nYou can have a default cloud development environment that reproduces the machine type you want to work on, or you can configure a pre-set environment that comes ready-to-use. For each of these tools, there are free plans including a number of computational hours, memory, or disk-usage available.\nHere are the main such tools available today and a few examples of how they can be set up."
+  },
+  {
+    "objectID": "docs/guide/tools/cdes.html#gitpod",
+    "href": "docs/guide/tools/cdes.html#gitpod",
+    "title": "Cloud development environments",
+    "section": "Gitpod",
+    "text": "Gitpod\nGitpod can be used from several different code repository services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the repository URL with the string gitpod.io/#, or you can install a browser extension to add a Gitpod button to your GitHub interface.\nGitpod also supports a number of popular IDEs so you can have a personalized experience.\nSee the Gitpod documentation for more information.\n\n\n\n\n\n\nExample: pandas\n\n\n\nCheck the pandas documentation on using Gitpod for development.\n\n\nTo configure a pre-set development environment on Gitpod, you can either build a custom docker image with the tools and dependencies you need, or use a .gitpod.yml file, which will live on the root of your repository. You can, for example, set the system dependencies necessary to build and test your software project, or pre-install tools and even IDE extensions or plugins you’d like your contributors to use."
+  },
+  {
+    "objectID": "docs/guide/tools/cdes.html#github-codespaces",
+    "href": "docs/guide/tools/cdes.html#github-codespaces",
+    "title": "Cloud development environments",
+    "section": "GitHub Codespaces",
+    "text": "GitHub Codespaces\nGitHub Codespaces is, as the name suggests, limited to use with GitHub. Similarly to Gitpod, it can also be set up with appropriate customizations by the use of a devcontainer.json file.\nIn addition, you can also select from a list of pre-built features to add to your base image so you don’t have to build the custom docker image yourself.\n\n\n\n\n\n\nExample: NumPy\n\n\n\nCheck the configuration for Codespaces on the NumPy repository."
   },
   {
     "objectID": "docs/guide/cx/tracking_prs.html",
@@ -126,67 +266,11 @@
     "text": "Guidance\nDepending on the focus and chosen workflow of your project, you may have different requirements for contributions. Some projects will have strict guidelines on commit messages; other projects ask that you never do a rebase; most projects require larger changes or new features to be proposed to the community before a patch is sent.\nThis information should be listed in your contribution guide, but if you can reinforce this in your interactions with newcomers, do it. These rules are probably obvious to you (the maintainer) but may not be obvious to someone from another background or another culture.\nGitHub provides Pull Request templates which can be used to provide checklists for contributors with all they need to do to get their contribution ready to be reviewed."
   },
   {
-    "objectID": "docs/guide/tools/bots.html",
-    "href": "docs/guide/tools/bots.html",
-    "title": "Useful Bots",
-    "section": "",
-    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!"
-  },
-  {
-    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "title": "Useful Bots",
-    "section": "Examples of useful bots",
-    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & issues with a welcome message that provides links to a project’s resources like contributing guidelines, code of conduct, community events calendar, etc.\nPR-Triage Bot helps automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributions such as PR reviews, ideas, discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record."
-  },
-  {
-    "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
-    "href": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
-    "title": "Useful Bots",
-    "section": "How some projects use these bots",
-    "text": "How some projects use these bots\n\nThe Turing Way Record of Contributions using All-Contributors.\nAdd your example here"
-  },
-  {
-    "objectID": "docs/guide/tools/introduction.html",
-    "href": "docs/guide/tools/introduction.html",
+    "objectID": "docs/guide/introduction.html",
+    "href": "docs/guide/introduction.html",
     "title": "Introduction",
     "section": "",
-    "text": "Contributor Experience can be used to describe how a contributor perceives their interactions with a community or project. More specifically in our case, it can mean how much friction a new contributor faces to create a pull request, or how the community’s communication style impacts their engagement and sense of belonging.\nIn this section, we’ll catalogue a list of tools to address these issues. This list is far from definitive, and we expect it to grow and change over time as our understanding of this topic evolves and new tools become available in this space."
-  },
-  {
-    "objectID": "docs/about/team.html",
-    "href": "docs/about/team.html",
-    "title": "Team & History",
-    "section": "",
-    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
-  },
-  {
-    "objectID": "docs/about/acknowledgments.html",
-    "href": "docs/about/acknowledgments.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "Projects and people that helped inform our thinking and inspire our work. Including those whose resources we learned from, by taking their workshop, being active contributors to their projects, or passive members of their community, e.g. reading their documentation and having conversations:\n\nTania Allard, Quansight\nMay Ireland, VirtualPeer\nDr Liz Hare, Dog Genetics LLC\nAndrea Sánchez-Tapia, useR! Knowledgebase\nReshama Shaikh, Data Umbrella\nYanina Bellini Saibene, rOpenSci\nDr Setareh Sadjadi, WiMLDS Berlin\nTereza Iofciu, PyLadies Hamburg\nJessica Greene, PyLadies Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nJ.K. Nelson, Be Inspired\nThe Turing Way Community\n\nAnd many more!"
-  },
-  {
-    "objectID": "docs/about/comms_channels.html",
-    "href": "docs/about/comms_channels.html",
-    "title": "Communication Channels",
-    "section": "",
-    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations."
-  },
-  {
-    "objectID": "docs/about/sponsors.html",
-    "href": "docs/about/sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "We are grateful to be sponsored by the Chan Zuckerberg Initiative through their EOSS program."
-  },
-  {
-    "objectID": "docs/about/acknowledging_contributors.html",
-    "href": "docs/about/acknowledging_contributors.html",
-    "title": "Acknowledging Contributors",
-    "section": "",
-    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space."
+    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
   },
   {
     "objectID": "about.html",
