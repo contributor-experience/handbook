@@ -3,4 +3,98 @@ title: "Meetings"
 sidebar: guide
 ---
 
+For many open-source projects, collaboration happens primarily on text-based
+online forums such as a project's issue tracker or a community forum. Over time,
+maintainers and contributors may feel they would benefit from having synchronous
+meetings to discuss project matters or to organize discussions around roadmap,
+specific projects or the general governance of the project.
 
+In addition, having dedicated meeting times for triage, onboarding newcomers or
+working groups such as documentation, website, design or translations may also
+be helpful.
+
+The following guide, developed in collaboration with the Scientific Python
+project, describes a few of the meetings we have experimented with and when they
+are useful:
+[Meeting types](https://learn.scientific-python.org/maintainers/meeting_types/).
+
+## Community meetings
+
+Regular community meetings are essential for larger projects that require a high
+level of coordination in different projects, roadmap items or governance.
+However, even smaller projects may benefit from synchronous discussions. These
+meetings can be a way to:
+
+- *Connect with your community, and put a human face on the people behind the
+commit handle.* This can be especially helpful when dubious or unclear
+communication happens via text - a conversation can prevent many conflicts from
+arising.
+- *Discuss complex technical implementations or conduct contribution reviews.*
+This can be its own meeting (a "triage meeting") but depending on your community
+needs it can be helpful and make the review of a long or complex contribution
+faster.
+- *Plan for your roadmap or create strategies for high-stakes projects*.
+Funding, new releases, architectural or governance decisions can also benefit
+from a live discussion. In this case, it is even more important to keep a record
+of the discussion and, ideally, keep that record public for your community to
+consult.
+
+## New contributor meetings
+
+A special type of meeting we have been experimenting with is the "newcomer" or
+"New contributor" meetings. As noted in the page linked above, these can be
+organized as "Office hours" meetings - inviting questions and requests for
+support from new contributors; they can be organized as webinars, with talks or
+sessions on a specific aspect of contributing, such as the contribution workflow
+or running tests, for example; and they can also be practical working sessions,
+such as a walking through a full contribution task with the participants.
+
+Projects with a larger contributor base will find more value in these meetings
+than projects with a low number of new contributors. Make sure to also consider
+timezones and maintainer bandwidth when considering these meetings for your
+project. One central point to keep in mind is to use these meetings as an
+opportunity to set expectations for newcomers - about how long it takes for a
+contribution to be reviewed, how new features are discussed in the project or
+the areas that would best be served by contributors with less experience in the
+project.
+
+## Optional: Post-meeting poll
+
+If you are interested in having anonymous feedback from meeting attendees,
+consider setting up a post-meeting poll to ask if the meeting was useful, if
+they felt welcome or if they need extra support. Many meeting platforms support
+this as an automatic feature, but you can also share a link during the meeting. 
+
+## General tips
+
+- Make sure you mention your Code of Conduct or any other expectations for
+positive participation in your community as often as possible.
+- There is no rule for how long a meeting will last, or what day/time is best.
+Consider alternating timezones regularly, experimenting with different times and
+be ready to reevaluate if you feel things are not working that well.
+- Have a meeting notes document, ideally open to all. This document will contain
+the agenda for the meeting, notes on what was decided/discussed, and if
+appropriate a record of who attended (with their internet handle attached if
+they are comfortable sharing!). For our new contributors meeting this is
+particularly important so that we can track folks who come to the meeting in our
+issues trackers later. **Make sure you ask for consent before noting personal
+information in the notes if they are kept public.**
+- Have a public calendar listed on your website, and make sure to keep it
+up-to-date, particularly if you need to cancel a regular meeting.
+- If you use different communication channels, such as mailing lists, slack or
+other asynchronous chat/forum platform, make sure to announce the meetings
+there.
+- Meetings tend to be more useful and productive if a basic agenda is set in
+advance, so that folks know what will be discussed during that time.
+- It may be useful to record the session for the benefit of those who cannot
+attend, or to share online with the larger community. In that case, be sure to
+ask for consent to record, and offer people to mute and turn off their video.
+
+::: {.callout-tip}
+Many people benefit from these meetings, but for many different reasons can't
+turn on their camera or speak aloud during the meeting. This may be due to
+internet issues, hardware or personal situations including their work
+environment or accessibility requirements. Ideally, they need a way to
+participate via text, either through the meeting chat or the meeting notes
+document.
+:::
