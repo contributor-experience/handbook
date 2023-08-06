@@ -1,0 +1,119 @@
+---
+title: "Onboarding newcomers"
+sidebar: guide
+---
+
+Whether you are just getting started with a small project that you would like
+to see grow, or working on a large established project that needs to be
+sustainable, you may want to find, onboard and train new contributors to your
+project. Below are a few ideas about contributor onboarding and how to make it
+work.
+
+::: {.callout-important}
+## Do you want new contributors?
+
+Onboarding new contributors can be a lot of work, and you need to ask yourself
+if this is the right move for your project, at the current stage it is at. Many
+projects already have a healthy contributor base, and they need to be spending
+time and resources in other areas, such as supporting existing maintainers or
+developing new features.
+:::
+
+## Growing your contributor community
+
+Research shows that one of the prime factors driving new contributions to an
+open source project is popularity. This means that you can expect a popular
+project to have a steady stream of contributors looking to participate.
+
+If that's not your case, you may want to invest in a few actions that will help.
+
+### 1. Good documentation
+
+Whether you are looking for code, documentation, community or any other kind of
+contribution, make sure your onboarding workflow is well documented and
+up-to-date. There are many excellent resources available online about good
+general documentation, including the
+[WriteTheDocs community](https://www.writethedocs.org/). If you have the
+resources, consider creating
+[user stories](https://en.wikipedia.org/wiki/User_story) and/or
+[contributor journey maps](https://en.wikipedia.org/wiki/User_journey) to
+identify points of friction.
+
+### 2. Listen to your community
+
+The more connected you are with your community and your user-base, the better.
+This can be very hard, especially if you have a broad user-base or if your
+community doesn't have a way to connect with maintainers. If you have a user
+forum, any communication channels or social media accounts, use them as a way
+to understand your community needs and also how they can help you - listen to
+your experienced users, domain experts and other engaged community members.
+
+### 3. "Good first issues"
+
+![GitHub comment on a Good First issue with the following text: *Good first
+issue - notes for new contributors. This issue is suited to new contributors
+because it does not require understanding of the Matplotlib internals. To get
+started, please see our contributing guide. We do not assign issues. Check the
+Development section in the sidebar for linked pull requests (PRs). If there are
+none, feel free to start working on it. If there is an open PR, please
+collaborate on the work by reviewing it rather than duplicating it in a
+competing PR. If something is unclear, please reach out on any of our
+communication channels.*](../../../images/good-first-issue.png)
+
+Good first issues selected by the community are a good way to help newcomers
+choose tasks to work on. They should be relatively self-contained, and ideally
+they can be easily found by newcomers on your issue tracker (either through
+search, labels or your website).
+
+### 4. Sprints
+
+Working sprints can be self-organized or attached to an event, such as a
+conference or meetup. Although they are short and often unpredictable in
+audience size, many people look at sprints as a way to get started with some
+degree of assistance from another contributor.
+
+Sprints are a good opportunity to get people started on tasks that are not
+necessarily self-contained, and thus wouldn't fit a "Good first issue"
+classification - but that might be tractable on a two-day sprint, with a
+maintainer around to answer questions.
+
+![Sprintable label on NumPy GitHub repositoy, described as "Issue fits the time-frame and setting of a sprint"](../../../images/sprintable-label.png)
+
+## Ask why they are here
+
+People contribute to open source for a variety of reasons: they may be users
+looking to solve a bug or add a feature they need themselves; they may be
+looking for opportunities to learn or develop their skills; they may be looking
+for professional networking opportunities or some type of recognition to improve
+job prospects in the future. In any case, _don't assume you know why they are
+here!_ The best way to understand what they want and how you can work together
+is to ask.
+
+## Casting a wide net vs. recruiting for specific tasks
+
+While it may be tempting to wait for the perfect person who has the background,
+experience and knowledge to implement that one feature you have been waiting
+for, it may pay off to cast a wide net and be open to folks who may bring
+different skills, expertise and interests to your community.
+
+However, if you are short on resources or don't have the bandwidth to onboard
+folks, it is perfectly fair (and healthy!) to set expectations clearly. If you
+need people to know a version control system such as Git before joining your
+project, make sure this is communicated clearly. This will avoid frustration on
+both sides and will help you and your contributors spend time more effectively.
+
+## Mentoring
+
+Individual mentoring takes time and effort. This will most likely include
+teaching concepts, reviewing contributions, providing detailed feedback and
+outlining the reason behind project decisions. It is important to be clear with
+your mentee about the time commitment you are able to make, and to set clear
+expectations about the level of support you are able to provide.
+
+## Forging pathways and setting expectations
+
+For a lot of projects, the only contribution pathway readily available is code.
+However, healthy communities might need a wide range of skills and contribution
+types, including documentation, design, community management, translations, and
+even help with fundraising. If you are looking for a specific type of
+contribution, make sure you communicate that clearly.

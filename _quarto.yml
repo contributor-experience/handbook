@@ -96,6 +96,7 @@ website:
         - section: "Introduction to Contributor Experience"
           contents:
             - docs/guide/cx/the_cel_role.qmd
+            - docs/guide/cx/onboarding.qmd
             - docs/guide/cx/tracking_prs.qmd
         - section: "Governance Guide"
           contents:
