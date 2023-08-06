@@ -3,7 +3,7 @@
 There are quite a few ways to get involved with the Contributor Experience Project. You can:
 
 - join one of our [community calls](docs/about/calendar.qmd)
-- join our [Zulip chat](https://contributor-experience.zulipchat.com/join/r3bbxavdymqbyjiu32mtqyqi/)
+- join our [Zulip chat](https://contributor-experience.zulipchat.com/join/wgjnyihfd74iflbfpnuabqag/)
 - share your ideas by [filing issues](https://github.com/contributor-experience/handbook/issues/new), submitting [pull requests](https://docs.github.com/en/pull-requests), or commenting on existing discussions
 - address issues filed by other contributors
 - review submitted PRs

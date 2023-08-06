@@ -32,6 +32,6 @@ understand what we can do differently.
 
 [Read the DEI Insights Report](https://drive.google.com/file/d/1pxSte5_M8-dZftFTPDxfaBwubJlDoCEb/view?usp=share_link)
 and find out how you can help! You can also
-[sign up here](https://contributor-experience.zulipchat.com/join/ckihfnw42e25xsfevmzdv5sc/)
+[sign up here](https://contributor-experience.zulipchat.com/join/wgjnyihfd74iflbfpnuabqag/)
 to the Contributor Experience Zulip chat, which is the communication channel we
 will be using for these conversations.
