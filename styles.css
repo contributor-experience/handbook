@@ -215,5 +215,10 @@ iframe.reveal-demo {
   border: none;
 }
 
-
-
+div.quarto-post .metadata {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  font-family: var(--bs-font-sans-serif);
+  flex-basis: 18%;
+}

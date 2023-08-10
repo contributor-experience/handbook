@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contributor Experience Handbook - Reviewing contributions</title>
+<title>Contributor Experience Handbook – resources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../docs/guide/comms/resources.html" rel="next">
-<link href="../../../docs/guide/comms/introduction.html" rel="prev">
+<link href="../../../docs/guide/tools/introduction.html" rel="next">
+<link href="../../../docs/guide/comms/review_communication.html" rel="prev">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,7 +63,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-resources .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-href","listing-categories","listing-description","listing-descriptions"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-resources'] = new List('listing-resources', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -130,14 +163,14 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/guide/comms/introduction.html">Communication Guide</a></li><li class="breadcrumb-item"><a href="../../../docs/guide/comms/review_communication.html">Reviewing contributions</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/guide/comms/introduction.html">Communication Guide</a></li><li class="breadcrumb-item"><a href="../../../docs/guide/comms/resources.html">Communication resources</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
@@ -228,13 +261,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/comms/review_communication.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../docs/guide/comms/review_communication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reviewing contributions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/comms/resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../docs/guide/comms/resources.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Communication resources</span></a>
   </div>
 </li>
@@ -275,31 +308,564 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#communication-resources" id="toc-communication-resources" class="nav-link active" data-scroll-target="#communication-resources">Communication resources</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/comms/resources.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(17)</span></div><div class="category" data-category="article">article <span class="quarto-category-count">(11)</span></div><div class="category" data-category="free courses">free courses <span class="quarto-category-count">(2)</span></div><div class="category" data-category="open source communities">open source communities <span class="quarto-category-count">(6)</span></div><div class="category" data-category="podcast">podcast <span class="quarto-category-count">(3)</span></div><div class="category" data-category="positive psychology">positive psychology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="productive conflict">productive conflict <span class="quarto-category-count">(4)</span></div><div class="category" data-category="video">video <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Reviewing contributions</h1>
+
+
+<section id="communication-resources" class="level2">
+<h2 class="anchored" data-anchor-id="communication-resources">Communication resources</h2>
+<div id="listing-resources" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="productive conflict,podcast">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+When is a Fight Right (Out of the Comfort Zone Podcast)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
+productive conflict
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('podcast'); return false;">
+podcast
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Conflict, tension, disagreement are common events among colleagues - not that people are wrong in some way but that we all have competing points of view, different experiences and contradictory criteria for success. When is a fight a good thing? Why should we fight? What happens if we don’t fight? How can we fight without creating an unhealthy environment? Tune in for more.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Liane Davey
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="productive conflict,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+14 Conflict Resolution Strategies for the Workplace
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
+productive conflict
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Conflict resolution is important because “when people experience conflicts, much of their energy goes into emotions related to those conflicts” (Wilmot &amp; Hocker, 2011, p.&nbsp;2). This article goes into detail on the research behind conflict resolution and identifies several strategies you can use to manage conflict well.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Christina R. Wilson
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="productive conflict,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Dealing with Open Source conflict
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
+productive conflict
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Conflict seems to happen in open source communities. As I’m, once again, in an open source community with some conflict going on I wanted to reflect on some excellent lessons I’ve learned over the years. I’ve had the opportunity to be in communities during seasons of conflict. Rather than keeping these reflections to myself, I wanted to share them so that others could reflect and hopefully build on some of these reflections.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Matt Farina
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="productive conflict,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Conflict resolution - a primer
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
+productive conflict
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Written by Jono Bacon. Jono is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage, and consulted and advised a range of organizations.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Jono Bacon
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="positive psychology,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+How to deal with Anxiety
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('positive psychology'); return false;">
+positive psychology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Recognizing that you are experiencing anxiety is the first healthy step toward learning how to manage and cope with your feelings. In this article, we look at symptoms of anxiety and identify coping strategies you can use.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Alicia Nortje
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="positive psychology,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+How to Increase Self-Awareness: 16 Activities &amp; Tools
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('positive psychology'); return false;">
+positive psychology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Self-awareness is the ability to monitor our inner and external world. Our thoughts and feelings arise as signals. Developing self-awareness allows us to keep from being swept away by those signals, and instead, objectively and thoughtfully respond to them. Self-aware people understand their internal experience and their impact on the experience of others.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Kelly Miller
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="positive psychology,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Cultivating Social Intelligence - 3 Ways to understand others
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('positive psychology'); return false;">
+positive psychology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Fantastic pointers in this article by Positive Psychology, along with free activities you can use to understand and work with your emotions.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Jessica Swainston
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="free courses">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Hybrid Working and Digital Transformation Toolkit
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('free courses'); return false;">
+free courses
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>This toolkit offers holistic, human-centred approaches for organisations making the shift to sustainable hybrid working and digital futures. You’ll learn about a range of topics in the collection, including Digital skills and leadership, Digital transformation and building a data-driven culture, Sustainability, Planning for the future, managing uncertainty and building resilience, Hybrid employee experience and culture, Collaborative communication and building trust, Diversity and inclusion, Physical and digital wellbeing, and Change management.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+The Open University
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="free courses">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Effective Communication in the Workplace
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('free courses'); return false;">
+free courses
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>This free course, Effective communication in the workplace, explores the importance of communication as a skill in the workplace. It aims to increase your understanding of communication skills and to help you to consider how your communication could be perceived by others. You’ll cover areas such as verbal and non-verbal communication, written communication and using your communication skills in challenging and diverse situations. You’ll also look at possible scenarios for communication in the future, ranging from remote working to virtual reality.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+The Open University
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="podcast">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Work Life
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('podcast'); return false;">
+podcast
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Organizational psychologist Adam Grant takes you inside some truly unusual places, where they’ve figured out how to make work not suck. Adam is the chart-topping host of podcasts that make you think—and think again—about how you work, lead, and live. His shows have been named among the best of the year by Spotify and Apple.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Adam Grant
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="podcast">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Give It to Me Straight: How to Give Honest, Constructive Feedback (Think Fast, Talk Smart: Communication Techniques)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('podcast'); return false;">
+podcast
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>In this episode, David Dodson shares how workplace feedback can be your company’s secret weapon.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+David Dodson
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="open source communities,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Communications in Open Source projects
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
+open source communities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+The Turing Way
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="open source communities,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+How to encourage positive online communication in your open source community
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
+open source communities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>The Drupal community uses nudges to keep conversations productive and inclusive.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Michael Anello, Ruth Cheesley, AmyJune Hineline
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="open source communities,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+How to Write a Good Issue: Tips for Effective Communication in Open Source
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
+open source communities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Three years ago I maintained my first open source project for Hacktoberfest. As a first-time maintainer, I underestimated the time and effort it would take to write good issues for my contributors. What I also learned that year was that writing issues is an important form of communication, and, as a contributor, it can be a valuable skill to develop to create relationships and support maintainers.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+BekahHW
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="open source communities,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Contributing to Open Source projects - contributors etiquette
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
+open source communities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Open-source brings together people from all over the world to collaborate and find solutions to complex problems. This post aims to help you improve your communication and collaboration skills. And at the same time, help make our community friendlier and safe for us all.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Tania Allard
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="open source communities,article">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+Open source etiquette-guidance from Mozilla
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
+open source communities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('article'); return false;">
+article
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>This article won’t teach you everything about contributing to open source; the aim here is more to give you some good starting points to think about as you get started with open source contributions.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+MDN
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="open source communities,video">
+<div class="body">
+<a href="">
+<h3 class="no-anchor listing-title">
+People: The API User’s Guide (PyCon US ’23 Keynote)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
+open source communities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('video'); return false;">
+video
+</div>
+</div>
+<a href="">
+<div class="listing-description">
+<p>Ned Batchelder has been active in the Python community for more than 20 years. He is an organizer of Boston Python, and the maintainer of coverage.py and a handful of other tools.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="">
+<div class="listing-author">
+Ned Batchelder
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>This page is a guide for good communication practices when reviewing a contribution such as a pull request.</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -535,15 +1101,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../../../docs/guide/comms/introduction.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+      <a href="../../../docs/guide/comms/review_communication.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Reviewing contributions</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../docs/guide/comms/resources.html" class="pagination-link">
-        <span class="nav-page-text">Communication resources</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../docs/guide/tools/introduction.html" class="pagination-link">
+        <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -560,7 +1126,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="../../../LICENSE">License</a>
   </li>  
 </ul>
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/comms/review_communication.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
