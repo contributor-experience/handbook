@@ -3,4 +3,10 @@ title: "Introduction"
 sidebar: guide
 ---
 
+Having clear, welcoming and productive communication in any open source project
+can be challenging. Considering that most communication happens in written text
+and that the majority of contributors is working on their free time,
+communication can often be short and lacking in context.
 
+In this section of our guide, we will explore ways to communicate better and
+list a few resources for those interested in this topic.

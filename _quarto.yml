@@ -109,6 +109,7 @@ website:
           contents:
             - docs/guide/comms/introduction.qmd
             - docs/guide/comms/review_communication.qmd
+            - docs/guide/comms/resources.qmd
         - section: "Tools Collection"
           contents:
             - docs/guide/tools/introduction.qmd

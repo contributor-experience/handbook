@@ -1,6 +1,7 @@
 ---
-title: "Review Communication"
+title: "Reviewing contributions"
 sidebar: guide
 ---
 
-
+This page is a guide for good communication practices when reviewing a
+contribution such as a pull request.
