@@ -10,7 +10,64 @@
 <atom:link href="https://contributor-experience.org/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Tue, 25 Apr 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 31 Aug 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Documenting paths to leadership in open-source projects</title>
+  <dc:creator>Melissa Weber Mendonça</dc:creator>
+  <link>https://contributor-experience.org/docs/posts/leadership/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="what-is-leadership" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-leadership">What is leadership?</h2>
+<blockquote class="blockquote">
+<p>Transparent processes for becoming a decision-maker in open source help foster trust. Today, just 37% of all respondents surveyed agree that there are clear processes to become a leader or maintainer in an open source project. Language barriers may exacerbate clarity, as those preferring German, Spanish, Portuguese, and French were all more likely to disagree. Meanwhile, respondents from the Asia-Pacific region, Middle East, and Africa were more likely to see clarity in the path to leadership than the study average. These trends were reiterated when asked whether respondents felt they had a visible leadership role in open source. Unfortunately (though not surprisingly), those with no reliable Internet access are less likely to hold visible leadership positions.</p>
+</blockquote>
+<p><em><a href="https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/LF%20Research/2021%20DEI%20Survey%20-%20Report.pdf">Linux Foundation DEI Report 2021</a></em></p>
+<p>There are many flavors of open-source project governance. From the “Benevolent Dictator for Life” (BDFL) to the Steering council models there is a spectrum of policies and decision-making processes that are meant to organize the work and (ideally) build trust in these communities - including giving people clarity on how they can be a part of the “core” group of decision-makers.</p>
+<p>Despite being open and “democratic”, one can very easily detect a problem: while the entire open-source culture lacks diversity in its ranks, the situation is even more dire in positions of leadership. There are many discussions about why this is so, including considering existing societal power structures reflected in open-source governance. The “tyranny of structurelessness” [2, 3] thesis by feminist theorist Jo Freeman is particularly popular, and states that in the absence of explicit project rules and governance structures, implicit ones take over.</p>
+<p>For underrepresented people, explicitly stating what they need to achieve to reach a certain role in the project is extremely important. It signals you don’t have to be a part of a certain club to be considered for leadership, and that it is worth participating. Not being in the same timezone, not being part of the same culture, not speaking the same language, not having the same background - all of these differences accumulate for an individual but may be invisible to an outsider.</p>
+</section>
+<section id="power-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="power-and-responsibilities">Power and responsibilities</h2>
+<p>Open-source projects are not all the same. Each project has its own internal organization and structure (explicitly or implicitly). For folks who are joining, this distribution of power and responsibilities may not be obvious, and may pose a barrier to participation. If I’m not sure who to ask for commit rights, how can I ever feel comfortable in a project?</p>
+<p>Even in the most horizontal of projects, being a maintainer effectively means something. It can start with commit rights, but it also means having some sort of expectations for participation, be it meetings, code reviews, documentation, code or onboarding new contributors. Spelling this out is helpful both for newcomers and for folks coming from other projects which organize themselves differently.</p>
+<p>There is also something in it for the maintainers: if not only power but responsibilities can be shared, hopefully there is less space for burnout, the burden of making decisions is lowered, and the increased sense of community and trust in meaningful participation creates a sense of ownership and shared purpose.</p>
+</section>
+<section id="isnt-this-gatekeeping" class="level2">
+<h2 class="anchored" data-anchor-id="isnt-this-gatekeeping">Isn’t this gatekeeping?</h2>
+<blockquote class="blockquote">
+<p>There’s a lot of great work on creating inclusive and welcoming communities in open source. But I think one of the most effective ways to approach community building is through the lens of pathways to leadership. A path that invests in new maintainers is the backbone of creating a welcoming, diverse, and sustainable open source community. <a href="https://medium.com/@abbycabs/creating-pathways-that-invest-in-new-maintainers-8ffb52e09681">Abigail Cabunoc-Mayes, <em>“Creating Pathways That Invest in New Maintainers”</em></a></p>
+</blockquote>
+<p>Can too much structure be harmful? Many people would see attempts at organizing roles within a project as gatekeeping, since the idea of ticking checkboxes for participation is not appealing in a culture that encourages open participation and prides itself on self-organization.</p>
+<p>This can be true if rules are applied too strictly or if people don’t trust leaders to step down so that others can step in. Each community will have its own understanding of how to organize itself, but there is reasonable evidence to support the idea that if there are no rules, the louder person in the room will end up making all the decisions and push away diverse thought. If we require people to step up in a system that doesn’t make space for them, we are setting them up for failure.</p>
+<p>What are your examples of open-source projects with good structure? Come to our <a href="https://contributor-experience.zulipchat.com/join/wgjnyihfd74iflbfpnuabqag/">zulip chat</a> and share your thoughts!</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ol type="1">
+<li><a href="https://github.com/programminghistorian/jekyll/wiki/Privileges-and-Responsibilities-of-Membership">Programming historian: Privileges and Responsibilities of Membership</a></li>
+<li><a href="https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/LF%20Research/2021%20DEI%20Survey%20-%20Report.pdf">Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems,” foreword by Jim Zemlin, The Linux Foundation, December, 2021.</a></li>
+<li><a href="https://builtin.com/software-engineering-perspectives/economy-governance-open-source">Open-Source Governance, Meet Feminist Economics</a></li>
+<li><a href="https://www.jofreeman.com/joreen/tyranny.htm">Jo Freeman, “The Tyranny of Structurelessness”</a></li>
+<li><a href="https://medium.com/@abbycabs/creating-pathways-that-invest-in-new-maintainers-8ffb52e09681">Abigail Cabunoc Mayes, “Creating Pathways That Invest in New Maintainers”</a></li>
+<li><a href="https://igorwiese.com/images/papers/CSCW2020.pdf">Trinkenreich, Guizani et al, “Hidden Figures: Roles and Pathways of Successful OSS Contributors”</a></li>
+<li><a href="https://arxiv.org/abs/2103.11007">Jean-Gabriel Young, Amanda Casari, Katie McLaughlin, Milo Z. Trujillo, Laurent Hébert-Dufresne, James P. Bagrow, Which contributions count?</a></li>
+<li><a href="https://arxiv.org/abs/2008.04236">PolicyKit: Building governance in online communities</a></li>
+<li><a href="https://opensource.guide/best-practices/">Open Source Guides: Best Practices for Maintainers</a></li>
+<li><a href="https://github.com/readme/guides/maintainer-monolith">Breaking apart the monolith: The Open Source movement should really be modeled after social clubs and city governments</a></li>
+<li><a href="https://communitywiki.org/wiki/DoOcracy">Do-ocracy</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://contributor-experience.org/docs/posts/leadership/index.html</guid>
+  <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Fostering an Inclusive Culture: Call for Participation</title>
   <dc:creator>Marco Gorelli, May Ireland, Melissa Mendonça, Inessa Pawson, Noa Tamir, Pamphile Roy</dc:creator>
@@ -24,7 +81,7 @@
 <p>Most folks who have been involved with open-source communities have thoughts and ideas about what we can do to be more inclusive and welcoming. However, rarely do we get a chance to have these conversations and express our points of view in a constructive, collaborative way.</p>
 <p>As part of our <a href="https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063">CZI grant to Advance an Inclusive Culture in the scientific Python ecosystem</a>, we (maintainers and contributors to NumPy, SciPy, Matplotlib and pandas) have been working in collaboration with <a href="https://linkedin.com/in/mayireland">May Ireland</a> to create a report with areas that are top of mind when we talk about improving our projects’ cultures and being more inclusive. We want to be more intentional about attracting, supporting and retaining people from diverse backgrounds to join as contributors.</p>
 <p>As a result of this report, we should like to focus on how we communicate with each other, resolve disputes and make more informed decisions. We’ll soon be kicking off a series of DEI Culture Labs to work on these three areas, and we would like to invite participation from members of our communities, whether already engaged with the projects or not. We would love to hear your ideas and understand what we can do differently.</p>
-<p><a href="https://drive.google.com/file/d/1pxSte5_M8-dZftFTPDxfaBwubJlDoCEb/view?usp=share_link">Read the DEI Insights Report</a> and find out how you can help! You can also <a href="https://contributor-experience.zulipchat.com/join/ckihfnw42e25xsfevmzdv5sc/">sign up here</a> to the Contributor Experience Zulip chat, which is the communication channel we will be using for these conversations.</p>
+<p><a href="https://drive.google.com/file/d/1pxSte5_M8-dZftFTPDxfaBwubJlDoCEb/view?usp=share_link">Read the DEI Insights Report</a> and find out how you can help! You can also <a href="https://contributor-experience.zulipchat.com/join/wgjnyihfd74iflbfpnuabqag/">sign up here</a> to the Contributor Experience Zulip chat, which is the communication channel we will be using for these conversations.</p>
 
 
 
