@@ -1,0 +1,51 @@
+---
+title: "Documenting paths to leadership in open-source projects"
+subtitle: ""
+author: "Melissa Weber Mendonça"
+date: "08/31/2023"
+---
+
+## What is leadership?
+
+> Transparent processes for becoming a decision-maker in open source help foster trust. Today, just 37% of all respondents surveyed agree that there are clear processes to become a leader or maintainer in an open source project. Language barriers may exacerbate clarity, as those preferring German, Spanish, Portuguese, and French were all more likely to disagree. Meanwhile, respondents from the Asia-Pacific region, Middle East, and Africa were more likely to see clarity in the path to leadership than the study average. These trends were reiterated when asked whether respondents felt they had a visible leadership role in open source. Unfortunately (though not surprisingly), those with no reliable Internet access are less likely to hold visible leadership positions.
+
+_[Linux Foundation DEI Report 2021](https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/LF Research/2021 DEI Survey - Report.pdf)_
+
+There are many flavors of open-source project governance. From the “Benevolent Dictator for Life” (BDFL) to the Steering council models there is a spectrum of policies and decision-making processes that are meant to organize the work and (ideally) build trust in these communities - including giving people clarity on how they can be a part of the “core” group of decision-makers.
+
+Despite being open and “democratic”, one can very easily detect a problem: while the entire open-source culture lacks diversity in its ranks, the situation is even more dire in positions of leadership. There are many discussions about why this is so, including considering existing societal power structures reflected in open-source governance. The “tyranny of structurelessness” [2, 3] thesis by feminist theorist Jo Freeman is particularly popular, and states that in the absence of explicit project rules and governance structures, implicit ones take over.
+
+For underrepresented people, explicitly stating what they need to achieve to reach a certain role in the project is extremely important. It signals you don’t have to be a part of a certain club to be considered for leadership, and that it is worth participating. Not being in the same timezone, not being part of the same culture, not speaking the same language, not having the same background - all of these differences accumulate for an individual but may be invisible to an outsider.
+
+## Power and responsibilities
+
+Open-source projects are not all the same. Each project has its own internal organization and structure (explicitly or implicitly). For folks who are joining, this distribution of power and responsibilities may not be obvious, and may pose a barrier to participation. If I’m not sure who to ask for commit rights, how can I ever feel comfortable in a project?
+
+Even in the most horizontal of projects, being a maintainer effectively means something. It can start with commit rights, but it also means having some sort of expectations for participation, be it meetings, code reviews, documentation, code or onboarding new contributors. Spelling this out is helpful both for newcomers and for folks coming from other projects which organize themselves differently.
+
+There is also something in it for the maintainers: if not only power but responsibilities can be shared, hopefully there is less space for burnout, the burden of making decisions is lowered, and the increased sense of community and trust in meaningful participation creates a sense of ownership and shared purpose.
+
+## Isn’t this gatekeeping?
+
+> There’s a lot of great work on creating inclusive and welcoming communities in open source. But I think one of the most effective ways to approach community building is through the lens of pathways to leadership. A path that invests in new maintainers is the backbone of creating a welcoming, diverse, and sustainable open source community.
+[Abigail Cabunoc-Mayes, _“Creating Pathways That Invest in New Maintainers”_](https://medium.com/@abbycabs/creating-pathways-that-invest-in-new-maintainers-8ffb52e09681)
+
+Can too much structure be harmful? Many people would see attempts at organizing roles within a project as gatekeeping, since the idea of ticking checkboxes for participation is not appealing in a culture that encourages open participation and prides itself on self-organization. 
+
+This can be true if rules are applied too strictly or if people don't trust leaders to step down so that others can step in. Each community will have its own understanding of how to organize itself, but there is reasonable evidence to support the idea that if there are no rules, the louder person in the room will end up making all the decisions and push away diverse thought. If we require people to step up in a system that doesn’t make space for them, we are setting them up for failure.
+
+What are your examples of open-source projects with good structure? Come to our [zulip chat](https://contributor-experience.zulipchat.com/join/wgjnyihfd74iflbfpnuabqag/) and share your thoughts!
+
+## Links
+
+1. [Programming historian: Privileges and Responsibilities of Membership](https://github.com/programminghistorian/jekyll/wiki/Privileges-and-Responsibilities-of-Membership)
+2. [Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems,” foreword by Jim Zemlin, The Linux Foundation, December, 2021.](https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/LF%20Research/2021%20DEI%20Survey%20-%20Report.pdf)
+3. [Open-Source Governance, Meet Feminist Economics](https://builtin.com/software-engineering-perspectives/economy-governance-open-source)
+4. [Jo Freeman, “The Tyranny of Structurelessness”](https://www.jofreeman.com/joreen/tyranny.htm)
+5. [Abigail Cabunoc Mayes,  “Creating Pathways That Invest in New Maintainers”](https://medium.com/@abbycabs/creating-pathways-that-invest-in-new-maintainers-8ffb52e09681)
+6. [Trinkenreich, Guizani et al, “Hidden Figures: Roles and Pathways of Successful OSS Contributors”](https://igorwiese.com/images/papers/CSCW2020.pdf)
+7. [Jean-Gabriel Young, Amanda Casari, Katie McLaughlin, Milo Z. Trujillo, Laurent Hébert-Dufresne, James P. Bagrow, Which contributions count?](https://arxiv.org/abs/2103.11007)
+8. [PolicyKit: Building governance in online communities](https://arxiv.org/abs/2008.04236)
+9. [Open Source Guides: Best Practices for Maintainers](https://opensource.guide/best-practices/)
+10. [Breaking apart the monolith: The Open Source movement should really be modeled after social clubs and city governments](https://github.com/readme/guides/maintainer-monolith)
+11. [Do-ocracy](https://communitywiki.org/wiki/DoOcracy)
