@@ -105,3 +105,9 @@
   author: Erin Meyer
   categories: [open source communities, book]
   description: "An international business expert helps you understand and navigate cultural differences in this insightful and practical guide, perfect for both your work and personal life."
+
+- title: "Technical discussions are hard; a few tips"
+  path: "https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html"
+  author: Gaël Varoquaux
+  categories: [open source communities, article]
+  description: "This post discuss the difficulties of communicating while developing open-source projects and tries to gives some simple advice."
