@@ -1,0 +1,27 @@
+---
+title: "Introduction to Contributor Experience"
+sidebar: guide
+---
+
+What is contributor experience?
+
+Behind every successful open source project is a strong contributor community. 
+Yes, software must provide solutions. Ideally, should be a useful piece in a larger 
+solution to a larger problem, a part of a tool-chain. However, it’s the people, the 
+community, the culture of the community that determine the longevity of an open 
+source project. And when we talk about the culture of any given open source community, 
+what we really mean is the sum of:
+
+- values, hopefully all documented as policies and guidelines, 
+- technical infrastructure
+- and social infrastructure 
+
+which serve as ‘glue’ in onboarding and supporting contributors to an open source 
+community.
+
+In practice, for an OSS project to have a good culture means designing and providing 
+positive contributor experience. The emerging field of open source contributor experience 
+examines how policies, processes, and tools affect volunteer 
+contributors’ ability to collaborate on an open source project and aims to develop best 
+practices for creating positive contributor experience, nurturing great community culture, 
+and ultimately supporting growth and sustainability of open source projects.
