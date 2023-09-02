@@ -115,6 +115,7 @@ website:
             - docs/guide/tools/introduction.qmd
             - docs/guide/tools/bots.qmd
             - docs/guide/tools/cdes.qmd
+            - docs/guide/tools/metrics.qmd
 
 format:
   html:

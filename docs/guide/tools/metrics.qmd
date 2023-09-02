@@ -1,0 +1,128 @@
+---
+title: "Measuring Community Health"
+sidebar: guide
+---
+
+One of the biggest challenges when measuring the impact of our Contributor Experience work (and general community health for our projects) has been deciding on the right metrics to look at.
+
+In this page, we'll discuss a few existing metrics models for measuring open-source community health, some thoughts on how to measure and why, and what metrics we would like to use to evaluate our work.
+
+## Why do you want to measure your community's health?
+
+There are many reasons why you would want to measure your community health. You may want to see your community grow, be sustainable, be welcoming, have appropriate support, or become popular. You may need metrics for funding, roadmap decisions, or a more general understanding of if something is going wrong in your community or if you notice significant improvements. In any case, identifying your purpose for measuring is essential when deciding which metrics to use.
+
+### Funding and reporting
+
+In many cases, you want to communicate with your stakeholders in a way that demonstrates impact, achievement, or an overall assessment of the state of your community. In this situation, metrics can be helpful if combined with the story you want to tell.
+
+### Communicating with your community
+
+Projects perceived as "healthy" are [more successful in attracting new contributors](https://www.usenix.org/system/files/login/articles/login_fall20_07_link.pdf). The notion of health here is subjective, however, and can mean different things to different people.
+
+## What do you want to measure?
+
+Start by asking, "What do we want to accomplish?" instead of asking, "What do we want to measure?"
+
+### User vs. contributor metrics
+
+The first key point is whether you want to measure your user or contributor community (or maybe both!) These groups can be very different in both composition and the kind of engagement you can expect, not to mention that collecting user data may prove challenging. This also means you probably want to use different metrics for each group.
+
+### Identifying community-specific metrics
+
+Every community is different. While we can think of a few metrics as universal, a few will tell you different stories when used in different contexts. If your goal is to assess how your project is faring compared to other projects, you must be very careful to consider projects with similar backgrounds, development workflow, scale, maturity, and audience. For example, an established project may have a lower release frequency than an up-and-coming project, and that does not mean it is unmaintained - instead, it means it is stable. In this sense, comparison can work against you.
+
+### Growth is not always a proxy for health.
+
+It is common for "contributor growth" to be the first measure of success in any open-source community. However, growth is not always a good thing. In our experience, it has become apparent that without a plan for maintainer engagement or support, having more new contributors can be disruptive to open-source projects and create unnecessary stress on existing maintainers. Furthermore, it can create frustration on the newcomer's part, as they need adequate support or responses on their contributions.
+
+In addition, even if you are still in a project with room for growth, if you focus on the numbers alone and don't understand how you are growing, you may end up with an unbalanced community with not enough diversity or with too many people who want to work on one part of your project, while others go unsupported.
+
+### Qualitative vs. Quantitative
+
+In many cases, the answer will be a combination of qualitative and quantitative data, both of which come with their own challenges and limitations.
+
+## The dangers of metrics
+
+Because we tend to look at the readily available metrics, there are quite a few caveats to look out for when using data to make analyses.
+
+### Measuring only what is on the code platform (e.g., GitHub)
+
+It is easy to forget that community health means more than just the interactions on your code platform. Questions around credit, different contribution types, and what happens behind the scenes of an apparent one-commit contribution are challenging to handle.
+
+Existing tools like the AllContributors project try to capture these contributions but are, unfortunately, still unable to capture them all.
+
+### Encouraging behavior through measuring
+
+When you decide to measure something, you create an incentive for contributors as they want to be captured in that metric. One concrete example is the green squares on GitHub and how it can encourage distortions in your community.
+
+### Consent and data handling
+
+Whenever we talk about data, we must also mention the handling of this data with respect to privacy, regulatory concerns, and the consent of your community for the use of such data. While signing up to GitHub may indicate you accept that third parties can use all of its public data, you should consult with your community before making conclusions from this data.
+
+### Can you even measure that?
+
+Our work focused on building culture, improving communications, inclusivity, and developing a sense of belonging. There are no easy ways to measure these goals other than using proxies. For example, we could look at survey responses, individual anecdotes, and increased contributions from people from diverse backgrounds. But these are incomplete and only tell us part of the story.
+
+## Existing models
+
+There are many models, platforms, and solutions for analyzing open-source communities. Quite a few are focused on corporate-backed projects, as these usually require regular reporting by OSPOs or community managers, so consider whether they would apply to your community at all.
+
+Remember that a single metric is not capable of fully describing community health. Consider adopting a metric model - and be willing to see it change and evolve over time.
+
+Below are a few models and frameworks we have found - let us know if you would like to suggest others!
+
+- [The CHAOSS Project](https://chaoss.community/kb-metrics-and-metrics-models/)
+
+  The CHAOSS project collects a large number of different metrics models to be used by open-source communities and projects. Here are a few models you may want to look at:
+  - [Starter project health](https://chaoss.community/kb/metrics-model-starter-project-health/)
+  - [Project engagement](https://chaoss.community/kb/metrics-model-project-engagement/)
+  - [Community activity](https://chaoss.community/kb/metrics-model-community-activity/)
+
+  A few of these models are implemented in tools such as [Bitergia](https://bitergia.com), [GrimoireLab](https://chaoss.github.io/grimoirelab/) and [Augur](https://www.augurlabs.io/).
+
+- [Orbit](https://orbit.love/)
+
+  Orbit is a powerful commercial community monitoring tool that can aggregate data from many sources into one dashboard.
+
+- [YOSHI](https://link.springer.com/article/10.1007/s10664-018-9659-9)
+
+  YOSHI is a model designed to measure the organizational status of an open-source community and, based on the previous measurements, associate a community pattern of organizational structure types matching the characteristics of the community.
+
+- Documentation metrics
+  
+  You can gather many interesting insights about your users and contributors by looking at how they engage with your documentation. You can collect such data using tools such as [Plausible](https://plausible.io) or [Google Analytics](https://developers.google.com/analytics).
+
+- [Project OCEAN](https://github.com/google/project-ocean)
+
+  Project OCEAN is an open science collaboration focused on understanding the open source ecosystems & creating the datasets that enable research purposes and help form a clear understanding of the state of open source communities. OCEAN's goal is to understand the health of the open source communities.
+
+- [The TODO Group](https://todogroup.org)
+
+  TODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives. They also [discuss metrics](https://todogroup.org/guides/measuring/) as part of their work.
+
+- Qualitative data
+
+  User surveys, post-meeting surveys, and general individual feedback can be sufficient - especially if you have a smaller community. Don't underestimate the value of conversations and personal engagement.
+
+## Summary
+
+- **Accept limitations of data:** Metrics will never be perfect and can still be valuable. The important part is to be aware of the limitations and not lose the big picture of your community from a limited set of metrics or data.
+- **Can we look at trends instead of numbers?** Looking at how things move over time is often better than singling out absolute numbers. Remember that trends do not need to be "up" - stable or decreasing trends are sometimes desirable.
+- **Consider having a metrics policy.** Consider creating a privacy or data usage policy in your project, and make sure you keep your community informed on how you use this data.
+- **Don't do this alone.** Several groups are working on metrics and can be a source of information and collaboration. Reach out!
+
+## Further resources
+
+1. Amanda Casari and Julia Ferraioli. [Preventing Random Acts of Metrics](https://www.youtube.com/watch?v=yrBqXfGzx-U)
+1. Amanda Casari, Katie McLaughlin, Milo Z. Trujillo, Jean-Gabriel Young, James P. Bagrow and Laurent Hébert-Dufresne. [Open source ecosystems need equitable credit across contributions](https://www.nature.com/articles/s43588-020-00011-w)
+1. Dawn Foster. [Open Source Community Metrics: Tips and Techniques for Measuring Participation](https://conference.libreoffice.org/talks/content/sessions/023/files/Open Source Community Metrics LibreOffice.pdf)
+1. [Open Source Metrics](https://opensource.guide/metrics/), by the GitHub Open Source Guides
+1. Sean Goggins, Kevin Lumbard, Matt Germonprez. [Open Source Community Health: Analytical Metrics and Their Corresponding Narratives](https://www.seangoggins.net/wp-content/plugins/zotpress/lib/request/request.dl.php?api_user_id=655145&dlkey=HNG22ZSU&content_type=application/pdf)
+1. Sumana Harihareswara. [Contribution Metrics Are Messy: An Example](https://www.harihareswara.net/posts/2022/contribution-metrics-are-messy-an-example/)
+1. Sumana Harihareswara. [What should we stop doing?](https://www.youtube.com/watch?v=B7jJWxvtPn4)
+1. Georg Link. [Open Source Project Health](https://www.usenix.org/system/files/login/articles/login_fall20_07_link.pdf)
+1. Georg Link, Emilio Galeano Gryciuk. [How to address challenges with community metrics](https://opensource.com/article/22/11/organizational-technical-challenges)
+1. Linux.com Editorial Staff. [Measuring the Health of Open Source Communities](https://www.linux.com/news/measuring-the-health-of-open-source-communities/)
+1. Sophia Vargas. [A Beginners Guide to Open Source Metrics and Analysis](https://www.youtube.com/watch?v=4FUyNJUHU94)
+1. Sophia Vargas. [The Benefits and Pitfalls of OSS Project Metrics: Measuring Health and Risk in Open Source Communities](https://www.youtube.com/watch?v=p8DnqHIa8hU)
+1. Jean-Gabriel Young, Amanda Casari, Katie McLaughlin, Milo Z. Trujillo, Laurent Hébert-Dufresne, James P. Bagrow. [Which contributions count? Analysis of attribution in open source](https://ieeexplore.ieee.org/document/9463079)
