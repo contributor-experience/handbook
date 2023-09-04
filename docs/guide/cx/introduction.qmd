@@ -14,7 +14,7 @@ what we really mean is the sum of:
 
 - values, hopefully all documented as policies and guidelines, 
 - technical infrastructure
-- and social infrastructure 
+- social infrastructure 
 
 which serve as ‘glue’ in onboarding and supporting contributors to an open source 
 community.
