@@ -2,6 +2,7 @@
 title: "Sponsors"
 ---
 
-We are grateful to be sponsored by the Chan Zuckerberg Initiative through their
-EOSS program.
+The launch of this project was supported by the Chan Zuckerberg Initiative 
+as a part of their [Essential Open Source Software for Science D&I program]
+(https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem).
 
