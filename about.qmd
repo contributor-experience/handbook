@@ -9,7 +9,5 @@ open source contributor onboarding and support. It grew out of the idea to docum
 following the DEI-centered practices in four large and mature open source projects in the scientific 
 Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).
 
-This work is currently supported by the Chan Zuckerberg Initiative as a part of
+The launch of this project was supported by the Chan Zuckerberg Initiative as a part of
 their [Essential Open Source Software for Science D&I program](https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem/).
-
-This work is also supported by [Quansight](https://quansight.com) and [NumFOCUS](https://numfocus.org/).
