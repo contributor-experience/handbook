@@ -18,10 +18,7 @@ website:
 #      analytics-events: true
 #      show-logo: true
   page-footer:
-    left: |
-      Proudly supported by 
-      [![](https://chanzuckerberg.com/wp-content/themes/czi/img/logo-minified.svg){fig-alt="CZI" width=20px}](https://chanzuckerberg.com/eoss/)
-      and [![](https://labs.quansight.org/images/QuansightLabs_logo_V2.png){fig-alt="Quansight Labs" width=40px}](https://labs.quansight.org/)
+    left:
     center:
       - text: "About"
         href: about.qmd

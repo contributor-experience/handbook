@@ -2,22 +2,22 @@
 title: "Acknowledgements"
 ---
 
-Projects and people that helped inform our thinking and inspire our work. 
-Including those whose resources we learned from, by taking their workshop, 
-being active contributors to their projects, or passive members of their 
-community, e.g. reading their documentation and having conversations:
+Projects and people that helped inform our thinking and inspire our work:
 
-- Tania Allard, Quansight
-- May Ireland, VirtualPeer
-- Dr Liz Hare, Dog Genetics LLC
 - Andrea Sánchez-Tapia, useR! Knowledgebase
-- Reshama Shaikh, Data Umbrella
-- Yanina Bellini Saibene, rOpenSci
-- Dr Setareh Sadjadi, WiMLDS Berlin
-- Tereza Iofciu, PyLadies Hamburg
+- Carol Willing, Willing Consulting
 - Jessica Greene, PyLadies Berlin
-- Stefanie Lyn Kaufman-Mthimkhulu, Project Lets
 - J.K. Nelson, Be Inspired
+- Leah Wasser, PyOpenSci
+- Dr Liz Hare, Dog Genetics LLC
+- May Ireland, VirtualPeer
+- Reshama Shaikh, Data Umbrella
+- Sage Sharp, Otter Tech
+- Dr Setareh Sadjadi, WiMLDS Berlin
+- Stefanie Lyn Kaufman-Mthimkhulu, Project Lets
+- Tania Allard, Quansight
+- Tereza Iofciu, PyLadies Hamburg
 - The Turing Way Community
+- Yanina Bellini Saibene, rOpenSci
 
-And many more!
+and many more!
