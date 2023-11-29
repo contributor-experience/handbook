@@ -46,7 +46,7 @@ I am participating in a project to improve pandas' benchmarks.
 I am a long way from where I started back in Cd. Juárez Mexico. I had faith in education because it was by educating myself that I got out of a difficult socio-economic environment. But before all the activities I mentioned earlier, I had a lot of doubts and thought I had hit a wall. 
 It was very difficult to start working. Right from the start, the job ads in Mexico had the requirements that it was necessary to be a man in order to apply. It was written in the ads. Many times I also heard people telling me straight to my face that women were not good engineers. 
 Having a clear Code of Conduct in the projects helps to make sure these things don’t happen. 
-I cannot thank enough the people in open source who have helped me in one way or another. Sometimes without knowing. My work to complete all the missing examples for the panda’s website is sponsored by NumFOCUS.
+I cannot thank enough the people in open source who have helped me in one way or another. Sometimes without knowing. My work to complete all the missing examples for the panda’s website is sponsored by [NumFOCUS](https://numfocus.org/).
 
 
 
