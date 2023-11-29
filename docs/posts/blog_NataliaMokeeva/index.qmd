@@ -1,0 +1,43 @@
+---
+title: "Open Source Contributor Experience of Natalia Mokeeva"
+author: "Natalia Mokeeva"
+date: "11/30/2023"
+---
+
+[Natalia Mokeeva](https://www.linkedin.com/in/natalia-mokeeva/) graciously spared some time and gave insights on her open-source journey. Natalia is a Mathematician by profession and has been regularly committing each day for about 4-5 hours for the last 14 months. Please check out her contributions here: https://Github.com/natmokval
+					
+We share her inspirational experience in her own voice.
+					
+## Introduction	
+My name is Natalia, I am based in Karlsruhe, southwest Germany. I am contracted via NumFOCUS to work as a software developer on an Open Source project called pandas. For more than 10 years I dedicated myself to studying Mathematics and teaching it. Programming and IT technology have always been in my area of interest. My first programming language was Fortran, and now I enjoy coding in Python. I have a passion for learning and exploring new things. At present, I study at a sailing school and I want to participate in a regatta one day. In my free time, I enjoy hiking and running. I like cats and have one of my own. I am involved in a local community regularly helping at a local cat shelter. I want to be a core developer in pandas one day.
+					
+## Introduction of open source to someone outside of tech			
+Open source are programs that everyone is free to use and distribute with their original rights. The distinctive characteristic is that everyone can change the source code of these programs for their needs.
+					
+## Natalia’s contributions to open-source			
+I work on issues such as fixing bugs, deprecating features, writing tests, and updating documentation. To make changes in pandas source code I use the programming languages Python and Cython. Mainly I work on deprecation tasks. By doing this work, I am helping to make pandas more intuitive and easier to use. Deprecation means users will get a warning message while using some features. This message says that this feature won’t work in the next versions of pandas and advises users on how to change their programs. It’s important because the feature will be removed in the version after this one, and users should know what to do to keep their programs working.
+					
+## The first contribution to open-source			
+It was a contribution to open source project pandas. In my first pull request, I updated documentation for the method “from_dict” that creates a DataFrame object from a dictionary.	
+					
+## Selection of project to make the first contribution			
+I got familiar with the Python library Pandas while I was working on Machine learning projects on Kaggle. Because I liked to use pandas it was on top of my list when I looked over projects on GitHub. As I expected there were a lot of issues, first issues as well. I chose a simple issue where I only had to change one line of code, and it worked.
+					
+## Motivation to regularly contribute to Open-Source			
+It was a good opportunity for me to improve my programming skills in Python. Starting to contribute to pandas seemed to be not very difficult. There are a lot of first issues, the pandas community is friendly and supportive, and the documentation “Contributing to pandas” is clear. The most motivating factor for me is to see the impact of my work. We release new versions of pandas several times every year. When I work on some changes in pandas I know people will start using it in a couple of months.
+					
+## Impact of contribution to Open Source on professional development				
+It helped me to improve my programming skills in Python and Cython. I gathered experience in areas such as debugging, pytesting, using git, using package managers to set up development environments, and working in the command line. I also got experience with tools for developing software applications such as Jupyter Notebook and Visual Studio Code. It also helped me to develop my team-working skills.
+					
+## Wishes for Open-Source Projects			
+I wish we had more Open Source projects like pandas on Github.
+					
+## Role Model in the Open Source Community			
+I can name Wes McKinney - the creator of pandas, and also co-creator of Apache Arrow and Ibis. Unfortunately, I didn’t have an opportunity to work with him. I admire a lot of panda maintainers with whom I worked.
+					
+## Advice for the new Open Source Contributors	
+I would advise looking for a big project in which many people contribute and a lot of issues are open. Among them, you can definitely find something to work on. The most important thing is not to be afraid of asking questions.
+				
+			
+		
+	 
