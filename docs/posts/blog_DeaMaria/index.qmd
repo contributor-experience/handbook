@@ -11,7 +11,7 @@ The conversation with Dea was very enjoyable. She generously shared insights of 
 I have been contributing to pandas since the beginning of this year. I am very lucky. I can learn and help at the same time. Plus, it gave me hope to re-enter the job market. 
 I love coding and I wanted to work in this field. I have experience and education in electronics and also in finance. So I thought that changing careers would be feasible. But I am from Mexico and live in France, and without having a French diploma it turned out to be impossible.
 I took several online specializations and courses after finding myself without a job. However, the feedback I had from headhunters was that I did not have work experience in this field. It was not possible to find a job in my previous field either.
-Open Source turned out to be the solution to the vicious circle of not being hired for lack of experience and not getting experience because nobody hired me.
+Contributing to open source turned out to be the solution to the vicious circle of not being hired for a lack of work experience and not getting experience because nobody hired me.
 
 ## Knowledge about Open Source
 I started joining a Paris pyData meetup, and there I found out about an “Impact Scholarship”. This is a program sponsored by NumFOCUS. I was a lucky recipient of the scholarship which allowed me to attend for free the pyData Global 2021 online conference. I volunteered as a host for some presentations, and I met many other volunteers. Experienced participants mentioned that Open Source was great for practicing coding.
