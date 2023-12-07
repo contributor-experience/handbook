@@ -5,7 +5,7 @@ date: "11/30/2023"
 ---
 We had the privilege of speaking with [Dea Maria](https://www.linkedin.com/in/dea-mar%C3%ADa-l%C3%A9on-11a792/), a contributor to pandas. Originally from Mexico, she studied Electrical Engineering and held several engineering positions. She started her journey working in factories at the border hometown. Later, after getting an MBA, she worked as an Analyst in the US and France.
 She got into coding as a self-directed learner and switched careers after an employment gap. She has been contributing to pandas since the beginning of 2023. 
-The conversation with Dea was very enjoyable. She generously shared insights of her journey towards becoming an open source software engineer. We share a few snippets of this conversation in her own voice and hope that it will inspire you to take the next steps toward contributing to open source. 
+The conversation with Dea was very enjoyable. She generously shared insights into her journey toward becoming an open source software engineer. We share a few snippets of this conversation in her voice and hope that it will inspire you to take the next steps toward contributing to open source. 
 
 ## Experience with open source
 I have been contributing to pandas since the beginning of this year. I am very lucky. I can learn and help at the same time. Plus, it gave me hope to re-enter the job market. 
@@ -29,7 +29,7 @@ Through Data Umbrella I saw a live video of Marco Gorelli’s “How you (yes yo
 ## Contributing to pandas
 When I started contributing to pandas, I was getting answers to all my questions. Almost in real-time!  
 One day I noticed in the code that the examples on the docstrings were not being tested. And when I tried to test some of them, I found errors. It seemed like a problem I could fix. 
-I was definitely intimidated by all those smart people. But Marco’s support was remarkable. He motivated me by letting me know that what I was doing was important. This was decisive for me to continue. Marco offered to talk to me every day to help me with my contributions.
+I was definitely intimidated by all those smart people. But Marco’s support was remarkable. He motivated me by letting me know what I was doing was important. This was decisive for me to continue. Marco offered to talk to me every day to help me with my contributions.
 There were other people who have given me some precious guidance. For example, I watched Melissa Mendoça’s video about Sphinx. And thanks to that, I was convinced that Sphinx was not so mysterious after all.
 Another pandas’ core developer (Matthew Roeschke) suggested that I work on adding the missing examples to the documentation. I felt it was something very valuable for the project.
 
