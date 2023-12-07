@@ -4,7 +4,8 @@ author: "Dea Maria"
 date: "11/30/2023"
 ---
 We had the privilege of speaking with [Dea Maria](https://www.linkedin.com/in/dea-mar%C3%ADa-l%C3%A9on-11a792/), a contributor to pandas. Originally from Mexico, she studied Electrical Engineering and held several engineering positions. She started her journey working in factories at the border hometown. Later, after getting an MBA, she worked as an Analyst in the US and France.
-She got into coding as a self-learner and switched careers after an employment gap. She is a  freelancer now and has been contributing to pandas since the beginning of this year. The conversation with Dea was very enjoyable where she shared all the insights of her journey. We share a few snippets of conversation in her own voice and hope that it will inspire you to take the next steps toward contributing to this amazing community. 
+She got into coding as a self-directed learner and switched careers after an employment gap. She has been contributing to pandas since the beginning of 2023. 
+The conversation with Dea was very enjoyable. She generously shared insights of her journey towards becoming an open source software engineer. We share a few snippets of this conversation in her own voice and hope that it will inspire you to take the next steps toward contributing to open source. 
 
 ## Experience with Open Source
 I have been contributing to pandas since the beginning of this year. I am very lucky. I can learn and help at the same time. Plus, it gave me hope to re-enter the job market. 
