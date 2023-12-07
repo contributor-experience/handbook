@@ -29,7 +29,7 @@ It was a good opportunity for me to improve my programming skills in Python. Sta
 ## Impact of contribution to Open Source on professional development				
 It helped me to improve my programming skills in Python and Cython. I gathered experience in areas such as debugging, pytesting, using git, using package managers to set up development environments, and working in the command line. I also got experience with tools for developing software applications such as Jupyter Notebook and Visual Studio Code. It also helped me to develop my team-working skills.
 					
-## Wishes for Open-Source Projects			
+## Wishes for open source projects			
 I wish we had more open source projects like pandas on GitHub.
 					
 ## Role model in the open source community			
