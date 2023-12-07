@@ -7,7 +7,7 @@ We had the privilege of speaking with [Dea Maria](https://www.linkedin.com/in/de
 She got into coding as a self-directed learner and switched careers after an employment gap. She has been contributing to pandas since the beginning of 2023. 
 The conversation with Dea was very enjoyable. She generously shared insights of her journey towards becoming an open source software engineer. We share a few snippets of this conversation in her own voice and hope that it will inspire you to take the next steps toward contributing to open source. 
 
-## Experience with Open Source
+## Experience with open source
 I have been contributing to pandas since the beginning of this year. I am very lucky. I can learn and help at the same time. Plus, it gave me hope to re-enter the job market. 
 I love coding and I wanted to work in this field. I have experience and education in electronics and also in finance. So I thought that changing careers would be feasible. But I am from Mexico and live in France, and without having a French diploma it turned out to be impossible.
 I took several online specializations and courses after finding myself without a job. However, the feedback I had from headhunters was that I did not have work experience in this field. It was not possible to find a job in my previous field either.
