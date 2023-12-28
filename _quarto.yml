@@ -18,7 +18,6 @@ website:
 #      analytics-events: true
 #      show-logo: true
   page-footer:
-    left:
     center:
       - text: "About"
         href: about.qmd
