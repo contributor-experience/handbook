@@ -1,6 +1,6 @@
 ---
-title: "Dea Maria Léon"
-author: "Dea Maria"
+title: "Career Paths Lab: meet Dea Maria Léon"
+author: "Suparna Pawar"
 date: "11/30/2023"
 ---
 We had the privilege of speaking with [Dea Maria](https://www.linkedin.com/in/dea-mar%C3%ADa-l%C3%A9on-11a792/), a contributor to pandas. Originally from Mexico, she studied Electrical Engineering and held several engineering positions. She started her journey working in factories at the border hometown. Later, after getting an MBA, she worked as an Analyst in the US and France.
