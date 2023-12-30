@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Natalia Mokeeva">
+<meta name="dcterms.date" content="2023-11-30">
 
-<title>Contributor Experience Handbook - Cloud development environments</title>
+<title>Contributor Experience Handbook - Open Source Contributor Experience of Natalia Mokeeva</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../docs/guide/tools/metrics.html" rel="next">
-<link href="../../../docs/guide/tools/bots.html" rel="prev">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,12 +61,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -125,242 +131,104 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/guide/tools/introduction.html">Tools Collection</a></li><li class="breadcrumb-item"><a href="../../../docs/guide/tools/cdes.html">Cloud development environments</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
- <span class="menu-text">Introduction to Contributor Experience</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/cx/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to Contributor Experience</span></a>
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Open Source Contributor Experience of Natalia Mokeeva</h1>
+                      </div>
   </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/cx/the_cel_role.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Contributor Experience Role</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/cx/onboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Onboarding newcomers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/cx/tracking_prs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tracking first-time contributors’ work</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
- <span class="menu-text">Governance Guide</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/gov/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
- <span class="menu-text">Collaboration Guide</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/collab/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/collab/meetings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Meetings</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
- <span class="menu-text">Communication Guide</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/comms/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/comms/review_communication.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reviewing contributions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/comms/resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Communication resources</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">Tools Collection</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/tools/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/tools/bots.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Useful Bots</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/tools/cdes.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Cloud development environments</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/guide/tools/metrics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Measuring Community Health</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Natalia Mokeeva </p>
+            </div>
     </div>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 30, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#gitpod" id="toc-gitpod" class="nav-link active" data-scroll-target="#gitpod">Gitpod</a></li>
-  <li><a href="#github-codespaces" id="toc-github-codespaces" class="nav-link" data-scroll-target="#github-codespaces">GitHub Codespaces</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#introduction-of-open-source-to-someone-outside-of-tech" id="toc-introduction-of-open-source-to-someone-outside-of-tech" class="nav-link" data-scroll-target="#introduction-of-open-source-to-someone-outside-of-tech">Introduction of open source to someone outside of tech</a></li>
+  <li><a href="#natalias-contributions-to-open-source" id="toc-natalias-contributions-to-open-source" class="nav-link" data-scroll-target="#natalias-contributions-to-open-source">Natalia’s contributions to open source</a></li>
+  <li><a href="#the-first-contribution-to-open-source" id="toc-the-first-contribution-to-open-source" class="nav-link" data-scroll-target="#the-first-contribution-to-open-source">The first contribution to open source</a></li>
+  <li><a href="#selection-of-project-to-make-the-first-contribution" id="toc-selection-of-project-to-make-the-first-contribution" class="nav-link" data-scroll-target="#selection-of-project-to-make-the-first-contribution">Selection of project to make the first contribution</a></li>
+  <li><a href="#motivation-to-regularly-contribute-to-open-source" id="toc-motivation-to-regularly-contribute-to-open-source" class="nav-link" data-scroll-target="#motivation-to-regularly-contribute-to-open-source">Motivation to regularly contribute to Open-Source</a></li>
+  <li><a href="#impact-of-contribution-to-open-source-on-professional-development" id="toc-impact-of-contribution-to-open-source-on-professional-development" class="nav-link" data-scroll-target="#impact-of-contribution-to-open-source-on-professional-development">Impact of contribution to Open Source on professional development</a></li>
+  <li><a href="#wishes-for-open-source-projects" id="toc-wishes-for-open-source-projects" class="nav-link" data-scroll-target="#wishes-for-open-source-projects">Wishes for open source projects</a></li>
+  <li><a href="#role-model-in-the-open-source-community" id="toc-role-model-in-the-open-source-community" class="nav-link" data-scroll-target="#role-model-in-the-open-source-community">Role model in the open source community</a></li>
+  <li><a href="#advice-for-new-open-source-contributors" id="toc-advice-for-new-open-source-contributors" class="nav-link" data-scroll-target="#advice-for-new-open-source-contributors">Advice for new open source contributors</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/tools/cdes.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/posts/blog_NataliaMokeeva/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Cloud development environments</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>Cloud development environments are remote virtual machines that allow you to code, write, and otherwise run computational tasks remotely, often using a browser-based interface. Examples of such environments are <a href="https://gitpod.io/">Gitpod</a> and <a href="https://github.com/features/codespaces">GitHub Codespaces</a>. Here are a few situations when they can be helpful:</p>
-<ul>
-<li>when the development set up for your project is too complex for newcomers, or requires a particular OS or machine type;</li>
-<li>when the time required to do a development set up would be impractical (for example, when running sprints);</li>
-<li>when you need to review a Pull Request without cloning the repository and setting up the full development environment.</li>
-</ul>
-<p>You can have a default cloud development environment that reproduces the machine type you want to work on, or you can configure a pre-set environment that comes ready-to-use. For each of these tools, there are free plans including a number of computational hours, memory, or disk-usage available.</p>
-<p>Here are the main such tools available today and a few examples of how they can be set up.</p>
-<section id="gitpod" class="level2">
-<h2 class="anchored" data-anchor-id="gitpod">Gitpod</h2>
-<p><a href="https://gitpod.io/">Gitpod</a> can be used from several different code repository services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the repository URL with the string <code>gitpod.io/#</code>, or you can install a browser extension to add a <code>Gitpod</code> button to your GitHub interface.</p>
-<p>Gitpod also supports <a href="https://www.gitpod.io/docs/references/ides-and-editors#supported-ideeditors">a number of popular IDEs</a> so you can have a personalized experience.</p>
-<p>See <a href="https://www.gitpod.io/docs/introduction/getting-started">the Gitpod documentation</a> for more information.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Example: pandas
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Check the <a href="https://pandas.pydata.org/docs/dev/development/contributing_gitpod.html">pandas documentation on using Gitpod for development</a>.</p>
-</div>
-</div>
-<p>To configure a pre-set development environment on Gitpod, you can either build a custom <code>docker</code> image with the tools and dependencies you need, or use a <a href="https://www.gitpod.io/docs/references/gitpod-yml"><code>.gitpod.yml</code> file</a>, which will live on the root of your repository. You can, for example, set the system dependencies necessary to build and test your software project, or pre-install tools and even IDE extensions or plugins you’d like your contributors to use.</p>
+<p><a href="https://www.linkedin.com/in/natalia-mokeeva/">Natalia Mokeeva</a> graciously spared some time and gave insights on her open-source journey. Natalia is a Mathematician by profession and has been regularly committing each day for about 4-5 hours for the last 14 months. Please check out her contributions here: https://Github.com/natmokval</p>
+<p>We share her inspirational experience in her own voice.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>My name is Natalia, I am based in Karlsruhe, southwest Germany. I am contracted via NumFOCUS to work as a software developer on an open source project called pandas. For more than 10 years I dedicated myself to studying Mathematics and teaching it. Programming and IT technology have always been my area of interest. My first programming language was Fortran, and now I enjoy coding in Python. I have a passion for learning and exploring new things. At present, I study at a sailing school and I want to participate in a regatta one day. In my free time, I enjoy hiking and running. I like cats and have one of my own. I am involved in a local community regularly helping at a local cat shelter. I want to be a core developer in pandas one day.</p>
 </section>
-<section id="github-codespaces" class="level2">
-<h2 class="anchored" data-anchor-id="github-codespaces">GitHub Codespaces</h2>
-<p>GitHub Codespaces is, as the name suggests, <a href="https://docs.github.com/en/codespaces">limited to use with GitHub</a>. Similarly to Gitpod, it can also be set up with appropriate customizations by the use of a <a href="https://docs.github.com/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers"><code>devcontainer.json</code> file</a>.</p>
-<p>In addition, you can also select from <a href="https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/adding-features-to-a-devcontainer-file">a list of pre-built features</a> to add to your base image so you don’t have to build the custom docker image yourself.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Example: NumPy
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Check the <a href="https://github.com/numpy/numpy/tree/main/.devcontainer">configuration for Codespaces</a> on the NumPy repository.</p>
-</div>
-</div>
+<section id="introduction-of-open-source-to-someone-outside-of-tech" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-of-open-source-to-someone-outside-of-tech">Introduction of open source to someone outside of tech</h2>
+<p>Open source are programs that everyone is free to use and distribute with their original rights. The distinctive characteristic is that everyone can change the source code of these programs for their needs.</p>
+</section>
+<section id="natalias-contributions-to-open-source" class="level2">
+<h2 class="anchored" data-anchor-id="natalias-contributions-to-open-source">Natalia’s contributions to open source</h2>
+<p>I work on issues such as fixing bugs, deprecating features, writing tests, and updating documentation. To make changes in pandas source code I use the programming languages Python and Cython. Mainly I work on deprecation tasks. By doing this work, I am helping to make pandas more intuitive and easier to use. Deprecation means users will get a warning message while using some features. This message says that this feature won’t work in the next versions of pandas and advises users on how to change their programs. It’s important because the feature will be removed in the version after this one, and users should know what to do to keep their programs working.</p>
+</section>
+<section id="the-first-contribution-to-open-source" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-contribution-to-open-source">The first contribution to open source</h2>
+<p>It was a contribution to open source project pandas. In my first pull request, I updated documentation for the method “from_dict” that creates a DataFrame object from a dictionary.</p>
+</section>
+<section id="selection-of-project-to-make-the-first-contribution" class="level2">
+<h2 class="anchored" data-anchor-id="selection-of-project-to-make-the-first-contribution">Selection of project to make the first contribution</h2>
+<p>I got familiar with the Python library Pandas while I was working on Machine learning projects on Kaggle. Because I liked to use pandas it was on top of my list when I looked over projects on GitHub. As I expected there were a lot of issues, first issues as well. I chose a simple issue where I only had to change one line of code, and it worked.</p>
+</section>
+<section id="motivation-to-regularly-contribute-to-open-source" class="level2">
+<h2 class="anchored" data-anchor-id="motivation-to-regularly-contribute-to-open-source">Motivation to regularly contribute to Open-Source</h2>
+<p>It was a good opportunity for me to improve my programming skills in Python. Starting to contribute to pandas seemed to be not very difficult. There are a lot of first issues, the pandas community is friendly and supportive, and the documentation “Contributing to pandas” is clear. The most motivating factor for me is to see the impact of my work. We release new versions of pandas several times every year. When I work on some changes in pandas I know people will start using it in a couple of months.</p>
+</section>
+<section id="impact-of-contribution-to-open-source-on-professional-development" class="level2">
+<h2 class="anchored" data-anchor-id="impact-of-contribution-to-open-source-on-professional-development">Impact of contribution to Open Source on professional development</h2>
+<p>It helped me to improve my programming skills in Python and Cython. I gathered experience in areas such as debugging, pytesting, using git, using package managers to set up development environments, and working in the command line. I also got experience with tools for developing software applications such as Jupyter Notebook and Visual Studio Code. It also helped me to develop my team-working skills.</p>
+</section>
+<section id="wishes-for-open-source-projects" class="level2">
+<h2 class="anchored" data-anchor-id="wishes-for-open-source-projects">Wishes for open source projects</h2>
+<p>I wish we had more open source projects like pandas on GitHub.</p>
+</section>
+<section id="role-model-in-the-open-source-community" class="level2">
+<h2 class="anchored" data-anchor-id="role-model-in-the-open-source-community">Role model in the open source community</h2>
+<p>I can name Wes McKinney - the creator of pandas, and also co-creator of Apache Arrow and Ibis. Unfortunately, I didn’t have an opportunity to work with him. I admire many pandas maintainers with whom I worked.</p>
+</section>
+<section id="advice-for-new-open-source-contributors" class="level2">
+<h2 class="anchored" data-anchor-id="advice-for-new-open-source-contributors">Advice for new open source contributors</h2>
+<p>I would advise looking for a big project in which many people contribute and a lot of issues are open. Among them, you can definitely find something to work on. The most important thing is not to be afraid of asking questions.</p>
 
 
 </section>
@@ -599,18 +467,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../../docs/guide/tools/bots.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Useful Bots</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../../docs/guide/tools/metrics.html" class="pagination-link">
-        <span class="nav-page-text">Measuring Community Health</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
