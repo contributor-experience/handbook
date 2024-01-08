@@ -1,6 +1,6 @@
 ---
-title: "Open Source Contributor Experience of Natalia Mokeeva"
-author: "Natalia Mokeeva"
+title: "Career Paths Lab: meet Natalia Mokeeva"
+author: "Suparna Pawar"
 date: "11/30/2023"
 ---
 
