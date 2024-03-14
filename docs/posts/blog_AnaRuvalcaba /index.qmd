@@ -1,1 +1,35 @@
+---
+title: "Ana Ruvalcaba Blog"
+author: "Ana Ruvalcaba"
+date: "03/14/2024"
+---
+## Introduction
+[Ana Ruvalcaba](https://www.linkedin.com/in/anaru/) is a senior leader of Project Jupyter, a large international open source software project for data science, machine learning, and scientific computing. She is a founding member of the Jupyter Executive Council and is the Director of the project’s presence at California Polytechnic State University. She holds a Bachelor of Science degree in Business Administration with a minor in Ethnic Studies. Ana’s areas of expertise include program/project management, people management, operations, budgeting, and global events. 
+
+From 2016 to 2021 she partnered with Professor Brian Granger (Cal Poly/AWS) to manage over 2 million dollars in Jupyter grant funding at Cal Poly which included supervising full-time design/engineering staff and the Jupyter Internship program. The internship program provided a unique learning environment for over 45 university students for 6 cohorts that worked in interdisciplinary teams to build Jupyter extensions. 
+
+Ana is a champion of diversity, equity, and inclusion initiatives. In 2017 she co-authored the first Code of Conduct policy for Project Jupyter. In 2022 she co-founded the Diversity, Equity, and Inclusion Committee. She also serves as a member of the NumFOCUS Diversity in Scientific Computing Committee. 
+
+Ana’s presence in the Jupyter community has facilitated many global events which have reached thousands of Jupyter developers, designers, and users.  This includes three team meetings for developers, over 20 local/regional community workshops, and JupyterCon (global user conference).  She is cofounder of Jupyter’s Community Working Group which leads on strategic initiatives designed to connect a global community of Jupyter enthusiasts. As part of that committee, she oversaw the creation of a community organizing committee responsible for establishing  the structure, strategy, and impetus to kick off planning for JupyterCon 2023.
+
+Starting in 2019 she participated in a multi-year effort to create a new governance model for Project Jupyter and is the first and only non-technical contributor to Project Jupyter that has been elected to its leadership bodies. The Jupyter Steering Council (2018 - 2022), and Jupyter Executive Council (2022 to present).  Over the years she has collaborated with a wide variety of stakeholders in open source, tech, and university environments to deliver a unique set of contributions. 
+
+## Advice for new open source contributors
+Not all contributions to open source are on GitHub! The future of Project Jupyter and our ability to be sustainable for many decades to come is just as dependent on strategic activities that have the power to attract and retain contributors as it is on smart and effective decisions in the Jupyter code base.
+
+Inclusion and diversity matters! Inclusion is vital to a team’s ability to complete the mission of an organization, not just the right thing to do. In order for diversity initiatives to succeed, inclusion must be cultivated and practiced. The people who build and design OS tools should be as diverse as the people who use them.
+
+## Ana's Contributions
+LEADERSHIP + GOVERNANCE
+Ana is the first and only non-engineer to be elected to the Jupyter Steering Council in 2018 and then to the Jupyter Executive Council in 2022. Her work is focused on noncode contributions that impact the global community. 
+
+CODE OF CONDUCT
+Spearheading the creation of a more inclusive community, Ana Ruvalcaba partnered with Fernando Perez and Reese Netro to write the inaugural Code of Conduct policy for Jupyter in 2017. In 2023 she collaborated with folks from a CZI grant-funded project called the Contributor Experience Handbook and explored the possibility of partnering with Moritz Gunther from Astropy to explore a revitalization of our current COC processes. This work remains in progress and she is committed to creating a more effective COC framework for our community.
+
+COMMUNITY BUILDING
+In 2023 Ana co-founded three community working groups and standing committees. This involved writing charters for the groups and recruiting additional participants to join our efforts to grow the Jupyter community. Collaborations with key contributors allowed her to establish the Community Building working group (JCB) with Jason Grout from DataBricks, Diversity Equity and Inclusion (JDEI) with Jason Weill from AWS, and Media Strategy (JMS) with Steven Sylvester. Additionally, she provided instrumental support to the Documentation working group (JD) during its foundational phase.
+
+NUMFOCUS
+Ana Ruvalcaba serves as a key point of contact for NumFOCUS and oversees the financial management of all centrally managed Jupyter funds. In addition, she contributed to the Diversity in Scientific Computing Committee (DISC) and in 2023 she partnered with Melissa Mendoca and Tania Allard to organize the DISC Unconference. She also leads efforts in the  Methodologies For Collecting Community Data group during the event.  Read more here: (​​https://numfocus.medium.com/disc-unconference-2023-designing-inclusivity-in-open-source-14019cbdb3cb)
+
 
