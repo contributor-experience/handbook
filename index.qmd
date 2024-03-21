@@ -21,3 +21,5 @@ project leadership, and communication infrastructure.
 
 To learn more and connect with peers who are working in this field, join our [contributor community 
 meetings](/docs/about/calendar.html) ✨
+
+![Contributor experience logo, deconstructed: five colorful geometric forms, which put together form a circle. The colors are teal, yellow, navy blue, soft pink and violet.](images/landing.png)

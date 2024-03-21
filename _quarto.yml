@@ -29,7 +29,7 @@ website:
         aria-label: Contributor Experience Handbook GitHub
   navbar:
     background: light
-#    logo: quarto.png
+    logo: images/Contributor-Experience-Logo-contrast.png
 #    title: false
 #    collapse-below: lg
     left:
