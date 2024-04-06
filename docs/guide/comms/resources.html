@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contributor Experience Handbook – resources</title>
+<title>Contributor Experience Handbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -75,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-path","listing-author","listing-categories","listing-description","listing-descriptions"],
+      searchColumns: ["listing-title","listing-author","listing-categories","listing-description","listing-descriptions"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -96,16 +103,46 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/Contributor-Experience-Logo-contrast.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Contributor Experience Handbook</span>
     </a>
@@ -117,29 +154,29 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/guide/introduction.html" rel="" target="">
- <span class="menu-text">Guide</span></a>
+    <a class="nav-link" href="../../../docs/guide/introduction.html"> 
+<span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html" rel="" target="">
- <span class="menu-text">About us</span></a>
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../../../blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Help</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-help">    
         <li>
-    <a class="dropdown-item" href="https://github.com/contributor-experience/handbook/issues" rel="" target=""><i class="bi bi-bug" role="img">
+    <a class="dropdown-item" href="https://github.com/contributor-experience/handbook/issues"><i class="bi bi-bug" role="img">
 </i> 
  <span class="dropdown-text">Report an Issue</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/contributor-experience/handbook/discussions" rel="" target=""><i class="bi bi-chat-right-text" role="img">
+    <a class="dropdown-item" href="https://github.com/contributor-experience/handbook/discussions"><i class="bi bi-chat-right-text" role="img">
 </i> 
  <span class="dropdown-text">Discussions</span></a>
   </li>  
@@ -148,31 +185,31 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/contributor-experience/handbook" rel="" target=""><i class="bi bi-github" role="img" aria-label="Contributor Experience Handbook GitHub">
+    <a class="nav-link" href="https://github.com/contributor-experience/handbook"> <i class="bi bi-github" role="img" aria-label="Contributor Experience Handbook GitHub">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/guide/comms/introduction.html">Communication Guide</a></li><li class="breadcrumb-item"><a href="../../../docs/guide/comms/resources.html">Communication resources</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/guide/comms/introduction.html">Communication Guide</a></li><li class="breadcrumb-item"><a href="../../../docs/guide/comms/resources.html">Communication resources</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -317,7 +354,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -326,10 +363,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#communication-resources" id="toc-communication-resources" class="nav-link active" data-scroll-target="#communication-resources">Communication resources</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/comms/resources.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/comms/resources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(19)</span></div><div class="category" data-category="article">article <span class="quarto-category-count">(12)</span></div><div class="category" data-category="book">book <span class="quarto-category-count">(1)</span></div><div class="category" data-category="free courses">free courses <span class="quarto-category-count">(2)</span></div><div class="category" data-category="open source communities">open source communities <span class="quarto-category-count">(8)</span></div><div class="category" data-category="podcast">podcast <span class="quarto-category-count">(3)</span></div><div class="category" data-category="positive psychology">positive psychology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="productive conflict">productive conflict <span class="quarto-category-count">(4)</span></div><div class="category" data-category="video">video <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+
 
 
 
@@ -339,14 +377,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="productive conflict,podcast">
 <div class="body">
-<a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828">
 <h3 class="no-anchor listing-title">
-When is a Fight Right (Out of the Comfort Zone Podcast)
+<a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828" class="no-external">When is a Fight Right (Out of the Comfort Zone Podcast)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
 productive conflict
@@ -355,14 +391,12 @@ productive conflict
 podcast
 </div>
 </div>
-<a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828">
 <div class="listing-description">
-<p>Conflict, tension, disagreement are common events among colleagues - not that people are wrong in some way but that we all have competing points of view, different experiences and contradictory criteria for success. When is a fight a good thing? Why should we fight? What happens if we don’t fight? How can we fight without creating an unhealthy environment? Tune in for more.</p>
+<a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828" class="no-external">Conflict, tension, disagreement are common events among colleagues - not that people are wrong in some way but that we all have competing points of view, different experiences and contradictory criteria for success. When is a fight a good thing? Why should we fight? What happens if we don’t fight? How can we fight without creating an unhealthy environment? Tune in for more.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828">
+<p><a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828" class="no-external"></a></p><a href="https://podcasts.apple.com/gb/podcast/out-of-the-comfort-zone/id986072312?i=1000586987828" class="no-external">
 <div class="listing-author">
 Liane Davey
 </div>
@@ -371,14 +405,12 @@ Liane Davey
 </div>
 <div class="quarto-post image-right" data-index="1" data-categories="productive conflict,article">
 <div class="body">
-<a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/">
 <h3 class="no-anchor listing-title">
-14 Conflict Resolution Strategies for the Workplace
+<a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/" class="no-external">14 Conflict Resolution Strategies for the Workplace</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
 productive conflict
@@ -387,14 +419,12 @@ productive conflict
 article
 </div>
 </div>
-<a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/">
 <div class="listing-description">
-<p>Conflict resolution is important because “when people experience conflicts, much of their energy goes into emotions related to those conflicts” (Wilmot &amp; Hocker, 2011, p.&nbsp;2). This article goes into detail on the research behind conflict resolution and identifies several strategies you can use to manage conflict well.</p>
+<a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/" class="no-external">Conflict resolution is important because “when people experience conflicts, much of their energy goes into emotions related to those conflicts” (Wilmot &amp; Hocker, 2011, p.&nbsp;2). This article goes into detail on the research behind conflict resolution and identifies several strategies you can use to manage conflict well.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/">
+<p><a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/" class="no-external"></a></p><a href="https://positivepsychology.com/conflict-resolution-in-the-workplace/" class="no-external">
 <div class="listing-author">
 Christina R. Wilson
 </div>
@@ -403,14 +433,12 @@ Christina R. Wilson
 </div>
 <div class="quarto-post image-right" data-index="2" data-categories="productive conflict,article">
 <div class="body">
-<a href="https://codeengineered.com/blog/2018/open-source-conflict/">
 <h3 class="no-anchor listing-title">
-Dealing with Open Source conflict
+<a href="https://codeengineered.com/blog/2018/open-source-conflict/" class="no-external">Dealing with Open Source conflict</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://codeengineered.com/blog/2018/open-source-conflict/" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
 productive conflict
@@ -419,14 +447,12 @@ productive conflict
 article
 </div>
 </div>
-<a href="https://codeengineered.com/blog/2018/open-source-conflict/">
 <div class="listing-description">
-<p>Conflict seems to happen in open source communities. As I’m, once again, in an open source community with some conflict going on I wanted to reflect on some excellent lessons I’ve learned over the years. I’ve had the opportunity to be in communities during seasons of conflict. Rather than keeping these reflections to myself, I wanted to share them so that others could reflect and hopefully build on some of these reflections.</p>
+<a href="https://codeengineered.com/blog/2018/open-source-conflict/" class="no-external">Conflict seems to happen in open source communities. As I’m, once again, in an open source community with some conflict going on I wanted to reflect on some excellent lessons I’ve learned over the years. I’ve had the opportunity to be in communities during seasons of conflict. Rather than keeping these reflections to myself, I wanted to share them so that others could reflect and hopefully build on some of these reflections.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://codeengineered.com/blog/2018/open-source-conflict/">
+<p><a href="https://codeengineered.com/blog/2018/open-source-conflict/" class="no-external"></a></p><a href="https://codeengineered.com/blog/2018/open-source-conflict/" class="no-external">
 <div class="listing-author">
 Matt Farina
 </div>
@@ -435,14 +461,12 @@ Matt Farina
 </div>
 <div class="quarto-post image-right" data-index="3" data-categories="productive conflict,article">
 <div class="body">
-<a href="https://opensource.com/life/16/5/conflict-resolution-primer">
 <h3 class="no-anchor listing-title">
-Conflict resolution - a primer
+<a href="https://opensource.com/life/16/5/conflict-resolution-primer" class="no-external">Conflict resolution - a primer</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://opensource.com/life/16/5/conflict-resolution-primer" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productive conflict'); return false;">
 productive conflict
@@ -451,14 +475,12 @@ productive conflict
 article
 </div>
 </div>
-<a href="https://opensource.com/life/16/5/conflict-resolution-primer">
 <div class="listing-description">
-<p>Written by Jono Bacon. Jono is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage, and consulted and advised a range of organizations.</p>
+<a href="https://opensource.com/life/16/5/conflict-resolution-primer" class="no-external">Written by Jono Bacon. Jono is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage, and consulted and advised a range of organizations.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://opensource.com/life/16/5/conflict-resolution-primer">
+<p><a href="https://opensource.com/life/16/5/conflict-resolution-primer" class="no-external"></a></p><a href="https://opensource.com/life/16/5/conflict-resolution-primer" class="no-external">
 <div class="listing-author">
 Jono Bacon
 </div>
@@ -467,14 +489,12 @@ Jono Bacon
 </div>
 <div class="quarto-post image-right" data-index="4" data-categories="positive psychology,article">
 <div class="body">
-<a href="https://positivepsychology.com/anxiety-coping-skills/">
 <h3 class="no-anchor listing-title">
-How to deal with Anxiety
+<a href="https://positivepsychology.com/anxiety-coping-skills/" class="no-external">How to deal with Anxiety</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://positivepsychology.com/anxiety-coping-skills/" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('positive psychology'); return false;">
 positive psychology
@@ -483,14 +503,12 @@ positive psychology
 article
 </div>
 </div>
-<a href="https://positivepsychology.com/anxiety-coping-skills/">
 <div class="listing-description">
-<p>Recognizing that you are experiencing anxiety is the first healthy step toward learning how to manage and cope with your feelings. In this article, we look at symptoms of anxiety and identify coping strategies you can use.</p>
+<a href="https://positivepsychology.com/anxiety-coping-skills/" class="no-external">Recognizing that you are experiencing anxiety is the first healthy step toward learning how to manage and cope with your feelings. In this article, we look at symptoms of anxiety and identify coping strategies you can use.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://positivepsychology.com/anxiety-coping-skills/">
+<p><a href="https://positivepsychology.com/anxiety-coping-skills/" class="no-external"></a></p><a href="https://positivepsychology.com/anxiety-coping-skills/" class="no-external">
 <div class="listing-author">
 Alicia Nortje
 </div>
@@ -499,14 +517,12 @@ Alicia Nortje
 </div>
 <div class="quarto-post image-right" data-index="5" data-categories="positive psychology,article">
 <div class="body">
-<a href="https://positivepsychology.com/building-self-awareness-activities/">
 <h3 class="no-anchor listing-title">
-How to Increase Self-Awareness: 16 Activities &amp; Tools
+<a href="https://positivepsychology.com/building-self-awareness-activities/" class="no-external">How to Increase Self-Awareness: 16 Activities &amp; Tools</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://positivepsychology.com/building-self-awareness-activities/" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('positive psychology'); return false;">
 positive psychology
@@ -515,14 +531,12 @@ positive psychology
 article
 </div>
 </div>
-<a href="https://positivepsychology.com/building-self-awareness-activities/">
 <div class="listing-description">
-<p>Self-awareness is the ability to monitor our inner and external world. Our thoughts and feelings arise as signals. Developing self-awareness allows us to keep from being swept away by those signals, and instead, objectively and thoughtfully respond to them. Self-aware people understand their internal experience and their impact on the experience of others.</p>
+<a href="https://positivepsychology.com/building-self-awareness-activities/" class="no-external">Self-awareness is the ability to monitor our inner and external world. Our thoughts and feelings arise as signals. Developing self-awareness allows us to keep from being swept away by those signals, and instead, objectively and thoughtfully respond to them. Self-aware people understand their internal experience and their impact on the experience of others.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://positivepsychology.com/building-self-awareness-activities/">
+<p><a href="https://positivepsychology.com/building-self-awareness-activities/" class="no-external"></a></p><a href="https://positivepsychology.com/building-self-awareness-activities/" class="no-external">
 <div class="listing-author">
 Kelly Miller
 </div>
@@ -531,14 +545,12 @@ Kelly Miller
 </div>
 <div class="quarto-post image-right" data-index="6" data-categories="positive psychology,article">
 <div class="body">
-<a href="https://positivepsychology.com/social-intelligence/">
 <h3 class="no-anchor listing-title">
-Cultivating Social Intelligence - 3 Ways to understand others
+<a href="https://positivepsychology.com/social-intelligence/" class="no-external">Cultivating Social Intelligence - 3 Ways to understand others</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://positivepsychology.com/social-intelligence/" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('positive psychology'); return false;">
 positive psychology
@@ -547,14 +559,12 @@ positive psychology
 article
 </div>
 </div>
-<a href="https://positivepsychology.com/social-intelligence/">
 <div class="listing-description">
-<p>Fantastic pointers in this article by Positive Psychology, along with free activities you can use to understand and work with your emotions.</p>
+<a href="https://positivepsychology.com/social-intelligence/" class="no-external">Fantastic pointers in this article by Positive Psychology, along with free activities you can use to understand and work with your emotions.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://positivepsychology.com/social-intelligence/">
+<p><a href="https://positivepsychology.com/social-intelligence/" class="no-external"></a></p><a href="https://positivepsychology.com/social-intelligence/" class="no-external">
 <div class="listing-author">
 Jessica Swainston
 </div>
@@ -563,27 +573,23 @@ Jessica Swainston
 </div>
 <div class="quarto-post image-right" data-index="7" data-categories="free courses">
 <div class="body">
-<a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit">
 <h3 class="no-anchor listing-title">
-Hybrid Working and Digital Transformation Toolkit
+<a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit" class="no-external">Hybrid Working and Digital Transformation Toolkit</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('free courses'); return false;">
 free courses
 </div>
 </div>
-<a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit">
 <div class="listing-description">
-<p>This toolkit offers holistic, human-centred approaches for organisations making the shift to sustainable hybrid working and digital futures. You’ll learn about a range of topics in the collection, including Digital skills and leadership, Digital transformation and building a data-driven culture, Sustainability, Planning for the future, managing uncertainty and building resilience, Hybrid employee experience and culture, Collaborative communication and building trust, Diversity and inclusion, Physical and digital wellbeing, and Change management.</p>
+<a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit" class="no-external">This toolkit offers holistic, human-centred approaches for organisations making the shift to sustainable hybrid working and digital futures. You’ll learn about a range of topics in the collection, including Digital skills and leadership, Digital transformation and building a data-driven culture, Sustainability, Planning for the future, managing uncertainty and building resilience, Hybrid employee experience and culture, Collaborative communication and building trust, Diversity and inclusion, Physical and digital wellbeing, and Change management.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit">
+<p><a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit" class="no-external"></a></p><a href="https://www.open.edu/openlearn/money-business/hybrid-working-and-digital-transformation-toolkit" class="no-external">
 <div class="listing-author">
 The Open University
 </div>
@@ -592,27 +598,23 @@ The Open University
 </div>
 <div class="quarto-post image-right" data-index="8" data-categories="free courses">
 <div class="body">
-<a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace">
 <h3 class="no-anchor listing-title">
-Effective Communication in the Workplace
+<a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace" class="no-external">Effective Communication in the Workplace</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('free courses'); return false;">
 free courses
 </div>
 </div>
-<a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace">
 <div class="listing-description">
-<p>This free course, Effective communication in the workplace, explores the importance of communication as a skill in the workplace. It aims to increase your understanding of communication skills and to help you to consider how your communication could be perceived by others. You’ll cover areas such as verbal and non-verbal communication, written communication and using your communication skills in challenging and diverse situations. You’ll also look at possible scenarios for communication in the future, ranging from remote working to virtual reality.</p>
+<a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace" class="no-external">This free course, Effective communication in the workplace, explores the importance of communication as a skill in the workplace. It aims to increase your understanding of communication skills and to help you to consider how your communication could be perceived by others. You’ll cover areas such as verbal and non-verbal communication, written communication and using your communication skills in challenging and diverse situations. You’ll also look at possible scenarios for communication in the future, ranging from remote working to virtual reality.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace">
+<p><a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace" class="no-external"></a></p><a href="https://www.open.edu/openlearn/money-business/effective-communication-the-workplace" class="no-external">
 <div class="listing-author">
 The Open University
 </div>
@@ -621,27 +623,23 @@ The Open University
 </div>
 <div class="quarto-post image-right" data-index="9" data-categories="podcast">
 <div class="body">
-<a href="https://adamgrant.net/podcasts/work-life/">
 <h3 class="no-anchor listing-title">
-Work Life
+<a href="https://adamgrant.net/podcasts/work-life/" class="no-external">Work Life</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://adamgrant.net/podcasts/work-life/" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('podcast'); return false;">
 podcast
 </div>
 </div>
-<a href="https://adamgrant.net/podcasts/work-life/">
 <div class="listing-description">
-<p>Organizational psychologist Adam Grant takes you inside some truly unusual places, where they’ve figured out how to make work not suck. Adam is the chart-topping host of podcasts that make you think—and think again—about how you work, lead, and live. His shows have been named among the best of the year by Spotify and Apple.</p>
+<a href="https://adamgrant.net/podcasts/work-life/" class="no-external">Organizational psychologist Adam Grant takes you inside some truly unusual places, where they’ve figured out how to make work not suck. Adam is the chart-topping host of podcasts that make you think—and think again—about how you work, lead, and live. His shows have been named among the best of the year by Spotify and Apple.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://adamgrant.net/podcasts/work-life/">
+<p><a href="https://adamgrant.net/podcasts/work-life/" class="no-external"></a></p><a href="https://adamgrant.net/podcasts/work-life/" class="no-external">
 <div class="listing-author">
 Adam Grant
 </div>
@@ -650,27 +648,23 @@ Adam Grant
 </div>
 <div class="quarto-post image-right" data-index="10" data-categories="podcast">
 <div class="body">
-<a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437">
 <h3 class="no-anchor listing-title">
-Give It to Me Straight: How to Give Honest, Constructive Feedback (Think Fast, Talk Smart: Communication Techniques)
+<a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437" class="no-external">Give It to Me Straight: How to Give Honest, Constructive Feedback (Think Fast, Talk Smart: Communication Techniques)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('podcast'); return false;">
 podcast
 </div>
 </div>
-<a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437">
 <div class="listing-description">
-<p>In this episode, David Dodson shares how workplace feedback can be your company’s secret weapon.</p>
+<a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437" class="no-external">In this episode, David Dodson shares how workplace feedback can be your company’s secret weapon.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437">
+<p><a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437" class="no-external"></a></p><a href="https://podcasts.apple.com/gb/podcast/think-fast-talk-smart-communication-techniques/id1494989268?i=1000621522437" class="no-external">
 <div class="listing-author">
 David Dodson
 </div>
@@ -679,14 +673,12 @@ David Dodson
 </div>
 <div class="quarto-post image-right" data-index="11" data-categories="open source communities,article">
 <div class="body">
-<a href="https://the-turing-way.netlify.app/communication/os-comms">
 <h3 class="no-anchor listing-title">
-Communications in Open Source projects
+<a href="https://the-turing-way.netlify.app/communication/os-comms" class="no-external">Communications in Open Source projects</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://the-turing-way.netlify.app/communication/os-comms" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -695,14 +687,12 @@ open source communities
 article
 </div>
 </div>
-<a href="https://the-turing-way.netlify.app/communication/os-comms">
 <div class="listing-description">
-
+<a href="https://the-turing-way.netlify.app/communication/os-comms" class="no-external"></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://the-turing-way.netlify.app/communication/os-comms">
+<p><a href="https://the-turing-way.netlify.app/communication/os-comms" class="no-external"></a></p><a href="https://the-turing-way.netlify.app/communication/os-comms" class="no-external">
 <div class="listing-author">
 The Turing Way
 </div>
@@ -711,14 +701,12 @@ The Turing Way
 </div>
 <div class="quarto-post image-right" data-index="12" data-categories="open source communities,article">
 <div class="body">
-<a href="https://opensource.com/article/23/3/positive-communication-open-source">
 <h3 class="no-anchor listing-title">
-How to encourage positive online communication in your open source community
+<a href="https://opensource.com/article/23/3/positive-communication-open-source" class="no-external">How to encourage positive online communication in your open source community</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://opensource.com/article/23/3/positive-communication-open-source" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -727,14 +715,12 @@ open source communities
 article
 </div>
 </div>
-<a href="https://opensource.com/article/23/3/positive-communication-open-source">
 <div class="listing-description">
-<p>The Drupal community uses nudges to keep conversations productive and inclusive.</p>
+<a href="https://opensource.com/article/23/3/positive-communication-open-source" class="no-external">The Drupal community uses nudges to keep conversations productive and inclusive.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://opensource.com/article/23/3/positive-communication-open-source">
+<p><a href="https://opensource.com/article/23/3/positive-communication-open-source" class="no-external"></a></p><a href="https://opensource.com/article/23/3/positive-communication-open-source" class="no-external">
 <div class="listing-author">
 Michael Anello, Ruth Cheesley, AmyJune Hineline
 </div>
@@ -743,14 +729,12 @@ Michael Anello, Ruth Cheesley, AmyJune Hineline
 </div>
 <div class="quarto-post image-right" data-index="13" data-categories="open source communities,article">
 <div class="body">
-<a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443">
 <h3 class="no-anchor listing-title">
-How to Write a Good Issue: Tips for Effective Communication in Open Source
+<a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443" class="no-external">How to Write a Good Issue: Tips for Effective Communication in Open Source</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -759,14 +743,12 @@ open source communities
 article
 </div>
 </div>
-<a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443">
 <div class="listing-description">
-<p>Three years ago I maintained my first open source project for Hacktoberfest. As a first-time maintainer, I underestimated the time and effort it would take to write good issues for my contributors. What I also learned that year was that writing issues is an important form of communication, and, as a contributor, it can be a valuable skill to develop to create relationships and support maintainers.</p>
+<a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443" class="no-external">Three years ago I maintained my first open source project for Hacktoberfest. As a first-time maintainer, I underestimated the time and effort it would take to write good issues for my contributors. What I also learned that year was that writing issues is an important form of communication, and, as a contributor, it can be a valuable skill to develop to create relationships and support maintainers.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443">
+<p><a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443" class="no-external"></a></p><a href="https://dev.to/opensauced/how-to-write-a-good-issue-tips-for-effective-communication-in-open-source-5443" class="no-external">
 <div class="listing-author">
 BekahHW
 </div>
@@ -775,14 +757,12 @@ BekahHW
 </div>
 <div class="quarto-post image-right" data-index="14" data-categories="open source communities,article">
 <div class="body">
-<a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm">
 <h3 class="no-anchor listing-title">
-Contributing to Open Source projects - contributors etiquette
+<a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm" class="no-external">Contributing to Open Source projects - contributors etiquette</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -791,14 +771,12 @@ open source communities
 article
 </div>
 </div>
-<a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm">
 <div class="listing-description">
-<p>Open-source brings together people from all over the world to collaborate and find solutions to complex problems. This post aims to help you improve your communication and collaboration skills. And at the same time, help make our community friendlier and safe for us all.</p>
+<a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm" class="no-external">Open-source brings together people from all over the world to collaborate and find solutions to complex problems. This post aims to help you improve your communication and collaboration skills. And at the same time, help make our community friendlier and safe for us all.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm">
+<p><a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm" class="no-external"></a></p><a href="https://dev.to/azure/contributing-to-open-source-projects-contributors-etiquette-1bdm" class="no-external">
 <div class="listing-author">
 Tania Allard
 </div>
@@ -807,14 +785,12 @@ Tania Allard
 </div>
 <div class="quarto-post image-right" data-index="15" data-categories="open source communities,article">
 <div class="body">
-<a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette">
 <h3 class="no-anchor listing-title">
-Open source etiquette-guidance from Mozilla
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette" class="no-external">Open source etiquette-guidance from Mozilla</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -823,14 +799,12 @@ open source communities
 article
 </div>
 </div>
-<a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette">
 <div class="listing-description">
-<p>This article won’t teach you everything about contributing to open source; the aim here is more to give you some good starting points to think about as you get started with open source contributions.</p>
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette" class="no-external">This article won’t teach you everything about contributing to open source; the aim here is more to give you some good starting points to think about as you get started with open source contributions.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette">
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette" class="no-external"></a></p><a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette" class="no-external">
 <div class="listing-author">
 MDN
 </div>
@@ -839,14 +813,12 @@ MDN
 </div>
 <div class="quarto-post image-right" data-index="16" data-categories="open source communities,video">
 <div class="body">
-<a href="https://www.youtube.com/watch?v=n5QaOADqSyY">
 <h3 class="no-anchor listing-title">
-People: The API User’s Guide (PyCon US ’23 Keynote)
+<a href="https://www.youtube.com/watch?v=n5QaOADqSyY" class="no-external">People: The API User’s Guide (PyCon US ’23 Keynote)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://www.youtube.com/watch?v=n5QaOADqSyY" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -855,14 +827,12 @@ open source communities
 video
 </div>
 </div>
-<a href="https://www.youtube.com/watch?v=n5QaOADqSyY">
 <div class="listing-description">
-<p>Ned Batchelder has been active in the Python community for more than 20 years. He is an organizer of Boston Python, and the maintainer of coverage.py and a handful of other tools.</p>
+<a href="https://www.youtube.com/watch?v=n5QaOADqSyY" class="no-external">Ned Batchelder has been active in the Python community for more than 20 years. He is an organizer of Boston Python, and the maintainer of coverage.py and a handful of other tools.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://www.youtube.com/watch?v=n5QaOADqSyY">
+<p><a href="https://www.youtube.com/watch?v=n5QaOADqSyY" class="no-external"></a></p><a href="https://www.youtube.com/watch?v=n5QaOADqSyY" class="no-external">
 <div class="listing-author">
 Ned Batchelder
 </div>
@@ -871,14 +841,12 @@ Ned Batchelder
 </div>
 <div class="quarto-post image-right" data-index="17" data-categories="open source communities,book">
 <div class="body">
-<a href="https://erinmeyer.com/books/the-culture-map/">
 <h3 class="no-anchor listing-title">
-The Culture Map: Breaking Through the Invisible Boundaries of Global Business
+<a href="https://erinmeyer.com/books/the-culture-map/" class="no-external">The Culture Map: Breaking Through the Invisible Boundaries of Global Business</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://erinmeyer.com/books/the-culture-map/" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -887,14 +855,12 @@ open source communities
 book
 </div>
 </div>
-<a href="https://erinmeyer.com/books/the-culture-map/">
 <div class="listing-description">
-<p>An international business expert helps you understand and navigate cultural differences in this insightful and practical guide, perfect for both your work and personal life.</p>
+<a href="https://erinmeyer.com/books/the-culture-map/" class="no-external">An international business expert helps you understand and navigate cultural differences in this insightful and practical guide, perfect for both your work and personal life.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://erinmeyer.com/books/the-culture-map/">
+<p><a href="https://erinmeyer.com/books/the-culture-map/" class="no-external"></a></p><a href="https://erinmeyer.com/books/the-culture-map/" class="no-external">
 <div class="listing-author">
 Erin Meyer
 </div>
@@ -903,14 +869,12 @@ Erin Meyer
 </div>
 <div class="quarto-post image-right" data-index="18" data-categories="open source communities,article">
 <div class="body">
-<a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html">
 <h3 class="no-anchor listing-title">
-Technical discussions are hard; a few tips
+<a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html" class="no-external">Technical discussions are hard; a few tips</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source communities'); return false;">
 open source communities
@@ -919,14 +883,12 @@ open source communities
 article
 </div>
 </div>
-<a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html">
 <div class="listing-description">
-<p>This post discuss the difficulties of communicating while developing open-source projects and tries to gives some simple advice.</p>
+<a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html" class="no-external">This post discuss the difficulties of communicating while developing open-source projects and tries to gives some simple advice.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html">
+<p><a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html" class="no-external"></a></p><a href="https://gael-varoquaux.info/programming/technical-discussions-are-hard-a-few-tips.html" class="no-external">
 <div class="listing-author">
 Gaël Varoquaux
 </div>
@@ -1023,10 +985,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/contributor-experience\.org");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1036,8 +1015,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1049,7 +1037,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1093,6 +1204,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1118,6 +1230,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1179,12 +1317,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../../../docs/guide/comms/review_communication.html" class="pagination-link">
+      <a href="../../../docs/guide/comms/review_communication.html" class="pagination-link" aria-label="Reviewing contributions">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Reviewing contributions</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../docs/guide/tools/introduction.html" class="pagination-link">
+      <a href="../../../docs/guide/tools/introduction.html" class="pagination-link" aria-label="Introduction">
         <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -1198,13 +1336,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../../about.html">About</a>
+    <a class="nav-link" href="../../../about.html">
+<p>About</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../LICENSE">License</a>
+    <a class="nav-link" href="../../../LICENSE">
+<p>License</p>
+</a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/comms/resources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -1217,6 +1359,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
