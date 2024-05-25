@@ -1,0 +1,59 @@
+---
+title: "Open source roadmap"
+sidebar: guide
+---
+
+A roadmap is an essential document in the development of an open source project, 
+serving as a strategic plan that outlines the mission, vision, direction, and 
+progress of the project. Its importance can be understood through several key 
+aspects:
+
+### 1. Guiding development and planning
+A roadmap provides a clear and structured plan for the project's development. 
+It lays out the major milestones, features, and improvements planned for future 
+releases. This helps project leadership and contributors understand its priorities 
+and focus their efforts on tasks that align with the project's goals. It also aids 
+in resource allocation, ensuring that time and effort are spent efficiently on the 
+most impactful areas.
+
+### 2. Enhancing communication and collaboration
+Open source projects often involve contributors from around the world. A roadmap acts 
+as a communication tool, helping to keep everyone on the same page. It provides a shared 
+understanding of the project's direction, which is essential for effective collaboration. 
+Contributors can see how their work fits into the bigger picture and how their 
+contributions will impact future developments.
+
+### 3. Attracting and retaining contributors
+A well-defined roadmap can attract new contributors by showcasing the project's vision, 
+long-term goals as well as immediate needs. It demonstrates that the project is 
+well-organized and has a clear plan for growth. For existing contributors, a roadmap helps 
+maintain engagement by providing a sense of progress and a larger perspective. 
+
+### 4. Ensuring transparency and accountability
+Transparency is a core value in the open source community. A publicly available roadmap 
+ensures that all parties, including users, contributors, and sponsors, have visibility 
+into the project's plans and progress. This openness fosters trust and accountability, 
+as the project leadership team commits to delivering specific features and improvements. 
+It also allows the community to hold the project leadership accountable.
+
+### 5. Facilitating community feedback and involvement
+A roadmap invites feedback from the community, allowing users and contributors to suggest 
+improvements, propose new features, and raise concerns. This feedback loop is essential 
+for ensuring that the project evolves in a way that meets the needs of its users. By 
+involving the community in the planning process, the project can better align with 
+user expectations and foster a sense of ownership among contributors.
+
+### 6. Providing a framework for evaluation
+A roadmap sets benchmarks for the project's progress, enabling regular evaluation of 
+deliverables against set goals. This framework helps the project leadership team to 
+measure success, identify areas for improvement, and adjust plans as needed. Regular 
+updates to the roadmap based on evaluation results ensure that the project remains 
+responsive to changing needs and priorities of the user community.
+
+### 7. Supporting fundraising and sponsorship
+For many open source projects, securing funding and sponsorship is crucial for sustainability. 
+A detailed roadmap is often a requirement in fundraising efforts, as it demonstrates a 
+well-thought-out plan for the project's future. Sponsors and donors are more likely to 
+support a project that has clear goals and an action plan for achieving them.
+
+Further reading: TO DO
