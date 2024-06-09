@@ -9,63 +9,8 @@
 <link>https://contributor-experience.org/blog.html</link>
 <atom:link href="https://contributor-experience.org/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.553</generator>
+<generator>quarto-1.4.555</generator>
 <lastBuildDate>Thu, 30 Nov 2023 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>Career Paths Lab: meet Dea Maria Léon</title>
-  <dc:creator>Suparna Pawar</dc:creator>
-  <link>https://contributor-experience.org/docs/posts/blog_DeaMaria/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>We had the privilege of speaking with <a href="https://www.linkedin.com/in/dea-mar%C3%ADa-l%C3%A9on-11a792/">Dea Maria</a>, a contributor to pandas. Originally from Mexico, she studied Electrical Engineering and held several engineering positions. She started her journey working in factories at the border hometown. Later, after getting an MBA, she worked as an Analyst in the US and France. She got into coding as a self-directed learner and switched careers after an employment gap. She has been contributing to pandas since the beginning of 2023. The conversation with Dea was very enjoyable. She generously shared insights into her journey toward becoming an open source software engineer. We share a few snippets of this conversation in her voice and hope that it will inspire you to take the next steps toward contributing to open source.</p>
-<section id="experience-with-open-source" class="level2">
-<h2 class="anchored" data-anchor-id="experience-with-open-source">Experience with open source</h2>
-<p>I have been contributing to pandas since the beginning of this year. I am very lucky. I can learn and help at the same time. Plus, it gave me hope to re-enter the job market. I love coding and I wanted to work in this field. I have experience and education in electronics and also in finance. So I thought that changing careers would be feasible. But I am from Mexico and live in France, and without having a French diploma it turned out to be impossible. I took several online specializations and courses after finding myself without a job. However, the feedback I had from headhunters was that I did not have work experience in this field. It was not possible to find a job in my previous field either. Contributing to open source turned out to be the solution to the vicious circle of not being hired for a lack of work experience and not getting experience because nobody hired me.</p>
-</section>
-<section id="knowledge-about-open-source" class="level2">
-<h2 class="anchored" data-anchor-id="knowledge-about-open-source">Knowledge about Open Source</h2>
-<p>I started joining a Paris pyData meetup, and there I found out about an “Impact Scholarship”. This is a program sponsored by NumFOCUS. I was a lucky recipient of the scholarship which allowed me to attend for free the pyData Global 2021 online conference. I volunteered as a host for some presentations, and I met many other volunteers. Experienced participants mentioned that Open Source was great for practicing coding. The program also connected me to a mentor. She was a freelancer, which is what I wanted to become. She shared with me some insights about the freelance business model. We are still in contact and I am very glad about it. The following year I was asked if I could volunteer to review the talk proposals for the PyData conference as well as a Julia conference. This was very interesting.</p>
-</section>
-<section id="finding-the-right-project" class="level2">
-<h2 class="anchored" data-anchor-id="finding-the-right-project">Finding the right project</h2>
-<p>Afterward, I searched for OS projects on GitHub to contribute. But it hadn’t occurred to me that I could be contributing to a well-known library. I thought I would have needed to have experience in smaller projects with a smaller code base.</p>
-</section>
-<section id="joining-sprints" class="level2">
-<h2 class="anchored" data-anchor-id="joining-sprints">Joining sprints</h2>
-<p>I kept working alone. I built a few things to help out family members with my skills. Until there was a workshop on contributing to Scikit-learn organized by pyLadies Paris and conducted by the core devs. It was 4-sessions long. I was able to master the contribution workflow and contribute a couple of Pull Requests. Then I saw at the PyData conference that there would be an online pandas sprint in December 2022. It was thus a great opportunity to be able to participate without having to travel and have my first PR in pandas. Through Data Umbrella I saw a live video of Marco Gorelli’s “How you (yes you) can contribute to Open Source” which was highly motivating. The title, I thought, was just for me. I then just kept at it!</p>
-</section>
-<section id="contributing-to-pandas" class="level2">
-<h2 class="anchored" data-anchor-id="contributing-to-pandas">Contributing to pandas</h2>
-<p>When I started contributing to pandas, I was getting answers to all my questions. Almost in real-time!<br>
-One day I noticed in the code that the examples on the docstrings were not being tested. And when I tried to test some of them, I found errors. It seemed like a problem I could fix. I was definitely intimidated by all those smart people. But Marco’s support was remarkable. He motivated me by letting me know what I was doing was important. This was decisive for me to continue. Marco offered to talk to me every day to help me with my contributions. There were other people who have given me some precious guidance. For example, I watched Melissa Mendoça’s video about Sphinx. And thanks to that, I was convinced that Sphinx was not so mysterious after all. Another pandas’ core developer (Matthew Roeschke) suggested that I work on adding the missing examples to the documentation. I felt it was something very valuable for the project.</p>
-</section>
-<section id="comparing-open-source-to-the-corporate-world." class="level2">
-<h2 class="anchored" data-anchor-id="comparing-open-source-to-the-corporate-world.">Comparing Open Source to the corporate world.</h2>
-<p>I have worked in the corporate world in several industries. What I find different with OS is the lack of a clear hierarchy. Everybody can participate in the decision-making. In other words, many brains think better than one, as opposed to having one boss “calling all the shots”. But this can lead to decisions taking a long time to advance because of the lack of agreement. So, I am certain that the topics of Governance and Code of Conduct are key elements of every respected project. These should be clear, formalized and enforced. It is extremely important to make sure that everybody respects one another.</p>
-</section>
-<section id="open-source-regrets" class="level2">
-<h2 class="anchored" data-anchor-id="open-source-regrets">Open Source Regrets</h2>
-<p>I wish I had started earlier.</p>
-</section>
-<section id="current-contributions" class="level2">
-<h2 class="anchored" data-anchor-id="current-contributions">Current Contributions</h2>
-<p>I am participating in a project to improve pandas’ benchmarks.</p>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>I am a long way from where I started back in Cd. Juárez Mexico. I had faith in education because it was by educating myself that I got out of a difficult socio-economic environment. But before all the activities I mentioned earlier, I had a lot of doubts and thought I had hit a wall. It was very difficult to start working. Right from the start, the job ads in Mexico had the requirements that it was necessary to be a man in order to apply. It was written in the ads. Many times I also heard people telling me straight to my face that women were not good engineers. Having a clear Code of Conduct in the projects helps to make sure these things don’t happen. I cannot thank enough the people in open source who have helped me in one way or another. Sometimes without knowing. My work to complete all the missing examples for the panda’s website is sponsored by <a href="https://numfocus.org/">NumFOCUS</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <guid>https://contributor-experience.org/docs/posts/blog_DeaMaria/</guid>
-  <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
-</item>
 <item>
   <title>Career Paths Lab: meet Natalia Mokeeva</title>
   <dc:creator>Suparna Pawar</dc:creator>
@@ -123,6 +68,61 @@ One day I noticed in the code that the examples on the docstrings were not being
 
  ]]></description>
   <guid>https://contributor-experience.org/docs/posts/blog_NataliaMokeeva/</guid>
+  <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Career Paths Lab: meet Dea Maria Léon</title>
+  <dc:creator>Suparna Pawar</dc:creator>
+  <link>https://contributor-experience.org/docs/posts/blog_DeaMaria/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We had the privilege of speaking with <a href="https://www.linkedin.com/in/dea-mar%C3%ADa-l%C3%A9on-11a792">Dea Maria</a>, a contributor to pandas. Originally from Mexico, she studied Electrical Engineering and held several engineering positions. She started her journey working in factories at the border hometown. Later, after getting an MBA, she worked as an analyst in the US and France. She got into coding as a self-directed learner and switched careers after an employment gap. She has been contributing to pandas since the beginning of 2023. The conversation with Dea was very enjoyable. She generously shared insights into her journey toward becoming an open source software engineer. We share a few snippets of this conversation in her voice and hope that it will inspire you to take the next steps toward contributing to open source.</p>
+<section id="experience-with-open-source" class="level2">
+<h2 class="anchored" data-anchor-id="experience-with-open-source">Experience with open source</h2>
+<p>I have been contributing to pandas since the beginning of this year. I am very lucky. I can learn and help at the same time. Plus, it gave me hope to re-enter the job market. I love coding and I wanted to work in this field. I have experience and education in electronics and also in finance. So I thought that changing careers would be feasible. But I am from Mexico and live in France, and without having a French diploma it turned out to be impossible. I took several online specializations and courses after finding myself without a job. However, the feedback I had from headhunters was that I did not have work experience in this field. It was not possible to find a job in my previous field either. Contributing to open source turned out to be the solution to the vicious circle of not being hired for a lack of work experience and not getting experience because nobody hired me.</p>
+</section>
+<section id="knowledge-about-open-source" class="level2">
+<h2 class="anchored" data-anchor-id="knowledge-about-open-source">Knowledge about Open Source</h2>
+<p>I started joining a Paris PyData meetup, and there I found out about an “Impact Scholarship”. This is a program sponsored by NumFOCUS. I was a lucky recipient of the scholarship which allowed me to attend for free the PyData Global 2021 online conference. I volunteered as a host for some presentations, and I met many other volunteers. Experienced participants mentioned that open source was great for practicing coding. The program also connected me to a mentor. She was a freelancer, which is what I wanted to become. She shared with me some insights about the freelance business model. We are still in contact and I am very glad about it. The following year I was asked if I could volunteer to review the talk proposals for the PyData conference as well as a Julia conference. This was very interesting.</p>
+</section>
+<section id="finding-the-right-project" class="level2">
+<h2 class="anchored" data-anchor-id="finding-the-right-project">Finding the right project</h2>
+<p>Afterward, I searched for OS projects on GitHub to contribute. But it hadn’t occurred to me that I could be contributing to a well-known library. I thought I would have needed to have experience in smaller projects with a smaller code base.</p>
+</section>
+<section id="joining-sprints" class="level2">
+<h2 class="anchored" data-anchor-id="joining-sprints">Joining sprints</h2>
+<p>I kept working alone. I built a few things to help out family members with my skills. Until there was a workshop on contributing to scikit-learn organized by PyLadies Paris and conducted by the core devs. It was 4 sessions long. I was able to master the contribution workflow and contribute a couple of pull requests. Then I saw at the PyData conference that there would be an online pandas sprint in December 2022. It was thus a great opportunity to be able to participate without having to travel and have my first PR in pandas. Through Data Umbrella I saw a live video of Marco Gorelli’s “How you (yes you) can contribute to Open Source” which was highly motivating. The title, I thought, was just for me. I then just kept at it!</p>
+</section>
+<section id="contributing-to-pandas" class="level2">
+<h2 class="anchored" data-anchor-id="contributing-to-pandas">Contributing to pandas</h2>
+<p>When I started contributing to pandas, I was getting answers to all my questions almost in real-time!<br>
+One day I noticed in the code that the examples on the docstrings were not being tested. And when I tried to test some of them, I found errors. It seemed like a problem I could fix. I was definitely intimidated by all those smart people. But Marco Gorelli’s support was remarkable. He motivated me by letting me know what I was doing was important. This was decisive for me to continue. Marco offered to talk to me every day to help me with my contributions. Other people from the pandas core team have given me some invaluable guidance as well. For example, I watched Melissa Mendoça’s video about Sphinx. And thanks to that, I was convinced that Sphinx was not so mysterious after all. Another pandas core developer, Matthew Roeschke, suggested that I work on adding missing examples to the pandas documentation. I felt it was something very valuable for the project.</p>
+</section>
+<section id="comparing-open-source-to-the-corporate-world" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-open-source-to-the-corporate-world">Comparing Open Source to the corporate world</h2>
+<p>I have worked in the corporate world in several industries. What I find different with OS is the lack of a clear hierarchy. Everybody can participate in the decision-making. In other words, many brains think better than one, as opposed to having one boss “calling all the shots”. But this can lead to decisions taking a long time to advance because of the lack of agreement. So, I am certain that the topics of Governance and Code of Conduct are key elements of every respected project. These should be clear, formalized, and enforced. It is extremely important to make sure that everybody respects one another.</p>
+</section>
+<section id="open-source-regrets" class="level2">
+<h2 class="anchored" data-anchor-id="open-source-regrets">Open Source Regrets</h2>
+<p>I wish I had started earlier.</p>
+</section>
+<section id="current-contributions" class="level2">
+<h2 class="anchored" data-anchor-id="current-contributions">Current Contributions</h2>
+<p>I am participating in a project to improve pandas benchmarks.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>I am a long way from where I started back in Cd. Juárez Mexico. I had faith in education because it was by educating myself that I got out of a difficult socio-economic environment. But before all the activities I mentioned earlier, I had a lot of doubts and thought I had hit a wall. It was very difficult to start working. Right from the start, the job ads in Mexico had the requirements that it was necessary to be a man to apply. It was written in the ads. Many times I also heard people telling me straight to my face that women don’t make good engineers. Having a clear Code of Conduct in the projects helps to make sure these things don’t happen. I cannot thank enough the people in open source who have helped me in one way or another. Sometimes without knowing. My work to complete all the missing examples for the pandas website is sponsored by <a href="https://numfocus.org/">NumFOCUS</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://contributor-experience.org/docs/posts/blog_DeaMaria/</guid>
   <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
 </item>
 <item>

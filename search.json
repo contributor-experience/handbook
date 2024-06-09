@@ -1,144 +1,72 @@
 [
   {
-    "objectID": "CONTRIBUTE.html",
-    "href": "CONTRIBUTE.html",
-    "title": "Contribution Guidelines",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Contributor  Experience Handbook",
     "section": "",
-    "text": "There are quite a few ways to get involved with the Contributor Experience Project. You can:\n\njoin one of our community calls\njoin our Zulip chat\nshare your ideas by filing issues, submitting pull requests, or commenting on existing discussions\naddress issues filed by other contributors\nreview submitted PRs\n\n\n\nNever made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
-    "crumbs": [
-      "Governance",
-      "Contribution Guidelines"
-    ]
+    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and connect with peers who are working in this field, join our contributor community meetings ✨\n\n\n\nContributor experience logo, deconstructed: five colorful geometric forms, which put together form a circle. The colors are teal, yellow, navy blue, soft pink and violet."
   },
   {
-    "objectID": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
-    "href": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
-    "title": "Contribution Guidelines",
+    "objectID": "docs/about/deployment_guide.html",
+    "href": "docs/about/deployment_guide.html",
+    "title": "Deployment guide for this handbook",
     "section": "",
-    "text": "Never made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
+    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment.",
     "crumbs": [
-      "Governance",
-      "Contribution Guidelines"
+      "Community Handbook",
+      "Deployment guide for this handbook"
     ]
   },
   {
-    "objectID": "docs/guide/tools/bots.html",
-    "href": "docs/guide/tools/bots.html",
-    "title": "Useful Bots",
+    "objectID": "docs/about/deployment_guide.html#details",
+    "href": "docs/about/deployment_guide.html#details",
+    "title": "Deployment guide for this handbook",
+    "section": "Details",
+    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub.",
+    "crumbs": [
+      "Community Handbook",
+      "Deployment guide for this handbook"
+    ]
+  },
+  {
+    "objectID": "docs/about/calendar.html",
+    "href": "docs/about/calendar.html",
+    "title": "Calendar",
     "section": "",
-    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!",
+    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)",
     "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Useful Bots"
+      "Community Handbook",
+      "Calendar"
     ]
   },
   {
-    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
-    "title": "Useful Bots",
-    "section": "Examples of useful bots",
-    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & issues with a welcome message that provides links to a project’s resources like contributing guidelines, code of conduct, community events calendar, etc.\nPR-Triage Bot helps automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributions such as PR reviews, ideas, discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Useful Bots"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
-    "href": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
-    "title": "Useful Bots",
-    "section": "How some projects use these bots",
-    "text": "How some projects use these bots\n\nThe Turing Way Record of Contributions using All-Contributors.\nAdd your example here",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Useful Bots"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/metrics.html",
-    "href": "docs/guide/tools/metrics.html",
-    "title": "Measuring Community Health",
+    "objectID": "docs/about/sponsors.html",
+    "href": "docs/about/sponsors.html",
+    "title": "Sponsors",
     "section": "",
-    "text": "One of the biggest challenges when measuring the impact of our Contributor Experience work (and general community health for our projects) has been deciding on the right metrics to look at.\nIn this page, we’ll discuss a few existing metrics models for measuring open-source community health, some thoughts on how to measure and why, and what metrics we would like to use to evaluate our work.",
+    "text": "The launch of this project was supported by the Chan Zuckerberg Initiative as a part of their [Essential Open Source Software for Science D&I program] (https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem).",
     "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Measuring Community Health"
+      "Vision & History",
+      "Sponsors"
     ]
   },
   {
-    "objectID": "docs/guide/tools/metrics.html#why-do-you-want-to-measure-your-communitys-health",
-    "href": "docs/guide/tools/metrics.html#why-do-you-want-to-measure-your-communitys-health",
-    "title": "Measuring Community Health",
-    "section": "Why do you want to measure your community’s health?",
-    "text": "Why do you want to measure your community’s health?\nThere are many reasons why you would want to measure your community health. You may want to see your community grow, be sustainable, be welcoming, have appropriate support, or become popular. You may need metrics for funding, roadmap decisions, or a more general understanding of if something is going wrong in your community or if you notice significant improvements. In any case, identifying your purpose for measuring is essential when deciding which metrics to use.\n\nFunding and reporting\nIn many cases, you want to communicate with your stakeholders in a way that demonstrates impact, achievement, or an overall assessment of the state of your community. In this situation, metrics can be helpful if combined with the story you want to tell.\n\n\nCommunicating with your community\nProjects perceived as “healthy” are more successful in attracting new contributors. The notion of health here is subjective, however, and can mean different things to different people.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Measuring Community Health"
-    ]
+    "objectID": "docs/about/team.html",
+    "href": "docs/about/team.html",
+    "title": "Team & History",
+    "section": "",
+    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
   },
   {
-    "objectID": "docs/guide/tools/metrics.html#what-do-you-want-to-measure",
-    "href": "docs/guide/tools/metrics.html#what-do-you-want-to-measure",
-    "title": "Measuring Community Health",
-    "section": "What do you want to measure?",
-    "text": "What do you want to measure?\nStart by asking, “What do we want to accomplish?” instead of asking, “What do we want to measure?”\n\nUser vs. contributor metrics\nThe first key point is whether you want to measure your user or contributor community (or maybe both!) These groups can be very different in both composition and the kind of engagement you can expect, not to mention that collecting user data may prove challenging. This also means you probably want to use different metrics for each group.\n\n\nIdentifying community-specific metrics\nEvery community is different. While we can think of a few metrics as universal, a few will tell you different stories when used in different contexts. If your goal is to assess how your project is faring compared to other projects, you must be very careful to consider projects with similar backgrounds, development workflow, scale, maturity, and audience. For example, an established project may have a lower release frequency than an up-and-coming project, and that does not mean it is unmaintained - instead, it means it is stable. In this sense, comparison can work against you.\n\n\nGrowth is not always a proxy for health.\nIt is common for “contributor growth” to be the first measure of success in any open-source community. However, growth is not always a good thing. In our experience, it has become apparent that without a plan for maintainer engagement or support, having more new contributors can be disruptive to open-source projects and create unnecessary stress on existing maintainers. Furthermore, it can create frustration on the newcomer’s part, as they need adequate support or responses on their contributions.\nIn addition, even if you are still in a project with room for growth, if you focus on the numbers alone and don’t understand how you are growing, you may end up with an unbalanced community with not enough diversity or with too many people who want to work on one part of your project, while others go unsupported.\n\n\nQualitative vs. Quantitative\nIn many cases, the answer will be a combination of qualitative and quantitative data, both of which come with their own challenges and limitations.",
+    "objectID": "docs/guide/comms/introduction.html",
+    "href": "docs/guide/comms/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Having clear, welcoming and productive communication in any open source project can be challenging. Considering that most communication happens in written text and that the majority of contributors is working on their free time, communication can often be short and lacking in context.\nIn this section of our guide, we will explore ways to communicate better and list a few resources for those interested in this topic.",
     "crumbs": [
       "Guide",
-      "Tools Collection",
-      "Measuring Community Health"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/metrics.html#the-dangers-of-metrics",
-    "href": "docs/guide/tools/metrics.html#the-dangers-of-metrics",
-    "title": "Measuring Community Health",
-    "section": "The dangers of metrics",
-    "text": "The dangers of metrics\nBecause we tend to look at the readily available metrics, there are quite a few caveats to look out for when using data to make analyses.\n\nMeasuring only what is on the code platform (e.g., GitHub)\nIt is easy to forget that community health means more than just the interactions on your code platform. Questions around credit, different contribution types, and what happens behind the scenes of an apparent one-commit contribution are challenging to handle.\nExisting tools like the AllContributors project try to capture these contributions but are, unfortunately, still unable to capture them all.\n\n\nEncouraging behavior through measuring\nWhen you decide to measure something, you create an incentive for contributors as they want to be captured in that metric. One concrete example is the green squares on GitHub and how it can encourage distortions in your community.\n\n\nConsent and data handling\nWhenever we talk about data, we must also mention the handling of this data with respect to privacy, regulatory concerns, and the consent of your community for the use of such data. While signing up to GitHub may indicate you accept that third parties can use all of its public data, you should consult with your community before making conclusions from this data.\n\n\nCan you even measure that?\nOur work focused on building culture, improving communications, inclusivity, and developing a sense of belonging. There are no easy ways to measure these goals other than using proxies. For example, we could look at survey responses, individual anecdotes, and increased contributions from people from diverse backgrounds. But these are incomplete and only tell us part of the story.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Measuring Community Health"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/metrics.html#existing-models",
-    "href": "docs/guide/tools/metrics.html#existing-models",
-    "title": "Measuring Community Health",
-    "section": "Existing models",
-    "text": "Existing models\nThere are many models, platforms, and solutions for analyzing open-source communities. Quite a few are focused on corporate-backed projects, as these usually require regular reporting by OSPOs or community managers, so consider whether they would apply to your community at all.\nRemember that a single metric is not capable of fully describing community health. Consider adopting a metric model - and be willing to see it change and evolve over time.\nBelow are a few models and frameworks we have found - let us know if you would like to suggest others!\n\nThe CHAOSS Project\nThe CHAOSS project collects a large number of different metrics models to be used by open-source communities and projects. Here are a few models you may want to look at:\n\nStarter project health\nProject engagement\nCommunity activity\n\nA few of these models are implemented in tools such as Bitergia, GrimoireLab and Augur.\nOrbit\nOrbit is a powerful commercial community monitoring tool that can aggregate data from many sources into one dashboard.\nYOSHI\nYOSHI is a model designed to measure the organizational status of an open-source community and, based on the previous measurements, associate a community pattern of organizational structure types matching the characteristics of the community.\nDocumentation metrics\nYou can gather many interesting insights about your users and contributors by looking at how they engage with your documentation. You can collect such data using tools such as Plausible or Google Analytics.\nProject OCEAN\nProject OCEAN is an open science collaboration focused on understanding the open source ecosystems & creating the datasets that enable research purposes and help form a clear understanding of the state of open source communities. OCEAN’s goal is to understand the health of the open source communities.\nThe TODO Group\nTODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives. They also discuss metrics as part of their work.\nQualitative data\nUser surveys, post-meeting surveys, and general individual feedback can be sufficient - especially if you have a smaller community. Don’t underestimate the value of conversations and personal engagement.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Measuring Community Health"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/metrics.html#summary",
-    "href": "docs/guide/tools/metrics.html#summary",
-    "title": "Measuring Community Health",
-    "section": "Summary",
-    "text": "Summary\n\nAccept limitations of data: Metrics will never be perfect and can still be valuable. The important part is to be aware of the limitations and not lose the big picture of your community from a limited set of metrics or data.\nCan we look at trends instead of numbers? Looking at how things move over time is often better than singling out absolute numbers. Remember that trends do not need to be “up” - stable or decreasing trends are sometimes desirable.\nConsider having a metrics policy. Consider creating a privacy or data usage policy in your project, and make sure you keep your community informed on how you use this data.\nDon’t do this alone. Several groups are working on metrics and can be a source of information and collaboration. Reach out!",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Measuring Community Health"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/metrics.html#further-resources",
-    "href": "docs/guide/tools/metrics.html#further-resources",
-    "title": "Measuring Community Health",
-    "section": "Further resources",
-    "text": "Further resources\n\nAmanda Casari and Julia Ferraioli. Preventing Random Acts of Metrics\nAmanda Casari, Katie McLaughlin, Milo Z. Trujillo, Jean-Gabriel Young, James P. Bagrow and Laurent Hébert-Dufresne. Open source ecosystems need equitable credit across contributions\nDawn Foster. Open Source Community Metrics: Tips and Techniques for Measuring Participation\nOpen Source Metrics, by the GitHub Open Source Guides\nSean Goggins, Kevin Lumbard, Matt Germonprez. Open Source Community Health: Analytical Metrics and Their Corresponding Narratives\nSumana Harihareswara. Contribution Metrics Are Messy: An Example\nSumana Harihareswara. What should we stop doing?\nGeorg Link. Open Source Project Health\nGeorg Link, Emilio Galeano Gryciuk. How to address challenges with community metrics\nLinux.com Editorial Staff. Measuring the Health of Open Source Communities\nSophia Vargas. A Beginners Guide to Open Source Metrics and Analysis\nSophia Vargas. The Benefits and Pitfalls of OSS Project Metrics: Measuring Health and Risk in Open Source Communities\nJean-Gabriel Young, Amanda Casari, Katie McLaughlin, Milo Z. Trujillo, Laurent Hébert-Dufresne, James P. Bagrow. Which contributions count? Analysis of attribution in open source",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Measuring Community Health"
+      "Communication Guide",
+      "Introduction"
     ]
   },
   {
@@ -161,30 +89,6 @@
     "crumbs": [
       "Communication Guide",
       "Communication resources"
-    ]
-  },
-  {
-    "objectID": "docs/guide/comms/introduction.html",
-    "href": "docs/guide/comms/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Having clear, welcoming and productive communication in any open source project can be challenging. Considering that most communication happens in written text and that the majority of contributors is working on their free time, communication can often be short and lacking in context.\nIn this section of our guide, we will explore ways to communicate better and list a few resources for those interested in this topic.",
-    "crumbs": [
-      "Guide",
-      "Communication Guide",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/introduction.html",
-    "href": "docs/guide/collab/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Every open source project is different, but there are many activities that may help contributors and maintainers collaborate in a productive, positive and healthy environment.\nThis section aims to collect a few of these practices and experiences to make it easier for folks to identify what might work for their projects.\n\n\n\n\n\n\nNote\n\n\n\nNote that the content in these pages is not meant to be seen as a ladder, or as a checklist of what a project needs to be successful. Each project has its own needs and community, so feel free to take what is useful and leave what is not.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Introduction"
     ]
   },
   {
@@ -296,106 +200,280 @@
     ]
   },
   {
-    "objectID": "docs/about/team.html",
-    "href": "docs/about/team.html",
-    "title": "Team & History",
+    "objectID": "docs/guide/collab/meetings.html",
+    "href": "docs/guide/collab/meetings.html",
+    "title": "Meetings",
     "section": "",
-    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html",
-    "href": "docs/about/deployment_guide.html",
-    "title": "Deployment guide for this handbook",
-    "section": "",
-    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment.",
+    "text": "For many open-source projects, collaboration happens primarily on text-based online forums such as a project’s issue tracker or a community forum. Over time, maintainers and contributors may feel they would benefit from having synchronous meetings to discuss project matters or to organize discussions around roadmap, specific projects or the general governance of the project.\nIn addition, having dedicated meeting times for triage, onboarding newcomers or working groups such as documentation, website, design or translations may also be helpful.\nThe following guide, developed in collaboration with the Scientific Python project, describes a few of the meetings we have experimented with and when they are useful: Meeting types.",
     "crumbs": [
-      "Community Handbook",
-      "Deployment guide for this handbook"
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
     ]
   },
   {
-    "objectID": "docs/about/deployment_guide.html#details",
-    "href": "docs/about/deployment_guide.html#details",
-    "title": "Deployment guide for this handbook",
-    "section": "Details",
-    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub.",
+    "objectID": "docs/guide/collab/meetings.html#community-meetings",
+    "href": "docs/guide/collab/meetings.html#community-meetings",
+    "title": "Meetings",
+    "section": "Community meetings",
+    "text": "Community meetings\nRegular community meetings are essential for larger projects that require a high level of coordination in different projects, roadmap items or governance. However, even smaller projects may benefit from synchronous discussions. These meetings can be a way to:\n\nConnect with your community, and put a human face on the people behind the commit handle. This can be especially helpful when dubious or unclear communication happens via text - a conversation can prevent many conflicts from arising.\nDiscuss complex technical implementations or conduct contribution reviews. This can be its own meeting (a “triage meeting”) but depending on your community needs it can be helpful and make the review of a long or complex contribution faster.\nPlan for your roadmap or create strategies for high-stakes projects. Funding, new releases, architectural or governance decisions can also benefit from a live discussion. In this case, it is even more important to keep a record of the discussion and, ideally, keep that record public for your community to consult.",
     "crumbs": [
-      "Community Handbook",
-      "Deployment guide for this handbook"
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
     ]
   },
   {
-    "objectID": "docs/about/calendar.html",
-    "href": "docs/about/calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)",
+    "objectID": "docs/guide/collab/meetings.html#new-contributor-meetings",
+    "href": "docs/guide/collab/meetings.html#new-contributor-meetings",
+    "title": "Meetings",
+    "section": "New contributor meetings",
+    "text": "New contributor meetings\nA special type of meeting we have been experimenting with is the “newcomer” or “New contributor” meetings. As noted in the page linked above, these can be organized as “Office hours” meetings - inviting questions and requests for support from new contributors; they can be organized as webinars, with talks or sessions on a specific aspect of contributing, such as the contribution workflow or running tests, for example; and they can also be practical working sessions, such as a walking through a full contribution task with the participants.\nProjects with a larger contributor base will find more value in these meetings than projects with a low number of new contributors. Make sure to also consider timezones and maintainer bandwidth when considering these meetings for your project. One central point to keep in mind is to use these meetings as an opportunity to set expectations for newcomers - about how long it takes for a contribution to be reviewed, how new features are discussed in the project or the areas that would best be served by contributors with less experience in the project.",
     "crumbs": [
-      "Community Handbook",
-      "Calendar"
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Contributor  Experience Handbook",
-    "section": "",
-    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and connect with peers who are working in this field, join our contributor community meetings ✨\n\n\n\nContributor experience logo, deconstructed: five colorful geometric forms, which put together form a circle. The colors are teal, yellow, navy blue, soft pink and violet."
-  },
-  {
-    "objectID": "docs/about/acknowledgments.html",
-    "href": "docs/about/acknowledgments.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "Projects and people that helped inform our thinking and inspire our work:\n\nAndrea Sánchez-Tapia, useR! Knowledgebase\nCarol Willing, Willing Consulting\nJessica Greene, PyLadies Berlin\nJ.K. Nelson, Be Inspired\nLeah Wasser, PyOpenSci\nDr Liz Hare, Dog Genetics LLC\nMay Ireland, VirtualPeer\nReshama Shaikh, Data Umbrella\nSage Sharp, Otter Tech\nDr Setareh Sadjadi, WiMLDS Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nTania Allard, Quansight\nTereza Iofciu, PyLadies Hamburg\nThe Turing Way Community\nYanina Bellini Saibene, rOpenSci\n\nand many more!",
+    "objectID": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
+    "href": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
+    "title": "Meetings",
+    "section": "Optional: Post-meeting poll",
+    "text": "Optional: Post-meeting poll\nIf you are interested in having anonymous feedback from meeting attendees, consider setting up a post-meeting poll to ask if the meeting was useful, if they felt welcome or if they need extra support. Many meeting platforms support this as an automatic feature, but you can also share a link during the meeting.",
     "crumbs": [
-      "Vision & History",
-      "Acknowledgements"
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
     ]
   },
   {
-    "objectID": "docs/about/acknowledging_contributors.html",
-    "href": "docs/about/acknowledging_contributors.html",
-    "title": "Acknowledging Contributors",
-    "section": "",
-    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space.",
+    "objectID": "docs/guide/collab/meetings.html#general-tips",
+    "href": "docs/guide/collab/meetings.html#general-tips",
+    "title": "Meetings",
+    "section": "General tips",
+    "text": "General tips\n\nMake sure you mention your Code of Conduct or any other expectations for positive participation in your community as often as possible.\nThere is no rule for how long a meeting will last, or what day/time is best. Consider alternating timezones regularly, experimenting with different times and be ready to reevaluate if you feel things are not working that well.\nHave a meeting notes document, ideally open to all. This document will contain the agenda for the meeting, notes on what was decided/discussed, and if appropriate a record of who attended (with their internet handle attached if they are comfortable sharing!). For our new contributors meeting this is particularly important so that we can track folks who come to the meeting in our issues trackers later. Make sure you ask for consent before noting personal information in the notes if they are kept public.\nHave a public calendar listed on your website, and make sure to keep it up-to-date, particularly if you need to cancel a regular meeting.\nIf you use different communication channels, such as mailing lists, slack or other asynchronous chat/forum platform, make sure to announce the meetings there.\nMeetings tend to be more useful and productive if a basic agenda is set in advance, so that folks know what will be discussed during that time.\nIt may be useful to record the session for the benefit of those who cannot attend, or to share online with the larger community. In that case, be sure to ask for consent to record, and offer people to mute and turn off their video.\n\n\n\n\n\n\n\nTip\n\n\n\nMany people benefit from these meetings, but for many different reasons can’t turn on their camera or speak aloud during the meeting. This may be due to internet issues, hardware or personal situations including their work environment or accessibility requirements. Ideally, they need a way to participate via text, either through the meeting chat or the meeting notes document.",
     "crumbs": [
-      "Community Handbook",
-      "Acknowledging Contributors"
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
     ]
   },
   {
-    "objectID": "docs/about/coc.html",
-    "href": "docs/about/coc.html",
-    "title": "Our Code of Conduct",
+    "objectID": "docs/guide/tools/cdes.html",
+    "href": "docs/guide/tools/cdes.html",
+    "title": "Cloud development environments",
     "section": "",
-    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct.",
+    "text": "Cloud development environments are remote virtual machines that allow you to code, write, and otherwise run computational tasks remotely, often using a browser-based interface. Examples of such environments are Gitpod and GitHub Codespaces. Here are a few situations when they can be helpful:\nYou can have a default cloud development environment that reproduces the machine type you want to work on, or you can configure a pre-set environment that comes ready-to-use. For each of these tools, there are free plans including a number of computational hours, memory, or disk-usage available.\nHere are the main such tools available today and a few examples of how they can be set up.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Cloud development environments"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/cdes.html#gitpod",
+    "href": "docs/guide/tools/cdes.html#gitpod",
+    "title": "Cloud development environments",
+    "section": "Gitpod",
+    "text": "Gitpod\nGitpod can be used from several different code repository services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the repository URL with the string gitpod.io/#, or you can install a browser extension to add a Gitpod button to your GitHub interface.\nGitpod also supports a number of popular IDEs so you can have a personalized experience.\nSee the Gitpod documentation for more information.\n\n\n\n\n\n\nExample: pandas\n\n\n\nCheck the pandas documentation on using Gitpod for development.\n\n\nTo configure a pre-set development environment on Gitpod, you can either build a custom docker image with the tools and dependencies you need, or use a .gitpod.yml file, which will live on the root of your repository. You can, for example, set the system dependencies necessary to build and test your software project, or pre-install tools and even IDE extensions or plugins you’d like your contributors to use.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Cloud development environments"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/cdes.html#github-codespaces",
+    "href": "docs/guide/tools/cdes.html#github-codespaces",
+    "title": "Cloud development environments",
+    "section": "GitHub Codespaces",
+    "text": "GitHub Codespaces\nGitHub Codespaces is, as the name suggests, limited to use with GitHub. Similarly to Gitpod, it can also be set up with appropriate customizations by the use of a devcontainer.json file.\nIn addition, you can also select from a list of pre-built features to add to your base image so you don’t have to build the custom docker image yourself.\n\n\n\n\n\n\nExample: NumPy\n\n\n\nCheck the configuration for Codespaces on the NumPy repository.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Cloud development environments"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html",
+    "href": "docs/guide/tools/bots.html",
+    "title": "Useful Bots",
+    "section": "",
+    "text": "If you are hosting your project on GitHub, there are a number of different bots which can help automate parts of your contributor onboarding experience. These can be added to your project in a few steps, and configured to reflect how you would like to welcome new contributors and acknowledge their work. These types of tools don’t completely replace human interaction by maintainers, but can help small teams manage initial triaging and contact with first time contributors.\nYou should discuss which of the below are useful for your project with the core team before they are set up. If you have a useful bot that helps with your contributor experience, please add it to the list below!",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Useful Bots"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "href": "docs/guide/tools/bots.html#examples-of-useful-bots",
+    "title": "Useful Bots",
+    "section": "Examples of useful bots",
+    "text": "Examples of useful bots\nGitHub Welcome Bot can be configured to respond to first time PRs & issues with a welcome message that provides links to a project’s resources like contributing guidelines, code of conduct, community events calendar, etc.\nPR-Triage Bot helps automatically add labels to new PRs or issues.\nAll-Contributors Bot helps capture different contributions and add them to a specified file in the repo. This bot is very useful for managing contributions such as PR reviews, ideas, discussion, mentoring or other types of work that may not be reflected in the GitHub contribution record.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Useful Bots"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
+    "href": "docs/guide/tools/bots.html#how-some-projects-use-these-bots",
+    "title": "Useful Bots",
+    "section": "How some projects use these bots",
+    "text": "How some projects use these bots\n\nThe Turing Way Record of Contributions using All-Contributors.\nAdd your example here",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Useful Bots"
+    ]
+  },
+  {
+    "objectID": "CONTRIBUTE.html",
+    "href": "CONTRIBUTE.html",
+    "title": "Contribution Guidelines",
+    "section": "",
+    "text": "There are quite a few ways to get involved with the Contributor Experience Project. You can:\n\njoin one of our community calls\njoin our Zulip chat\nshare your ideas by filing issues, submitting pull requests, or commenting on existing discussions\naddress issues filed by other contributors\nreview submitted PRs\n\n\n\nNever made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
     "crumbs": [
       "Governance",
-      "Our Code of Conduct"
+      "Contribution Guidelines"
     ]
   },
   {
-    "objectID": "docs/about/sponsors.html",
-    "href": "docs/about/sponsors.html",
-    "title": "Sponsors",
+    "objectID": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
+    "href": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
+    "title": "Contribution Guidelines",
     "section": "",
-    "text": "The launch of this project was supported by the Chan Zuckerberg Initiative as a part of their [Essential Open Source Software for Science D&I program] (https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem).",
+    "text": "Never made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
     "crumbs": [
-      "Vision & History",
-      "Sponsors"
+      "Governance",
+      "Contribution Guidelines"
     ]
   },
   {
-    "objectID": "docs/about/comms_channels.html",
-    "href": "docs/about/comms_channels.html",
-    "title": "Communication Channels",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations.",
+    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
+  },
+  {
+    "objectID": "docs/guide/tools/introduction.html",
+    "href": "docs/guide/tools/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Contributor Experience can be used to describe how a contributor perceives their interactions with a community or project. More specifically in our case, it can mean how much friction a new contributor faces to create a pull request, or how the community’s communication style impacts their engagement and sense of belonging.\nIn this section, we’ll catalogue a list of tools to address these issues. This list is far from definitive, and we expect it to grow and change over time as our understanding of this topic evolves and new tools become available in this space.",
     "crumbs": [
-      "Community Handbook",
-      "Communication Channels"
+      "Guide",
+      "Tools Collection",
+      "Introduction"
     ]
+  },
+  {
+    "objectID": "docs/guide/tools/metrics.html",
+    "href": "docs/guide/tools/metrics.html",
+    "title": "Measuring Community Health",
+    "section": "",
+    "text": "One of the biggest challenges when measuring the impact of our Contributor Experience work (and general community health for our projects) has been deciding on the right metrics to look at.\nIn this page, we’ll discuss a few existing metrics models for measuring open-source community health, some thoughts on how to measure and why, and what metrics we would like to use to evaluate our work.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Measuring Community Health"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/metrics.html#why-do-you-want-to-measure-your-communitys-health",
+    "href": "docs/guide/tools/metrics.html#why-do-you-want-to-measure-your-communitys-health",
+    "title": "Measuring Community Health",
+    "section": "Why do you want to measure your community’s health?",
+    "text": "Why do you want to measure your community’s health?\nThere are many reasons why you would want to measure your community health. You may want to see your community grow, be sustainable, be welcoming, have appropriate support, or become popular. You may need metrics for funding, roadmap decisions, or a more general understanding of if something is going wrong in your community or if you notice significant improvements. In any case, identifying your purpose for measuring is essential when deciding which metrics to use.\n\nFunding and reporting\nIn many cases, you want to communicate with your stakeholders in a way that demonstrates impact, achievement, or an overall assessment of the state of your community. In this situation, metrics can be helpful if combined with the story you want to tell.\n\n\nCommunicating with your community\nProjects perceived as “healthy” are more successful in attracting new contributors. The notion of health here is subjective, however, and can mean different things to different people.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Measuring Community Health"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/metrics.html#what-do-you-want-to-measure",
+    "href": "docs/guide/tools/metrics.html#what-do-you-want-to-measure",
+    "title": "Measuring Community Health",
+    "section": "What do you want to measure?",
+    "text": "What do you want to measure?\nStart by asking, “What do we want to accomplish?” instead of asking, “What do we want to measure?”\n\nUser vs. contributor metrics\nThe first key point is whether you want to measure your user or contributor community (or maybe both!) These groups can be very different in both composition and the kind of engagement you can expect, not to mention that collecting user data may prove challenging. This also means you probably want to use different metrics for each group.\n\n\nIdentifying community-specific metrics\nEvery community is different. While we can think of a few metrics as universal, a few will tell you different stories when used in different contexts. If your goal is to assess how your project is faring compared to other projects, you must be very careful to consider projects with similar backgrounds, development workflow, scale, maturity, and audience. For example, an established project may have a lower release frequency than an up-and-coming project, and that does not mean it is unmaintained - instead, it means it is stable. In this sense, comparison can work against you.\n\n\nGrowth is not always a proxy for health.\nIt is common for “contributor growth” to be the first measure of success in any open-source community. However, growth is not always a good thing. In our experience, it has become apparent that without a plan for maintainer engagement or support, having more new contributors can be disruptive to open-source projects and create unnecessary stress on existing maintainers. Furthermore, it can create frustration on the newcomer’s part, as they need adequate support or responses on their contributions.\nIn addition, even if you are still in a project with room for growth, if you focus on the numbers alone and don’t understand how you are growing, you may end up with an unbalanced community with not enough diversity or with too many people who want to work on one part of your project, while others go unsupported.\n\n\nQualitative vs. Quantitative\nIn many cases, the answer will be a combination of qualitative and quantitative data, both of which come with their own challenges and limitations.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Measuring Community Health"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/metrics.html#the-dangers-of-metrics",
+    "href": "docs/guide/tools/metrics.html#the-dangers-of-metrics",
+    "title": "Measuring Community Health",
+    "section": "The dangers of metrics",
+    "text": "The dangers of metrics\nBecause we tend to look at the readily available metrics, there are quite a few caveats to look out for when using data to make analyses.\n\nMeasuring only what is on the code platform (e.g., GitHub)\nIt is easy to forget that community health means more than just the interactions on your code platform. Questions around credit, different contribution types, and what happens behind the scenes of an apparent one-commit contribution are challenging to handle.\nExisting tools like the AllContributors project try to capture these contributions but are, unfortunately, still unable to capture them all.\n\n\nEncouraging behavior through measuring\nWhen you decide to measure something, you create an incentive for contributors as they want to be captured in that metric. One concrete example is the green squares on GitHub and how it can encourage distortions in your community.\n\n\nConsent and data handling\nWhenever we talk about data, we must also mention the handling of this data with respect to privacy, regulatory concerns, and the consent of your community for the use of such data. While signing up to GitHub may indicate you accept that third parties can use all of its public data, you should consult with your community before making conclusions from this data.\n\n\nCan you even measure that?\nOur work focused on building culture, improving communications, inclusivity, and developing a sense of belonging. There are no easy ways to measure these goals other than using proxies. For example, we could look at survey responses, individual anecdotes, and increased contributions from people from diverse backgrounds. But these are incomplete and only tell us part of the story.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Measuring Community Health"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/metrics.html#existing-models",
+    "href": "docs/guide/tools/metrics.html#existing-models",
+    "title": "Measuring Community Health",
+    "section": "Existing models",
+    "text": "Existing models\nThere are many models, platforms, and solutions for analyzing open-source communities. Quite a few are focused on corporate-backed projects, as these usually require regular reporting by OSPOs or community managers, so consider whether they would apply to your community at all.\nRemember that a single metric is not capable of fully describing community health. Consider adopting a metric model - and be willing to see it change and evolve over time.\nBelow are a few models and frameworks we have found - let us know if you would like to suggest others!\n\nThe CHAOSS Project\nThe CHAOSS project collects a large number of different metrics models to be used by open-source communities and projects. Here are a few models you may want to look at:\n\nStarter project health\nProject engagement\nCommunity activity\n\nA few of these models are implemented in tools such as Bitergia, GrimoireLab and Augur.\nOrbit\nOrbit is a powerful commercial community monitoring tool that can aggregate data from many sources into one dashboard.\nYOSHI\nYOSHI is a model designed to measure the organizational status of an open-source community and, based on the previous measurements, associate a community pattern of organizational structure types matching the characteristics of the community.\nDocumentation metrics\nYou can gather many interesting insights about your users and contributors by looking at how they engage with your documentation. You can collect such data using tools such as Plausible or Google Analytics.\nProject OCEAN\nProject OCEAN is an open science collaboration focused on understanding the open source ecosystems & creating the datasets that enable research purposes and help form a clear understanding of the state of open source communities. OCEAN’s goal is to understand the health of the open source communities.\nThe TODO Group\nTODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives. They also discuss metrics as part of their work.\nQualitative data\nUser surveys, post-meeting surveys, and general individual feedback can be sufficient - especially if you have a smaller community. Don’t underestimate the value of conversations and personal engagement.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Measuring Community Health"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/metrics.html#summary",
+    "href": "docs/guide/tools/metrics.html#summary",
+    "title": "Measuring Community Health",
+    "section": "Summary",
+    "text": "Summary\n\nAccept limitations of data: Metrics will never be perfect and can still be valuable. The important part is to be aware of the limitations and not lose the big picture of your community from a limited set of metrics or data.\nCan we look at trends instead of numbers? Looking at how things move over time is often better than singling out absolute numbers. Remember that trends do not need to be “up” - stable or decreasing trends are sometimes desirable.\nConsider having a metrics policy. Consider creating a privacy or data usage policy in your project, and make sure you keep your community informed on how you use this data.\nDon’t do this alone. Several groups are working on metrics and can be a source of information and collaboration. Reach out!",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Measuring Community Health"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/metrics.html#further-resources",
+    "href": "docs/guide/tools/metrics.html#further-resources",
+    "title": "Measuring Community Health",
+    "section": "Further resources",
+    "text": "Further resources\n\nAmanda Casari and Julia Ferraioli. Preventing Random Acts of Metrics\nAmanda Casari, Katie McLaughlin, Milo Z. Trujillo, Jean-Gabriel Young, James P. Bagrow and Laurent Hébert-Dufresne. Open source ecosystems need equitable credit across contributions\nDawn Foster. Open Source Community Metrics: Tips and Techniques for Measuring Participation\nOpen Source Metrics, by the GitHub Open Source Guides\nSean Goggins, Kevin Lumbard, Matt Germonprez. Open Source Community Health: Analytical Metrics and Their Corresponding Narratives\nSumana Harihareswara. Contribution Metrics Are Messy: An Example\nSumana Harihareswara. What should we stop doing?\nGeorg Link. Open Source Project Health\nGeorg Link, Emilio Galeano Gryciuk. How to address challenges with community metrics\nLinux.com Editorial Staff. Measuring the Health of Open Source Communities\nSophia Vargas. A Beginners Guide to Open Source Metrics and Analysis\nSophia Vargas. The Benefits and Pitfalls of OSS Project Metrics: Measuring Health and Risk in Open Source Communities\nJean-Gabriel Young, Amanda Casari, Katie McLaughlin, Milo Z. Trujillo, Laurent Hébert-Dufresne, James P. Bagrow. Which contributions count? Analysis of attribution in open source",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Measuring Community Health"
+    ]
+  },
+  {
+    "objectID": "docs/guide/collab/introduction.html",
+    "href": "docs/guide/collab/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Every open source project is different, but there are many activities that may help contributors and maintainers collaborate in a productive, positive and healthy environment.\nThis section aims to collect a few of these practices and experiences to make it easier for folks to identify what might work for their projects.\n\n\n\n\n\n\nNote\n\n\n\nNote that the content in these pages is not meant to be seen as a ladder, or as a checklist of what a project needs to be successful. Each project has its own needs and community, so feel free to take what is useful and leave what is not.",
+    "crumbs": [
+      "Guide",
+      "Collaboration Guide",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "docs/guide/introduction.html",
+    "href": "docs/guide/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
   },
   {
     "objectID": "docs/guide/cx/introduction.html",
@@ -458,73 +536,6 @@
     ]
   },
   {
-    "objectID": "docs/guide/introduction.html",
-    "href": "docs/guide/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html",
-    "href": "docs/guide/collab/meetings.html",
-    "title": "Meetings",
-    "section": "",
-    "text": "For many open-source projects, collaboration happens primarily on text-based online forums such as a project’s issue tracker or a community forum. Over time, maintainers and contributors may feel they would benefit from having synchronous meetings to discuss project matters or to organize discussions around roadmap, specific projects or the general governance of the project.\nIn addition, having dedicated meeting times for triage, onboarding newcomers or working groups such as documentation, website, design or translations may also be helpful.\nThe following guide, developed in collaboration with the Scientific Python project, describes a few of the meetings we have experimented with and when they are useful: Meeting types.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html#community-meetings",
-    "href": "docs/guide/collab/meetings.html#community-meetings",
-    "title": "Meetings",
-    "section": "Community meetings",
-    "text": "Community meetings\nRegular community meetings are essential for larger projects that require a high level of coordination in different projects, roadmap items or governance. However, even smaller projects may benefit from synchronous discussions. These meetings can be a way to:\n\nConnect with your community, and put a human face on the people behind the commit handle. This can be especially helpful when dubious or unclear communication happens via text - a conversation can prevent many conflicts from arising.\nDiscuss complex technical implementations or conduct contribution reviews. This can be its own meeting (a “triage meeting”) but depending on your community needs it can be helpful and make the review of a long or complex contribution faster.\nPlan for your roadmap or create strategies for high-stakes projects. Funding, new releases, architectural or governance decisions can also benefit from a live discussion. In this case, it is even more important to keep a record of the discussion and, ideally, keep that record public for your community to consult.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html#new-contributor-meetings",
-    "href": "docs/guide/collab/meetings.html#new-contributor-meetings",
-    "title": "Meetings",
-    "section": "New contributor meetings",
-    "text": "New contributor meetings\nA special type of meeting we have been experimenting with is the “newcomer” or “New contributor” meetings. As noted in the page linked above, these can be organized as “Office hours” meetings - inviting questions and requests for support from new contributors; they can be organized as webinars, with talks or sessions on a specific aspect of contributing, such as the contribution workflow or running tests, for example; and they can also be practical working sessions, such as a walking through a full contribution task with the participants.\nProjects with a larger contributor base will find more value in these meetings than projects with a low number of new contributors. Make sure to also consider timezones and maintainer bandwidth when considering these meetings for your project. One central point to keep in mind is to use these meetings as an opportunity to set expectations for newcomers - about how long it takes for a contribution to be reviewed, how new features are discussed in the project or the areas that would best be served by contributors with less experience in the project.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
-    "href": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
-    "title": "Meetings",
-    "section": "Optional: Post-meeting poll",
-    "text": "Optional: Post-meeting poll\nIf you are interested in having anonymous feedback from meeting attendees, consider setting up a post-meeting poll to ask if the meeting was useful, if they felt welcome or if they need extra support. Many meeting platforms support this as an automatic feature, but you can also share a link during the meeting.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html#general-tips",
-    "href": "docs/guide/collab/meetings.html#general-tips",
-    "title": "Meetings",
-    "section": "General tips",
-    "text": "General tips\n\nMake sure you mention your Code of Conduct or any other expectations for positive participation in your community as often as possible.\nThere is no rule for how long a meeting will last, or what day/time is best. Consider alternating timezones regularly, experimenting with different times and be ready to reevaluate if you feel things are not working that well.\nHave a meeting notes document, ideally open to all. This document will contain the agenda for the meeting, notes on what was decided/discussed, and if appropriate a record of who attended (with their internet handle attached if they are comfortable sharing!). For our new contributors meeting this is particularly important so that we can track folks who come to the meeting in our issues trackers later. Make sure you ask for consent before noting personal information in the notes if they are kept public.\nHave a public calendar listed on your website, and make sure to keep it up-to-date, particularly if you need to cancel a regular meeting.\nIf you use different communication channels, such as mailing lists, slack or other asynchronous chat/forum platform, make sure to announce the meetings there.\nMeetings tend to be more useful and productive if a basic agenda is set in advance, so that folks know what will be discussed during that time.\nIt may be useful to record the session for the benefit of those who cannot attend, or to share online with the larger community. In that case, be sure to ask for consent to record, and offer people to mute and turn off their video.\n\n\n\n\n\n\n\nTip\n\n\n\nMany people benefit from these meetings, but for many different reasons can’t turn on their camera or speak aloud during the meeting. This may be due to internet issues, hardware or personal situations including their work environment or accessibility requirements. Ideally, they need a way to participate via text, either through the meeting chat or the meeting notes document.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
     "objectID": "docs/guide/comms/review_communication.html",
     "href": "docs/guide/comms/review_communication.html",
     "title": "Reviewing contributions",
@@ -537,58 +548,47 @@
     ]
   },
   {
-    "objectID": "docs/guide/tools/introduction.html",
-    "href": "docs/guide/tools/introduction.html",
-    "title": "Introduction",
+    "objectID": "docs/about/acknowledging_contributors.html",
+    "href": "docs/about/acknowledging_contributors.html",
+    "title": "Acknowledging Contributors",
     "section": "",
-    "text": "Contributor Experience can be used to describe how a contributor perceives their interactions with a community or project. More specifically in our case, it can mean how much friction a new contributor faces to create a pull request, or how the community’s communication style impacts their engagement and sense of belonging.\nIn this section, we’ll catalogue a list of tools to address these issues. This list is far from definitive, and we expect it to grow and change over time as our understanding of this topic evolves and new tools become available in this space.",
+    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space.",
     "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Introduction"
+      "Community Handbook",
+      "Acknowledging Contributors"
     ]
   },
   {
-    "objectID": "docs/guide/tools/cdes.html",
-    "href": "docs/guide/tools/cdes.html",
-    "title": "Cloud development environments",
+    "objectID": "docs/about/acknowledgments.html",
+    "href": "docs/about/acknowledgments.html",
+    "title": "Acknowledgements",
     "section": "",
-    "text": "Cloud development environments are remote virtual machines that allow you to code, write, and otherwise run computational tasks remotely, often using a browser-based interface. Examples of such environments are Gitpod and GitHub Codespaces. Here are a few situations when they can be helpful:\nYou can have a default cloud development environment that reproduces the machine type you want to work on, or you can configure a pre-set environment that comes ready-to-use. For each of these tools, there are free plans including a number of computational hours, memory, or disk-usage available.\nHere are the main such tools available today and a few examples of how they can be set up.",
+    "text": "Projects and people that helped inform our thinking and inspire our work:\n\nAndrea Sánchez-Tapia, useR! Knowledgebase\nCarol Willing, Willing Consulting\nJessica Greene, PyLadies Berlin\nJ.K. Nelson, Be Inspired\nLeah Wasser, PyOpenSci\nDr Liz Hare, Dog Genetics LLC\nMay Ireland, VirtualPeer\nReshama Shaikh, Data Umbrella\nSage Sharp, Otter Tech\nDr Setareh Sadjadi, WiMLDS Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nTania Allard, Quansight\nTereza Iofciu, PyLadies Hamburg\nThe Turing Way Community\nYanina Bellini Saibene, rOpenSci\n\nand many more!",
     "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Cloud development environments"
+      "Vision & History",
+      "Acknowledgements"
     ]
   },
   {
-    "objectID": "docs/guide/tools/cdes.html#gitpod",
-    "href": "docs/guide/tools/cdes.html#gitpod",
-    "title": "Cloud development environments",
-    "section": "Gitpod",
-    "text": "Gitpod\nGitpod can be used from several different code repository services including GitHub, GitLab, and Bitbucket. To use it, you can pre-pend the repository URL with the string gitpod.io/#, or you can install a browser extension to add a Gitpod button to your GitHub interface.\nGitpod also supports a number of popular IDEs so you can have a personalized experience.\nSee the Gitpod documentation for more information.\n\n\n\n\n\n\nExample: pandas\n\n\n\nCheck the pandas documentation on using Gitpod for development.\n\n\nTo configure a pre-set development environment on Gitpod, you can either build a custom docker image with the tools and dependencies you need, or use a .gitpod.yml file, which will live on the root of your repository. You can, for example, set the system dependencies necessary to build and test your software project, or pre-install tools and even IDE extensions or plugins you’d like your contributors to use.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Cloud development environments"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/cdes.html#github-codespaces",
-    "href": "docs/guide/tools/cdes.html#github-codespaces",
-    "title": "Cloud development environments",
-    "section": "GitHub Codespaces",
-    "text": "GitHub Codespaces\nGitHub Codespaces is, as the name suggests, limited to use with GitHub. Similarly to Gitpod, it can also be set up with appropriate customizations by the use of a devcontainer.json file.\nIn addition, you can also select from a list of pre-built features to add to your base image so you don’t have to build the custom docker image yourself.\n\n\n\n\n\n\nExample: NumPy\n\n\n\nCheck the configuration for Codespaces on the NumPy repository.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "Cloud development environments"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Our Code of Conduct",
     "section": "",
-    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
+    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct.",
+    "crumbs": [
+      "Governance",
+      "Our Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "docs/about/comms_channels.html",
+    "href": "docs/about/comms_channels.html",
+    "title": "Communication Channels",
+    "section": "",
+    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations.",
+    "crumbs": [
+      "Community Handbook",
+      "Communication Channels"
+    ]
   }
 ]
