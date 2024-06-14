@@ -1,0 +1,32 @@
+---
+tite: "GitHub issue template"
+sidebar: guide
+---
+
+## GitHub Issue templates
+
+If you have your project in GitHub, you can create issue templates or forms. 
+These allow you ask relevant information to contributors wanting to open a new issue to your repository. 
+
+You can have a template for each type of issue. For example, it can be a bug report, 
+a request for a new feature, or a problem in the documentation. You could also ask for more 
+information.
+
+There are two ways to add templates into your project. You can set them up directly in the 
+settings of your repository, or you can create them with `YAML` format files. 
+
+If you create the templates writing yourself the `YAML` format files, you can create them 
+locally (in your machine) and push them to your repository when ready. 
+
+The templates files should be under the directory `.github/ISSUE_TEMPLATE` at the root of 
+your project. There should be one `YAML` file for each template, if you decide to have different types. 
+You also need a `config.yml` file if you want to customize the template selection.
+
+For a step by step guide, please visit the 
+[GitHub documentation](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository).
+
+## Examples of how templates are done
+
+[Scikit-learn](https://github.com/scikit-learn/scikit-learn/tree/main/.github/ISSUE_TEMPLATE)
+
+[Narwhals](https://github.com/narwhals-dev/narwhals/tree/main/.github/ISSUE_TEMPLATE)

@@ -113,6 +113,7 @@ website:
             - docs/guide/tools/bots.qmd
             - docs/guide/tools/cdes.qmd
             - docs/guide/tools/metrics.qmd
+            - docs/guide/tools/gh-issue-template.qmd
 
 format:
   html:
