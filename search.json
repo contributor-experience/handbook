@@ -608,12 +608,12 @@
   {
     "objectID": "docs/about/coc.html",
     "href": "docs/about/coc.html",
-    "title": "Our Code of Conduct",
+    "title": "Code of Conduct",
     "section": "",
-    "text": "All contributors and maintainers are expected to follow the PSF Code of Conduct.",
+    "text": "All contributors, including core team members, are expected to follow the PSF Code of Conduct.",
     "crumbs": [
       "Governance",
-      "Our Code of Conduct"
+      "Code of Conduct"
     ]
   },
   {
