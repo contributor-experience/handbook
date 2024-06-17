@@ -332,6 +332,49 @@
     ]
   },
   {
+    "objectID": "docs/guide/tools/gh-issue-template.html",
+    "href": "docs/guide/tools/gh-issue-template.html",
+    "title": "Contributor Experience Handbook",
+    "section": "",
+    "text": "If you have your project in GitHub, you can create issue templates or forms. These allow you to ask for relevant information from contributors wanting to open a new issue to your repository.\nYou can have a template for each type of issue. For example, it can be a bug report, a request for a new feature, or a suggestion to improve your project’s documentation. You could also ask for more information.\nThere are two ways to add templates into your project. You can set them up directly in the settings of your repository, or you can create them with YAML format files.\nIf you create the templates writing yourself the YAML format files, you can create them locally (on your machine) and push them to your repository when ready.\nThe templates files should be under the directory .github/ISSUE_TEMPLATE at the root of your project. There should be one YAML file for each template, if you decide to have different types. You also need a config.yml file if you want to customize the template selection.\nFor a step by step guide, please visit the GitHub documentation.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "GitHub Issue templates"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/gh-issue-template.html#github-issue-templates",
+    "href": "docs/guide/tools/gh-issue-template.html#github-issue-templates",
+    "title": "Contributor Experience Handbook",
+    "section": "",
+    "text": "If you have your project in GitHub, you can create issue templates or forms. These allow you to ask for relevant information from contributors wanting to open a new issue to your repository.\nYou can have a template for each type of issue. For example, it can be a bug report, a request for a new feature, or a suggestion to improve your project’s documentation. You could also ask for more information.\nThere are two ways to add templates into your project. You can set them up directly in the settings of your repository, or you can create them with YAML format files.\nIf you create the templates writing yourself the YAML format files, you can create them locally (on your machine) and push them to your repository when ready.\nThe templates files should be under the directory .github/ISSUE_TEMPLATE at the root of your project. There should be one YAML file for each template, if you decide to have different types. You also need a config.yml file if you want to customize the template selection.\nFor a step by step guide, please visit the GitHub documentation.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "GitHub Issue templates"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/gh-issue-template.html#examples-of-github-issue-templates",
+    "href": "docs/guide/tools/gh-issue-template.html#examples-of-github-issue-templates",
+    "title": "Contributor Experience Handbook",
+    "section": "Examples of GitHub issue templates",
+    "text": "Examples of GitHub issue templates\nScikit-learn\nPolars\nNarwhals\nTensorflow",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "GitHub Issue templates"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
+  },
+  {
     "objectID": "CONTRIBUTE.html",
     "href": "CONTRIBUTE.html",
     "title": "Contribution Guidelines",
@@ -352,13 +395,6 @@
       "Governance",
       "Contribution Guidelines"
     ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
   },
   {
     "objectID": "docs/guide/tools/introduction.html",
