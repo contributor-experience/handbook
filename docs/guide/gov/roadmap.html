@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contributor Experience Handbook - Our Blog</title>
+<title>Contributor Experience Handbook - Open source roadmap</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,86 +66,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
+<link rel="stylesheet" href="../../../styles.css">
+</head>
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: #EDF3F9;
-      }
-</style>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Contributor Experience Handbook" href="blog.xml" data-external="1"></head>
-
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/Contributor-Experience-Logo-contrast.png" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/Contributor-Experience-Logo-contrast.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Contributor Experience Handbook</span>
     </a>
   </div>
@@ -158,15 +92,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./docs/guide/introduction.html"> 
+    <a class="nav-link" href="../../../docs/guide/introduction.html"> 
 <span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -199,245 +133,243 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Open source roadmap</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Our Blog</h1>
-            <p class="subtitle lead">News, tips, and commentary about all things Contributor Experience</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Introduction to Contributor Experience</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/cx/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Contributor Experience</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/cx/the_cel_role.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Contributor Experience Role</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/cx/onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Onboarding newcomers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/cx/tracking_prs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tracking first-time contributors’ work</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Governance Guide</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/gov/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Collaboration Guide</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/collab/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/collab/meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Meetings</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Communication Guide</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/comms/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/comms/review_communication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reviewing contributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/comms/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Communication resources</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+ <span class="menu-text">Tools Collection</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/tools/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/tools/bots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful Bots</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/tools/cdes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cloud development environments</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/tools/metrics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measuring Community Health</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/guide/tools/gh-issue-template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GitHub Issue templates</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#guiding-development-and-planning" id="toc-guiding-development-and-planning" class="nav-link active" data-scroll-target="#guiding-development-and-planning">1. Guiding development and planning</a></li>
+  <li><a href="#enhancing-communication-and-collaboration" id="toc-enhancing-communication-and-collaboration" class="nav-link" data-scroll-target="#enhancing-communication-and-collaboration">2. Enhancing communication and collaboration</a></li>
+  <li><a href="#attracting-and-retaining-contributors" id="toc-attracting-and-retaining-contributors" class="nav-link" data-scroll-target="#attracting-and-retaining-contributors">3. Attracting and retaining contributors</a></li>
+  <li><a href="#ensuring-transparency-and-accountability" id="toc-ensuring-transparency-and-accountability" class="nav-link" data-scroll-target="#ensuring-transparency-and-accountability">4. Ensuring transparency and accountability</a></li>
+  <li><a href="#facilitating-community-feedback-and-involvement" id="toc-facilitating-community-feedback-and-involvement" class="nav-link" data-scroll-target="#facilitating-community-feedback-and-involvement">5. Facilitating community feedback and involvement</a></li>
+  <li><a href="#providing-a-framework-for-evaluation" id="toc-providing-a-framework-for-evaluation" class="nav-link" data-scroll-target="#providing-a-framework-for-evaluation">6. Providing a framework for evaluation</a></li>
+  <li><a href="#supporting-fundraising-and-sponsorship" id="toc-supporting-fundraising-and-sponsorship" class="nav-link" data-scroll-target="#supporting-fundraising-and-sponsorship">7. Supporting fundraising and sponsorship</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/gov/roadmap.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Open source roadmap</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<p>A roadmap is an essential document in the development of an open source project, serving as a strategic plan that outlines the mission, vision, direction, and progress of the project. Its importance can be understood through several key aspects:</p>
+<section id="guiding-development-and-planning" class="level3">
+<h3 class="anchored" data-anchor-id="guiding-development-and-planning">1. Guiding development and planning</h3>
+<p>A roadmap provides a clear and structured plan for the project’s development. It lays out the major milestones, features, and improvements planned for future releases. This helps project leadership and contributors understand its priorities and focus their efforts on tasks that align with the project’s goals. It also aids in resource allocation, ensuring that time and effort are spent efficiently on the most impactful areas.</p>
+</section>
+<section id="enhancing-communication-and-collaboration" class="level3">
+<h3 class="anchored" data-anchor-id="enhancing-communication-and-collaboration">2. Enhancing communication and collaboration</h3>
+<p>Open source projects often involve contributors from around the world. A roadmap acts as a communication tool, helping to keep everyone on the same page. It provides a shared understanding of the project’s direction, which is essential for effective collaboration. Contributors can see how their work fits into the bigger picture and how their contributions will impact future developments.</p>
+</section>
+<section id="attracting-and-retaining-contributors" class="level3">
+<h3 class="anchored" data-anchor-id="attracting-and-retaining-contributors">3. Attracting and retaining contributors</h3>
+<p>A well-defined roadmap can attract new contributors by showcasing the project’s vision, long-term goals as well as immediate needs. It demonstrates that the project is well-organized and has a clear plan for growth. For existing contributors, a roadmap helps maintain engagement by providing a sense of progress and a larger perspective.</p>
+</section>
+<section id="ensuring-transparency-and-accountability" class="level3">
+<h3 class="anchored" data-anchor-id="ensuring-transparency-and-accountability">4. Ensuring transparency and accountability</h3>
+<p>Transparency is a core value in the open source community. A publicly available roadmap ensures that all parties, including users, contributors, and sponsors, have visibility into the project’s plans and progress. This openness fosters trust and accountability, as the project leadership team commits to delivering specific features and improvements. It also allows the community to hold the project leadership accountable.</p>
+</section>
+<section id="facilitating-community-feedback-and-involvement" class="level3">
+<h3 class="anchored" data-anchor-id="facilitating-community-feedback-and-involvement">5. Facilitating community feedback and involvement</h3>
+<p>A roadmap invites feedback from the community, allowing users and contributors to suggest improvements, propose new features, and raise concerns. This feedback loop is essential for ensuring that the project evolves in a way that meets the needs of its users. By involving the community in the planning process, the project can better align with user expectations and foster a sense of ownership among contributors.</p>
+</section>
+<section id="providing-a-framework-for-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="providing-a-framework-for-evaluation">6. Providing a framework for evaluation</h3>
+<p>A roadmap sets benchmarks for the project’s progress, enabling regular evaluation of deliverables against set goals. This framework helps the project leadership team to measure success, identify areas for improvement, and adjust plans as needed. Regular updates to the roadmap based on evaluation results ensure that the project remains responsive to changing needs and priorities of the user community.</p>
+</section>
+<section id="supporting-fundraising-and-sponsorship" class="level3">
+<h3 class="anchored" data-anchor-id="supporting-fundraising-and-sponsorship">7. Supporting fundraising and sponsorship</h3>
+<p>For many open source projects, securing funding and sponsorship is crucial for sustainability. A detailed roadmap is often a requirement in fundraising efforts, as it demonstrates a well-thought-out plan for the project’s future. Sponsors and donors are more likely to support a project that has clear goals and an action plan for achieving them.</p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1701302400000" data-listing-file-modified-sort="1718985895743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="730">
-<div class="thumbnail">
-<p><a href="./docs/posts/blog_NataliaMokeeva/index.html" class="no-external"></a></p><a href="./docs/posts/blog_NataliaMokeeva/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./docs/posts/blog_NataliaMokeeva/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./docs/posts/blog_NataliaMokeeva/index.html" class="no-external">Career Paths Lab: meet Natalia Mokeeva</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./docs/posts/blog_NataliaMokeeva/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./docs/posts/blog_NataliaMokeeva/index.html" class="no-external">Natalia Mokeeva graciously spared some time and gave insights on her open-source journey. Natalia is a Mathematician by profession and has been regularly committing each day…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./docs/posts/blog_NataliaMokeeva/index.html" class="no-external">
-<div class="listing-date">
-Nov 30, 2023
-</div>
-<div class="listing-author">
-Suparna Pawar
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1701302400000" data-listing-file-modified-sort="1718985895743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1072">
-<div class="thumbnail">
-<p><a href="./docs/posts/blog_DeaMaria/index.html" class="no-external"></a></p><a href="./docs/posts/blog_DeaMaria/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./docs/posts/blog_DeaMaria/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./docs/posts/blog_DeaMaria/index.html" class="no-external">Career Paths Lab: meet Dea Maria Léon</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./docs/posts/blog_DeaMaria/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./docs/posts/blog_DeaMaria/index.html" class="no-external">We had the privilege of speaking with Dea Maria, a contributor to pandas. Originally from Mexico, she studied Electrical Engineering and held several engineering positions.…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./docs/posts/blog_DeaMaria/index.html" class="no-external">
-<div class="listing-date">
-Nov 30, 2023
-</div>
-<div class="listing-author">
-Suparna Pawar
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1693440000000" data-listing-file-modified-sort="1718985895747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="868">
-<div class="thumbnail">
-<p><a href="./docs/posts/leadership/index.html" class="no-external"></a></p><a href="./docs/posts/leadership/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./docs/posts/leadership/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./docs/posts/leadership/index.html" class="no-external">Documenting paths to leadership in open-source projects</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./docs/posts/leadership/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./docs/posts/leadership/index.html" class="no-external">Transparent processes for becoming a decision-maker in open source help foster trust. Today, just 37% of all respondents surveyed agree that there are clear processes to…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./docs/posts/leadership/index.html" class="no-external">
-<div class="listing-date">
-Aug 31, 2023
-</div>
-<div class="listing-author">
-Melissa Weber Mendonça
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1682380800000" data-listing-file-modified-sort="1718985895747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
-<div class="thumbnail">
-<p><a href="./docs/posts/dei-report/index.html" class="no-external"></a></p><a href="./docs/posts/dei-report/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./docs/posts/dei-report/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./docs/posts/dei-report/index.html" class="no-external">Fostering an Inclusive Culture: Call for Participation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./docs/posts/dei-report/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./docs/posts/dei-report/index.html" class="no-external">Have you often wondered how decisions get made across scientific open source projects? Communications sometimes a little ‘off’? Think we can do better? Then now’s the time…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./docs/posts/dei-report/index.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2023
-</div>
-<div class="listing-author">
-Marco Gorelli, May Ireland, Melissa Mendonça, Inessa Pawson, Noa Tamir, Pamphile Roy
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1678233600000" data-listing-file-modified-sort="1718985895747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="623">
-<div class="thumbnail">
-<p><a href="./docs/posts/cel-cm/index.html" class="no-external"></a></p><a href="./docs/posts/cel-cm/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./docs/posts/cel-cm/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./docs/posts/cel-cm/index.html" class="no-external">What is the difference between Contributor Experience and Community Management?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./docs/posts/cel-cm/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./docs/posts/cel-cm/index.html" class="no-external">While the role of community manager is established in the open source ecosystem, the role of a Contributor Experience lead is not yet well defined. Even though there is…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./docs/posts/cel-cm/index.html" class="no-external">
-<div class="listing-date">
-Mar 8, 2023
-</div>
-<div class="listing-author">
-Melissa Mendonça, Inessa Pawson, Noa Tamir
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1667433600000" data-listing-file-modified-sort="1718985895747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1370">
-<div class="thumbnail">
-<p><a href="./docs/posts/cel-year-one/index.html" class="no-external"></a></p><a href="./docs/posts/cel-year-one/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./docs/posts/cel-year-one/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./docs/posts/cel-year-one/index.html" class="no-external">Advancing an inclusive culture in the scientific Python ecosystem</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./docs/posts/cel-year-one/index.html" class="no-external">One year of work</a>
-</div>
-<div class="listing-description">
-<a href="./docs/posts/cel-year-one/index.html" class="no-external">In August 2021, NumPy, SciPy, Matplotlib, and pandas were awarded a 2-year joint grant by the CZI EOSS program. The goal of this work, citing the grant proposal, is</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./docs/posts/cel-year-one/index.html" class="no-external">
-<div class="listing-date">
-Nov 3, 2022
-</div>
-<div class="listing-author">
-Melissa Mendonça, Inessa Pawson, Noa Tamir
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1663286400000" data-listing-file-modified-sort="1718985895743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
-<div class="thumbnail">
-<p><a href="./docs/posts/Hello-world/index.html" class="no-external"></a></p><a href="./docs/posts/Hello-world/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./docs/posts/Hello-world/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./docs/posts/Hello-world/index.html" class="no-external">Hello World</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./docs/posts/Hello-world/index.html" class="no-external">Welcome to our community blog</a>
-</div>
-<div class="listing-description">
-<a href="./docs/posts/Hello-world/index.html" class="no-external">Welcome to our blog! We welcome community contributions about your work and thoughts regarding Contributor Experience. Or maybe you have a call to the community, or would…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./docs/posts/Hello-world/index.html" class="no-external">
-<div class="listing-date">
-Sep 16, 2022
-</div>
-<div class="listing-author">
-Noa Tamir
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -856,17 +788,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="../../../about.html">
 <p>About</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./LICENSE">
+    <a class="nav-link" href="../../../LICENSE">
 <p>License</p>
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/contributor-experience/handbook/edit/main/blog.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/contributor-experience/handbook/edit/main/docs/guide/gov/roadmap.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/contributor-experience/handbook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
