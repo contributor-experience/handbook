@@ -55,5 +55,3 @@ For many open source projects, securing funding and sponsorship is crucial for s
 A detailed roadmap is often a requirement in fundraising efforts, as it demonstrates a 
 well-thought-out plan for the project's future. Sponsors and donors are more likely to 
 support a project that has clear goals and an action plan for achieving them.
-
-Further reading: TO DO
