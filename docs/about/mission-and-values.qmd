@@ -3,7 +3,12 @@ title: "Vision, mission, and values"
 ---
 
 ## Our mission
-TBD
+The Contributor Experience Project is a community of practice dedicated to supporting, studying, 
+and advancing the emerging field of open source contributor onboarding and support. Our mission 
+is to foster a welcoming, inclusive, and supportive environment for everyone contributing to 
+open source. Through collaboration, knowledge exchange, and training, we strive to empower open 
+source project leaders, community managers, and active contributors to cultivate sustainable open 
+source projects and communities.
 
 ## Our values
 **We are inclusive** We welcome and mentor newcomers who are making their first contribution. 
