@@ -53,9 +53,9 @@ a couple of pull requests.
 Then I saw at the PyData conference that there would be an online pandas sprint in December 2022. 
 It was thus a great opportunity to be able to participate without having to travel and have my 
 first PR in pandas. 
-Through Data Umbrella I saw a live video of Marco Gorelli’s “How you (yes you) can contribute to 
-Open Source” which was highly motivating. The title, I thought, was just for me. I then just kept 
-at it!
+Through Data Umbrella I saw a live video of Marco Gorelli’s [“How you (yes you) can contribute to 
+Open Source”](https://www.youtube.com/watch?v=zI4l1lfggzU) which was highly motivating. The title, 
+I thought, was just for me. I then just kept at it!
 
 ## Contributing to pandas
 When I started contributing to pandas, I was getting answers to all my questions almost in real-time!  
