@@ -9,7 +9,7 @@
 <link>https://contributor-experience.org/blog.html</link>
 <atom:link href="https://contributor-experience.org/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
+<generator>quarto-1.5.52</generator>
 <lastBuildDate>Thu, 30 Nov 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Career Paths Lab: meet Natalia Mokeeva</title>
@@ -95,7 +95,7 @@
 </section>
 <section id="joining-sprints" class="level2">
 <h2 class="anchored" data-anchor-id="joining-sprints">Joining sprints</h2>
-<p>I kept working alone. I built a few things to help out family members with my skills. Until there was a workshop on contributing to scikit-learn organized by PyLadies Paris and conducted by the core devs. It was 4 sessions long. I was able to master the contribution workflow and contribute a couple of pull requests. Then I saw at the PyData conference that there would be an online pandas sprint in December 2022. It was thus a great opportunity to be able to participate without having to travel and have my first PR in pandas. Through Data Umbrella I saw a live video of Marco Gorelli’s “How you (yes you) can contribute to Open Source” which was highly motivating. The title, I thought, was just for me. I then just kept at it!</p>
+<p>I kept working alone. I built a few things to help out family members with my skills. Until there was a workshop on contributing to scikit-learn organized by PyLadies Paris and conducted by the core devs. It was 4 sessions long. I was able to master the contribution workflow and contribute a couple of pull requests. Then I saw at the PyData conference that there would be an online pandas sprint in December 2022. It was thus a great opportunity to be able to participate without having to travel and have my first PR in pandas. Through Data Umbrella I saw a live video of Marco Gorelli’s <a href="https://www.youtube.com/watch?v=zI4l1lfggzU">“How you (yes you) can contribute to Open Source”</a> which was highly motivating. The title, I thought, was just for me. I then just kept at it!</p>
 </section>
 <section id="contributing-to-pandas" class="level2">
 <h2 class="anchored" data-anchor-id="contributing-to-pandas">Contributing to pandas</h2>
