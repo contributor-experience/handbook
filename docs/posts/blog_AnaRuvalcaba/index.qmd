@@ -3,7 +3,9 @@ title: "Career Paths Lab: meet Ana Ruvalcaba"
 author: "Ana Ruvalcaba"
 date: "03/14/2024"
 ---
-In this blog post, we are highlighting the career journey of [Ana Ruvalcaba](https://www.linkedin.com/in/anaru/). She is a senior leader of Project Jupyter, a large international open source software project for data science, machine learning, and scientific computing. She is a founding member of the Jupyter Executive Council and is the Director of the project’s program at California Polytechnic State University. She holds a Bachelor of Science degree in Business Administration with a minor in Ethnic Studies. Ana’s areas of expertise include program/project management, people management, operations, budgeting, and global events. 
+In this blog post, we are highlighting the career journey of [Ana Ruvalcaba] (https://www.linkedin.com/in/anaru/). She is a senior leader of Project Jupyter, a large international open source software project for data science, machine learning, and scientific computing. She is a founding member of the Jupyter Executive Council and is the Director of the project’s program at California Polytechnic State University.
+
+She holds a Bachelor of Science degree in Business Administration with a minor in Ethnic Studies. Ana’s areas of expertise include program/project management, people management, operations, budgeting, and global events. 
 
 We learned more about her impact and journey from the following interview.
 
@@ -15,9 +17,11 @@ Starting in 2019, I participated in a multi-year effort to create a new governan
 ## Please tell us about your impact and initiatives.
 I am a champion of diversity, equity, and inclusion initiatives. In 2017, I co-authored the first Code of Conduct policy for Project Jupyter. In 2022, I co-founded the Diversity, Equity, and Inclusion Committee and I also serve as a member of the NumFOCUS Diversity in Scientific Computing Committee. 
 
-I facilitated many global events that have reached thousands of Jupyter developers, designers, and users. These include three team meetings for developers, over 20 local/regional community workshops, and JupyterCon (global user conference).  I am a  co-founder of Jupyter’s Community Working Group which leads on strategic initiatives designed to connect a global community of Jupyter enthusiasts. As part of that committee, I oversaw the creation of a community organizing committee responsible for establishing the structure, strategy, and impetus to kick off planning for JupyterCon 2023.
+I facilitated many global events that have reached thousands of Jupyter developers, designers, and users. These include three team meetings for developers, over 20 local/regional community workshops, and JupyterCon (global user conference).  I am a  co-founder of Jupyter’s Community Working Group which leads on strategic initiatives designed to connect a global community of Jupyter enthusiasts. As part of that committee, I oversaw the creation of a community organizing committee responsible for establishing the structure, strategy, and impetus to kick off 
+planning for JupyterCon 2023.
 
 ## We understand your contribution to open source is quite different from technical contributors. Can you try to classify and explain your impact to our readers?
+
 LEADERSHIP + GOVERNANCE
 I am the first and only non-engineer to be elected to the Jupyter Steering Council in 2018 and then to the Jupyter Executive Council in 2022. My work is focused on non-code contributions that impact our global community. 
 
@@ -28,10 +32,15 @@ COMMUNITY BUILDING
 In 2023, I co-founded three community working groups and standing committees. This involved writing charters for the groups and recruiting additional participants to join the efforts to grow the Jupyter community. Collaborations with key contributors allowed me to establish the Community Building working group (JCB) with Jason Grout from DataBricks, Diversity Equity and Inclusion (JDEI) with Jason Weill from AWS, and Media Strategy (JMS) with Steven Sylvester. Additionally, I provided instrumental support to the Documentation working group (JD) during its foundational phase.
 
 NUMFOCUS
-I serve as a key point of contact for NumFOCUS and oversee the financial management of all centrally managed Jupyter funds. In addition, I contribute to the Diversity in Scientific Computing Committee (DISC), and in 2023 I partnered with Melissa Mendoca and Tania Allard to organize the DISC Unconference. I also led efforts in the Methodologies For Collecting Community Data group during the event. Read more about our work here: (​​https://numfocus.medium.com/disc-unconference-2023-designing-inclusivity-in-open-source-14019cbdb3cb)
+I serve as a key point of contact for NumFOCUS and oversee the financial management of all centrally managed Jupyter funds. In addition, I contribute to the Diversity in Scientific Computing Committee (DISC), and in 2023 I partnered with Melissa Mendoca and Tania Allard to organize the DISC Unconference. I also led efforts in the Methodologies For Collecting Community Data group during the event. 
+Read more about our work here: (​​https://numfocus.medium.com/disc-unconference-2023-designing-inclusivity-in-open-source-14019cbdb3cb)
 
 
 ## What advice would you give to the new open source contributors?
 Not all contributions to open source are on GitHub! The future of Project Jupyter and our ability to be sustainable for many decades to come is just as dependent on strategic activities that have the power to attract and retain contributors as it is on smart and effective decisions in the Jupyter code base.
 
 Inclusion and diversity matters! Inclusion is vital to a team’s ability to complete the mission of an organization, not just the right thing to do. In order for diversity initiatives to succeed, inclusion must be cultivated and practiced. The people who build and design OS tools should be as diverse as the people who use them.
+
+ 
+
+
