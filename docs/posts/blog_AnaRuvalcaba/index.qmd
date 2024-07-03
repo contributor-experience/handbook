@@ -1,5 +1,5 @@
 ---
-title: "Ana Ruvalcaba Blog"
+title: "Career Paths Lab: meet Ana Ruvalcaba"
 author: "Ana Ruvalcaba"
 date: "03/14/2024"
 ---
