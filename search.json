@@ -22,6 +22,27 @@
     ]
   },
   {
+    "objectID": "docs/about/mission-and-values.html",
+    "href": "docs/about/mission-and-values.html",
+    "title": "Vision, mission, and values",
+    "section": "",
+    "text": "The Contributor Experience Project is a community of practice dedicated to supporting, studying, and advancing the emerging field of open source contributor onboarding and support. Our mission is to foster a welcoming, inclusive, and supportive environment for everyone contributing to open source. Through collaboration, knowledge exchange, and training, we strive to empower open source project leaders, community managers, and active contributors to cultivate sustainable open source projects and communities."
+  },
+  {
+    "objectID": "docs/about/mission-and-values.html#our-mission",
+    "href": "docs/about/mission-and-values.html#our-mission",
+    "title": "Vision, mission, and values",
+    "section": "",
+    "text": "The Contributor Experience Project is a community of practice dedicated to supporting, studying, and advancing the emerging field of open source contributor onboarding and support. Our mission is to foster a welcoming, inclusive, and supportive environment for everyone contributing to open source. Through collaboration, knowledge exchange, and training, we strive to empower open source project leaders, community managers, and active contributors to cultivate sustainable open source projects and communities."
+  },
+  {
+    "objectID": "docs/about/mission-and-values.html#our-values",
+    "href": "docs/about/mission-and-values.html#our-values",
+    "title": "Vision, mission, and values",
+    "section": "Our values",
+    "text": "Our values\nWe are inclusive We welcome and mentor newcomers who are making their first contribution. We have a Code of Conduct to make Contributor Experience Project a welcoming place for all.\nWe are community-driven We respond to feature requests and proposals on our [issue tracker] (https://github.com/contributor-experience/handbook/issues), making decisions that are driven by our users’ needs.\nWe are domain and language agnostic within open source\nWe value simple, readable implementations Readable code that is easy to understand, for newcomers and experienced contributors alike, makes it easier to contribute new code as well as prevent bugs.\nWe value documentation and education"
+  },
+  {
     "objectID": "docs/about/comms_channels.html",
     "href": "docs/about/comms_channels.html",
     "title": "Communication Channels",
