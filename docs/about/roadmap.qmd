@@ -2,4 +2,36 @@
 title: "Roadmap"
 ---
 
+**0 to 0.1 Roadmap**
+
+*June 2024*
+
+The Contributor Experience Project roadmap captures current development priorities 
+within the project and should serve as a guide for the core team, encourage and inspire 
+contributors, and provide insights to the broader open source community. For details on 
+the purpose of this document, refer to the About roadmap section.
+The mission of Contributor Experience Project is *TBD* 
+(see https://github.com/contributor-experience/handbook/issues/89)... 
+
+To work towards this mission, we have set the following priorities for the upcoming months:
+- TBD
+- TBD
+- TBD
+
+These priorities were selected based on the [issue tracker]
+(https://github.com/contributor-experience/handbook/issues) and feedback submitted at the 
+[community calls](https://github.com/contributor-experience/archive). 
+
+Once the above goals are met, we will review the roadmap to identify new priorities. 
+
+**About roadmap**
+
+This document is meant to be a snapshot of tasks and deliverables that the Contributor 
+Experience Project team is dedicating resources during our 0.1 series of releases. It is not 
+meant to limit what is being worked on within the project contributor community. In accordance 
+with our [values]() we remain community-driven, responding to requests and proposals on our issue 
+tracker and making decisions that are driven by our users’ requirements.
+If you are interested in contributing to Contributor Experience Project (yay!), check out our issue 
+tracker and familiarize yourself with our [Contribution guidelines]
+(https://contributor-experience.org/CONTRIBUTE.html).
 
