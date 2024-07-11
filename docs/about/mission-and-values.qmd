@@ -1,0 +1,28 @@
+---
+title: "Vision, mission, and values"
+---
+
+## Our mission
+The Contributor Experience Project is a community of practice dedicated to supporting, studying, 
+and advancing the emerging field of open source contributor onboarding and support. Our mission 
+is to foster a welcoming, inclusive, and supportive environment for everyone contributing to 
+open source. Through collaboration, knowledge exchange, and training, we strive to empower open 
+source project leaders, community managers, and active contributors to cultivate sustainable open 
+source projects and communities.
+
+## Our values
+**We are inclusive** We welcome and mentor newcomers who are making their first contribution. 
+We have a [Code of Conduct](https://contributor-experience.org/docs/about/coc.html) to make 
+Contributor Experience Project a welcoming place for all.
+
+**We are community-driven** We respond to feature requests and proposals on our [issue tracker]
+(https://github.com/contributor-experience/handbook/issues), making decisions that are driven by
+our users’ needs.
+
+**We are domain and language agnostic within open source**
+
+**We value simple, readable implementations** Readable code that is easy to understand, for 
+newcomers and experienced contributors alike, makes it easier to contribute new code as well as 
+prevent bugs.
+
+**We value documentation and education**
