@@ -3,7 +3,7 @@ title: "Career Paths Lab: meet Ana Ruvalcaba"
 author: "Ana Ruvalcaba"
 date: "03/14/2024"
 ---
-In this blog post, we are highlighting the career journey of [Ana Ruvalcaba] (https://www.linkedin.com/in/anaru/). 
+In this blog post, we are highlighting the career journey of [Ana Ruvalcaba](https://www.linkedin.com/in/anaru/). 
 Ana is a founding member of the Jupyter Executive Council and is the 
 Director of the project’s program at California Polytechnic State University (San Luis Obispo, CA, USA).
 
@@ -19,7 +19,7 @@ program. The internship program provided a unique learning environment for nearl
 worked in interdisciplinary teams to build Jupyter extensions. 
 
 Starting in 2019, I participated in a multi-year effort to create a new governance model for Project Jupyter and am 
-the first and only non-code contributor to Project Jupyter that has been elected to its leadership bodies, the Jupyter
+the first and only non-code contributor to Project Jupyter to be elected to its leadership bodies, the Jupyter
 Steering Council (2018 - 2022) and Jupyter Executive Council (2022 - present). Over the years, I have collaborated 
 with a wide variety of stakeholders in open source, tech, and university environments to deliver a unique set of 
 contributions. 
@@ -36,24 +36,23 @@ designed to connect a global community of Jupyter enthusiasts. As part of that c
 of a community organizing committee responsible for establishing the structure, strategy, and impetus to kick off 
 planning for JupyterCon 2023.
 
-## Your open source contributions don't involve any coding. Could you classify and explain their importance and 
-impact on Project Jupyter to our readers?
+## Your open source contributions don't involve any coding. Could you classify and explain their importance and impact on Project Jupyter to our readers?
 
-CODE OF CONDUCT
+**CODE OF CONDUCT**
 Spearheading the creation of a more inclusive community, I partnered with Fernando Perez and Reese Netro to write
 the inaugural Code of Conduct policy for Jupyter in 2017. In 2023, I collaborated with folks from a CZI grant-funded
 project called the Contributor Experience Handbook. I also explored the possibility of a revitalization of current 
 COC processes. This work remains in progress and I am committed to creating a more effective COC framework for the 
 Jupyter community.
 
-COMMUNITY BUILDING
+**COMMUNITY BUILDING**
 In 2023, I co-founded three community working groups and standing committees. This involved writing charters for the
 groups and recruiting additional participants to join the efforts to grow the Jupyter community. Collaborations with
 key contributors allowed me to establish the Community Building working group (JCB) with Jason Grout from DataBricks, 
 Diversity Equity and Inclusion (JDEI) with Jason Weill from AWS, and Media Strategy (JMS) with Steven Sylvester. 
 Additionally, I provided instrumental support to the Documentation working group (JD) during its foundational phase.
 
-LEADERSHIP + GOVERNANCE
+**LEADERSHIP + GOVERNANCE**
 I am the first and only non-engineer to be elected to the Jupyter Steering Council in 2018 and then to the Jupyter
 Executive Council in 2022. My work is focused on non-code contributions that impact our global community. 
 
