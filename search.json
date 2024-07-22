@@ -1,24 +1,46 @@
 [
   {
-    "objectID": "CONTRIBUTE.html",
-    "href": "CONTRIBUTE.html",
-    "title": "Contribution Guidelines",
+    "objectID": "docs/about/comms_channels.html",
+    "href": "docs/about/comms_channels.html",
+    "title": "Communication Channels",
     "section": "",
-    "text": "There are quite a few ways to get involved with the Contributor Experience Project. You can:\n\njoin one of our community calls\njoin our Zulip chat\nshare your ideas by filing issues, submitting pull requests, or commenting on existing discussions\naddress issues filed by other contributors\nreview submitted PRs\n\n\n\nNever made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
+    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations.",
     "crumbs": [
-      "Governance",
-      "Contribution Guidelines"
+      "Community Handbook",
+      "Communication Channels"
     ]
   },
   {
-    "objectID": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
-    "href": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
-    "title": "Contribution Guidelines",
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Code of Conduct",
     "section": "",
-    "text": "Never made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
+    "text": "All contributors, including core team members, are expected to follow the PSF Code of Conduct.",
     "crumbs": [
       "Governance",
-      "Contribution Guidelines"
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "docs/about/calendar.html",
+    "href": "docs/about/calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)",
+    "crumbs": [
+      "Community Handbook",
+      "Calendar"
+    ]
+  },
+  {
+    "objectID": "docs/about/acknowledging_contributors.html",
+    "href": "docs/about/acknowledging_contributors.html",
+    "title": "Acknowledging Contributors",
+    "section": "",
+    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space.",
+    "crumbs": [
+      "Community Handbook",
+      "Acknowledging Contributors"
     ]
   },
   {
@@ -43,14 +65,25 @@
     "text": "Our values\nWe are inclusive We welcome and mentor newcomers who are making their first contribution. We have a Code of Conduct to make Contributor Experience Project a welcoming place for all.\nWe are community-driven We respond to feature requests and proposals on our [issue tracker] (https://github.com/contributor-experience/handbook/issues), making decisions that are driven by our users’ needs.\nWe are domain and language agnostic within open source\nWe value simple, readable implementations Readable code that is easy to understand, for newcomers and experienced contributors alike, makes it easier to contribute new code as well as prevent bugs.\nWe value documentation and education"
   },
   {
-    "objectID": "docs/about/comms_channels.html",
-    "href": "docs/about/comms_channels.html",
-    "title": "Communication Channels",
+    "objectID": "docs/about/deployment_guide.html",
+    "href": "docs/about/deployment_guide.html",
+    "title": "Deployment guide for this handbook",
     "section": "",
-    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations.",
+    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment.",
     "crumbs": [
       "Community Handbook",
-      "Communication Channels"
+      "Deployment guide for this handbook"
+    ]
+  },
+  {
+    "objectID": "docs/about/deployment_guide.html#details",
+    "href": "docs/about/deployment_guide.html#details",
+    "title": "Deployment guide for this handbook",
+    "section": "Details",
+    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub.",
+    "crumbs": [
+      "Community Handbook",
+      "Deployment guide for this handbook"
     ]
   },
   {
@@ -65,33 +98,64 @@
     ]
   },
   {
-    "objectID": "docs/about/acknowledging_contributors.html",
-    "href": "docs/about/acknowledging_contributors.html",
-    "title": "Acknowledging Contributors",
+    "objectID": "docs/guide/cx/the_cel_role.html",
+    "href": "docs/guide/cx/the_cel_role.html",
+    "title": "The Contributor Experience Role",
     "section": "",
-    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space.",
+    "text": "What is the Contributor Experience Lead’s role in an Open Source project?\nThe Contributor Experience Lead owns a part of what some of us have referred to so far as Community, Communication, and Documentation work. But not only those! 🤯 They have several areas of contribution, and as their contributions grow in prominence within the project they may very well be recognized as a maintainer, with contributions to code, and social infrastructure - and a focus on project sustainability.\nWhat do we mean by that? The Contributor Experience Lead has 4 areas of activity, and a broad range of skills to achieve results. Let’s break this down.",
     "crumbs": [
-      "Community Handbook",
-      "Acknowledging Contributors"
+      "Guide",
+      "Introduction to Contributor Experience",
+      "The Contributor Experience Role"
     ]
   },
   {
-    "objectID": "docs/about/calendar.html",
-    "href": "docs/about/calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)",
+    "objectID": "docs/guide/cx/the_cel_role.html#areas-of-activity",
+    "href": "docs/guide/cx/the_cel_role.html#areas-of-activity",
+    "title": "The Contributor Experience Role",
+    "section": "Areas of activity",
+    "text": "Areas of activity\n\nOnboarding\nTools Integration\nOutreach\nGovernance\n\nBy working in these 4 areas, the Contributor Experience Lead can support new and developing contributors as they work on the project. The goal of the Contributor Experience Lead is to improve the overall project culture and experience for everyone involved, to promote civility and collaboration, as well as diversity and inclusion. They look for actions they can take themselves, and experiences they can promote in the project as a whole. They are learners and need to adapt to the existing people and culture and build upon it. No two projects are alike.\nIn this guide, we will elaborate about techniques for each area of activity, sharing tools, resources, and experiences. Building systems, and providing examples to motivate how those systems work in practice in different projects.",
     "crumbs": [
-      "Community Handbook",
-      "Calendar"
+      "Guide",
+      "Introduction to Contributor Experience",
+      "The Contributor Experience Role"
     ]
   },
   {
-    "objectID": "docs/guide/introduction.html",
-    "href": "docs/guide/introduction.html",
-    "title": "Introduction",
+    "objectID": "docs/guide/cx/the_cel_role.html#skills",
+    "href": "docs/guide/cx/the_cel_role.html#skills",
+    "title": "The Contributor Experience Role",
+    "section": "Skills",
+    "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way.",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "The Contributor Experience Role"
+    ]
+  },
+  {
+    "objectID": "docs/guide/cx/introduction.html",
+    "href": "docs/guide/cx/introduction.html",
+    "title": "Introduction to Contributor Experience",
     "section": "",
-    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
+    "text": "What is contributor experience?\nBehind every successful open source project is a strong contributor community. Yes, software must provide solutions. Ideally, should be a useful piece in a larger solution to a larger problem, a part of a tool-chain. However, it’s the people, the community, the culture of the community that determine the longevity of an open source project. And when we talk about the culture of any given open source community, what we really mean is the sum of:\n\nvalues, hopefully all documented as policies and guidelines,\ntechnical infrastructure\nsocial infrastructure\n\nwhich serve as ‘glue’ in onboarding and supporting contributors to an open source community.\nIn practice, for an OSS project to have a good culture means designing and providing positive contributor experience. The emerging field of open source contributor experience examines how policies, processes, and tools affect volunteer contributors’ ability to collaborate on an open source project and aims to develop best practices for creating positive contributor experience, nurturing great community culture, and ultimately supporting growth and sustainability of open source projects.",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "Introduction to Contributor Experience"
+    ]
+  },
+  {
+    "objectID": "docs/guide/comms/review_communication.html",
+    "href": "docs/guide/comms/review_communication.html",
+    "title": "Reviewing contributions",
+    "section": "",
+    "text": "This page is a guide for good communication practices when reviewing a contribution such as a pull request.",
+    "crumbs": [
+      "Guide",
+      "Communication Guide",
+      "Reviewing contributions"
+    ]
   },
   {
     "objectID": "docs/guide/collab/meetings.html",
@@ -154,157 +218,6 @@
     ]
   },
   {
-    "objectID": "docs/guide/cx/onboarding.html",
-    "href": "docs/guide/cx/onboarding.html",
-    "title": "Onboarding newcomers",
-    "section": "",
-    "text": "Whether you are just getting started with a small project that you would like to see grow, or working on a large established project that needs to be sustainable, you may want to find, onboard and train new contributors to your project. Below are a few ideas about contributor onboarding and how to make it work.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "Onboarding newcomers"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/onboarding.html#growing-your-contributor-community",
-    "href": "docs/guide/cx/onboarding.html#growing-your-contributor-community",
-    "title": "Onboarding newcomers",
-    "section": "Growing your contributor community",
-    "text": "Growing your contributor community\nResearch shows that one of the prime factors driving new contributions to an open source project is popularity. This means that you can expect a popular project to have a steady stream of contributors looking to participate.\nIf that’s not your case, you may want to invest in a few actions that will help.\n\n1. Good documentation\nWhether you are looking for code, documentation, community or any other kind of contribution, make sure your onboarding workflow is well documented and up-to-date. There are many excellent resources available online about good general documentation, including the WriteTheDocs community. If you have the resources, consider creating user stories and/or contributor journey maps to identify points of friction.\n\n\n2. Listen to your community\nThe more connected you are with your community and your user-base, the better. This can be very hard, especially if you have a broad user-base or if your community doesn’t have a way to connect with maintainers. If you have a user forum, any communication channels or social media accounts, use them as a way to understand your community needs and also how they can help you - listen to your experienced users, domain experts and other engaged community members.\n\n\n3. “Good first issues”\n\n\n\nGitHub comment on a Good First issue with the following text: Good first issue - notes for new contributors. This issue is suited to new contributors because it does not require understanding of the Matplotlib internals. To get started, please see our contributing guide. We do not assign issues. Check the Development section in the sidebar for linked pull requests (PRs). If there are none, feel free to start working on it. If there is an open PR, please collaborate on the work by reviewing it rather than duplicating it in a competing PR. If something is unclear, please reach out on any of our communication channels.\n\n\nGood first issues selected by the community are a good way to help newcomers choose tasks to work on. They should be relatively self-contained, and ideally they can be easily found by newcomers on your issue tracker (either through search, labels or your website).\n\n\n4. Sprints\nWorking sprints can be self-organized or attached to an event, such as a conference or meetup. Although they are short and often unpredictable in audience size, many people look at sprints as a way to get started with some degree of assistance from another contributor.\nSprints are a good opportunity to get people started on tasks that are not necessarily self-contained, and thus wouldn’t fit a “Good first issue” classification - but that might be tractable on a two-day sprint, with a maintainer around to answer questions.\n\n\n\nSprintable label on NumPy GitHub repositoy, described as “Issue fits the time-frame and setting of a sprint”",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "Onboarding newcomers"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/onboarding.html#ask-why-they-are-here",
-    "href": "docs/guide/cx/onboarding.html#ask-why-they-are-here",
-    "title": "Onboarding newcomers",
-    "section": "Ask why they are here",
-    "text": "Ask why they are here\nPeople contribute to open source for a variety of reasons: they may be users looking to solve a bug or add a feature they need themselves; they may be looking for opportunities to learn or develop their skills; they may be looking for professional networking opportunities or some type of recognition to improve job prospects in the future. In any case, don’t assume you know why they are here! The best way to understand what they want and how you can work together is to ask.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "Onboarding newcomers"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/onboarding.html#casting-a-wide-net-vs.-recruiting-for-specific-tasks",
-    "href": "docs/guide/cx/onboarding.html#casting-a-wide-net-vs.-recruiting-for-specific-tasks",
-    "title": "Onboarding newcomers",
-    "section": "Casting a wide net vs. recruiting for specific tasks",
-    "text": "Casting a wide net vs. recruiting for specific tasks\nWhile it may be tempting to wait for the perfect person who has the background, experience and knowledge to implement that one feature you have been waiting for, it may pay off to cast a wide net and be open to folks who may bring different skills, expertise and interests to your community.\nHowever, if you are short on resources or don’t have the bandwidth to onboard folks, it is perfectly fair (and healthy!) to set expectations clearly. If you need people to know a version control system such as Git before joining your project, make sure this is communicated clearly. This will avoid frustration on both sides and will help you and your contributors spend time more effectively.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "Onboarding newcomers"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/onboarding.html#mentoring",
-    "href": "docs/guide/cx/onboarding.html#mentoring",
-    "title": "Onboarding newcomers",
-    "section": "Mentoring",
-    "text": "Mentoring\nIndividual mentoring takes time and effort. This will most likely include teaching concepts, reviewing contributions, providing detailed feedback and outlining the reason behind project decisions. It is important to be clear with your mentee about the time commitment you are able to make, and to set clear expectations about the level of support you are able to provide.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "Onboarding newcomers"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/onboarding.html#forging-pathways-and-setting-expectations",
-    "href": "docs/guide/cx/onboarding.html#forging-pathways-and-setting-expectations",
-    "title": "Onboarding newcomers",
-    "section": "Forging pathways and setting expectations",
-    "text": "Forging pathways and setting expectations\nFor a lot of projects, the only contribution pathway readily available is code. However, healthy communities might need a wide range of skills and contribution types, including documentation, design, community management, translations, and even help with fundraising. If you are looking for a specific type of contribution, make sure you communicate that clearly.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "Onboarding newcomers"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/the_cel_role.html",
-    "href": "docs/guide/cx/the_cel_role.html",
-    "title": "The Contributor Experience Role",
-    "section": "",
-    "text": "What is the Contributor Experience Lead’s role in an Open Source project?\nThe Contributor Experience Lead owns a part of what some of us have referred to so far as Community, Communication, and Documentation work. But not only those! 🤯 They have several areas of contribution, and as their contributions grow in prominence within the project they may very well be recognized as a maintainer, with contributions to code, and social infrastructure - and a focus on project sustainability.\nWhat do we mean by that? The Contributor Experience Lead has 4 areas of activity, and a broad range of skills to achieve results. Let’s break this down.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "The Contributor Experience Role"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/the_cel_role.html#areas-of-activity",
-    "href": "docs/guide/cx/the_cel_role.html#areas-of-activity",
-    "title": "The Contributor Experience Role",
-    "section": "Areas of activity",
-    "text": "Areas of activity\n\nOnboarding\nTools Integration\nOutreach\nGovernance\n\nBy working in these 4 areas, the Contributor Experience Lead can support new and developing contributors as they work on the project. The goal of the Contributor Experience Lead is to improve the overall project culture and experience for everyone involved, to promote civility and collaboration, as well as diversity and inclusion. They look for actions they can take themselves, and experiences they can promote in the project as a whole. They are learners and need to adapt to the existing people and culture and build upon it. No two projects are alike.\nIn this guide, we will elaborate about techniques for each area of activity, sharing tools, resources, and experiences. Building systems, and providing examples to motivate how those systems work in practice in different projects.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "The Contributor Experience Role"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/the_cel_role.html#skills",
-    "href": "docs/guide/cx/the_cel_role.html#skills",
-    "title": "The Contributor Experience Role",
-    "section": "Skills",
-    "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "The Contributor Experience Role"
-    ]
-  },
-  {
-    "objectID": "docs/guide/gov/roadmap.html",
-    "href": "docs/guide/gov/roadmap.html",
-    "title": "Open source roadmap",
-    "section": "",
-    "text": "A roadmap is an essential document in the development of an open source project, serving as a strategic plan that outlines the mission, vision, direction, and progress of the project. Its importance can be understood through several key aspects:\n\n1. Guiding development and planning\nA roadmap provides a clear and structured plan for the project’s development. It lays out the major milestones, features, and improvements planned for future releases. This helps project leadership and contributors understand its priorities and focus their efforts on tasks that align with the project’s goals. It also aids in resource allocation, ensuring that time and effort are spent efficiently on the most impactful areas.\n\n\n2. Enhancing communication and collaboration\nOpen source projects often involve contributors from around the world. A roadmap acts as a communication tool, helping to keep everyone on the same page. It provides a shared understanding of the project’s direction, which is essential for effective collaboration. Contributors can see how their work fits into the bigger picture and how their contributions will impact future developments.\n\n\n3. Attracting and retaining contributors\nA well-defined roadmap can attract new contributors by showcasing the project’s vision, long-term goals as well as immediate needs. It demonstrates that the project is well-organized and has a clear plan for growth. For existing contributors, a roadmap helps maintain engagement by providing a sense of progress and a larger perspective.\n\n\n4. Ensuring transparency and accountability\nTransparency is a core value in the open source community. A publicly available roadmap ensures that all parties, including users, contributors, and sponsors, have visibility into the project’s plans and progress. This openness fosters trust and accountability, as the project leadership team commits to delivering specific features and improvements. It also allows the community to hold the project leadership accountable.\n\n\n5. Facilitating community feedback and involvement\nA roadmap invites feedback from the community, allowing users and contributors to suggest improvements, propose new features, and raise concerns. This feedback loop is essential for ensuring that the project evolves in a way that meets the needs of its users. By involving the community in the planning process, the project can better align with user expectations and foster a sense of ownership among contributors.\n\n\n6. Providing a framework for evaluation\nA roadmap sets benchmarks for the project’s progress, enabling regular evaluation of deliverables against set goals. This framework helps the project leadership team to measure success, identify areas for improvement, and adjust plans as needed. Regular updates to the roadmap based on evaluation results ensure that the project remains responsive to changing needs and priorities of the user community.\n\n\n7. Supporting fundraising and sponsorship\nFor many open source projects, securing funding and sponsorship is crucial for sustainability. A detailed roadmap is often a requirement in fundraising efforts, as it demonstrates a well-thought-out plan for the project’s future. Sponsors and donors are more likely to support a project that has clear goals and an action plan for achieving them."
-  },
-  {
-    "objectID": "docs/guide/tools/gh-issue-template.html",
-    "href": "docs/guide/tools/gh-issue-template.html",
-    "title": "Contributor Experience Handbook",
-    "section": "",
-    "text": "If you have your project in GitHub, you can create issue templates or forms. These allow you to ask for relevant information from contributors wanting to open a new issue to your repository.\nYou can have a template for each type of issue. For example, it can be a bug report, a request for a new feature, or a suggestion to improve your project’s documentation. You could also ask for more information.\nThere are two ways to add templates into your project. You can set them up directly in the settings of your repository, or you can create them with YAML format files.\nIf you create the templates writing yourself the YAML format files, you can create them locally (on your machine) and push them to your repository when ready.\nThe templates files should be under the directory .github/ISSUE_TEMPLATE at the root of your project. There should be one YAML file for each template, if you decide to have different types. You also need a config.yml file if you want to customize the template selection.\nFor a step by step guide, please visit the GitHub documentation.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "GitHub Issue templates"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/gh-issue-template.html#github-issue-templates",
-    "href": "docs/guide/tools/gh-issue-template.html#github-issue-templates",
-    "title": "Contributor Experience Handbook",
-    "section": "",
-    "text": "If you have your project in GitHub, you can create issue templates or forms. These allow you to ask for relevant information from contributors wanting to open a new issue to your repository.\nYou can have a template for each type of issue. For example, it can be a bug report, a request for a new feature, or a suggestion to improve your project’s documentation. You could also ask for more information.\nThere are two ways to add templates into your project. You can set them up directly in the settings of your repository, or you can create them with YAML format files.\nIf you create the templates writing yourself the YAML format files, you can create them locally (on your machine) and push them to your repository when ready.\nThe templates files should be under the directory .github/ISSUE_TEMPLATE at the root of your project. There should be one YAML file for each template, if you decide to have different types. You also need a config.yml file if you want to customize the template selection.\nFor a step by step guide, please visit the GitHub documentation.",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "GitHub Issue templates"
-    ]
-  },
-  {
-    "objectID": "docs/guide/tools/gh-issue-template.html#examples-of-github-issue-templates",
-    "href": "docs/guide/tools/gh-issue-template.html#examples-of-github-issue-templates",
-    "title": "Contributor Experience Handbook",
-    "section": "Examples of GitHub issue templates",
-    "text": "Examples of GitHub issue templates\nScikit-learn\nPolars\nNarwhals\nTensorflow",
-    "crumbs": [
-      "Guide",
-      "Tools Collection",
-      "GitHub Issue templates"
-    ]
-  },
-  {
     "objectID": "docs/guide/tools/cdes.html",
     "href": "docs/guide/tools/cdes.html",
     "title": "Cloud development environments",
@@ -338,59 +251,6 @@
       "Guide",
       "Tools Collection",
       "Cloud development environments"
-    ]
-  },
-  {
-    "objectID": "docs/guide/comms/introduction.html",
-    "href": "docs/guide/comms/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Having clear, welcoming and productive communication in any open source project can be challenging. Considering that most communication happens in written text and that the majority of contributors is working on their free time, communication can often be short and lacking in context.\nIn this section of our guide, we will explore ways to communicate better and list a few resources for those interested in this topic.",
-    "crumbs": [
-      "Guide",
-      "Communication Guide",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "docs/guide/comms/resources.html",
-    "href": "docs/guide/comms/resources.html",
-    "title": "Contributor Experience Handbook",
-    "section": "",
-    "text": "productive conflict\n\n\npodcast\n\n\n\nConflict, tension, disagreement are common events among colleagues - not that people are wrong in some way but that we all have competing points of view, different experiences and contradictory criteria for success. When is a fight a good thing? Why should we fight? What happens if we don’t fight? How can we fight without creating an unhealthy environment? Tune in for more.\n\n\n\n\n\nLiane Davey\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict resolution is important because “when people experience conflicts, much of their energy goes into emotions related to those conflicts” (Wilmot & Hocker, 2011, p. 2). This article goes into detail on the research behind conflict resolution and identifies several strategies you can use to manage conflict well.\n\n\n\n\n\nChristina R. Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict seems to happen in open source communities. As I’m, once again, in an open source community with some conflict going on I wanted to reflect on some excellent lessons I’ve learned over the years. I’ve had the opportunity to be in communities during seasons of conflict. Rather than keeping these reflections to myself, I wanted to share them so that others could reflect and hopefully build on some of these reflections.\n\n\n\n\n\nMatt Farina\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nWritten by Jono Bacon. Jono is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage, and consulted and advised a range of organizations.\n\n\n\n\n\nJono Bacon\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nRecognizing that you are experiencing anxiety is the first healthy step toward learning how to manage and cope with your feelings. In this article, we look at symptoms of anxiety and identify coping strategies you can use.\n\n\n\n\n\nAlicia Nortje\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nSelf-awareness is the ability to monitor our inner and external world. Our thoughts and feelings arise as signals. Developing self-awareness allows us to keep from being swept away by those signals, and instead, objectively and thoughtfully respond to them. Self-aware people understand their internal experience and their impact on the experience of others.\n\n\n\n\n\nKelly Miller\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nFantastic pointers in this article by Positive Psychology, along with free activities you can use to understand and work with your emotions.\n\n\n\n\n\nJessica Swainston\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis toolkit offers holistic, human-centred approaches for organisations making the shift to sustainable hybrid working and digital futures. You’ll learn about a range of topics in the collection, including Digital skills and leadership, Digital transformation and building a data-driven culture, Sustainability, Planning for the future, managing uncertainty and building resilience, Hybrid employee experience and culture, Collaborative communication and building trust, Diversity and inclusion, Physical and digital wellbeing, and Change management.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis free course, Effective communication in the workplace, explores the importance of communication as a skill in the workplace. It aims to increase your understanding of communication skills and to help you to consider how your communication could be perceived by others. You’ll cover areas such as verbal and non-verbal communication, written communication and using your communication skills in challenging and diverse situations. You’ll also look at possible scenarios for communication in the future, ranging from remote working to virtual reality.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nOrganizational psychologist Adam Grant takes you inside some truly unusual places, where they’ve figured out how to make work not suck. Adam is the chart-topping host of podcasts that make you think—and think again—about how you work, lead, and live. His shows have been named among the best of the year by Spotify and Apple.\n\n\n\n\n\nAdam Grant\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nIn this episode, David Dodson shares how workplace feedback can be your company’s secret weapon.\n\n\n\n\n\nDavid Dodson\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\n\n\n\n\n\n\nThe Turing Way\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThe Drupal community uses nudges to keep conversations productive and inclusive.\n\n\n\n\n\nMichael Anello, Ruth Cheesley, AmyJune Hineline\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThree years ago I maintained my first open source project for Hacktoberfest. As a first-time maintainer, I underestimated the time and effort it would take to write good issues for my contributors. What I also learned that year was that writing issues is an important form of communication, and, as a contributor, it can be a valuable skill to develop to create relationships and support maintainers.\n\n\n\n\n\nBekahHW\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nOpen-source brings together people from all over the world to collaborate and find solutions to complex problems. This post aims to help you improve your communication and collaboration skills. And at the same time, help make our community friendlier and safe for us all.\n\n\n\n\n\nTania Allard\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis article won’t teach you everything about contributing to open source; the aim here is more to give you some good starting points to think about as you get started with open source contributions.\n\n\n\n\n\nMDN\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nvideo\n\n\n\nNed Batchelder has been active in the Python community for more than 20 years. He is an organizer of Boston Python, and the maintainer of coverage.py and a handful of other tools.\n\n\n\n\n\nNed Batchelder\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nbook\n\n\n\nAn international business expert helps you understand and navigate cultural differences in this insightful and practical guide, perfect for both your work and personal life.\n\n\n\n\n\nErin Meyer\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis post discuss the difficulties of communicating while developing open-source projects and tries to gives some simple advice.\n\n\n\n\n\nGaël Varoquaux\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Communication Guide",
-      "Communication resources"
-    ]
-  },
-  {
-    "objectID": "docs/guide/comms/resources.html#communication-resources",
-    "href": "docs/guide/comms/resources.html#communication-resources",
-    "title": "Contributor Experience Handbook",
-    "section": "",
-    "text": "productive conflict\n\n\npodcast\n\n\n\nConflict, tension, disagreement are common events among colleagues - not that people are wrong in some way but that we all have competing points of view, different experiences and contradictory criteria for success. When is a fight a good thing? Why should we fight? What happens if we don’t fight? How can we fight without creating an unhealthy environment? Tune in for more.\n\n\n\n\n\nLiane Davey\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict resolution is important because “when people experience conflicts, much of their energy goes into emotions related to those conflicts” (Wilmot & Hocker, 2011, p. 2). This article goes into detail on the research behind conflict resolution and identifies several strategies you can use to manage conflict well.\n\n\n\n\n\nChristina R. Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict seems to happen in open source communities. As I’m, once again, in an open source community with some conflict going on I wanted to reflect on some excellent lessons I’ve learned over the years. I’ve had the opportunity to be in communities during seasons of conflict. Rather than keeping these reflections to myself, I wanted to share them so that others could reflect and hopefully build on some of these reflections.\n\n\n\n\n\nMatt Farina\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nWritten by Jono Bacon. Jono is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage, and consulted and advised a range of organizations.\n\n\n\n\n\nJono Bacon\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nRecognizing that you are experiencing anxiety is the first healthy step toward learning how to manage and cope with your feelings. In this article, we look at symptoms of anxiety and identify coping strategies you can use.\n\n\n\n\n\nAlicia Nortje\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nSelf-awareness is the ability to monitor our inner and external world. Our thoughts and feelings arise as signals. Developing self-awareness allows us to keep from being swept away by those signals, and instead, objectively and thoughtfully respond to them. Self-aware people understand their internal experience and their impact on the experience of others.\n\n\n\n\n\nKelly Miller\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nFantastic pointers in this article by Positive Psychology, along with free activities you can use to understand and work with your emotions.\n\n\n\n\n\nJessica Swainston\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis toolkit offers holistic, human-centred approaches for organisations making the shift to sustainable hybrid working and digital futures. You’ll learn about a range of topics in the collection, including Digital skills and leadership, Digital transformation and building a data-driven culture, Sustainability, Planning for the future, managing uncertainty and building resilience, Hybrid employee experience and culture, Collaborative communication and building trust, Diversity and inclusion, Physical and digital wellbeing, and Change management.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis free course, Effective communication in the workplace, explores the importance of communication as a skill in the workplace. It aims to increase your understanding of communication skills and to help you to consider how your communication could be perceived by others. You’ll cover areas such as verbal and non-verbal communication, written communication and using your communication skills in challenging and diverse situations. You’ll also look at possible scenarios for communication in the future, ranging from remote working to virtual reality.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nOrganizational psychologist Adam Grant takes you inside some truly unusual places, where they’ve figured out how to make work not suck. Adam is the chart-topping host of podcasts that make you think—and think again—about how you work, lead, and live. His shows have been named among the best of the year by Spotify and Apple.\n\n\n\n\n\nAdam Grant\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nIn this episode, David Dodson shares how workplace feedback can be your company’s secret weapon.\n\n\n\n\n\nDavid Dodson\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\n\n\n\n\n\n\nThe Turing Way\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThe Drupal community uses nudges to keep conversations productive and inclusive.\n\n\n\n\n\nMichael Anello, Ruth Cheesley, AmyJune Hineline\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThree years ago I maintained my first open source project for Hacktoberfest. As a first-time maintainer, I underestimated the time and effort it would take to write good issues for my contributors. What I also learned that year was that writing issues is an important form of communication, and, as a contributor, it can be a valuable skill to develop to create relationships and support maintainers.\n\n\n\n\n\nBekahHW\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nOpen-source brings together people from all over the world to collaborate and find solutions to complex problems. This post aims to help you improve your communication and collaboration skills. And at the same time, help make our community friendlier and safe for us all.\n\n\n\n\n\nTania Allard\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis article won’t teach you everything about contributing to open source; the aim here is more to give you some good starting points to think about as you get started with open source contributions.\n\n\n\n\n\nMDN\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nvideo\n\n\n\nNed Batchelder has been active in the Python community for more than 20 years. He is an organizer of Boston Python, and the maintainer of coverage.py and a handful of other tools.\n\n\n\n\n\nNed Batchelder\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nbook\n\n\n\nAn international business expert helps you understand and navigate cultural differences in this insightful and practical guide, perfect for both your work and personal life.\n\n\n\n\n\nErin Meyer\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis post discuss the difficulties of communicating while developing open-source projects and tries to gives some simple advice.\n\n\n\n\n\nGaël Varoquaux\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Communication Guide",
-      "Communication resources"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Contributor  Experience Handbook",
-    "section": "",
-    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and connect with peers who are working in this field, join our contributor community meetings ✨\n\n\n\nContributor experience logo, deconstructed: five colorful geometric forms, which put together form a circle. The colors are teal, yellow, navy blue, soft pink and violet."
-  },
-  {
-    "objectID": "docs/guide/comms/review_communication.html",
-    "href": "docs/guide/comms/review_communication.html",
-    "title": "Reviewing contributions",
-    "section": "",
-    "text": "This page is a guide for good communication practices when reviewing a contribution such as a pull request.",
-    "crumbs": [
-      "Guide",
-      "Communication Guide",
-      "Reviewing contributions"
     ]
   },
   {
@@ -428,6 +288,79 @@
       "Tools Collection",
       "Useful Bots"
     ]
+  },
+  {
+    "objectID": "docs/guide/tools/introduction.html",
+    "href": "docs/guide/tools/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Contributor Experience can be used to describe how a contributor perceives their interactions with a community or project. More specifically in our case, it can mean how much friction a new contributor faces to create a pull request, or how the community’s communication style impacts their engagement and sense of belonging.\nIn this section, we’ll catalogue a list of tools to address these issues. This list is far from definitive, and we expect it to grow and change over time as our understanding of this topic evolves and new tools become available in this space.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
+  },
+  {
+    "objectID": "CONTRIBUTE.html",
+    "href": "CONTRIBUTE.html",
+    "title": "Contribution Guidelines",
+    "section": "",
+    "text": "There are quite a few ways to get involved with the Contributor Experience Project. You can:\n\njoin one of our community calls\njoin our Zulip chat\nshare your ideas by filing issues, submitting pull requests, or commenting on existing discussions\naddress issues filed by other contributors\nreview submitted PRs\nadd to our Tools Collection.\n\n\n\n\nIf you want to add tools to the guide, please add the version of the software you are recommending. If the version is not available, please add the date of writing.\nAdd examples of those tools as used by some open-source projects if possible.\nAdd links to the original documentation.\n\n\n\n\nNever made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
+    "crumbs": [
+      "Governance",
+      "Contribution Guidelines"
+    ]
+  },
+  {
+    "objectID": "CONTRIBUTE.html#adding-to-tools-collection-section-guideline",
+    "href": "CONTRIBUTE.html#adding-to-tools-collection-section-guideline",
+    "title": "Contribution Guidelines",
+    "section": "",
+    "text": "If you want to add tools to the guide, please add the version of the software you are recommending. If the version is not available, please add the date of writing.\nAdd examples of those tools as used by some open-source projects if possible.\nAdd links to the original documentation.",
+    "crumbs": [
+      "Governance",
+      "Contribution Guidelines"
+    ]
+  },
+  {
+    "objectID": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
+    "href": "CONTRIBUTE.html#how-do-i-make-a-contribution-to-the-handbook",
+    "title": "Contribution Guidelines",
+    "section": "",
+    "text": "Never made an open source contribution before? Wondering how contributions work in our project? Here’s a quick rundown!\n\nFind an issue that you are interested in addressing or decide on content or feature that you would like to add.\nFork the Contributor Experience Handbook repository to your GitHub profile. This means that you will have a copy of the repository &lt;github-username&gt;/handbook.\nTo fork the repository, you can use the Fork button on the GitHub web interface for this repo.\nClone the repository to your local machine using:\ngit clone https://github.com/&lt;github-username&gt;/handbook.git\nThis means you will now have a local copy of all the contents in the GitHub repository on your computer in the handbook folder. You can rename this folder to any names you like - all the git-related information will be unchanged.\nAdd the upstream remote\nIf you want to submit pull requests and share changes to the Handbook back to the community, you need to point git to the correct repos. You can do this by setting your remote repositories.\nBy convention, we will use the name origin to point to your fork of the repository and we will call upstream the original Contributor Experience Handbook repo. To inform git, you can run the following command:\n git remote add upstream https://github.com/contributor-experience/handbook.git\nNow, if you run\ngit remote -v\nyou should see something like:\norigin  git@github.com:&lt;github-username&gt;/handbook.git (fetch)\norigin  git@github.com:&lt;github-username&gt;/handbook.git (push)\nupstream        git@github.com:contributor-experience/handbook.git (fetch)\nupstream        git@github.com:contributor-experience/handbook.git (push)\nThis means you are all set!\n(Optional) Pull the latest changes from the main repository if you think your fork is behind:\ngit pull upstream main\nCreate a new branch and switch to it to work on your task (a selected issue, content, or feature):\ngit switch -c &lt;branch-name&gt;\nIt is good practice to create a new branch for each new fix/improvement your are working on. This ensures that the history of the changes to the project is well organized. You can name your branch anything - this does not interfere with the commit history.\nOnce you finished making changes to the existing code, you need to add all these changes to the staging area and commit them to the branch you are working on\ngit add &lt;files-to-be-changed&gt;\ngit commit -m \"&lt;commit message&gt;\"\nwhere &lt;commit-message&gt; is a brief explanation of what you did.\nPush the changes to the remote repository using:\ngit push origin &lt;branch-name&gt;\nSubmit a pull request to the upstream repository.\nTitle the pull request with a short description of the changes made.\nWait for the pull request to be reviewed by the project team member.\n\nCurrently, the Contributor Experience project is led by a team of three people. While only these team members have GitHub permissions to merge pull requests, we welcome pull request reviews by anyone - suggestions and comments are valuable contributions to our project.\n\nMake changes to the pull request if the reviewing team member recommends them.\nCelebrate your success after your pull request is merged!\n\n\nThanks for taking the time to contribute! ❤️\nDon’t forget to leave a star. 🌟",
+    "crumbs": [
+      "Governance",
+      "Contribution Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Contributor  Experience Handbook",
+    "section": "",
+    "text": "Welcome to the Contributor  Experience Handbook\nA new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.\nOur goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.\nTo learn more and connect with peers who are working in this field, join our contributor community meetings ✨\n\n\n\nContributor experience logo, deconstructed: five colorful geometric forms, which put together form a circle. The colors are teal, yellow, navy blue, soft pink and violet."
+  },
+  {
+    "objectID": "docs/guide/gov/roadmap.html",
+    "href": "docs/guide/gov/roadmap.html",
+    "title": "Open source roadmap",
+    "section": "",
+    "text": "A roadmap is an essential document in the development of an open source project, serving as a strategic plan that outlines the mission, vision, direction, and progress of the project. Its importance can be understood through several key aspects:\n\n1. Guiding development and planning\nA roadmap provides a clear and structured plan for the project’s development. It lays out the major milestones, features, and improvements planned for future releases. This helps project leadership and contributors understand its priorities and focus their efforts on tasks that align with the project’s goals. It also aids in resource allocation, ensuring that time and effort are spent efficiently on the most impactful areas.\n\n\n2. Enhancing communication and collaboration\nOpen source projects often involve contributors from around the world. A roadmap acts as a communication tool, helping to keep everyone on the same page. It provides a shared understanding of the project’s direction, which is essential for effective collaboration. Contributors can see how their work fits into the bigger picture and how their contributions will impact future developments.\n\n\n3. Attracting and retaining contributors\nA well-defined roadmap can attract new contributors by showcasing the project’s vision, long-term goals as well as immediate needs. It demonstrates that the project is well-organized and has a clear plan for growth. For existing contributors, a roadmap helps maintain engagement by providing a sense of progress and a larger perspective.\n\n\n4. Ensuring transparency and accountability\nTransparency is a core value in the open source community. A publicly available roadmap ensures that all parties, including users, contributors, and sponsors, have visibility into the project’s plans and progress. This openness fosters trust and accountability, as the project leadership team commits to delivering specific features and improvements. It also allows the community to hold the project leadership accountable.\n\n\n5. Facilitating community feedback and involvement\nA roadmap invites feedback from the community, allowing users and contributors to suggest improvements, propose new features, and raise concerns. This feedback loop is essential for ensuring that the project evolves in a way that meets the needs of its users. By involving the community in the planning process, the project can better align with user expectations and foster a sense of ownership among contributors.\n\n\n6. Providing a framework for evaluation\nA roadmap sets benchmarks for the project’s progress, enabling regular evaluation of deliverables against set goals. This framework helps the project leadership team to measure success, identify areas for improvement, and adjust plans as needed. Regular updates to the roadmap based on evaluation results ensure that the project remains responsive to changing needs and priorities of the user community.\n\n\n7. Supporting fundraising and sponsorship\nFor many open source projects, securing funding and sponsorship is crucial for sustainability. A detailed roadmap is often a requirement in fundraising efforts, as it demonstrates a well-thought-out plan for the project’s future. Sponsors and donors are more likely to support a project that has clear goals and an action plan for achieving them."
+  },
+  {
+    "objectID": "docs/guide/introduction.html",
+    "href": "docs/guide/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
   },
   {
     "objectID": "docs/guide/tools/metrics.html",
@@ -514,15 +447,157 @@
     ]
   },
   {
-    "objectID": "docs/guide/tools/introduction.html",
-    "href": "docs/guide/tools/introduction.html",
-    "title": "Introduction",
+    "objectID": "docs/guide/tools/gh-issue-template.html",
+    "href": "docs/guide/tools/gh-issue-template.html",
+    "title": "Contributor Experience Handbook",
     "section": "",
-    "text": "Contributor Experience can be used to describe how a contributor perceives their interactions with a community or project. More specifically in our case, it can mean how much friction a new contributor faces to create a pull request, or how the community’s communication style impacts their engagement and sense of belonging.\nIn this section, we’ll catalogue a list of tools to address these issues. This list is far from definitive, and we expect it to grow and change over time as our understanding of this topic evolves and new tools become available in this space.",
+    "text": "If you have your project in GitHub, you can create issue templates or forms. These allow you to ask for relevant information from contributors wanting to open a new issue to your repository.\nYou can have a template for each type of issue. For example, it can be a bug report, a request for a new feature, or a suggestion to improve your project’s documentation. You could also ask for more information.\nThere are two ways to add templates into your project. You can set them up directly in the settings of your repository, or you can create them with YAML format files.\nIf you create the templates writing yourself the YAML format files, you can create them locally (on your machine) and push them to your repository when ready.\nThe templates files should be under the directory .github/ISSUE_TEMPLATE at the root of your project. There should be one YAML file for each template, if you decide to have different types. You also need a config.yml file if you want to customize the template selection.\nFor a step by step guide, please visit the GitHub documentation.",
     "crumbs": [
       "Guide",
       "Tools Collection",
+      "GitHub Issue templates"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/gh-issue-template.html#github-issue-templates",
+    "href": "docs/guide/tools/gh-issue-template.html#github-issue-templates",
+    "title": "Contributor Experience Handbook",
+    "section": "",
+    "text": "If you have your project in GitHub, you can create issue templates or forms. These allow you to ask for relevant information from contributors wanting to open a new issue to your repository.\nYou can have a template for each type of issue. For example, it can be a bug report, a request for a new feature, or a suggestion to improve your project’s documentation. You could also ask for more information.\nThere are two ways to add templates into your project. You can set them up directly in the settings of your repository, or you can create them with YAML format files.\nIf you create the templates writing yourself the YAML format files, you can create them locally (on your machine) and push them to your repository when ready.\nThe templates files should be under the directory .github/ISSUE_TEMPLATE at the root of your project. There should be one YAML file for each template, if you decide to have different types. You also need a config.yml file if you want to customize the template selection.\nFor a step by step guide, please visit the GitHub documentation.",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "GitHub Issue templates"
+    ]
+  },
+  {
+    "objectID": "docs/guide/tools/gh-issue-template.html#examples-of-github-issue-templates",
+    "href": "docs/guide/tools/gh-issue-template.html#examples-of-github-issue-templates",
+    "title": "Contributor Experience Handbook",
+    "section": "Examples of GitHub issue templates",
+    "text": "Examples of GitHub issue templates\nScikit-learn\nPolars\nNarwhals\nTensorflow",
+    "crumbs": [
+      "Guide",
+      "Tools Collection",
+      "GitHub Issue templates"
+    ]
+  },
+  {
+    "objectID": "docs/guide/collab/introduction.html",
+    "href": "docs/guide/collab/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Every open source project is different, but there are many activities that may help contributors and maintainers collaborate in a productive, positive and healthy environment.\nThis section aims to collect a few of these practices and experiences to make it easier for folks to identify what might work for their projects.\n\n\n\n\n\n\nNote\n\n\n\nNote that the content in these pages is not meant to be seen as a ladder, or as a checklist of what a project needs to be successful. Each project has its own needs and community, so feel free to take what is useful and leave what is not.",
+    "crumbs": [
+      "Guide",
+      "Collaboration Guide",
       "Introduction"
+    ]
+  },
+  {
+    "objectID": "docs/guide/comms/introduction.html",
+    "href": "docs/guide/comms/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Having clear, welcoming and productive communication in any open source project can be challenging. Considering that most communication happens in written text and that the majority of contributors is working on their free time, communication can often be short and lacking in context.\nIn this section of our guide, we will explore ways to communicate better and list a few resources for those interested in this topic.",
+    "crumbs": [
+      "Guide",
+      "Communication Guide",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "docs/guide/comms/resources.html",
+    "href": "docs/guide/comms/resources.html",
+    "title": "Contributor Experience Handbook",
+    "section": "",
+    "text": "productive conflict\n\n\npodcast\n\n\n\nConflict, tension, disagreement are common events among colleagues - not that people are wrong in some way but that we all have competing points of view, different experiences and contradictory criteria for success. When is a fight a good thing? Why should we fight? What happens if we don’t fight? How can we fight without creating an unhealthy environment? Tune in for more.\n\n\n\n\n\nLiane Davey\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict resolution is important because “when people experience conflicts, much of their energy goes into emotions related to those conflicts” (Wilmot & Hocker, 2011, p. 2). This article goes into detail on the research behind conflict resolution and identifies several strategies you can use to manage conflict well.\n\n\n\n\n\nChristina R. Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict seems to happen in open source communities. As I’m, once again, in an open source community with some conflict going on I wanted to reflect on some excellent lessons I’ve learned over the years. I’ve had the opportunity to be in communities during seasons of conflict. Rather than keeping these reflections to myself, I wanted to share them so that others could reflect and hopefully build on some of these reflections.\n\n\n\n\n\nMatt Farina\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nWritten by Jono Bacon. Jono is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage, and consulted and advised a range of organizations.\n\n\n\n\n\nJono Bacon\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nRecognizing that you are experiencing anxiety is the first healthy step toward learning how to manage and cope with your feelings. In this article, we look at symptoms of anxiety and identify coping strategies you can use.\n\n\n\n\n\nAlicia Nortje\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nSelf-awareness is the ability to monitor our inner and external world. Our thoughts and feelings arise as signals. Developing self-awareness allows us to keep from being swept away by those signals, and instead, objectively and thoughtfully respond to them. Self-aware people understand their internal experience and their impact on the experience of others.\n\n\n\n\n\nKelly Miller\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nFantastic pointers in this article by Positive Psychology, along with free activities you can use to understand and work with your emotions.\n\n\n\n\n\nJessica Swainston\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis toolkit offers holistic, human-centred approaches for organisations making the shift to sustainable hybrid working and digital futures. You’ll learn about a range of topics in the collection, including Digital skills and leadership, Digital transformation and building a data-driven culture, Sustainability, Planning for the future, managing uncertainty and building resilience, Hybrid employee experience and culture, Collaborative communication and building trust, Diversity and inclusion, Physical and digital wellbeing, and Change management.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis free course, Effective communication in the workplace, explores the importance of communication as a skill in the workplace. It aims to increase your understanding of communication skills and to help you to consider how your communication could be perceived by others. You’ll cover areas such as verbal and non-verbal communication, written communication and using your communication skills in challenging and diverse situations. You’ll also look at possible scenarios for communication in the future, ranging from remote working to virtual reality.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nOrganizational psychologist Adam Grant takes you inside some truly unusual places, where they’ve figured out how to make work not suck. Adam is the chart-topping host of podcasts that make you think—and think again—about how you work, lead, and live. His shows have been named among the best of the year by Spotify and Apple.\n\n\n\n\n\nAdam Grant\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nIn this episode, David Dodson shares how workplace feedback can be your company’s secret weapon.\n\n\n\n\n\nDavid Dodson\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\n\n\n\n\n\n\nThe Turing Way\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThe Drupal community uses nudges to keep conversations productive and inclusive.\n\n\n\n\n\nMichael Anello, Ruth Cheesley, AmyJune Hineline\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThree years ago I maintained my first open source project for Hacktoberfest. As a first-time maintainer, I underestimated the time and effort it would take to write good issues for my contributors. What I also learned that year was that writing issues is an important form of communication, and, as a contributor, it can be a valuable skill to develop to create relationships and support maintainers.\n\n\n\n\n\nBekahHW\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nOpen-source brings together people from all over the world to collaborate and find solutions to complex problems. This post aims to help you improve your communication and collaboration skills. And at the same time, help make our community friendlier and safe for us all.\n\n\n\n\n\nTania Allard\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis article won’t teach you everything about contributing to open source; the aim here is more to give you some good starting points to think about as you get started with open source contributions.\n\n\n\n\n\nMDN\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nvideo\n\n\n\nNed Batchelder has been active in the Python community for more than 20 years. He is an organizer of Boston Python, and the maintainer of coverage.py and a handful of other tools.\n\n\n\n\n\nNed Batchelder\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nbook\n\n\n\nAn international business expert helps you understand and navigate cultural differences in this insightful and practical guide, perfect for both your work and personal life.\n\n\n\n\n\nErin Meyer\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis post discuss the difficulties of communicating while developing open-source projects and tries to gives some simple advice.\n\n\n\n\n\nGaël Varoquaux\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Communication Guide",
+      "Communication resources"
+    ]
+  },
+  {
+    "objectID": "docs/guide/comms/resources.html#communication-resources",
+    "href": "docs/guide/comms/resources.html#communication-resources",
+    "title": "Contributor Experience Handbook",
+    "section": "",
+    "text": "productive conflict\n\n\npodcast\n\n\n\nConflict, tension, disagreement are common events among colleagues - not that people are wrong in some way but that we all have competing points of view, different experiences and contradictory criteria for success. When is a fight a good thing? Why should we fight? What happens if we don’t fight? How can we fight without creating an unhealthy environment? Tune in for more.\n\n\n\n\n\nLiane Davey\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict resolution is important because “when people experience conflicts, much of their energy goes into emotions related to those conflicts” (Wilmot & Hocker, 2011, p. 2). This article goes into detail on the research behind conflict resolution and identifies several strategies you can use to manage conflict well.\n\n\n\n\n\nChristina R. Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nConflict seems to happen in open source communities. As I’m, once again, in an open source community with some conflict going on I wanted to reflect on some excellent lessons I’ve learned over the years. I’ve had the opportunity to be in communities during seasons of conflict. Rather than keeping these reflections to myself, I wanted to share them so that others could reflect and hopefully build on some of these reflections.\n\n\n\n\n\nMatt Farina\n\n\n\n\n\n\n\n\n\n\n\n\nproductive conflict\n\n\narticle\n\n\n\nWritten by Jono Bacon. Jono is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage, and consulted and advised a range of organizations.\n\n\n\n\n\nJono Bacon\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nRecognizing that you are experiencing anxiety is the first healthy step toward learning how to manage and cope with your feelings. In this article, we look at symptoms of anxiety and identify coping strategies you can use.\n\n\n\n\n\nAlicia Nortje\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nSelf-awareness is the ability to monitor our inner and external world. Our thoughts and feelings arise as signals. Developing self-awareness allows us to keep from being swept away by those signals, and instead, objectively and thoughtfully respond to them. Self-aware people understand their internal experience and their impact on the experience of others.\n\n\n\n\n\nKelly Miller\n\n\n\n\n\n\n\n\n\n\n\n\npositive psychology\n\n\narticle\n\n\n\nFantastic pointers in this article by Positive Psychology, along with free activities you can use to understand and work with your emotions.\n\n\n\n\n\nJessica Swainston\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis toolkit offers holistic, human-centred approaches for organisations making the shift to sustainable hybrid working and digital futures. You’ll learn about a range of topics in the collection, including Digital skills and leadership, Digital transformation and building a data-driven culture, Sustainability, Planning for the future, managing uncertainty and building resilience, Hybrid employee experience and culture, Collaborative communication and building trust, Diversity and inclusion, Physical and digital wellbeing, and Change management.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\nfree courses\n\n\n\nThis free course, Effective communication in the workplace, explores the importance of communication as a skill in the workplace. It aims to increase your understanding of communication skills and to help you to consider how your communication could be perceived by others. You’ll cover areas such as verbal and non-verbal communication, written communication and using your communication skills in challenging and diverse situations. You’ll also look at possible scenarios for communication in the future, ranging from remote working to virtual reality.\n\n\n\n\n\nThe Open University\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nOrganizational psychologist Adam Grant takes you inside some truly unusual places, where they’ve figured out how to make work not suck. Adam is the chart-topping host of podcasts that make you think—and think again—about how you work, lead, and live. His shows have been named among the best of the year by Spotify and Apple.\n\n\n\n\n\nAdam Grant\n\n\n\n\n\n\n\n\n\n\n\n\npodcast\n\n\n\nIn this episode, David Dodson shares how workplace feedback can be your company’s secret weapon.\n\n\n\n\n\nDavid Dodson\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\n\n\n\n\n\n\nThe Turing Way\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThe Drupal community uses nudges to keep conversations productive and inclusive.\n\n\n\n\n\nMichael Anello, Ruth Cheesley, AmyJune Hineline\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThree years ago I maintained my first open source project for Hacktoberfest. As a first-time maintainer, I underestimated the time and effort it would take to write good issues for my contributors. What I also learned that year was that writing issues is an important form of communication, and, as a contributor, it can be a valuable skill to develop to create relationships and support maintainers.\n\n\n\n\n\nBekahHW\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nOpen-source brings together people from all over the world to collaborate and find solutions to complex problems. This post aims to help you improve your communication and collaboration skills. And at the same time, help make our community friendlier and safe for us all.\n\n\n\n\n\nTania Allard\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis article won’t teach you everything about contributing to open source; the aim here is more to give you some good starting points to think about as you get started with open source contributions.\n\n\n\n\n\nMDN\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nvideo\n\n\n\nNed Batchelder has been active in the Python community for more than 20 years. He is an organizer of Boston Python, and the maintainer of coverage.py and a handful of other tools.\n\n\n\n\n\nNed Batchelder\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\nbook\n\n\n\nAn international business expert helps you understand and navigate cultural differences in this insightful and practical guide, perfect for both your work and personal life.\n\n\n\n\n\nErin Meyer\n\n\n\n\n\n\n\n\n\n\n\n\nopen source communities\n\n\narticle\n\n\n\nThis post discuss the difficulties of communicating while developing open-source projects and tries to gives some simple advice.\n\n\n\n\n\nGaël Varoquaux\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Communication Guide",
+      "Communication resources"
+    ]
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html",
+    "href": "docs/guide/cx/onboarding.html",
+    "title": "Onboarding newcomers",
+    "section": "",
+    "text": "Whether you are just getting started with a small project that you would like to see grow, or working on a large established project that needs to be sustainable, you may want to find, onboard and train new contributors to your project. Below are a few ideas about contributor onboarding and how to make it work.",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "Onboarding newcomers"
+    ]
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#growing-your-contributor-community",
+    "href": "docs/guide/cx/onboarding.html#growing-your-contributor-community",
+    "title": "Onboarding newcomers",
+    "section": "Growing your contributor community",
+    "text": "Growing your contributor community\nResearch shows that one of the prime factors driving new contributions to an open source project is popularity. This means that you can expect a popular project to have a steady stream of contributors looking to participate.\nIf that’s not your case, you may want to invest in a few actions that will help.\n\n1. Good documentation\nWhether you are looking for code, documentation, community or any other kind of contribution, make sure your onboarding workflow is well documented and up-to-date. There are many excellent resources available online about good general documentation, including the WriteTheDocs community. If you have the resources, consider creating user stories and/or contributor journey maps to identify points of friction.\n\n\n2. Listen to your community\nThe more connected you are with your community and your user-base, the better. This can be very hard, especially if you have a broad user-base or if your community doesn’t have a way to connect with maintainers. If you have a user forum, any communication channels or social media accounts, use them as a way to understand your community needs and also how they can help you - listen to your experienced users, domain experts and other engaged community members.\n\n\n3. “Good first issues”\n\n\n\nGitHub comment on a Good First issue with the following text: Good first issue - notes for new contributors. This issue is suited to new contributors because it does not require understanding of the Matplotlib internals. To get started, please see our contributing guide. We do not assign issues. Check the Development section in the sidebar for linked pull requests (PRs). If there are none, feel free to start working on it. If there is an open PR, please collaborate on the work by reviewing it rather than duplicating it in a competing PR. If something is unclear, please reach out on any of our communication channels.\n\n\nGood first issues selected by the community are a good way to help newcomers choose tasks to work on. They should be relatively self-contained, and ideally they can be easily found by newcomers on your issue tracker (either through search, labels or your website).\n\n\n4. Sprints\nWorking sprints can be self-organized or attached to an event, such as a conference or meetup. Although they are short and often unpredictable in audience size, many people look at sprints as a way to get started with some degree of assistance from another contributor.\nSprints are a good opportunity to get people started on tasks that are not necessarily self-contained, and thus wouldn’t fit a “Good first issue” classification - but that might be tractable on a two-day sprint, with a maintainer around to answer questions.\n\n\n\nSprintable label on NumPy GitHub repositoy, described as “Issue fits the time-frame and setting of a sprint”",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "Onboarding newcomers"
+    ]
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#ask-why-they-are-here",
+    "href": "docs/guide/cx/onboarding.html#ask-why-they-are-here",
+    "title": "Onboarding newcomers",
+    "section": "Ask why they are here",
+    "text": "Ask why they are here\nPeople contribute to open source for a variety of reasons: they may be users looking to solve a bug or add a feature they need themselves; they may be looking for opportunities to learn or develop their skills; they may be looking for professional networking opportunities or some type of recognition to improve job prospects in the future. In any case, don’t assume you know why they are here! The best way to understand what they want and how you can work together is to ask.",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "Onboarding newcomers"
+    ]
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#casting-a-wide-net-vs.-recruiting-for-specific-tasks",
+    "href": "docs/guide/cx/onboarding.html#casting-a-wide-net-vs.-recruiting-for-specific-tasks",
+    "title": "Onboarding newcomers",
+    "section": "Casting a wide net vs. recruiting for specific tasks",
+    "text": "Casting a wide net vs. recruiting for specific tasks\nWhile it may be tempting to wait for the perfect person who has the background, experience and knowledge to implement that one feature you have been waiting for, it may pay off to cast a wide net and be open to folks who may bring different skills, expertise and interests to your community.\nHowever, if you are short on resources or don’t have the bandwidth to onboard folks, it is perfectly fair (and healthy!) to set expectations clearly. If you need people to know a version control system such as Git before joining your project, make sure this is communicated clearly. This will avoid frustration on both sides and will help you and your contributors spend time more effectively.",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "Onboarding newcomers"
+    ]
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#mentoring",
+    "href": "docs/guide/cx/onboarding.html#mentoring",
+    "title": "Onboarding newcomers",
+    "section": "Mentoring",
+    "text": "Mentoring\nIndividual mentoring takes time and effort. This will most likely include teaching concepts, reviewing contributions, providing detailed feedback and outlining the reason behind project decisions. It is important to be clear with your mentee about the time commitment you are able to make, and to set clear expectations about the level of support you are able to provide.",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "Onboarding newcomers"
+    ]
+  },
+  {
+    "objectID": "docs/guide/cx/onboarding.html#forging-pathways-and-setting-expectations",
+    "href": "docs/guide/cx/onboarding.html#forging-pathways-and-setting-expectations",
+    "title": "Onboarding newcomers",
+    "section": "Forging pathways and setting expectations",
+    "text": "Forging pathways and setting expectations\nFor a lot of projects, the only contribution pathway readily available is code. However, healthy communities might need a wide range of skills and contribution types, including documentation, design, community management, translations, and even help with fundraising. If you are looking for a specific type of contribution, make sure you communicate that clearly.",
+    "crumbs": [
+      "Guide",
+      "Introduction to Contributor Experience",
+      "Onboarding newcomers"
     ]
   },
   {
@@ -574,30 +649,6 @@
     ]
   },
   {
-    "objectID": "docs/guide/cx/introduction.html",
-    "href": "docs/guide/cx/introduction.html",
-    "title": "Introduction to Contributor Experience",
-    "section": "",
-    "text": "What is contributor experience?\nBehind every successful open source project is a strong contributor community. Yes, software must provide solutions. Ideally, should be a useful piece in a larger solution to a larger problem, a part of a tool-chain. However, it’s the people, the community, the culture of the community that determine the longevity of an open source project. And when we talk about the culture of any given open source community, what we really mean is the sum of:\n\nvalues, hopefully all documented as policies and guidelines,\ntechnical infrastructure\nsocial infrastructure\n\nwhich serve as ‘glue’ in onboarding and supporting contributors to an open source community.\nIn practice, for an OSS project to have a good culture means designing and providing positive contributor experience. The emerging field of open source contributor experience examines how policies, processes, and tools affect volunteer contributors’ ability to collaborate on an open source project and aims to develop best practices for creating positive contributor experience, nurturing great community culture, and ultimately supporting growth and sustainability of open source projects.",
-    "crumbs": [
-      "Guide",
-      "Introduction to Contributor Experience",
-      "Introduction to Contributor Experience"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/introduction.html",
-    "href": "docs/guide/collab/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Every open source project is different, but there are many activities that may help contributors and maintainers collaborate in a productive, positive and healthy environment.\nThis section aims to collect a few of these practices and experiences to make it easier for folks to identify what might work for their projects.\n\n\n\n\n\n\nNote\n\n\n\nNote that the content in these pages is not meant to be seen as a ladder, or as a checklist of what a project needs to be successful. Each project has its own needs and community, so feel free to take what is useful and leave what is not.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Introduction"
-    ]
-  },
-  {
     "objectID": "docs/about/team.html",
     "href": "docs/about/team.html",
     "title": "Team & History",
@@ -614,45 +665,5 @@
       "Vision & History",
       "Acknowledgements"
     ]
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html",
-    "href": "docs/about/deployment_guide.html",
-    "title": "Deployment guide for this handbook",
-    "section": "",
-    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment.",
-    "crumbs": [
-      "Community Handbook",
-      "Deployment guide for this handbook"
-    ]
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html#details",
-    "href": "docs/about/deployment_guide.html#details",
-    "title": "Deployment guide for this handbook",
-    "section": "Details",
-    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub.",
-    "crumbs": [
-      "Community Handbook",
-      "Deployment guide for this handbook"
-    ]
-  },
-  {
-    "objectID": "docs/about/coc.html",
-    "href": "docs/about/coc.html",
-    "title": "Code of Conduct",
-    "section": "",
-    "text": "All contributors, including core team members, are expected to follow the PSF Code of Conduct.",
-    "crumbs": [
-      "Governance",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
   }
 ]
