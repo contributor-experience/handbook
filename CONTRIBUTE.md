@@ -7,6 +7,13 @@ There are quite a few ways to get involved with the Contributor Experience Proje
 - share your ideas by [filing issues](https://github.com/contributor-experience/handbook/issues/new), submitting [pull requests](https://docs.github.com/en/pull-requests), or commenting on existing discussions
 - address issues filed by other contributors
 - review submitted PRs
+- add to our [Tools Collection](https://contributor-experience.org/docs/guide/tools/introduction.html).
+
+## Adding to Tools Collection section guideline
+
+- If you want to add tools to the guide, please add the version of the software you are recommending. If the version is not available, please add the date of writing. 
+- Add examples of those tools as used by some open-source projects if possible.
+- Add links to the original documentation.
 
 ## How do I make a contribution to the Handbook?
 
