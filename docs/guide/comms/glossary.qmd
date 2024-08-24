@@ -10,45 +10,86 @@ We’ve avoided adding commands and applications to this list to keep it languag
 Here is the list arranged in alphabetical order:
 
 **Blame** A feature that shows who last modified each line of a file.
+
 **Branch** A parallel version of a repository, used to develop features or fixes independently 
 from the main codebase.
+
 **Build** The process of converting source code into a runnable program.
+
 **Cherry-pick** The process of applying a specific commit from one branch to another.
+
 **Code review** The process of examining code changes before they are merged.
+
 **Codebase** The complete source code for a project.
+
 **Commit** A saved change to the repository.
+
 **Commit Message** A message that accompanies a commit, explaining what was changed and why.
+
 **Community** The group of people who use, contribute to, and support a project.
+
 **Conflict** A situation where changes from different sources cannot be automatically merged.
+
 **Continuous Deployment (CD)** Automated deployment of code changes to production.
+
 **Continuous Integration (CI)** Automated testing and building of code changes.
+
 **Contributor** Someone who contributes code, documentation, or other resources to an open source project.
+
 **Contributor Guide** Documentation that explains how to contribute to a project.
+
 **Contributor License Agreement (CLA)** A legal agreement that contributors must sign before contributing.
+
 **Dependency** A piece of software required for another piece of software to work.
+
 **Diff** The differences between two versions of a file.
+
 **Downstream** A fork of a project that receives changes from the upstream repository.
+
 **Fork** A copy of someone else's repository.
+
 **Git** A distributed version control system.
+
 **Hotfix** A quick fix for a bug in the project.
+
 **Issue** A way to track tasks, enhancements, and bugs for a project.
+
 **Issue Tracker** A tool for managing issues and tasks in a project.
+
 **License** A legal document that specifies how the project's code can be used, modified, and shared.
+
 **Local Repository** A copy of a repository stored on a contributor's local machine.
+
 **Maintainer** A person responsible for overseeing and managing a project.
+
 **Merge** Combining changes from one branch into another.
+
 **Patch** A file that contains changes to be applied to a repository.
+
 **Pull** The process of fetching and integrating changes from a remote repository.
+
 **Pull Request (PR)** A request to merge changes from one branch into another branch.
+
 **Pull Request Review** The process of examining a PR before merging.
+
 **Push** The process of sending changes to a remote repository.
+
 **README** A file that provides information about the project. Most commonly written in Markdown.
+
 **Release** A specific version of a project that is made available for use.
+
 **Remote Repository** A repository stored on a server, accessible over the internet.
+
 **Repository** A storage space for software projects, often hosted on platforms like GitHub or GitLab.
+
 **Squash** Combining multiple commits into one.
+
 **Stash** Temporarily storing changes that are not ready to be committed.
+
 **Tag** A marker for a specific point in the repository's history.
+
 **Upstream** The main project repository from which a fork is made.
+
 **Version Control** A system for tracking changes to files over time.
+
 **Won’tfix** Indication that an issue or bug will not be fixed.
