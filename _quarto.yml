@@ -69,7 +69,7 @@ website:
             - CONTRIBUTE.md
         - section: "Vision & History"
           contents:
-            - docs/about/vision.qmd
+            - docs/about/mission-and-values.qmd
             - docs/about/roadmap.qmd
             - docs/about/team.qmd
             - docs/about/sponsors.qmd
