@@ -1,147 +1,110 @@
 ---
 title: "Career Paths Lab: meet Dea María Léon"
-author: "Dea María Léon"
-date: "August/21/2024"
+author: "Suparna Pawar"
+date: "11/30/2023"
 ---
+We had the privilege of speaking with [Dea Maria](https://github.com/DeaMariaLeon), 
+an Open Source contributor. 
 
-I started my professional life working in factories. I used to be an electrical engineer in a border town in Mexico. 
-I was then asked to go to work as an expat in Indiana and eventually was offered a permanent job in Texas. 
+Originally from Mexico, she studied Electrical Engineering 
+and held several engineering positions. She started her journey working in factories 
+at the border hometown. Later she worked as an expat in Indiana and eventually 
+was offered a permanent job in Texas, US. After getting an MBA there, she worked as an analyst. 
+She also worked as an analyst in France.
 
-I studied an MBA there, which allowed me to later work as an Analyst. As life brought me to France, 
-I first could easily find employment as a Business/Financial analyst. But after a big lay-off, my job was 
-relocated, and I found myself not being able to find another analyst job. 
+She got into coding as a self-directed learner and switched careers after an employment 
+gap. She has been contributing to open source since the end of 2022. 
+The conversation with Dea was very enjoyable. She generously shared insights into her journey 
+toward becoming an open source software engineer. We share a few snippets of this conversation 
+in her voice and hope that it will inspire you to take the next steps toward contributing to 
+open source. 
 
+## Experience with open source
+I have been contributing to pandas since the beginning of this year. I am very lucky. I can 
+learn and help at the same time. Plus, it gave me hope to re-enter the job market. 
+I love coding and I wanted to work in this field. I have experience and education in 
+electronics and also in finance. So I thought that changing careers would be feasible. But 
+I am from Mexico and live in France, and without having a French diploma it turned out to be 
+impossible. Junior positions and internships are normally reserved for fresh graduates.
 
-At that point, I thought that changing careers again would be feasible. Since I had always loved coding, 
-I thought I could work in this field. I took several online specialisations and certifications. 
-However without having a French diploma, it turned out to be impossible to break in.
+I took several online specializations and courses after finding myself without a job. 
+However, the feedback I had from headhunters was that I did not have work experience in this 
+field. It was not possible to find a job in my previous field either.
+Contributing to open source turned out to be the solution to the vicious circle of not being 
+hired for a lack of work experience and not getting experience because nobody hired me.
 
-The feedback I was having from head-hunters was that I did not have work experience in this field. 
-I could not get that first work experience because junior positions and internships are normally 
-reserved for fresh graduates. Open Source turned out to be the solution to the vicious circle of 
-not being hired for lack of experience, and not getting experience because nobody hired me. 
-
-I now have been contributing to OS since December 2022. I feel I am very lucky. I can learn and help 
-at the same time. Plus, it gave me hope to re-enter the job market. 
-I have contributed to several well-known projects, and I have had three paid contracts at the time of writing. 
-
-## How I found about Open Source
-
+## Knowledge about Open Source
 I started joining a Paris PyData meetup, and there I found out about an “Impact Scholarship”. 
-This is a program sponsored by [NumFOCUS](https://numfocus.org/). I was a lucky recipient of 
-the scholarship which allowed me to attend for free to the PyData Global 2021 online conference. 
-
-At that conference I volunteered as a host for some presentations, and met many other volunteers. 
-Experienced participants mentioned that Open Source was great for practicing coding.
-
+This is a program sponsored by NumFOCUS. I was a lucky recipient of the scholarship which allowed 
+me to attend for free the PyData Global 2021 online conference. I volunteered as a host for some 
+presentations, and I met many other volunteers. Experienced participants mentioned that open source 
+was great for practicing coding.
+The program also connected me to a mentor. She was a freelancer, which is what I wanted to become. 
+She shared with me some insights about the freelance business model. We are still in contact and 
+I am very glad about it. 
 The following year I was asked if I could volunteer to review the talk proposals for the PyData 
 conference as well as a Julia conference. This was very interesting.
 
 ## Finding the right project
-
-Afterwards, I searched OS projects on GitHub to contribute. But it hadn’t occurred to me that 
+Afterward, I searched for OS projects on GitHub to contribute. But it hadn’t occurred to me that 
 I could be contributing to a well-known library. I thought I would have needed to have experience 
 in smaller projects with a smaller code base.
 
 ## Joining sprints
-
-I kept working alone because I had not found a team project yet. I built a few things to help 
-family members with my skills. It all changed when I participated to  a workshop on contributing 
-to [Scikit-learn](https://scikit-learn.org/stable/). This workshop was organised by 
-[PyLadies Paris](https://pyladies.com/locations/paris/) and conducted by the core-devs. 
-I was able to master the contribution workflow and contribute to that project. 
-
-Then I heard through PyData that there would be an online pandas sprint in December 2022. 
-It was thus a great opportunity to be able to participate without having to travel and have 
-my first PR in pandas. 
-
+I kept working alone. I built a few things to help out family members with my skills. Until there 
+was a workshop on contributing to scikit-learn organized by PyLadies Paris and conducted by the 
+core devs. It was 4 sessions long. I was able to master the contribution workflow and contribute 
+to that project.
+Then I saw at the PyData conference that there would be an online pandas sprint in December 2022. 
+It was thus a great opportunity to be able to participate without having to travel and have my 
+first PR in pandas. 
 Through Data Umbrella I saw a live video of Marco Gorelli’s [“How you (yes you) can contribute to 
-Open Source”](https://www.youtube.com/watch?v=zI4l1lfggzU) which was highly motiving. 
-The title I thought, was just for me. I then just kept at it!
+Open Source”](https://www.youtube.com/watch?v=zI4l1lfggzU) which was highly motivating. The title, 
+I thought, was just for me. I then just kept at it!
 
-## Contributing
+## Contributing to pandas
+When I started contributing to pandas, I was getting answers to all my questions almost in real-time!  
+One day I noticed in the code that the examples on the docstrings were not being tested. And when 
+I tried to test some of them, I found errors. It seemed like a problem I could fix. 
+I was definitely intimidated by all those smart people. But Marco Gorelli’s support was remarkable. 
+He motivated me by letting me know what I was doing was important. This was decisive for me to continue. 
+Marco offered to talk to me every day to help me with my contributions.
+Others from the pandas core team have given me some invaluable guidance as well. 
 
-When I started contributing to pandas, I was getting answers to all my questions. 
-Almost in real time! Marco’s support was remarkable. He also motivated me by letting 
-me know that what I was doing was important. This made me eager to continue contributing.
+There were other people who have helped a lot by publicly sharing knowledge. For example,
+I watched Melissa Mendoça’s video ["Sphinx for Python Documentation Tutorial"](
+https://www.youtube.com/watch?v=tXWscUSYdBs) 
+And thanks to that, I was convinced that Sphinx was 
+not so mysterious after all.
+Another pandas core developer, Matthew Roeschke, suggested that I work on adding missing examples to 
+the pandas documentation. I felt it was something very valuable for the project.
 
-One day I noticed in the pandas’ code that the examples on the docstrings were not being 
-tested in the workflow. And when I tried to test some of them, I found errors. 
-It seemed like a problem I could fix. After fixing it, I became a panda's member.
+## Comparing Open Source to the corporate world 
+I have worked in the corporate world in several industries. What I find different with OS is the lack 
+of a clear hierarchy. Everybody can participate in the decision-making. In other words, many brains 
+think better than one, as opposed to having one boss “calling all the shots”. But this can lead to 
+decisions taking a long time to advance because of the lack of agreement.
+So, I am certain that the topics of Governance and Code of Conduct are key elements of every respected 
+project. These should be clear, formalized, and enforced. It is extremely important to make sure that 
+everybody respects one another. 
 
-There were other people who have helped a lot by publicly sharing knowledge. 
-For example, I watched Melissa Mendoça’s video 
-["Sphinx for Python Documentation Tutorial"](https://www.youtube.com/watch?v=tXWscUSYdBs). 
-Thanks to her presentation I was convinced that Sphinx was not so mysterious after all.
+## Open Source Regrets
+I wish I had started earlier.
 
-Contributing to pandas was the right decision. During the summer of 2023, 
-I was offered a contract with [NumFOCUS](https://numfocus.org/) to complete all the missing 
-examples for the panda’s website. 
-Later, I got another contract to work on benchmarks. I developed an 
-[asv]( https://asv.readthedocs.io/en/stable/index.html) adapter for conbench to 
-detect performance regressions. 
-[Conbench]( https://conbench.github.io/conbench/) is a benchmark framework used by Arrow. 
-
-I contributed the ASV adapter to the conbench project. Thanks to this work, 
-any project using ASV to run tests, can now use a conbench server to publish 
-result and perform performance regression analysis.
-
-I am now contributing to [Narwhals]( https://narwhals-dev.github.io/narwhals/) 
-and I'm a mantainer. Narwhals is a compatibility layer between different dataframe 
-libraries using only Polars syntaxis. The contributor community is amazing. 
-
- I'm a core team member of the [Contributor experience handbook]( https://contributor-experience.org/) 
- project. Its goal is to help developing best practices for supporting new and existing 
- contributors of OS projects. 
-
-At the time of writing, I have a short-term contract at Quansight-Labs to work on 
-[PyData/Sparse]( https://sparse.pydata.org/en/stable/). I already overhauled its 
-[website]( https://sparse.pydata.org/en/latest/). I am working on migrating all the 
-benchmarks to (CodSpeed)[ https://docs.codspeed.io/]. I look forward to the next topic 
-that is expanding the Array API standard support in Sparse. I am also a member of 
-Sparse team.
-
-## Comparing OS to the corporate world. 
-
-I have worked in the corporate world in several industries. What I find much better in OS, 
-is that everybody can participate in the decision making. In other words, many brains 
-think better than one, as opposed to having one boss “calling all the shots”. 
-
-As this work is public, everybody can see it and judge its quality by themselves! 
-I find it deeply rewarding. When I was part of the lay-off, there was no public record 
-of all the tasks I had so diligently carried out. It would have been so helpful in finding a new job  
-
-On the other hand, as there is no clear chain of command in OS, one must not overlook
-the topics of Governance and Code of Conduct. These are key elements that should be clear, 
-formalised and enforced. It is extremely important to make sure that everybody respects one another. 
-
-Moreover, the documentation and contributions to documentation should be taken more 
-seriously than they sometimes are. The documentation is the face of a project. 
-These contributions should be considered important. Today, scientific research relies 
-on OS projects. Users should be able to understand more easily and faster how to make use 
-of these great projects. 
+## Current Contributions
+I am participating in a project to improve pandas benchmarks.
 
 ## Conclusion 
-
-I am now a long way from where I stared back in Cd. Juárez Mexico. 
-I had faith in education because it was by educating myself that I got out 
-of a difficult socio-economic environment. But before all the activities I mentioned earlier, 
-I had a lot of doubts and thought I had hit a wall. 
-
-It was very difficult to start working in engineering right from the start. 
-The job ads in Mexico included in the requirements that it was necessary to be a man to apply. 
-It was literally written in the ads.
-
-I heard people telling me straight to my face that women were not good engineers. 
-So, having a clear Code of Conduct in the projects helps to make sure these things don’t happen. 
-
-I cannot thank enough the people in open source who have helped me in one way or another. 
-Sometimes without knowing.
-
-More details to my projects can be found here: [deamarialeon.com](https://deamarialeon.com)
-Here is my [GitHub](https://github.com/DeaMariaLeon) link. 
-
-
+I am a long way from where I started back in Cd. Juárez Mexico. I had faith in education because 
+it was by educating myself that I got out of a difficult socio-economic environment. But before all 
+the activities I mentioned earlier, I had a lot of doubts and thought I had hit a wall. 
+It was very difficult to start working. Right from the start, the job ads in Mexico had the 
+requirements that it was necessary to be a man to apply. It was written in the ads. Many times I also 
+heard people telling me straight to my face that women don't make good engineers. 
+Having a clear Code of Conduct in the projects helps to make sure these things don’t happen. 
+I cannot thank enough the people in open source who have helped me in one way or another. Sometimes 
+without knowing. My work to complete all the missing examples for the pandas website, and later to
+work on benchmarks, was sponsored by [NumFOCUS](https://numfocus.org/).
 
 
 
