@@ -125,123 +125,224 @@
     ]
   },
   {
-    "objectID": "docs/guide/comms/introduction.html",
-    "href": "docs/guide/comms/introduction.html",
-    "title": "Introduction",
+    "objectID": "docs/guide/comms/review_communication.html",
+    "href": "docs/guide/comms/review_communication.html",
+    "title": "Reviewing contributions",
     "section": "",
-    "text": "Having clear, welcoming and productive communication in any open source project can be challenging. Considering that most communication happens in written text and that the majority of contributors is working on their free time, communication can often be short and lacking in context.\nIn this section of our guide, we will explore ways to communicate better and list a few resources for those interested in this topic.",
+    "text": "This page is a guide for good communication practices when reviewing a contribution such as a pull request.",
     "crumbs": [
       "Guide",
       "Communication Guide",
+      "Reviewing contributions"
+    ]
+  },
+  {
+    "objectID": "docs/guide/collab/introduction.html",
+    "href": "docs/guide/collab/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Every open source project is different, but there are many activities that may help contributors and maintainers collaborate in a productive, positive and healthy environment.\nThis section aims to collect a few of these practices and experiences to make it easier for folks to identify what might work for their projects.\n\n\n\n\n\n\nNote\n\n\n\nNote that the content in these pages is not meant to be seen as a ladder, or as a checklist of what a project needs to be successful. Each project has its own needs and community, so feel free to take what is useful and leave what is not.",
+    "crumbs": [
+      "Guide",
+      "Collaboration Guide",
       "Introduction"
     ]
   },
   {
-    "objectID": "docs/guide/collab/meetings.html",
-    "href": "docs/guide/collab/meetings.html",
-    "title": "Meetings",
+    "objectID": "docs/guide/gov/roadmap.html",
+    "href": "docs/guide/gov/roadmap.html",
+    "title": "Open source roadmap",
     "section": "",
-    "text": "For many open-source projects, collaboration happens primarily on text-based online forums such as a project’s issue tracker or a community forum. Over time, maintainers and contributors may feel they would benefit from having synchronous meetings to discuss project matters or to organize discussions around roadmap, specific projects or the general governance of the project.\nIn addition, having dedicated meeting times for triage, onboarding newcomers or working groups such as documentation, website, design or translations may also be helpful.\nThe following guide, developed in collaboration with the Scientific Python project, describes a few of the meetings we have experimented with and when they are useful: Meeting types.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
+    "text": "A roadmap is an essential document in the development of an open source project, serving as a strategic plan that outlines the mission, vision, direction, and progress of the project. Its importance can be understood through several key aspects:\n\n1. Guiding development and planning\nA roadmap provides a clear and structured plan for the project’s development. It lays out the major milestones, features, and improvements planned for future releases. This helps project leadership and contributors understand its priorities and focus their efforts on tasks that align with the project’s goals. It also aids in resource allocation, ensuring that time and effort are spent efficiently on the most impactful areas.\n\n\n2. Enhancing communication and collaboration\nOpen source projects often involve contributors from around the world. A roadmap acts as a communication tool, helping to keep everyone on the same page. It provides a shared understanding of the project’s direction, which is essential for effective collaboration. Contributors can see how their work fits into the bigger picture and how their contributions will impact future developments.\n\n\n3. Attracting and retaining contributors\nA well-defined roadmap can attract new contributors by showcasing the project’s vision, long-term goals as well as immediate needs. It demonstrates that the project is well-organized and has a clear plan for growth. For existing contributors, a roadmap helps maintain engagement by providing a sense of progress and a larger perspective.\n\n\n4. Ensuring transparency and accountability\nTransparency is a core value in the open source community. A publicly available roadmap ensures that all parties, including users, contributors, and sponsors, have visibility into the project’s plans and progress. This openness fosters trust and accountability, as the project leadership team commits to delivering specific features and improvements. It also allows the community to hold the project leadership accountable.\n\n\n5. Facilitating community feedback and involvement\nA roadmap invites feedback from the community, allowing users and contributors to suggest improvements, propose new features, and raise concerns. This feedback loop is essential for ensuring that the project evolves in a way that meets the needs of its users. By involving the community in the planning process, the project can better align with user expectations and foster a sense of ownership among contributors.\n\n\n6. Providing a framework for evaluation\nA roadmap sets benchmarks for the project’s progress, enabling regular evaluation of deliverables against set goals. This framework helps the project leadership team to measure success, identify areas for improvement, and adjust plans as needed. Regular updates to the roadmap based on evaluation results ensure that the project remains responsive to changing needs and priorities of the user community.\n\n\n7. Supporting fundraising and sponsorship\nFor many open source projects, securing funding and sponsorship is crucial for sustainability. A detailed roadmap is often a requirement in fundraising efforts, as it demonstrates a well-thought-out plan for the project’s future. Sponsors and donors are more likely to support a project that has clear goals and an action plan for achieving them."
   },
   {
-    "objectID": "docs/guide/collab/meetings.html#community-meetings",
-    "href": "docs/guide/collab/meetings.html#community-meetings",
-    "title": "Meetings",
-    "section": "Community meetings",
-    "text": "Community meetings\nRegular community meetings are essential for larger projects that require a high level of coordination in different projects, roadmap items or governance. However, even smaller projects may benefit from synchronous discussions. These meetings can be a way to:\n\nConnect with your community, and put a human face on the people behind the commit handle. This can be especially helpful when dubious or unclear communication happens via text - a conversation can prevent many conflicts from arising.\nDiscuss complex technical implementations or conduct contribution reviews. This can be its own meeting (a “triage meeting”) but depending on your community needs it can be helpful and make the review of a long or complex contribution faster.\nPlan for your roadmap or create strategies for high-stakes projects. Funding, new releases, architectural or governance decisions can also benefit from a live discussion. In this case, it is even more important to keep a record of the discussion and, ideally, keep that record public for your community to consult.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html#new-contributor-meetings",
-    "href": "docs/guide/collab/meetings.html#new-contributor-meetings",
-    "title": "Meetings",
-    "section": "New contributor meetings",
-    "text": "New contributor meetings\nA special type of meeting we have been experimenting with is the “newcomer” or “New contributor” meetings. As noted in the page linked above, these can be organized as “Office hours” meetings - inviting questions and requests for support from new contributors; they can be organized as webinars, with talks or sessions on a specific aspect of contributing, such as the contribution workflow or running tests, for example; and they can also be practical working sessions, such as a walking through a full contribution task with the participants.\nProjects with a larger contributor base will find more value in these meetings than projects with a low number of new contributors. Make sure to also consider timezones and maintainer bandwidth when considering these meetings for your project. One central point to keep in mind is to use these meetings as an opportunity to set expectations for newcomers - about how long it takes for a contribution to be reviewed, how new features are discussed in the project or the areas that would best be served by contributors with less experience in the project.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
-    "href": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
-    "title": "Meetings",
-    "section": "Optional: Post-meeting poll",
-    "text": "Optional: Post-meeting poll\nIf you are interested in having anonymous feedback from meeting attendees, consider setting up a post-meeting poll to ask if the meeting was useful, if they felt welcome or if they need extra support. Many meeting platforms support this as an automatic feature, but you can also share a link during the meeting.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/collab/meetings.html#general-tips",
-    "href": "docs/guide/collab/meetings.html#general-tips",
-    "title": "Meetings",
-    "section": "General tips",
-    "text": "General tips\n\nMake sure you mention your Code of Conduct or any other expectations for positive participation in your community as often as possible.\nThere is no rule for how long a meeting will last, or what day/time is best. Consider alternating timezones regularly, experimenting with different times and be ready to reevaluate if you feel things are not working that well.\nHave a meeting notes document, ideally open to all. This document will contain the agenda for the meeting, notes on what was decided/discussed, and if appropriate a record of who attended (with their internet handle attached if they are comfortable sharing!). For our new contributors meeting this is particularly important so that we can track folks who come to the meeting in our issues trackers later. Make sure you ask for consent before noting personal information in the notes if they are kept public.\nHave a public calendar listed on your website, and make sure to keep it up-to-date, particularly if you need to cancel a regular meeting.\nIf you use different communication channels, such as mailing lists, slack or other asynchronous chat/forum platform, make sure to announce the meetings there.\nMeetings tend to be more useful and productive if a basic agenda is set in advance, so that folks know what will be discussed during that time.\nIt may be useful to record the session for the benefit of those who cannot attend, or to share online with the larger community. In that case, be sure to ask for consent to record, and offer people to mute and turn off their video.\n\n\n\n\n\n\n\nTip\n\n\n\nMany people benefit from these meetings, but for many different reasons can’t turn on their camera or speak aloud during the meeting. This may be due to internet issues, hardware or personal situations including their work environment or accessibility requirements. Ideally, they need a way to participate via text, either through the meeting chat or the meeting notes document.",
-    "crumbs": [
-      "Guide",
-      "Collaboration Guide",
-      "Meetings"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/tracking_prs.html",
-    "href": "docs/guide/cx/tracking_prs.html",
-    "title": "Tracking first-time contributors’ work",
+    "objectID": "docs/guide/introduction.html",
+    "href": "docs/guide/introduction.html",
+    "title": "Introduction",
     "section": "",
-    "text": "What is the best approach to track first-time contributors’ work on an open-source project and improve retention?\nThere are many reasons why people make their first contribution to an open-source project. They may be looking to fix a bug in a library they use routinely; they may be looking to improve their professional skills (and may love detailed feedback!); they may be looking to build their professional network by meeting other peers and mentors through their contributions; or they may be looking for a fun, engaging community to participate in.",
+    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
+  },
+  {
+    "objectID": "docs/guide/cx/the_cel_role.html",
+    "href": "docs/guide/cx/the_cel_role.html",
+    "title": "The Contributor Experience Role",
+    "section": "",
+    "text": "What is the Contributor Experience Lead’s role in an Open Source project?\nThe Contributor Experience Lead owns a part of what some of us have referred to so far as Community, Communication, and Documentation work. But not only those! 🤯 They have several areas of contribution, and as their contributions grow in prominence within the project they may very well be recognized as a maintainer, with contributions to code, and social infrastructure - and a focus on project sustainability.\nWhat do we mean by that? The Contributor Experience Lead has 4 areas of activity, and a broad range of skills to achieve results. Let’s break this down.",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "Tracking first-time contributors' work"
+      "The Contributor Experience Role"
     ]
   },
   {
-    "objectID": "docs/guide/cx/tracking_prs.html#focus-on-newcomers",
-    "href": "docs/guide/cx/tracking_prs.html#focus-on-newcomers",
-    "title": "Tracking first-time contributors’ work",
-    "section": "Focus on newcomers",
-    "text": "Focus on newcomers\nIf you are working on a small-to-medium-sized project, it may be easy to track your first-time contributors individually. However, when working on large projects, there are tools you can use to make sure newcomers get the attention you need and are supported in their contributions.\nIn our projects, we chose to use GitHub Projects since the tool was already integrated into our workflow. Other tools like spreadsheets, Customer Relationship Managers (CRMs) or other community management tools could also be used. The main feature you need is a way to flag contributions by status and know which ones to follow up on.\n\n\n\nGitHub project board for first-time contributors in the Matplotlib project. It shows four different columns titled “New”, “Needs review”, “Waiting for author” and “Merged”. There are multiple pull requests in each column.",
+    "objectID": "docs/guide/cx/the_cel_role.html#areas-of-activity",
+    "href": "docs/guide/cx/the_cel_role.html#areas-of-activity",
+    "title": "The Contributor Experience Role",
+    "section": "Areas of activity",
+    "text": "Areas of activity\n\nOnboarding\nTools Integration\nOutreach\nGovernance\n\nBy working in these 4 areas, the Contributor Experience Lead can support new and developing contributors as they work on the project. The goal of the Contributor Experience Lead is to improve the overall project culture and experience for everyone involved, to promote civility and collaboration, as well as diversity and inclusion. They look for actions they can take themselves, and experiences they can promote in the project as a whole. They are learners and need to adapt to the existing people and culture and build upon it. No two projects are alike.\nIn this guide, we will elaborate about techniques for each area of activity, sharing tools, resources, and experiences. Building systems, and providing examples to motivate how those systems work in practice in different projects.",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "Tracking first-time contributors' work"
+      "The Contributor Experience Role"
     ]
   },
   {
-    "objectID": "docs/guide/cx/tracking_prs.html#communication",
-    "href": "docs/guide/cx/tracking_prs.html#communication",
-    "title": "Tracking first-time contributors’ work",
-    "section": "Communication",
-    "text": "Communication\nThere is some evidence that the communication between newcomers and maintainers in open-source projects does influence their decision to stay or not with the project. What looks like another patch in a sea of contributions to you may be a big deal for newcomers - especially those from underrepresented backgrounds.\nBe mindful of your communications. Use inclusive language in the documentation and in code reviews or comments. Don’t assume backgrounds or experience - newcomers are not always beginners. They may be domain experts that recently got into coding or may have vast experience in other programming languages or relevant fields of work.\nIt may be helpful to have a canned response, or a bot (such as the GitHub Welcome bot) to welcome new contributors and give them useful links, and set expectations. While some people see bots as too impersonal, a bot can be better than ignoring contributions entirely.\nHere’s an example of such a message:\n\nThank you for sending your first contribution to our project!\nIf you need help with testing, writing documentation, or getting feedback, check out our contribution guide.\nWe hope to review your contribution soon, but if you have not heard from us in a while, please feel free to contact our maintainers directly on a comment or on our communication channels.\nWe strive to be a welcoming and open project. Please follow our Code of Conduct.\n\nLikewise, following up on a successful contribution with an encouraging comment can go a long way.\n\nCongratulations on your first contribution to our project!\nIf you are motivated, feel free to look at our issue tracker and pick another item to work on - we would love to hear from you again!",
+    "objectID": "docs/guide/cx/the_cel_role.html#skills",
+    "href": "docs/guide/cx/the_cel_role.html#skills",
+    "title": "The Contributor Experience Role",
+    "section": "Skills",
+    "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way.",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "Tracking first-time contributors' work"
+      "The Contributor Experience Role"
     ]
   },
   {
-    "objectID": "docs/guide/cx/tracking_prs.html#guidance",
-    "href": "docs/guide/cx/tracking_prs.html#guidance",
-    "title": "Tracking first-time contributors’ work",
-    "section": "Guidance",
-    "text": "Guidance\nDepending on the focus and chosen workflow of your project, you may have different requirements for contributions. Some projects will have strict guidelines on commit messages; other projects ask that you never do a rebase; most projects require larger changes or new features to be proposed to the community before a patch is sent.\nThis information should be listed in your contribution guide, but if you can reinforce this in your interactions with newcomers, do it. These rules are probably obvious to you (the maintainer) but may not be obvious to someone from another background or another culture.\nGitHub provides Pull Request templates which can be used to provide checklists for contributors with all they need to do to get their contribution ready to be reviewed.",
+    "objectID": "docs/guide/cx/introduction.html",
+    "href": "docs/guide/cx/introduction.html",
+    "title": "Introduction to Contributor Experience",
+    "section": "",
+    "text": "What is contributor experience?\nBehind every successful open source project is a strong contributor community. Yes, software must provide solutions. Ideally, should be a useful piece in a larger solution to a larger problem, a part of a tool-chain. However, it’s the people, the community, the culture of the community that determine the longevity of an open source project. And when we talk about the culture of any given open source community, what we really mean is the sum of:\n\nvalues, hopefully all documented as policies and guidelines,\ntechnical infrastructure\nsocial infrastructure\n\nwhich serve as ‘glue’ in onboarding and supporting contributors to an open source community.\nIn practice, for an OSS project to have a good culture means designing and providing positive contributor experience. The emerging field of open source contributor experience examines how policies, processes, and tools affect volunteer contributors’ ability to collaborate on an open source project and aims to develop best practices for creating positive contributor experience, nurturing great community culture, and ultimately supporting growth and sustainability of open source projects.",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "Tracking first-time contributors' work"
+      "Introduction to Contributor Experience"
+    ]
+  },
+  {
+    "objectID": "docs/about/calendar.html",
+    "href": "docs/about/calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)",
+    "crumbs": [
+      "Community Handbook",
+      "Calendar"
+    ]
+  },
+  {
+    "objectID": "docs/about/team.html",
+    "href": "docs/about/team.html",
+    "title": "Team & History",
+    "section": "",
+    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
+  },
+  {
+    "objectID": "docs/about/coc.html",
+    "href": "docs/about/coc.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "All contributors, including core team members, are expected to follow the PSF Code of Conduct.",
+    "crumbs": [
+      "Governance",
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "docs/about/acknowledging_contributors.html",
+    "href": "docs/about/acknowledging_contributors.html",
+    "title": "Acknowledging Contributors",
+    "section": "",
+    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space.",
+    "crumbs": [
+      "Community Handbook",
+      "Acknowledging Contributors"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
+  },
+  {
+    "objectID": "docs/about/acknowledgments.html",
+    "href": "docs/about/acknowledgments.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Projects and people that helped inform our thinking and inspire our work:\n\nAndrea Sánchez-Tapia, useR! Knowledgebase\nCarol Willing, Willing Consulting\nJessica Greene, PyLadies Berlin\nJ.K. Nelson, Be Inspired\nLeah Wasser, PyOpenSci\nDr Liz Hare, Dog Genetics LLC\nMay Ireland, VirtualPeer\nReshama Shaikh, Data Umbrella\nSage Sharp, Otter Tech\nDr Setareh Sadjadi, WiMLDS Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nTania Allard, Quansight\nTereza Iofciu, PyLadies Hamburg\nThe Turing Way Community\nYanina Bellini Saibene, rOpenSci\n\nand many more!",
+    "crumbs": [
+      "Vision & History",
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "docs/about/sponsors.html",
+    "href": "docs/about/sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "The launch of this project was supported by the Chan Zuckerberg Initiative as a part of their [Essential Open Source Software for Science D&I program] (https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem).",
+    "crumbs": [
+      "Vision & History",
+      "Sponsors"
+    ]
+  },
+  {
+    "objectID": "docs/about/mission-and-values.html",
+    "href": "docs/about/mission-and-values.html",
+    "title": "Vision, mission, and values",
+    "section": "",
+    "text": "The Contributor Experience Project is a community of practice dedicated to supporting, studying, and advancing the emerging field of open source contributor onboarding and support. Our mission is to foster a welcoming, inclusive, and supportive environment for everyone contributing to open source. Through collaboration, knowledge exchange, and training, we strive to empower open source project leaders, community managers, and active contributors to cultivate sustainable open source projects and communities.",
+    "crumbs": [
+      "Vision & History",
+      "Vision, mission, and values"
+    ]
+  },
+  {
+    "objectID": "docs/about/mission-and-values.html#our-mission",
+    "href": "docs/about/mission-and-values.html#our-mission",
+    "title": "Vision, mission, and values",
+    "section": "",
+    "text": "The Contributor Experience Project is a community of practice dedicated to supporting, studying, and advancing the emerging field of open source contributor onboarding and support. Our mission is to foster a welcoming, inclusive, and supportive environment for everyone contributing to open source. Through collaboration, knowledge exchange, and training, we strive to empower open source project leaders, community managers, and active contributors to cultivate sustainable open source projects and communities.",
+    "crumbs": [
+      "Vision & History",
+      "Vision, mission, and values"
+    ]
+  },
+  {
+    "objectID": "docs/about/mission-and-values.html#our-values",
+    "href": "docs/about/mission-and-values.html#our-values",
+    "title": "Vision, mission, and values",
+    "section": "Our values",
+    "text": "Our values\nWe are inclusive We welcome and mentor newcomers who are making their first contribution. We have a Code of Conduct to make Contributor Experience Project a welcoming place for all.\nWe are community-driven We respond to feature requests and proposals on our [issue tracker] (https://github.com/contributor-experience/handbook/issues), making decisions that are driven by our users’ needs.\nWe are domain and language agnostic within open source\nWe value simple, readable implementations Readable code that is easy to understand, for newcomers and experienced contributors alike, makes it easier to contribute new code as well as prevent bugs.\nWe value documentation and education",
+    "crumbs": [
+      "Vision & History",
+      "Vision, mission, and values"
+    ]
+  },
+  {
+    "objectID": "docs/about/comms_channels.html",
+    "href": "docs/about/comms_channels.html",
+    "title": "Communication Channels",
+    "section": "",
+    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations.",
+    "crumbs": [
+      "Community Handbook",
+      "Communication Channels"
+    ]
+  },
+  {
+    "objectID": "docs/about/deployment_guide.html",
+    "href": "docs/about/deployment_guide.html",
+    "title": "Deployment guide for this handbook",
+    "section": "",
+    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment.",
+    "crumbs": [
+      "Community Handbook",
+      "Deployment guide for this handbook"
+    ]
+  },
+  {
+    "objectID": "docs/about/deployment_guide.html#details",
+    "href": "docs/about/deployment_guide.html#details",
+    "title": "Deployment guide for this handbook",
+    "section": "Details",
+    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub.",
+    "crumbs": [
+      "Community Handbook",
+      "Deployment guide for this handbook"
     ]
   },
   {
@@ -317,224 +418,134 @@
     ]
   },
   {
-    "objectID": "docs/about/deployment_guide.html",
-    "href": "docs/about/deployment_guide.html",
-    "title": "Deployment guide for this handbook",
+    "objectID": "docs/guide/cx/tracking_prs.html",
+    "href": "docs/guide/cx/tracking_prs.html",
+    "title": "Tracking first-time contributors’ work",
     "section": "",
-    "text": "This handbook is built on GitHub as a community effort. To deploy the actual website to https://contributor-experience.org, we use a GitHub Action that builds the handbook using Quarto, a document publishing system. The resulting build is then published to GitHub pages. The domain name contributor-experience.org is then redirected to the GitHub pages deployment.",
-    "crumbs": [
-      "Community Handbook",
-      "Deployment guide for this handbook"
-    ]
-  },
-  {
-    "objectID": "docs/about/deployment_guide.html#details",
-    "href": "docs/about/deployment_guide.html#details",
-    "title": "Deployment guide for this handbook",
-    "section": "Details",
-    "text": "Details\n\nSource files have the .qmd extension, and use Markdown syntax. They are organized as a table of contents on the _quarto.yml file at the root of the handbook repository.\nWhenever changes are made and pushed to the repository on GitHub (either by a Pull Request that is merged, or with a commit to the main branch of that repository), the Quarto Publish workflow is triggered by GitHub Actions.\nTo see this workflow run and any messages it may have emitted, you can click on the Actions tab on the main repository page on GitHub.",
-    "crumbs": [
-      "Community Handbook",
-      "Deployment guide for this handbook"
-    ]
-  },
-  {
-    "objectID": "docs/about/comms_channels.html",
-    "href": "docs/about/comms_channels.html",
-    "title": "Communication Channels",
-    "section": "",
-    "text": "To stay in touch with our community you can participate in one of our communication channels or join our community meetings.\nFollow our twitter account or our [blog] (blog.qmd) for updates about new content to the guide, upcoming community meetings, and other community announcements.\nUse this link to join our Zulip chat platform for informal discussions about all things contributor experience. We have channels for contributors for this handbook and for general conversations.",
-    "crumbs": [
-      "Community Handbook",
-      "Communication Channels"
-    ]
-  },
-  {
-    "objectID": "docs/about/mission-and-values.html",
-    "href": "docs/about/mission-and-values.html",
-    "title": "Vision, mission, and values",
-    "section": "",
-    "text": "The Contributor Experience Project is a community of practice dedicated to supporting, studying, and advancing the emerging field of open source contributor onboarding and support. Our mission is to foster a welcoming, inclusive, and supportive environment for everyone contributing to open source. Through collaboration, knowledge exchange, and training, we strive to empower open source project leaders, community managers, and active contributors to cultivate sustainable open source projects and communities.",
-    "crumbs": [
-      "Vision & History",
-      "Vision, mission, and values"
-    ]
-  },
-  {
-    "objectID": "docs/about/mission-and-values.html#our-mission",
-    "href": "docs/about/mission-and-values.html#our-mission",
-    "title": "Vision, mission, and values",
-    "section": "",
-    "text": "The Contributor Experience Project is a community of practice dedicated to supporting, studying, and advancing the emerging field of open source contributor onboarding and support. Our mission is to foster a welcoming, inclusive, and supportive environment for everyone contributing to open source. Through collaboration, knowledge exchange, and training, we strive to empower open source project leaders, community managers, and active contributors to cultivate sustainable open source projects and communities.",
-    "crumbs": [
-      "Vision & History",
-      "Vision, mission, and values"
-    ]
-  },
-  {
-    "objectID": "docs/about/mission-and-values.html#our-values",
-    "href": "docs/about/mission-and-values.html#our-values",
-    "title": "Vision, mission, and values",
-    "section": "Our values",
-    "text": "Our values\nWe are inclusive We welcome and mentor newcomers who are making their first contribution. We have a Code of Conduct to make Contributor Experience Project a welcoming place for all.\nWe are community-driven We respond to feature requests and proposals on our [issue tracker] (https://github.com/contributor-experience/handbook/issues), making decisions that are driven by our users’ needs.\nWe are domain and language agnostic within open source\nWe value simple, readable implementations Readable code that is easy to understand, for newcomers and experienced contributors alike, makes it easier to contribute new code as well as prevent bugs.\nWe value documentation and education",
-    "crumbs": [
-      "Vision & History",
-      "Vision, mission, and values"
-    ]
-  },
-  {
-    "objectID": "docs/about/sponsors.html",
-    "href": "docs/about/sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "The launch of this project was supported by the Chan Zuckerberg Initiative as a part of their [Essential Open Source Software for Science D&I program] (https://chanzuckerberg.com/eoss/proposals/advancing-an-inclusive-culture-in-the-scientific-python-ecosystem).",
-    "crumbs": [
-      "Vision & History",
-      "Sponsors"
-    ]
-  },
-  {
-    "objectID": "docs/about/acknowledgments.html",
-    "href": "docs/about/acknowledgments.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "Projects and people that helped inform our thinking and inspire our work:\n\nAndrea Sánchez-Tapia, useR! Knowledgebase\nCarol Willing, Willing Consulting\nJessica Greene, PyLadies Berlin\nJ.K. Nelson, Be Inspired\nLeah Wasser, PyOpenSci\nDr Liz Hare, Dog Genetics LLC\nMay Ireland, VirtualPeer\nReshama Shaikh, Data Umbrella\nSage Sharp, Otter Tech\nDr Setareh Sadjadi, WiMLDS Berlin\nStefanie Lyn Kaufman-Mthimkhulu, Project Lets\nTania Allard, Quansight\nTereza Iofciu, PyLadies Hamburg\nThe Turing Way Community\nYanina Bellini Saibene, rOpenSci\n\nand many more!",
-    "crumbs": [
-      "Vision & History",
-      "Acknowledgements"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The Contributor Experience Project is a community of practice to support and study the emerging field of open source contributor onboarding and support. It grew out of the idea to document the insight from the work of (in alphabetical order) Inessa Pawson, Melissa Mendonça, and Noa Tamir on improving contributor onboarding and support following the DEI-centered practices in four large and mature open source projects in the scientific Python ecosystem (NumPy, SciPy, Matplotlib, and pandas).\nThe launch of this project was supported by the Chan Zuckerberg Initiative as a part of their Essential Open Source Software for Science D&I program."
-  },
-  {
-    "objectID": "docs/about/acknowledging_contributors.html",
-    "href": "docs/about/acknowledging_contributors.html",
-    "title": "Acknowledging Contributors",
-    "section": "",
-    "text": "High on our to do list is documenting how we plan to give credit and acknowledge contributions to our project. Watch this space.",
-    "crumbs": [
-      "Community Handbook",
-      "Acknowledging Contributors"
-    ]
-  },
-  {
-    "objectID": "docs/about/coc.html",
-    "href": "docs/about/coc.html",
-    "title": "Code of Conduct",
-    "section": "",
-    "text": "All contributors, including core team members, are expected to follow the PSF Code of Conduct.",
-    "crumbs": [
-      "Governance",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "docs/about/team.html",
-    "href": "docs/about/team.html",
-    "title": "Team & History",
-    "section": "",
-    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
-  },
-  {
-    "objectID": "docs/about/calendar.html",
-    "href": "docs/about/calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "We currently hold regular informal community meetings to discuss all things contributor experience. We are also planning on organizing more structured events to collaborate on documentation, host guest speakers, and highlight case studies from around OSSverse. Everyone is welcome to attend and contribute to a conversation.\nTo keep track of our community events, subscribe to the Contributor Experience Project calendar using the following link. (Tip: Look for the option to add a calendar subscription from URL in your calendar app of choice.)",
-    "crumbs": [
-      "Community Handbook",
-      "Calendar"
-    ]
-  },
-  {
-    "objectID": "docs/guide/cx/introduction.html",
-    "href": "docs/guide/cx/introduction.html",
-    "title": "Introduction to Contributor Experience",
-    "section": "",
-    "text": "What is contributor experience?\nBehind every successful open source project is a strong contributor community. Yes, software must provide solutions. Ideally, should be a useful piece in a larger solution to a larger problem, a part of a tool-chain. However, it’s the people, the community, the culture of the community that determine the longevity of an open source project. And when we talk about the culture of any given open source community, what we really mean is the sum of:\n\nvalues, hopefully all documented as policies and guidelines,\ntechnical infrastructure\nsocial infrastructure\n\nwhich serve as ‘glue’ in onboarding and supporting contributors to an open source community.\nIn practice, for an OSS project to have a good culture means designing and providing positive contributor experience. The emerging field of open source contributor experience examines how policies, processes, and tools affect volunteer contributors’ ability to collaborate on an open source project and aims to develop best practices for creating positive contributor experience, nurturing great community culture, and ultimately supporting growth and sustainability of open source projects.",
+    "text": "What is the best approach to track first-time contributors’ work on an open-source project and improve retention?\nThere are many reasons why people make their first contribution to an open-source project. They may be looking to fix a bug in a library they use routinely; they may be looking to improve their professional skills (and may love detailed feedback!); they may be looking to build their professional network by meeting other peers and mentors through their contributions; or they may be looking for a fun, engaging community to participate in.",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "Introduction to Contributor Experience"
+      "Tracking first-time contributors' work"
     ]
   },
   {
-    "objectID": "docs/guide/cx/the_cel_role.html",
-    "href": "docs/guide/cx/the_cel_role.html",
-    "title": "The Contributor Experience Role",
-    "section": "",
-    "text": "What is the Contributor Experience Lead’s role in an Open Source project?\nThe Contributor Experience Lead owns a part of what some of us have referred to so far as Community, Communication, and Documentation work. But not only those! 🤯 They have several areas of contribution, and as their contributions grow in prominence within the project they may very well be recognized as a maintainer, with contributions to code, and social infrastructure - and a focus on project sustainability.\nWhat do we mean by that? The Contributor Experience Lead has 4 areas of activity, and a broad range of skills to achieve results. Let’s break this down.",
+    "objectID": "docs/guide/cx/tracking_prs.html#focus-on-newcomers",
+    "href": "docs/guide/cx/tracking_prs.html#focus-on-newcomers",
+    "title": "Tracking first-time contributors’ work",
+    "section": "Focus on newcomers",
+    "text": "Focus on newcomers\nIf you are working on a small-to-medium-sized project, it may be easy to track your first-time contributors individually. However, when working on large projects, there are tools you can use to make sure newcomers get the attention you need and are supported in their contributions.\nIn our projects, we chose to use GitHub Projects since the tool was already integrated into our workflow. Other tools like spreadsheets, Customer Relationship Managers (CRMs) or other community management tools could also be used. The main feature you need is a way to flag contributions by status and know which ones to follow up on.\n\n\n\nGitHub project board for first-time contributors in the Matplotlib project. It shows four different columns titled “New”, “Needs review”, “Waiting for author” and “Merged”. There are multiple pull requests in each column.",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "The Contributor Experience Role"
+      "Tracking first-time contributors' work"
     ]
   },
   {
-    "objectID": "docs/guide/cx/the_cel_role.html#areas-of-activity",
-    "href": "docs/guide/cx/the_cel_role.html#areas-of-activity",
-    "title": "The Contributor Experience Role",
-    "section": "Areas of activity",
-    "text": "Areas of activity\n\nOnboarding\nTools Integration\nOutreach\nGovernance\n\nBy working in these 4 areas, the Contributor Experience Lead can support new and developing contributors as they work on the project. The goal of the Contributor Experience Lead is to improve the overall project culture and experience for everyone involved, to promote civility and collaboration, as well as diversity and inclusion. They look for actions they can take themselves, and experiences they can promote in the project as a whole. They are learners and need to adapt to the existing people and culture and build upon it. No two projects are alike.\nIn this guide, we will elaborate about techniques for each area of activity, sharing tools, resources, and experiences. Building systems, and providing examples to motivate how those systems work in practice in different projects.",
+    "objectID": "docs/guide/cx/tracking_prs.html#communication",
+    "href": "docs/guide/cx/tracking_prs.html#communication",
+    "title": "Tracking first-time contributors’ work",
+    "section": "Communication",
+    "text": "Communication\nThere is some evidence that the communication between newcomers and maintainers in open-source projects does influence their decision to stay or not with the project. What looks like another patch in a sea of contributions to you may be a big deal for newcomers - especially those from underrepresented backgrounds.\nBe mindful of your communications. Use inclusive language in the documentation and in code reviews or comments. Don’t assume backgrounds or experience - newcomers are not always beginners. They may be domain experts that recently got into coding or may have vast experience in other programming languages or relevant fields of work.\nIt may be helpful to have a canned response, or a bot (such as the GitHub Welcome bot) to welcome new contributors and give them useful links, and set expectations. While some people see bots as too impersonal, a bot can be better than ignoring contributions entirely.\nHere’s an example of such a message:\n\nThank you for sending your first contribution to our project!\nIf you need help with testing, writing documentation, or getting feedback, check out our contribution guide.\nWe hope to review your contribution soon, but if you have not heard from us in a while, please feel free to contact our maintainers directly on a comment or on our communication channels.\nWe strive to be a welcoming and open project. Please follow our Code of Conduct.\n\nLikewise, following up on a successful contribution with an encouraging comment can go a long way.\n\nCongratulations on your first contribution to our project!\nIf you are motivated, feel free to look at our issue tracker and pick another item to work on - we would love to hear from you again!",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "The Contributor Experience Role"
+      "Tracking first-time contributors' work"
     ]
   },
   {
-    "objectID": "docs/guide/cx/the_cel_role.html#skills",
-    "href": "docs/guide/cx/the_cel_role.html#skills",
-    "title": "The Contributor Experience Role",
-    "section": "Skills",
-    "text": "Skills\nWe are currently developing a career ladder for the Contributor Experience Lead. While this is worked on, we can already share the skills we are working with. But please consider some changes might still be coming. We are following a relatively “standard” engineering career ladder framework. We consider all skills which require expertise, training, and domain knowledge to be technical skills - even if they are not engineering skills - they comprise a set of techniques that one can become an expert in.\n\nCore Competencies\n\nLeadership: \nStrategic networking, Strategy development, Advocacy\n\n\nCommunication:\nOutreach, Facilitation, Engagement, Cultural Competence, Communication platforms management, Speaking & presenting, Promotion of civility, Mentoring & coaching\n\n\nHandling and Providing Feedback and Credit:\nFeedback gathering, giving, and receiving, Credit for contributors\n\n\nStrategic Alignment & Impact:\nProposal development, Qualitative research, Analysis, Change management\n\n\n\nTechnical Skills\n\nCraft and Quality:\nTraining & teaching, Community events planning, Community governance support, Moderation, mediation & intervention, Emotional integration, recruitment, Management of tech platforms & CMS, Knowledge brokering, Social justice development, Hospitality techniques, Technical integration of tools, Technical writing\n\n\nDocumentation:\nContent creation and curation, Editorial, Reporting\n\nBroadly speaking, these skills require competencies in: Interpersonal skills, Communication, Culture and DEI, Program development and management, Technical skills, Qualitative research\nLike many other complex roles, we wouldn’t expect any one person to be an expert in all areas of competence, especially if they are just starting out in this role. But they should be aware that this is what the domain requires from a team of contributors, and that they would be collaborating with other folks who have a variety of skills. They might also be interested to grow and develop more broadly, or more narrowly. However, a solitary Contributor Experience Lead in a project would benefit from a brand set of skills, and a collaborative approach with fellow contributors who could help them along the way.",
+    "objectID": "docs/guide/cx/tracking_prs.html#guidance",
+    "href": "docs/guide/cx/tracking_prs.html#guidance",
+    "title": "Tracking first-time contributors’ work",
+    "section": "Guidance",
+    "text": "Guidance\nDepending on the focus and chosen workflow of your project, you may have different requirements for contributions. Some projects will have strict guidelines on commit messages; other projects ask that you never do a rebase; most projects require larger changes or new features to be proposed to the community before a patch is sent.\nThis information should be listed in your contribution guide, but if you can reinforce this in your interactions with newcomers, do it. These rules are probably obvious to you (the maintainer) but may not be obvious to someone from another background or another culture.\nGitHub provides Pull Request templates which can be used to provide checklists for contributors with all they need to do to get their contribution ready to be reviewed.",
     "crumbs": [
       "Guide",
       "Introduction to Contributor Experience",
-      "The Contributor Experience Role"
+      "Tracking first-time contributors' work"
     ]
   },
   {
-    "objectID": "docs/guide/introduction.html",
-    "href": "docs/guide/introduction.html",
-    "title": "Introduction",
+    "objectID": "docs/guide/collab/meetings.html",
+    "href": "docs/guide/collab/meetings.html",
+    "title": "Meetings",
     "section": "",
-    "text": "Welcome to our Contributor Experience Guide!\nThe purpose of this guide is to clarify themes, provide tools, outline frameworks, and hopefully, it will grow to be much more than that in the future!\nTo get us started we divided it into 5 sections:\n\nContributor Experience Guide: the big picture, how we think about this role\nGovernance Guide: guidance to lead discussions and support pathways for contributions\nCollaboration Guide: organizational templates for various meeting and events, how to bring people together and when various programs are effective (or what for)\nCommunication Guide: communication platforms, and techniques\nTools Collections: Tools we love to use to support our work and a collection of templates from various sections for easy navigation"
-  },
-  {
-    "objectID": "docs/guide/gov/roadmap.html",
-    "href": "docs/guide/gov/roadmap.html",
-    "title": "Open source roadmap",
-    "section": "",
-    "text": "A roadmap is an essential document in the development of an open source project, serving as a strategic plan that outlines the mission, vision, direction, and progress of the project. Its importance can be understood through several key aspects:\n\n1. Guiding development and planning\nA roadmap provides a clear and structured plan for the project’s development. It lays out the major milestones, features, and improvements planned for future releases. This helps project leadership and contributors understand its priorities and focus their efforts on tasks that align with the project’s goals. It also aids in resource allocation, ensuring that time and effort are spent efficiently on the most impactful areas.\n\n\n2. Enhancing communication and collaboration\nOpen source projects often involve contributors from around the world. A roadmap acts as a communication tool, helping to keep everyone on the same page. It provides a shared understanding of the project’s direction, which is essential for effective collaboration. Contributors can see how their work fits into the bigger picture and how their contributions will impact future developments.\n\n\n3. Attracting and retaining contributors\nA well-defined roadmap can attract new contributors by showcasing the project’s vision, long-term goals as well as immediate needs. It demonstrates that the project is well-organized and has a clear plan for growth. For existing contributors, a roadmap helps maintain engagement by providing a sense of progress and a larger perspective.\n\n\n4. Ensuring transparency and accountability\nTransparency is a core value in the open source community. A publicly available roadmap ensures that all parties, including users, contributors, and sponsors, have visibility into the project’s plans and progress. This openness fosters trust and accountability, as the project leadership team commits to delivering specific features and improvements. It also allows the community to hold the project leadership accountable.\n\n\n5. Facilitating community feedback and involvement\nA roadmap invites feedback from the community, allowing users and contributors to suggest improvements, propose new features, and raise concerns. This feedback loop is essential for ensuring that the project evolves in a way that meets the needs of its users. By involving the community in the planning process, the project can better align with user expectations and foster a sense of ownership among contributors.\n\n\n6. Providing a framework for evaluation\nA roadmap sets benchmarks for the project’s progress, enabling regular evaluation of deliverables against set goals. This framework helps the project leadership team to measure success, identify areas for improvement, and adjust plans as needed. Regular updates to the roadmap based on evaluation results ensure that the project remains responsive to changing needs and priorities of the user community.\n\n\n7. Supporting fundraising and sponsorship\nFor many open source projects, securing funding and sponsorship is crucial for sustainability. A detailed roadmap is often a requirement in fundraising efforts, as it demonstrates a well-thought-out plan for the project’s future. Sponsors and donors are more likely to support a project that has clear goals and an action plan for achieving them."
-  },
-  {
-    "objectID": "docs/guide/collab/introduction.html",
-    "href": "docs/guide/collab/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Every open source project is different, but there are many activities that may help contributors and maintainers collaborate in a productive, positive and healthy environment.\nThis section aims to collect a few of these practices and experiences to make it easier for folks to identify what might work for their projects.\n\n\n\n\n\n\nNote\n\n\n\nNote that the content in these pages is not meant to be seen as a ladder, or as a checklist of what a project needs to be successful. Each project has its own needs and community, so feel free to take what is useful and leave what is not.",
+    "text": "For many open-source projects, collaboration happens primarily on text-based online forums such as a project’s issue tracker or a community forum. Over time, maintainers and contributors may feel they would benefit from having synchronous meetings to discuss project matters or to organize discussions around roadmap, specific projects or the general governance of the project.\nIn addition, having dedicated meeting times for triage, onboarding newcomers or working groups such as documentation, website, design or translations may also be helpful.\nThe following guide, developed in collaboration with the Scientific Python project, describes a few of the meetings we have experimented with and when they are useful: Meeting types.",
     "crumbs": [
       "Guide",
       "Collaboration Guide",
+      "Meetings"
+    ]
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#community-meetings",
+    "href": "docs/guide/collab/meetings.html#community-meetings",
+    "title": "Meetings",
+    "section": "Community meetings",
+    "text": "Community meetings\nRegular community meetings are essential for larger projects that require a high level of coordination in different projects, roadmap items or governance. However, even smaller projects may benefit from synchronous discussions. These meetings can be a way to:\n\nConnect with your community, and put a human face on the people behind the commit handle. This can be especially helpful when dubious or unclear communication happens via text - a conversation can prevent many conflicts from arising.\nDiscuss complex technical implementations or conduct contribution reviews. This can be its own meeting (a “triage meeting”) but depending on your community needs it can be helpful and make the review of a long or complex contribution faster.\nPlan for your roadmap or create strategies for high-stakes projects. Funding, new releases, architectural or governance decisions can also benefit from a live discussion. In this case, it is even more important to keep a record of the discussion and, ideally, keep that record public for your community to consult.",
+    "crumbs": [
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
+    ]
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#new-contributor-meetings",
+    "href": "docs/guide/collab/meetings.html#new-contributor-meetings",
+    "title": "Meetings",
+    "section": "New contributor meetings",
+    "text": "New contributor meetings\nA special type of meeting we have been experimenting with is the “newcomer” or “New contributor” meetings. As noted in the page linked above, these can be organized as “Office hours” meetings - inviting questions and requests for support from new contributors; they can be organized as webinars, with talks or sessions on a specific aspect of contributing, such as the contribution workflow or running tests, for example; and they can also be practical working sessions, such as a walking through a full contribution task with the participants.\nProjects with a larger contributor base will find more value in these meetings than projects with a low number of new contributors. Make sure to also consider timezones and maintainer bandwidth when considering these meetings for your project. One central point to keep in mind is to use these meetings as an opportunity to set expectations for newcomers - about how long it takes for a contribution to be reviewed, how new features are discussed in the project or the areas that would best be served by contributors with less experience in the project.",
+    "crumbs": [
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
+    ]
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
+    "href": "docs/guide/collab/meetings.html#optional-post-meeting-poll",
+    "title": "Meetings",
+    "section": "Optional: Post-meeting poll",
+    "text": "Optional: Post-meeting poll\nIf you are interested in having anonymous feedback from meeting attendees, consider setting up a post-meeting poll to ask if the meeting was useful, if they felt welcome or if they need extra support. Many meeting platforms support this as an automatic feature, but you can also share a link during the meeting.",
+    "crumbs": [
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
+    ]
+  },
+  {
+    "objectID": "docs/guide/collab/meetings.html#general-tips",
+    "href": "docs/guide/collab/meetings.html#general-tips",
+    "title": "Meetings",
+    "section": "General tips",
+    "text": "General tips\n\nMake sure you mention your Code of Conduct or any other expectations for positive participation in your community as often as possible.\nThere is no rule for how long a meeting will last, or what day/time is best. Consider alternating timezones regularly, experimenting with different times and be ready to reevaluate if you feel things are not working that well.\nHave a meeting notes document, ideally open to all. This document will contain the agenda for the meeting, notes on what was decided/discussed, and if appropriate a record of who attended (with their internet handle attached if they are comfortable sharing!). For our new contributors meeting this is particularly important so that we can track folks who come to the meeting in our issues trackers later. Make sure you ask for consent before noting personal information in the notes if they are kept public.\nHave a public calendar listed on your website, and make sure to keep it up-to-date, particularly if you need to cancel a regular meeting.\nIf you use different communication channels, such as mailing lists, slack or other asynchronous chat/forum platform, make sure to announce the meetings there.\nMeetings tend to be more useful and productive if a basic agenda is set in advance, so that folks know what will be discussed during that time.\nIt may be useful to record the session for the benefit of those who cannot attend, or to share online with the larger community. In that case, be sure to ask for consent to record, and offer people to mute and turn off their video.\n\n\n\n\n\n\n\nTip\n\n\n\nMany people benefit from these meetings, but for many different reasons can’t turn on their camera or speak aloud during the meeting. This may be due to internet issues, hardware or personal situations including their work environment or accessibility requirements. Ideally, they need a way to participate via text, either through the meeting chat or the meeting notes document.",
+    "crumbs": [
+      "Guide",
+      "Collaboration Guide",
+      "Meetings"
+    ]
+  },
+  {
+    "objectID": "docs/guide/comms/introduction.html",
+    "href": "docs/guide/comms/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Having clear, welcoming and productive communication in any open source project can be challenging. Considering that most communication happens in written text and that the majority of contributors is working on their free time, communication can often be short and lacking in context.\nIn this section of our guide, we will explore ways to communicate better and list a few resources for those interested in this topic.",
+    "crumbs": [
+      "Guide",
+      "Communication Guide",
       "Introduction"
     ]
   },
   {
-    "objectID": "docs/guide/comms/review_communication.html",
-    "href": "docs/guide/comms/review_communication.html",
-    "title": "Reviewing contributions",
+    "objectID": "docs/guide/comms/glossary.html",
+    "href": "docs/guide/comms/glossary.html",
+    "title": "Open source glossary",
     "section": "",
-    "text": "This page is a guide for good communication practices when reviewing a contribution such as a pull request.",
+    "text": "We have collected commonly used words within the open source communities that aren’t (yet!) part of the regular tech industry parlance. We’ve avoided adding commands and applications to this list to keep it language- and platform-agnostic.\nHere is the list arranged in alphabetical order:\nBlame A feature that shows who last modified each line of a file.\nBranch A parallel version of a repository, used to develop features or fixes independently from the main codebase.\nBuild The process of converting source code into a runnable program.\nCherry-pick The process of applying a specific commit from one branch to another.\nCode review The process of examining code changes before they are merged.\nCodebase The complete source code for a project.\nCommit A saved change to the repository.\nCommit Message A message that accompanies a commit, explaining what was changed and why.\nCommunity The group of people who use, contribute to, and support a project.\nConflict A situation where changes from different sources cannot be automatically merged.\nContinuous Deployment (CD) Automated deployment of code changes to production.\nContinuous Integration (CI) Automated testing and building of code changes.\nContributor Someone who contributes code, documentation, or other resources to an open source project.\nContributor Guide Documentation that explains how to contribute to a project.\nContributor License Agreement (CLA) A legal agreement that contributors must sign before contributing.\nDependency A piece of software required for another piece of software to work.\nDiff The differences between two versions of a file.\nDownstream A fork of a project that receives changes from the upstream repository.\nFork A copy of someone else’s repository.\nGit A distributed version control system.\nHotfix A quick fix for a bug in the project.\nIssue A way to track tasks, enhancements, and bugs for a project.\nIssue Tracker A tool for managing issues and tasks in a project.\nLicense A legal document that specifies how the project’s code can be used, modified, and shared.\nLocal Repository A copy of a repository stored on a contributor’s local machine.\nMaintainer A person responsible for overseeing and managing a project.\nMerge Combining changes from one branch into another.\nPatch A file that contains changes to be applied to a repository.\nPull The process of fetching and integrating changes from a remote repository.\nPull Request (PR) A request to merge changes from one branch into another branch.\nPull Request Review The process of examining a PR before merging.\nPush The process of sending changes to a remote repository.\nREADME A file that provides information about the project. Most commonly written in Markdown.\nRelease A specific version of a project that is made available for use.\nRemote Repository A repository stored on a server, accessible over the internet.\nRepository A storage space for software projects, often hosted on platforms like GitHub or GitLab.\nSquash Combining multiple commits into one.\nStash Temporarily storing changes that are not ready to be committed.\nTag A marker for a specific point in the repository’s history.\nUpstream The main project repository from which a fork is made.\nVersion Control A system for tracking changes to files over time.\nWon’tfix Indication that an issue or bug will not be fixed.",
     "crumbs": [
-      "Guide",
       "Communication Guide",
-      "Reviewing contributions"
+      "Open source glossary"
     ]
   },
   {
