@@ -21,6 +21,8 @@ website:
     center:
       - text: "About"
         href: about.qmd
+      - text: "Privacy notice"
+        href: privacy.qmd
       - text: "License"
         href: LICENSE
     right:
