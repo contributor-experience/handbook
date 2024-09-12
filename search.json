@@ -685,8 +685,8 @@
   {
     "objectID": "docs/about/team.html",
     "href": "docs/about/team.html",
-    "title": "Team & History",
+    "title": "Team",
     "section": "",
-    "text": "The founding and current maintainer team of this handbook in alphabetical order is:\n\nInessa Pawson\nMelissa Weber Mendonça\nNoa Tamir\n\nMelissa initiated this work as the PI for the “Advancing an inclusive culture in the scientific Python ecosystem” grant from the Chan-Zuckerberg Initiative. You can read the full grant application for this Cycle 4 (2021-2023) Essential OSS Diversity Equity and Inclusion grant.\nInessa joined the team soon after the grant started, and Noa join the team in March 2022. Between the three of them, they are supporting the contributor experience in the communities of NumPy, SciPy, Matplotlib, and pandas, as well as developing this handbook of resources for based on their cross-project experience and research."
+    "text": "The core team members of the Contributor Experience Project are (in alphabetical order):\n\nDea María Léon\nInessa Pawson\nMay Ireland\nMelissa Mendonça\nNoa Tamir"
   }
 ]
