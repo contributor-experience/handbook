@@ -17,37 +17,149 @@ use our websites, engage our services, or otherwise interact with us online or
 offline. We refer to our website and other ways of interacting with you 
 collectively as the “Services.”
 
-PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE HANDLE YOUR 
+**PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE HANDLE YOUR 
 INFORMATION. IF YOU DO NOT AGREE TO THIS PRIVACY POLICY, PLEASE DO NOT USE THE 
-SERVICES.
+SERVICES.**
 
 ## The Information we collect
+
 We obtain information about you through the means discussed below when we provide 
 the Services.
 
-### Information you provide to us 
+## 1. Information you provide to us 
 
 We collect a variety of information that you provide directly to us. For example, 
 we may collect information from you through:
+
 - When you register for or use our services
+
 - Requests or questions you submit to us via online forms, email, or otherwise
+
 - Your participation in surveys, open comment periods, interviews, or focus groups
+
 - Informational calls we have with you, which may be recorded, with your consent
+
 - Participation in conferences and events
-- When we obtain information from publicly available websites and sources, including 
-social media sites, which include information about or related to you
+
+- When we obtain information from publicly available websites and sources, 
+including social media sites, which include information about or related to you
+
 - When you interact with us through our pages or accounts on social media sites
 
 ### Information about you 
 
 The types of data we collect directly from you includes:
+
 - First and last name
+
 - Email address
+
 - Social media handle/account name
+
 - Your company or organization name
+
 - Your title
-- Any other information you choose to directly provide to us in connection with your 
-use of the Services.
+
+- Any other information you choose to directly provide to us in connection with 
+your use of the Services.
+
+## 2. Information we collect through automated means
+
+When you use our website, we and our service provider [Plausible Analytics]
+(https://plausible.io) automatically collect certain information to analyze 
+your use of our websites. Such information includes the website from which you 
+visited us from, the parts of our site you visit, the date and duration of your 
+visit, your anonymised IP address, information from the device (device type, 
+operating system, screen resolution, language, country you are located in, 
+and web browser type) you used during your visit, and more. We process this usage 
+data in Plausible Analytics for statistical purposes, to improve our site and to 
+recognize and stop any misuse.
+
+We use cookies (small data files transferred onto computers or devices by sites) for 
+record-keeping purposes and to enhance functionality on our site. You may deactivate 
+or restrict the transmission of cookies by changing the settings of your web browser. 
+Cookies that are already stored may be deleted at any time.
+
+## 3. Information we collect from others
+
+We may receive additional information such as demographic and statistical 
+information from third parties, such as marketers, researchers, analysts, and others. 
+We use this information to supplement the information we collect directly from you for 
+purposes of generating our reports and providing our Services.
+
+## How we use your information
+
+We use your information for various purposes depending on the types of information we 
+have collected from and about you, to:
+
+- Provide our Services and generate our reports
+
+- Respond to your requests for information and provide you with more effective and efficient 
+customer service
+
+- Contact you by email, postal mail, or phone regarding CEP, as well as third-party organizations, 
+surveys, research studies, projects, and other subjects that we think may be of interest to you
+
+- Help us better understand your interests, and improve and customize our Services
+
+- Secure our Services and resolve technical issues being reported
+
+- Engage in research and analytics regarding the use of our Services
+
+- Comply with any procedures, laws, and regulations which apply to us where it is necessary 
+for our legitimate interests or the legitimate interests of others
+
+- Establish, exercise, or defend our legal rights where it is necessary for our legitimate 
+interests or the legitimate interests of others
+
+- Aggregate/De-Identified Information. We may aggregate and/or de-identify information 
+collected through our Services so that such information can no longer be linked to you 
+(“Aggregate/De-Identified Information”). We may use such information for any purpose, 
+including without limitation for research and marketing purposes, and may also share such 
+data with any third parties, including advertisers, partners, and sponsors.
+
+## Legal bases for using your information
+
+The legal bases for using your information as set out in this Privacy Policy are 
+as follows:
+
+- Where use of your information is necessary to perform our obligations by contract 
+with you (for example, to comply with, as applicable, our privacy policy or terms 
+of service of our website)
+
+- Where use of your information is necessary for our legitimate interests or the 
+legitimate interests of others (for example, to provide security for our website; 
+operate our Services; defend our legal rights; analyze use of and improve our Services)
+
+- Where we have a reason to process the data in accordance with applicable laws
+
+- Where we have your consent to engage in a particular information processing activity
+
+## How we share and disclose your information
+
+CEP will share your information in the following ways:
+
+- Service Providers. We provide access to or share your information with select third 
+parties who perform services on our behalf. They provide a variety of services to us, 
+including billing and payment services, data storage, marketing, communications services, 
+security, fraud prevention, and legal services.
+
+- Affiliates. We may share information with affiliated entities that assist us in managing 
+and providing our Services.
+
+- Protection of CEP and Others. By using our Services, you acknowledge and 
+agree that we may access, retain, and disclose the information we collect 
+and maintain about you if required to do so by law or in a good faith belief 
+that such access, retention or disclosure is reasonably necessary to: (a) comply 
+with legal process (e.g. a subpoena or court order); (b) enforce any contracts 
+with you, if relevant; (c) respond to claims that any content violates the rights 
+of third parties; (d) respond to your requests for customer service; and/or (e) 
+protect the rights, property or personal safety of CEP, its agents and affiliates, 
+its users and/or the public.
+
+- Aggregate/De-Identified Information. From time to time, we may share 
+Aggregate/De-identified Information about use of the Services or our user base 
+with partners and others, but such information will not identify you personally.
 
 ## Your rights and your choices
 
@@ -55,14 +167,20 @@ You have certain rights with respect to your information as further described in
 this section.
 
 1. YOUR LEGAL RIGHTS
+
 If you would like further information in relation to your legal rights under 
 applicable law or would like to exercise any of them, please contact us using the 
 information in the “Contact Information” section below at any time. Your local laws 
 may permit you to request that we:
+
 - provide access to and/or a copy of certain information we hold about you
+
 - update information which is out of date or incorrect
+
 - delete certain information which we are holding about you
+
 - restrict the way that we process and disclose certain of your information
+
 - revoke your consent for the processing of your information
 
 We will consider all requests and provide our response within the time period 
@@ -74,6 +192,7 @@ We may request you provide us with information necessary to confirm your identit
 before responding to your request.
 
 2. MARKETING COMMUNICATIONS
+
 You may instruct us not to use your contact information to contact you regarding 
 our research, initiatives, or other relevant communications that we believe will 
 be interesting to you by contacting us using the information below. If we send you 
@@ -93,12 +212,13 @@ policies of the third-party websites, and not this Privacy Policy. We urge you t
 the privacy policies of these third parties.
 
 ## International Users
-Because CEP is based in the United States, please note that your information may be 
-processed and stored in the United States and other jurisdictions around the world 
-where our service providers are located, and that such jurisdictions may have different 
-privacy laws than those in your jurisdiction. By using the Services, you acknowledge 
-that your information may be processed 
-and stored outside of your country of residence.
+
+Because CEP is based in the United States, please note that your information 
+may be processed and stored in the United States and other jurisdictions around 
+the world where our service providers are located, and that such jurisdictions 
+may have different privacy laws than those in your jurisdiction. By using the 
+Services, you acknowledge that your information may be processed and stored outside 
+of your country of residence.
 
 We may work with external parties including legal counsel, the appropriate regulatory 
 authorities, and/or local data protection authorities, to resolve any complaints 
@@ -132,12 +252,17 @@ information” (as defined in the California Consumer Privacy Act (“CCPA”)).
 Throughout this Policy, we discuss in detail the specific pieces of personal 
 information we collect from and about our users. Under the CCPA, we are also 
 required to provide you with the “categories” of personal information we collect. 
+
 The categories we may collect are:
+
 - contact information (such as name and email address)
+
 - internet or other network or device activity (such as operating system and usage 
 information)
+
 - geolocation information (e.g., your approximate location based on the temporary 
 collection of your IP address)
+
 - other information you choose to provide to us in the course of using the Services
 
 We source, use, and share the categories of personal information we collect from and 
