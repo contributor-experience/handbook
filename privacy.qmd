@@ -1,0 +1,174 @@
+---
+pagetitle: "Privacy Notice"
+about:
+  template: jolla
+editor: source
+sidebar: false
+---
+
+# Privacy Notice
+
+October 8, 2024
+
+This Privacy Policy describes the data protection practices of CEP and its 
+website located at https://contributor-experience.org. This Privacy Policy 
+applies to information that we collect and use about you when you access or 
+use our websites, engage our services, or otherwise interact with us online or 
+offline. We refer to our website and other ways of interacting with you 
+collectively as the “Services.”
+
+PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE HANDLE YOUR 
+INFORMATION. IF YOU DO NOT AGREE TO THIS PRIVACY POLICY, PLEASE DO NOT USE THE 
+SERVICES.
+
+## The Information we collect
+We obtain information about you through the means discussed below when we provide 
+the Services.
+
+### Information you provide to us 
+
+We collect a variety of information that you provide directly to us. For example, 
+we may collect information from you through:
+- When you register for or use our services
+- Requests or questions you submit to us via online forms, email, or otherwise
+- Your participation in surveys, open comment periods, interviews, or focus groups
+- Informational calls we have with you, which may be recorded, with your consent
+- Participation in conferences and events
+- When we obtain information from publicly available websites and sources, including 
+social media sites, which include information about or related to you
+- When you interact with us through our pages or accounts on social media sites
+
+### Information about you 
+
+The types of data we collect directly from you includes:
+- First and last name
+- Email address
+- Social media handle/account name
+- Your company or organization name
+- Your title
+- Any other information you choose to directly provide to us in connection with your 
+use of the Services.
+
+## Your rights and your choices
+
+You have certain rights with respect to your information as further described in 
+this section.
+
+1. YOUR LEGAL RIGHTS
+If you would like further information in relation to your legal rights under 
+applicable law or would like to exercise any of them, please contact us using the 
+information in the “Contact Information” section below at any time. Your local laws 
+may permit you to request that we:
+- provide access to and/or a copy of certain information we hold about you
+- update information which is out of date or incorrect
+- delete certain information which we are holding about you
+- restrict the way that we process and disclose certain of your information
+- revoke your consent for the processing of your information
+
+We will consider all requests and provide our response within the time period 
+stated by applicable law and as otherwise required by applicable law. Please 
+note, however, that certain information may be exempt from such requests in 
+some circumstances, which may include if we need to keep processing your 
+information for our legitimate interests or to comply with a legal obligation. 
+We may request you provide us with information necessary to confirm your identity 
+before responding to your request.
+
+2. MARKETING COMMUNICATIONS
+You may instruct us not to use your contact information to contact you regarding 
+our research, initiatives, or other relevant communications that we believe will 
+be interesting to you by contacting us using the information below. If we send you 
+marketing email messages, you can also opt out by following the instructions 
+located at the bottom of such emails. Please note that, in accordance with 
+applicable law, it may take up to ten (10) days to process your request. Also, note 
+that you may not opt out of certain transactional emails from us, such as those 
+confirming your requests or providing you with updates regarding our Privacy Policy 
+or other terms.
+
+## Third party links and features
+
+Our website may contain links to third-party websites. If you choose to use these 
+sites, please note that we are not responsible for their content or privacy practices. 
+The collection, use, and disclosure of your information will be subject to the privacy 
+policies of the third-party websites, and not this Privacy Policy. We urge you to read 
+the privacy policies of these third parties.
+
+## International Users
+Because CEP is based in the United States, please note that your information may be 
+processed and stored in the United States and other jurisdictions around the world 
+where our service providers are located, and that such jurisdictions may have different 
+privacy laws than those in your jurisdiction. By using the Services, you acknowledge 
+that your information may be processed 
+and stored outside of your country of residence.
+
+We may work with external parties including legal counsel, the appropriate regulatory 
+authorities, and/or local data protection authorities, to resolve any complaints 
+regarding our processing of information. You can contact your local data protection 
+authority if you have concerns regarding your rights under local law.
+
+## How we protect your information
+
+CEP takes technical and organizational security measures to protect the 
+information provided to us from loss, misuse, and unauthorized access, 
+disclosure, alteration, or destruction. However, no Internet or email 
+transmission is ever fully secure or error free. Please keep this in mind 
+when disclosing any information to us online.
+
+## Retention of your information
+
+We keep your information for no longer than necessary for the purposes for which 
+it is processed. The length of time for which we retain information depends on the 
+purposes for which we collect and use it and/or as required to comply with applicable 
+laws. With respect to our research activities, recorded interviews are erased 
+bi-annually after research is completed.
+
+## Privacy information for California users
+
+If you are a California resident, California law requires us to provide you with 
+additional information regarding how we collect, use, and share your “personal 
+information” (as defined in the California Consumer Privacy Act (“CCPA”)).
+
+### Categories of personal information we collect
+
+Throughout this Policy, we discuss in detail the specific pieces of personal 
+information we collect from and about our users. Under the CCPA, we are also 
+required to provide you with the “categories” of personal information we collect. 
+The categories we may collect are:
+- contact information (such as name and email address)
+- internet or other network or device activity (such as operating system and usage 
+information)
+- geolocation information (e.g., your approximate location based on the temporary 
+collection of your IP address)
+- other information you choose to provide to us in the course of using the Services
+
+We source, use, and share the categories of personal information we collect from and 
+about you consistent with the various business purposes we discuss throughout this 
+Policy. See the “Information We Collect,” “How We Use Your Information,” “How We 
+Share and Disclose Your Information” sections above for more information.
+Please note that the CCPA sets forth certain obligations for businesses that “sell” 
+personal information to third parties. We do not engage in such activity and have not 
+engaged in such activity in the past twelve months from the effective date of this 
+Privacy Policy.
+
+California law gives residents of California the right under certain circumstances 
+to request information from us regarding the manner in which we share certain 
+categories of “personal information” (as defined by applicable California law) with 
+third parties for their direct marketing purposes. CEP does not share your personal 
+information with third parties for their own direct marketing purposes.
+
+## Changes to our Privacy Policy
+
+We review this Privacy Policy with the CEP Steering Committee annually. We reserve 
+the right to amend this Privacy Policy at any time to reflect changes in the law, 
+our data collection and use practices, or advances in technology. We will make the 
+revised Privacy Policy accessible on our Services, so you should review the Privacy 
+Policy periodically. You can know if the Privacy Policy has changed since the last 
+time you reviewed it by checking the “Effective Date” included at the beginning of 
+the document. If we make a material change to the Policy, you will be provided with 
+appropriate notice in accordance with legal requirements. By continuing to use the 
+Services, you are confirming that you have read and understood the latest version 
+of this Privacy Policy.
+
+### Contact information
+
+Please feel free to contact us if you have any questions about CEP’s Privacy Policy 
+or our information processing practices via email at contribex-team@googlegroups.com.
