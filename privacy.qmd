@@ -10,15 +10,23 @@ sidebar: false
 
 October 8, 2024
 
-This Privacy Policy describes the data protection practices of CEP and its 
-website located at https://contributor-experience.org. This Privacy Policy 
-applies to information that we collect and use about you when you access or 
-use our websites, engage our services, or otherwise interact with us online or 
-offline. We refer to our website and other ways of interacting with you 
-collectively as the “Services.”
+The Contributor Experience Project (CEP) is an open source community-led 
+project dedicated to developing best practices for onboarding and supporting 
+contributors to open source projects.
 
-**PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE HANDLE YOUR 
-INFORMATION. IF YOU DO NOT AGREE TO THIS PRIVACY POLICY, PLEASE DO NOT USE THE 
+Our goal is to provide a space to reflect, engage, and offer advancements 
+in the work of effective transfer of knowledge, contributor hospitality 
+techniques, project leadership, and communication infrastructure. 
+
+This Privacy Notice describes the data protection practices of CEP and its 
+website located at [https://contributor-experience.org]
+(https://contributor-experience.org). This Privacy Notice applies to information 
+that we collect and use about you when you access or use our websites, engage our 
+services, or otherwise interact with us online or offline. We refer to our website 
+and other ways of interacting with you collectively as the “Services.”
+
+**PLEASE READ THIS PRIVACY NOTICE CAREFULLY TO UNDERSTAND HOW WE HANDLE YOUR 
+INFORMATION. IF YOU DO NOT AGREE TO THIS PRIVACY NOTICE, PLEASE DO NOT USE THE 
 SERVICES.**
 
 ## The Information we collect
@@ -120,7 +128,7 @@ data with any third parties, including advertisers, partners, and sponsors.
 
 ## Legal bases for using your information
 
-The legal bases for using your information as set out in this Privacy Policy are 
+The legal bases for using your information as set out in this Privacy Notice are 
 as follows:
 
 - Where use of your information is necessary to perform our obligations by contract 
@@ -249,7 +257,7 @@ information” (as defined in the California Consumer Privacy Act (“CCPA”)).
 
 ### Categories of personal information we collect
 
-Throughout this Policy, we discuss in detail the specific pieces of personal 
+Throughout this Notice, we discuss in detail the specific pieces of personal 
 information we collect from and about our users. Under the CCPA, we are also 
 required to provide you with the “categories” of personal information we collect. 
 
@@ -266,13 +274,13 @@ collection of your IP address)
 - other information you choose to provide to us in the course of using the Services
 
 We source, use, and share the categories of personal information we collect from and 
-about you consistent with the various business purposes we discuss throughout this 
-Policy. See the “Information We Collect,” “How We Use Your Information,” “How We 
+about you consistent with the various business purposes we discuss throughout this Notice.
+See the “Information We Collect,” “How We Use Your Information,” “How We 
 Share and Disclose Your Information” sections above for more information.
 Please note that the CCPA sets forth certain obligations for businesses that “sell” 
 personal information to third parties. We do not engage in such activity and have not 
 engaged in such activity in the past twelve months from the effective date of this 
-Privacy Policy.
+Privacy Notice.
 
 California law gives residents of California the right under certain circumstances 
 to request information from us regarding the manner in which we share certain 
@@ -280,20 +288,20 @@ categories of “personal information” (as defined by applicable California la
 third parties for their direct marketing purposes. CEP does not share your personal 
 information with third parties for their own direct marketing purposes.
 
-## Changes to our Privacy Policy
+## Changes to our Privacy Notice
 
-We review this Privacy Policy with the CEP Steering Committee annually. We reserve 
-the right to amend this Privacy Policy at any time to reflect changes in the law, 
+We review this Privacy Notice with the CEP Steering Committee annually. We reserve 
+the right to amend this Privacy Notice at any time to reflect changes in the law, 
 our data collection and use practices, or advances in technology. We will make the 
-revised Privacy Policy accessible on our Services, so you should review the Privacy 
-Policy periodically. You can know if the Privacy Policy has changed since the last 
+revised Privacy Notice accessible on our Services, so you should review the Privacy Notice 
+periodically. You can know if the Privacy Notice has changed since the last 
 time you reviewed it by checking the “Effective Date” included at the beginning of 
-the document. If we make a material change to the Policy, you will be provided with 
+the document. If we make a material change to the Notice, you will be provided with 
 appropriate notice in accordance with legal requirements. By continuing to use the 
 Services, you are confirming that you have read and understood the latest version 
-of this Privacy Policy.
+of this Privacy Notice.
 
 ### Contact information
 
-Please feel free to contact us if you have any questions about CEP’s Privacy Policy 
+Please feel free to contact us if you have any questions about CEP’s Privacy Notice 
 or our information processing practices via email at contribex-team@googlegroups.com.
