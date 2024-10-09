@@ -3,9 +3,7 @@ title: "Privacy Notice"
 sidebar: false
 ---
 
-# Privacy Notice
-
-October 8, 2024
+*October 8, 2024*
 
 The Contributor Experience Project (CEP) is an open source community-led 
 project dedicated to developing best practices for onboarding and supporting 
@@ -16,14 +14,16 @@ in the work of effective transfer of knowledge, contributor hospitality
 techniques, project leadership, and communication infrastructure. 
 
 This Privacy Notice describes the data protection practices of CEP and its 
-website located at [https://contributor-experience.org]
-(https://contributor-experience.org). This Privacy Notice applies to information 
-that we collect and use about you when you access or use our websites, engage our 
-services, or otherwise interact with us online or offline. We refer to our website 
-and other ways of interacting with you collectively as the “Services.”
+website located at [https://contributor-experience.org](https://contributor-experience.org). 
+This Privacy Notice applies to information that we collect and use about you when you 
+access or use our websites, engage our services, or otherwise interact with us online 
+or offline. We refer to our website and other ways of interacting with you collectively 
+as the “Services”.
 
 **PLEASE READ THIS PRIVACY NOTICE CAREFULLY TO UNDERSTAND HOW WE HANDLE YOUR 
-INFORMATION. IF YOU DO NOT AGREE TO THIS PRIVACY NOTICE, PLEASE DO NOT USE THE 
+INFORMATION. 
+
+IF YOU DO NOT AGREE TO THIS PRIVACY NOTICE, PLEASE DO NOT USE THE 
 SERVICES.**
 
 ## Information we collect
@@ -31,7 +31,7 @@ SERVICES.**
 We obtain information about you through the means discussed below when we provide 
 the Services.
 
-## 1. Information you provide to us 
+### 1. Information you provide to us 
 
 We collect a variety of information that you provide directly to us. For example, 
 we may collect information from you through:
@@ -68,14 +68,14 @@ The types of data we collect directly from you includes:
 - Any other information you choose to directly provide to us in connection with 
 your use of the Services.
 
-## 2. Information we collect through automated means
+### 2. Information we collect through automated means
 
-When you use our website, we and our service provider [Plausible Analytics]
-(https://plausible.io) automatically collect certain information to analyze 
-your use of our websites. Such information includes the website from which you 
-visited us from, the parts of our site you visit, the date and duration of your 
-visit, your anonymised IP address, information from the device (device type, 
-operating system, screen resolution, language, country you are located in, 
+When you use our website, we and our service provider 
+[Plausible Analytics](https://plausible.io) automatically collect certain 
+information to analyze your use of our websites. Such information includes the 
+website from which you visited us from, the parts of our site you visit, the date 
+and duration of your visit, your anonymised IP address, information from the device 
+(device type, operating system, screen resolution, language, country you are located in, 
 and web browser type) you used during your visit, and more. We process this usage 
 data in Plausible Analytics for statistical purposes, to improve our site and to 
 recognize and stop any misuse.
@@ -85,7 +85,7 @@ record-keeping purposes and to enhance functionality on our site. You may deacti
 or restrict the transmission of cookies by changing the settings of your web browser. 
 Cookies that are already stored may be deleted at any time.
 
-## 3. Information we collect from others
+### 3. Information we collect from others
 
 We may receive additional information such as demographic and statistical 
 information from third parties, such as marketers, researchers, analysts, and others. 
@@ -216,7 +216,7 @@ The collection, use, and disclosure of your information will be subject to the p
 policies of the third-party websites, and not this Privacy Policy. We urge you to read 
 the privacy policies of these third parties.
 
-## International Users
+## International users
 
 Because CEP is based in the United States, please note that your information 
 may be processed and stored in the United States and other jurisdictions around 
@@ -298,7 +298,7 @@ appropriate notice in accordance with legal requirements. By continuing to use t
 Services, you are confirming that you have read and understood the latest version 
 of this Privacy Notice.
 
-### Contact information
+## Contact information
 
 Please feel free to contact us if you have any questions about CEP’s Privacy Notice 
 or our information processing practices via email at contribex-team@googlegroups.com.
