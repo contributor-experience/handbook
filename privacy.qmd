@@ -1,8 +1,5 @@
 ---
-pagetitle: "Privacy Notice"
-about:
-  template: jolla
-editor: source
+title: "Privacy Notice"
 sidebar: false
 ---
 
@@ -29,7 +26,7 @@ and other ways of interacting with you collectively as the “Services.”
 INFORMATION. IF YOU DO NOT AGREE TO THIS PRIVACY NOTICE, PLEASE DO NOT USE THE 
 SERVICES.**
 
-## The Information we collect
+## Information we collect
 
 We obtain information about you through the means discussed below when we provide 
 the Services.
@@ -54,7 +51,7 @@ including social media sites, which include information about or related to you
 
 - When you interact with us through our pages or accounts on social media sites
 
-### Information about you 
+**Information about you**
 
 The types of data we collect directly from you includes:
 
