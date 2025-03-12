@@ -35,10 +35,10 @@ website:
 #    title: false
 #    collapse-below: lg
     left:
-      - text: "Guide"
-        href: docs/guide/introduction.qmd
       - text: "About us"
         href: about.qmd
+      - text: "Guides"
+        href: docs/guide/introduction.qmd
 #      - text: "Gallery"
 #        href: docs/gallery/introduction.qmd
       - text: "Blog"
@@ -63,17 +63,13 @@ website:
       collapse-level: 1
       align: left
       contents:
-        - section: "Governance"
-          contents:
-            - docs/about/governance.qmd
-            - docs/about/contributors.qmd
-            - docs/about/coc.qmd
-            - CONTRIBUTE.md
-        - section: "Vision & History"
+        - section: "About Contributor Experience Project"
           contents:
             - docs/about/mission-and-values.qmd
             - docs/about/roadmap.qmd
+            - docs/about/governance.qmd
             - docs/about/team.qmd
+            - docs/about/coc.qmd
             - docs/about/sponsors.qmd
             - docs/about/acknowledgments.qmd
         - section: "Community Handbook"
@@ -86,7 +82,7 @@ website:
             - CONTRIBUTE.md
 
     - id: guide
-      title: "Guide"
+      title: "Guides"
       style: "floating"
       collapse-level: 1
       align: left
