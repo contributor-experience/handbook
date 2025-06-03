@@ -1,12 +1,10 @@
-# Contributor Experience Handbook
+# THIS REPOSITORY HAS BEEN ARCHIVED
 
-This handbook lives on https://contributor-experience.org
+We’re archiving this repository as part of sunsetting the Contributor Experience Project. 
 
-## What is this repository?
+While the project will not continue in its current form, we hope it remains a source of inspiration and guidance for those committed to building open source communities where people feel welcome, valued, and supported.
 
-The Contributor Experience Handbook is a new open source community-led project dedicated to developing best practices for onboarding and supporting contributors to open source projects.
-
-Our goal is to provide a space to reflect, engage, and offer advancements in the work of effective transfer of knowledge, contributor hospitality techniques, project leadership, and communication infrastructure.
+Thank you to everyone  who shared your time, insights, and ideas along the way — you’ve helped shape a better future for all in open source.
 
 ## How to build the handbook locally
 
